@@ -52,19 +52,29 @@ export function ResponsivePseudoScatterPlot() {
       .domain([0, ORIGINAL_HEIGHT])
       .range([0, dimensions.height])
 
+    const scaleFactor = Math.min(
+      dimensions.width / ORIGINAL_WIDTH,
+      dimensions.height / ORIGINAL_HEIGHT
+    )
+    const scaledRadius = RADIUS * scaleFactor
+
     const selection = select(svg)
 
-    // Clear existing circles
-    selection.selectAll('circle').remove()
+    const circles = selection.selectAll('circle').data(data)
 
-    // Create new circles
-    selection.selectAll('circle')
-      .data(data)
+    circles
       .enter()
       .append('circle')
       .attr('cx', (d: DataPoint) => xScale(d.x))
       .attr('cy', (d: DataPoint) => yScale(d.y))
-      .attr('r', RADIUS)
+      .attr('r', scaledRadius)
+
+    circles
+      .attr('cx', (d: DataPoint) => xScale(d.x))
+      .attr('cy', (d: DataPoint) => yScale(d.y))
+      .attr('r', scaledRadius)
+
+    circles.exit().remove()
   }, [dimensions])
 
   return (
