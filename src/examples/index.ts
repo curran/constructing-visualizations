@@ -3,6 +3,7 @@ import { PseudoScatterPlot } from './001-pseudo-scatter-plot/PseudoScatterPlot'
 import { PseudoBarChart } from './002-pseudo-bar-chart/PseudoBarChart'
 import { PseudoLineChart } from './003-pseudo-line-chart/PseudoLineChart'
 import { RespondingToResize } from './004-responding-to-resize/RespondingToResize'
+import { ResponsivePseudoScatterPlot } from './005-responsive-pseudo-scatter-plot/ResponsivePseudoScatterPlot'
 
 export interface Example {
   id: string
@@ -30,6 +31,11 @@ export const examples: Example[] = [
     id: '4',
     name: 'Responding to Resize',
     component: RespondingToResize,
+  },
+  {
+    id: '5',
+    name: 'Responsive Pseudo Scatter Plot',
+    component: ResponsivePseudoScatterPlot,
   },
 ]
 
