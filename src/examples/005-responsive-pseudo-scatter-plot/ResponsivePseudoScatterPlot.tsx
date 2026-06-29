@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { select } from 'd3-selection'
 import { scaleLinear } from 'd3-scale'
+import { extent } from 'd3-array'
 
 interface DataPoint {
   x: number
@@ -19,6 +20,15 @@ const data: DataPoint[] = [
 const ORIGINAL_WIDTH = 960
 const ORIGINAL_HEIGHT = 500
 const RADIUS = 34
+
+// Compute data extents using d3-array for robust scaling
+const xExtent = extent(data, (d: DataPoint) => d.x) as [number, number]
+const yExtent = extent(data, (d: DataPoint) => d.y) as [number, number]
+
+// Calculate padding based on data extent using d3-array max
+const xRange = xExtent[1] - xExtent[0]
+const yRange = yExtent[1] - yExtent[0]
+const padding = Math.max(xRange, yRange) * 0.05
 
 export function ResponsivePseudoScatterPlot() {
   const divRef = useRef<HTMLDivElement>(null)
@@ -46,11 +56,11 @@ export function ResponsivePseudoScatterPlot() {
 
     const xScale = scaleLinear()
       .domain([0, ORIGINAL_WIDTH])
-      .range([0, dimensions.width])
+      .range([padding, dimensions.width - padding])
 
     const yScale = scaleLinear()
       .domain([0, ORIGINAL_HEIGHT])
-      .range([0, dimensions.height])
+      .range([padding, dimensions.height - padding])
 
     const scaleFactor = Math.min(
       dimensions.width / ORIGINAL_WIDTH,
