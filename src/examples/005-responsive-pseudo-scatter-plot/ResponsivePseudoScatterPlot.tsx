@@ -92,6 +92,10 @@ export function ResponsivePseudoScatterPlot() {
       <svg
         ref={svgRef}
         className="absolute inset-0"
+        width={dimensions.width}
+        height={dimensions.height}
+        role="img"
+        aria-label="Responsive scatter plot showing 6 data points"
       >
       </svg>
     </div>
