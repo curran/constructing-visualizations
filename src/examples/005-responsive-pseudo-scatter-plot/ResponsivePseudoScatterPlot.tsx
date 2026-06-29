@@ -20,15 +20,11 @@ const data: DataPoint[] = [
 const ORIGINAL_WIDTH = 960
 const ORIGINAL_HEIGHT = 500
 const RADIUS = 34
+const PADDING_RATIO = 0.05
 
 // Compute data extents using d3-array for robust scaling
 const xExtent = extent(data, (d: DataPoint) => d.x) as [number, number]
 const yExtent = extent(data, (d: DataPoint) => d.y) as [number, number]
-
-// Calculate padding based on data extent using d3-array max
-const xRange = xExtent[1] - xExtent[0]
-const yRange = yExtent[1] - yExtent[0]
-const padding = Math.max(xRange, yRange) * 0.05
 
 export function ResponsivePseudoScatterPlot() {
   const divRef = useRef<HTMLDivElement>(null)
@@ -54,13 +50,17 @@ export function ResponsivePseudoScatterPlot() {
     const svg = svgRef.current
     if (!svg || dimensions.width === 0 || dimensions.height === 0) return
 
+    // Calculate viewport-aware padding
+    const xPadding = dimensions.width * PADDING_RATIO
+    const yPadding = dimensions.height * PADDING_RATIO
+
     const xScale = scaleLinear()
-      .domain([0, ORIGINAL_WIDTH])
-      .range([padding, dimensions.width - padding])
+      .domain(xExtent)
+      .range([xPadding, dimensions.width - xPadding])
 
     const yScale = scaleLinear()
-      .domain([0, ORIGINAL_HEIGHT])
-      .range([padding, dimensions.height - padding])
+      .domain(yExtent)
+      .range([yPadding, dimensions.height - yPadding])
 
     const scaleFactor = Math.min(
       dimensions.width / ORIGINAL_WIDTH,
