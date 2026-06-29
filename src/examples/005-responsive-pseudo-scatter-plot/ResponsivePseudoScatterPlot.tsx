@@ -60,7 +60,7 @@ export function ResponsivePseudoScatterPlot() {
 
     const yScale = scaleLinear()
       .domain(yExtent)
-      .range([yPadding, dimensions.height - yPadding])
+      .range([dimensions.height - yPadding, yPadding])
 
     const scaleFactor = Math.min(
       dimensions.width / ORIGINAL_WIDTH,
@@ -91,7 +91,7 @@ export function ResponsivePseudoScatterPlot() {
     <div ref={divRef} className="relative w-full h-full">
       <svg
         ref={svgRef}
-        className="absolute inset-0 w-full h-full"
+        className="absolute inset-0"
       >
       </svg>
     </div>
