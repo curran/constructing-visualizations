@@ -24,9 +24,7 @@ export function RespondingToResize() {
   return (
     <div ref={divRef} className="relative w-full h-full">
       <svg
-        className="absolute"
-        width={width}
-        height={height}
+        className="absolute inset-0 w-full h-full"
       >
         <line
           x1={0}
