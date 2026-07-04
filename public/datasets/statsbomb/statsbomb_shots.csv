@@ -1,0 +1,1495 @@
+match_id,minute,team,player,location_x,location_y,shot_type,shot_body_part,xg,goal,technique
+3857276,2,Canada,Mark Anthony Kaye,96.5,40.7,Open Play,Left Foot,0.038882375,,Normal
+3857276,3,Morocco,Hakim Ziyech,83.9,45,Open Play,Left Foot,0.024477394,1,Lob
+3857276,8,Morocco,Abdelhamid Sabiri,86.8,38.4,Free Kick,Right Foot,0.02207015,,Normal
+3857276,9,Morocco,Sofiane Boufal,107,48.3,Open Play,Left Foot,0.06158555,,Half Volley
+3857276,14,Canada,Tajon Buchanan,113.3,34.9,Open Play,Right Foot,0.27914461,,Half Volley
+3857276,15,Morocco,Hakim Ziyech,97.5,54,Open Play,Left Foot,0.022624016,,Normal
+3857276,22,Morocco,Youssef En-Nesyri,107.6,53.2,Open Play,Right Foot,0.10405799,1,Half Volley
+3857276,32,Morocco,Abdelhamid Sabiri,107.9,34.2,Open Play,Right Foot,0.09711841,,Normal
+3857276,47,Morocco,Youssef En-Nesyri,106.8,46.7,Open Play,Right Foot,0.094470315,,Volley
+3857276,57,Canada,Alphonso Davies,105.1,41.2,Open Play,Left Foot,0.051903803,,Volley
+3857276,70,Canada,Atiba Hutchinson,112.2,37.7,Open Play,Head,0.086874224,,Normal
+3857276,70,Canada,Alistair Johnston,118.8,41.6,Open Play,Head,0.638813,,Normal
+3857271,7,England,Harry Maguire,115.4,29.4,Open Play,Left Foot,0.23307544,,Half Volley
+3857271,26,England,Bukayo Saka,101.1,55.3,Open Play,Left Foot,0.028282227,,Normal
+3857271,29,England,Mason Mount,113.4,49.1,Open Play,Right Foot,0.06697492,,Normal
+3857271,31,England,Harry Maguire,110.5,40.7,Open Play,Head,0.06988547,,Normal
+3857271,34,England,Jude Bellingham,112,38,Open Play,Head,0.08285139,1,Normal
+3857271,42,England,Bukayo Saka,104.1,38.5,Open Play,Left Foot,0.061030492,1,Half Volley
+3857271,45,England,Raheem Sterling,111,42.8,Open Play,Right Foot,0.1885282,1,Volley
+3857271,55,Iran,Alireza Jahanbakhsh,106.4,48.8,Open Play,Right Foot,0.11232807,,Volley
+3857271,50,England,Kieran Trippier,93.9,27.7,Free Kick,Right Foot,0.042866398,,Normal
+3857271,58,England,Luke Shaw,97.9,25.1,Open Play,Left Foot,0.021548782,,Normal
+3857271,60,Iran,Saeid Ezatolahi Afagh,83.8,35.5,Open Play,Right Foot,0.0065368367,,Normal
+3857271,61,England,Bukayo Saka,105.3,46.3,Open Play,Left Foot,0.080026746,1,Normal
+3857271,64,Iran,Mehdi Taremi,109.7,48,Open Play,Right Foot,0.065701395,1,Normal
+3857271,69,Iran,Mehdi Torabi,103.5,32.3,Open Play,Right Foot,0.045791544,,Normal
+3857271,69,Iran,Ahmad Nourollahi,97.8,34.8,Open Play,Left Foot,0.028478073,,Volley
+3857271,70,England,Marcus Rashford,109.7,47.7,Open Play,Left Foot,0.40810898,1,Normal
+3857271,76,Iran,Mehdi Taremi,105.1,54.6,Open Play,Right Foot,0.06202265,,Half Volley
+3857271,83,England,Marcus Rashford,108.6,50.7,Open Play,Left Foot,0.0776978,,Normal
+3857271,89,England,Jack Grealish,112,39.9,Open Play,Right Foot,0.6262809,1,Normal
+3857271,97,Iran,Sardar Azmoun,110.9,30.5,Open Play,Right Foot,0.35130003,,Normal
+3857271,102,Iran,Mehdi Taremi,108,40,Penalty,Right Foot,0.7835,1,Normal
+3857296,0,Croatia,Ivan Perišić,102.9,23.8,Open Play,Right Foot,0.03397081,,Half Volley
+3857296,9,Belgium,Yannick Ferreira Carrasco,105.3,27.8,Open Play,Right Foot,0.05519996,,Normal
+3857296,10,Belgium,Yannick Ferreira Carrasco,117,29.2,Open Play,Right Foot,0.020840297,,Normal
+3857296,12,Belgium,Dries Mertens,105.2,33.9,Open Play,Right Foot,0.1934709,,Normal
+3857296,24,Belgium,Axel Witsel,92.7,34.9,Open Play,Right Foot,0.025340356,,Normal
+3857296,32,Croatia,Marcelo Brozović,99.8,36.6,Open Play,Left Foot,0.054300383,,Normal
+3857296,32,Croatia,Marko Livaja,112.2,42.5,Open Play,Head,0.104244776,,Normal
+3857296,41,Belgium,Dries Mertens,116.9,49.2,Open Play,Left Foot,0.108029366,,Volley
+3857296,44,Croatia,Borna Sosa,94.9,25.7,Open Play,Left Foot,0.024362085,,Normal
+3857296,48,Croatia,Ivan Perišić,108.5,38,Open Play,Head,0.08771692,,Normal
+3857296,48,Croatia,Josip Juranović,103.1,51.5,Open Play,Right Foot,0.041306578,,Volley
+3857296,47,Belgium,Yannick Ferreira Carrasco,100.9,28.3,Open Play,Left Foot,0.026916144,,Half Volley
+3857296,48,Belgium,Romelu Lukaku Menama,117.5,34.2,Open Play,Head,0.1189759,,Normal
+3857296,49,Croatia,Mateo Kovačić,103.9,29.2,Open Play,Right Foot,0.07960723,,Normal
+3857296,49,Croatia,Borna Sosa,94.7,35.3,Open Play,Left Foot,0.024012579,,Half Volley
+3857296,50,Belgium,Kevin De Bruyne,100.9,32.5,Open Play,Left Foot,0.048855886,,Normal
+3857296,53,Croatia,Marcelo Brozović,100.6,37.7,Open Play,Left Foot,0.10219261,,Normal
+3857296,53,Croatia,Luka Modrić,105.6,52.9,Open Play,Left Foot,0.071706615,,Normal
+3857296,59,Belgium,Yannick Ferreira Carrasco,112.8,36.3,Open Play,Right Foot,0.09935363,,Normal
+3857296,59,Belgium,Romelu Lukaku Menama,110.7,45.1,Open Play,Right Foot,0.19960539,,Normal
+3857296,61,Belgium,Romelu Lukaku Menama,113.1,42.1,Open Play,Head,0.30245224,,Normal
+3857296,67,Croatia,Luka Modrić,106.7,39,Open Play,Right Foot,0.07160131,,Half Volley
+3857296,68,Belgium,Kevin De Bruyne,111.9,60.4,Open Play,Right Foot,0.0061408128,,Normal
+3857296,77,Belgium,Jan Vertonghen,112.6,36.5,Open Play,Head,0.07045005,,Normal
+3857296,86,Belgium,Thomas Meunier,110.5,53.1,Open Play,Right Foot,0.04308796,,Volley
+3857296,86,Belgium,Romelu Lukaku Menama,115.5,43.8,Open Play,Left Foot,0.4909717,,Half Volley
+3857296,89,Belgium,Romelu Lukaku Menama,117.4,37.3,Open Play,Other,0.5721495,,Normal
+3857274,5,Netherlands,Cody Mathès Gakpo,100.6,31,Open Play,Left Foot,0.059259485,1,Normal
+3857274,10,Ecuador,Enner Remberto Valencia Lastra,107,30,Open Play,Left Foot,0.062208217,,Half Volley
+3857274,23,Ecuador,Moisés Isaac Caicedo Corozo,94.8,37.9,Open Play,Right Foot,0.030668529,,Normal
+3857274,26,Ecuador,Michael Steveen Estrada Martínez,112.1,34.6,Open Play,Left Foot,0.069653474,,Backheel
+3857274,31,Ecuador,Enner Remberto Valencia Lastra,100.6,23.5,Open Play,Right Foot,0.029882463,,Normal
+3857274,46,Ecuador,Enner Remberto Valencia Lastra,110.2,47.9,Open Play,Head,0.024015462,,Normal
+3857274,47,Ecuador,Angelo Smit Preciado Quiñónez,100.6,54,Open Play,Right Foot,0.022953799,,Half Volley
+3857274,47,Ecuador,Pervis Josué Estupiñán Tenorio,112,44.1,Open Play,Left Foot,0.18923391,,Half Volley
+3857274,48,Ecuador,Pervis Josué Estupiñán Tenorio,105.8,28.7,Open Play,Left Foot,0.08083876,,Normal
+3857274,48,Ecuador,Enner Remberto Valencia Lastra,116,38.1,Open Play,Right Foot,0.790909,1,Half Volley
+3857274,58,Ecuador,Enner Remberto Valencia Lastra,102,37.5,Open Play,Right Foot,0.09564507,,Normal
+3857274,58,Ecuador,Gonzalo Jordy Plata Jiménez,104.2,52.6,Open Play,Left Foot,0.046335444,,Normal
+3857274,63,Ecuador,Michael Steveen Estrada Martínez,105.1,38,Open Play,Left Foot,0.13418972,,Normal
+3857274,65,Netherlands,Teun Koopmeiners,96.5,40.9,Open Play,Left Foot,0.04520454,,Normal
+3857274,72,Ecuador,Moisés Isaac Caicedo Corozo,103.2,29.4,Open Play,Right Foot,0.03323832,,Half Volley
+3857274,80,Ecuador,Angelo Smit Preciado Quiñónez,95.3,57.9,Open Play,Right Foot,0.007451811,,Half Volley
+3857274,91,Ecuador,Angelo Smit Preciado Quiñónez,98.9,38.2,Open Play,Head,0.033830326,,Normal
+3857255,6,Spain,Sergio Busquets i Burgos,97,46.1,Open Play,Left Foot,0.03268242,,Normal
+3857255,7,Japan,Junya Ito,114,53.5,Open Play,Right Foot,0.04214545,,Normal
+3857255,8,Spain,Álvaro Borja Morata Martín,109.9,35.6,Open Play,Head,0.06376064,,Normal
+3857255,11,Spain,Álvaro Borja Morata Martín,115.3,38.3,Open Play,Head,0.33106714,1,Normal
+3857255,22,Spain,Álvaro Borja Morata Martín,104.7,51.6,Open Play,Right Foot,0.10093839,,Normal
+3857255,35,Japan,Daichi Kamada,107,54.5,Open Play,Right Foot,0.03356069,,Normal
+3857255,41,Spain,Daniel Olmo Carvajal,102.8,35.2,Open Play,Right Foot,0.10385344,,Normal
+3857255,47,Japan,Ritsu Doan,100.5,55.8,Open Play,Left Foot,0.027777622,1,Normal
+3857255,50,Japan,Ao Tanaka,118.7,40.2,Open Play,Other,0.87261814,1,Normal
+3857255,69,Japan,Takuma Asano,100.5,36.3,Open Play,Right Foot,0.13121767,,Normal
+3857255,73,Spain,Marco Asensio Willemsen,104.8,23.5,Open Play,Left Foot,0.016301522,,Normal
+3857255,79,Spain,Daniel Olmo Carvajal,86.3,46.3,Open Play,Right Foot,0.01649772,,Normal
+3857255,82,Japan,Ko Itakura,104,39,Open Play,Head,0.0504811,,Normal
+3857255,84,Spain,Marco Asensio Willemsen,96.8,52.1,Open Play,Left Foot,0.02842248,,Normal
+3857255,88,Spain,Jordi Alba Ramos,97.9,27,Open Play,Right Foot,0.0241939,,Normal
+3857255,88,Spain,Marco Asensio Willemsen,94.8,61.9,Open Play,Left Foot,0.007735879,,Normal
+3857255,89,Spain,Daniel Olmo Carvajal,111,52,Open Play,Right Foot,0.12373556,,Normal
+3857255,95,Spain,Daniel Olmo Carvajal,94.2,57,Open Play,Right Foot,0.008523117,,Normal
+3857272,9,England,Harry Kane,108.9,42.6,Open Play,Right Foot,0.10607713,,Normal
+3857272,9,England,John Stones,109.2,38.6,Open Play,Head,0.04222343,,Normal
+3857272,10,England,Mason Mount,94.2,27.2,Open Play,Right Foot,0.019677445,,Normal
+3857272,16,United States,Haji Wright,108.1,43.9,Open Play,Head,0.048006557,,Normal
+3857272,25,United States,Weston McKennie,110.5,39.5,Open Play,Right Foot,0.18268152,,Half Volley
+3857272,28,United States,Yunus Dimoara Musah,93,25.1,Open Play,Right Foot,0.016826272,,Normal
+3857272,32,United States,Christian Pulisic,106.4,24.4,Open Play,Left Foot,0.023374733,,Normal
+3857272,40,United States,Sergino Dest,108.6,51.2,Open Play,Left Foot,0.056137927,,Normal
+3857272,42,United States,Christian Pulisic,110,42.8,Open Play,Head,0.05394238,,Normal
+3857272,44,England,Bukayo Saka,113.2,36.1,Open Play,Left Foot,0.08680134,,Normal
+3857272,45,England,Mason Mount,100.1,32.9,Open Play,Right Foot,0.0710417,,Normal
+3857272,48,United States,Haji Wright,106.5,28.3,Open Play,Right Foot,0.0422633,,Normal
+3857272,48,United States,Weston McKennie,99.2,53.9,Open Play,Right Foot,0.032319076,,Normal
+3857272,57,United States,Christian Pulisic,98.8,24.7,Open Play,Right Foot,0.025169194,,Normal
+3857272,61,United States,Christian Pulisic,95.3,40.1,Open Play,Left Foot,0.033566043,,Normal
+3857272,86,England,Marcus Rashford,105.3,20.7,Open Play,Right Foot,0.009332121,,Normal
+3857272,90,England,Harry Maguire,109.9,37.5,Open Play,Head,0.05556727,,Normal
+3857272,92,England,Harry Kane,111.2,40.8,Open Play,Head,0.06991791,,Normal
+3857278,8,United States,Yunus Dimoara Musah,100.5,38.2,Open Play,Left Foot,0.045798708,,Volley
+3857278,10,United States,Christian Pulisic,110.1,35.6,Open Play,Head,0.080380306,,Normal
+3857278,27,United States,Joshua Sargent,99,32.1,Open Play,Right Foot,0.040954046,,Normal
+3857278,27,United States,Timothy Weah,109.7,35.9,Open Play,Head,0.12157792,,Normal
+3857278,29,United States,Sergino Dest,101.3,48.2,Open Play,Left Foot,0.05512647,,Normal
+3857278,32,United States,Timothy Weah,108.7,54.1,Open Play,Right Foot,0.04585104,,Normal
+3857278,36,United States,Sergino Dest,102,50.5,Open Play,Right Foot,0.043695714,,Normal
+3857278,37,United States,Christian Pulisic,115.1,38.7,Open Play,Right Foot,0.5303789,1,Half Volley
+3857278,41,United States,Joshua Sargent,114.2,56.9,Open Play,Right Foot,0.011004616,,Half Volley
+3857278,46,United States,Joshua Sargent,110,25.2,Open Play,Left Foot,0.05674209,,Normal
+3857278,51,Iran,Saman Ghoddos,114.1,38.7,Open Play,Head,0.39133456,,Diving Header
+3857278,68,United States,Yunus Dimoara Musah,97,43.3,Free Kick,Right Foot,0.080397844,,Normal
+3857278,69,Iran,Saeid Ezatolahi Afagh,90.8,21.8,Open Play,Right Foot,0.006830182,,Normal
+3857278,92,Iran,Morteza Pouraliganji,111,35.6,Open Play,Head,0.21722858,,Diving Header
+3857278,97,Iran,Mehdi Taremi,111.1,39.5,Open Play,Left Foot,0.30539662,,Volley
+3857278,99,United States,Haji Wright,105.1,23.9,Open Play,Left Foot,0.057746947,,Normal
+3857277,6,Morocco,Noussair Mazraoui,96.9,32,Open Play,Right Foot,0.026111592,,Half Volley
+3857277,12,Morocco,Hakim Ziyech,101.9,43.3,Open Play,Left Foot,0.052363984,,Normal
+3857277,16,Croatia,Ivan Perišić,82.9,33.6,Open Play,Left Foot,0.00976612,,Normal
+3857277,18,Morocco,Sofiane Boufal,96.7,46.7,Open Play,Left Foot,0.04188839,,Normal
+3857277,20,Morocco,Hakim Ziyech,94.5,37.4,Free Kick,Left Foot,0.06625415,,Normal
+3857277,24,Morocco,Youssef En-Nesyri,117.8,31.5,Open Play,Left Foot,0.03416934,,Half Volley
+3857277,45,Croatia,Nikola Vlašić,114.7,35.7,Open Play,Right Foot,0.44776994,,Normal
+3857277,46,Croatia,Nikola Vlašić,105.2,33.9,Open Play,Right Foot,0.06879163,,Half Volley
+3857277,46,Croatia,Luka Modrić,98.8,39.3,Open Play,Left Foot,0.073204115,,Normal
+3857277,50,Morocco,Sofiane Boufal,94,38.6,Open Play,Left Foot,0.042848527,,Normal
+3857277,50,Morocco,Noussair Mazraoui,115.3,29.2,Open Play,Head,0.07962643,,Diving Header
+3857277,51,Croatia,Dejan Lovren,112.7,38.8,Open Play,Left Foot,0.2503287,,Normal
+3857277,64,Morocco,Achraf Hakimi Mouh,88.5,31.5,Open Play,Right Foot,0.019376563,,Normal
+3857273,2,Wales,Neco Williams,99.5,23,Open Play,Right Foot,0.023614733,,Normal
+3857273,6,Iran,Sardar Azmoun,97.2,31.2,Open Play,Right Foot,0.035244513,,Normal
+3857273,11,Wales,Kieffer Roberto Francisco Moore,111.6,44.5,Open Play,Right Foot,0.12850787,,Volley
+3857273,19,Iran,Ahmad Nourollahi,95.5,34,Open Play,Right Foot,0.017788952,,Normal
+3857273,22,Iran,Sardar Azmoun,109.6,34.7,Open Play,Head,0.07202582,,Normal
+3857273,28,Wales,Gareth Frank Bale,88.9,36.5,Open Play,Left Foot,0.02170084,,Volley
+3857273,41,Wales,Harry Wilson,105.5,25.4,Open Play,Left Foot,0.030164797,,Normal
+3857273,48,Iran,Mehdi Taremi,105.7,38.8,Open Play,Left Foot,0.08566745,,Normal
+3857273,49,Iran,Ahmad Nourollahi,86.4,48.2,Open Play,Right Foot,0.011584845,,Half Volley
+3857273,50,Iran,Sardar Azmoun,110,49.7,Open Play,Right Foot,0.28799564,,Normal
+3857273,51,Iran,Ali Gholizadeh,97.2,48,Open Play,Left Foot,0.04282673,,Normal
+3857273,51,Iran,Sardar Azmoun,111,36.2,Open Play,Head,0.21401532,,Normal
+3857273,52,Wales,Kieffer Roberto Francisco Moore,114.4,39.9,Open Play,Head,0.22100283,,Normal
+3857273,55,Iran,Ehsan Hajsafi,104.6,33.1,Open Play,Left Foot,0.068153165,,Half Volley
+3857273,63,Iran,Mehdi Taremi,107.1,29.4,Open Play,Right Foot,0.075855605,,Normal
+3857273,69,Iran,Ahmad Nourollahi,90.5,45.6,Open Play,Right Foot,0.015279148,,Normal
+3857273,71,Iran,Morteza Pouraliganji,100.8,38.5,Open Play,Left Foot,0.05160931,,Half Volley
+3857273,72,Iran,Saeid Ezatolahi Afagh,99.5,49.3,Open Play,Right Foot,0.047915842,,Normal
+3857273,74,Iran,Ahmad Nourollahi,85.8,53.5,Open Play,Right Foot,0.0072957636,,Normal
+3857273,82,Wales,Aaron Ramsey,104,53.9,Open Play,Right Foot,0.025361432,,Volley
+3857273,82,Wales,Neco Williams,98.6,51.1,Open Play,Right Foot,0.031851415,,Normal
+3857273,82,Wales,Ben Davies,101.7,30.8,Open Play,Left Foot,0.053537875,,Normal
+3857273,87,Iran,Karim Ansarifard,99.5,36.2,Open Play,Right Foot,0.06399969,,Normal
+3857273,87,Iran,Mehdi Torabi,99.1,39,Open Play,Right Foot,0.051057886,,Normal
+3857273,95,Wales,Neco Williams,89.9,45,Open Play,Right Foot,0.020104993,,Normal
+3857273,95,Wales,Brennan Johnson,114.4,52.4,Open Play,Right Foot,0.059788406,,Half Volley
+3857273,95,Iran,Ramin Rezaeian,98.3,52.1,Open Play,Right Foot,0.031046849,,Normal
+3857273,96,Iran,Alireza Jahanbakhsh,99.2,46.5,Open Play,Right Foot,0.031239294,,Normal
+3857273,97,Iran,Alireza Jahanbakhsh,91.4,24.9,Open Play,Right Foot,0.011336825,,Normal
+3857273,97,Iran,Roozbeh Cheshmi,95.1,37.5,Open Play,Right Foot,0.03268815,1,Normal
+3857273,100,Iran,Ramin Rezaeian,104.8,45.3,Open Play,Right Foot,0.19933115,1,Lob
+3857275,24,France,Kingsley Coman,112.3,29.9,Open Play,Left Foot,0.08786314,,Normal
+3857275,29,Tunisia,Anis Ben Slimane,110.9,41,Open Play,Head,0.1007914,,Normal
+3857275,34,Tunisia,Wahbi Khazri,95.1,52.3,Open Play,Left Foot,0.016592033,,Half Volley
+3857275,46,France,Youssouf Fofana,99.9,53.4,Open Play,Right Foot,0.041162748,,Normal
+3857275,46,Tunisia,Wahbi Khazri,97.9,19.8,Open Play,Right Foot,0.010898009,,Normal
+3857275,51,Tunisia,Aïssa Bilal Laïdouni,114.8,22.4,Open Play,Right Foot,0.013856714,,Normal
+3857275,57,Tunisia,Wahbi Khazri,103.3,37.8,Open Play,Left Foot,0.15620883,1,Normal
+3857275,79,France,Axel Disasi,111.3,41.5,Open Play,Head,0.061025612,,Normal
+3857275,81,France,Adrien Rabiot,113.8,47.7,Open Play,Right Foot,0.080746524,,Volley
+3857275,81,France,Ousmane Dembélé,95.9,53.5,Open Play,Right Foot,0.020325886,,Normal
+3857275,84,France,Adrien Rabiot,108.7,29.1,Open Play,Left Foot,0.06369618,,Volley
+3857275,88,France,Kylian Mbappé Lottin,116.8,24.7,Open Play,Right Foot,0.01194291,,Normal
+3857275,89,France,Randal Kolo Muani,96.4,37.1,Open Play,Right Foot,0.041042205,,Normal
+3857275,92,France,Kylian Mbappé Lottin,95.6,30.2,Free Kick,Right Foot,0.06416701,,Normal
+3857275,92,France,Kylian Mbappé Lottin,87.6,15,Open Play,Right Foot,0.005017159,,Normal
+3857261,9,England,Marcus Rashford,104,39.5,Open Play,Right Foot,0.28441095,,Normal
+3857261,14,England,Phil Foden,97.4,54.6,Open Play,Left Foot,0.02354375,,Normal
+3857261,17,England,Harry Maguire,120,54.6,Open Play,Head,0.01084097,,Normal
+3857261,23,England,Marcus Rashford,98.2,19.5,Open Play,Right Foot,0.010357286,,Normal
+3857261,37,England,Phil Foden,105.5,47.4,Open Play,Left Foot,0.05725451,,Normal
+3857261,38,Wales,Joe Allen,94.1,47,Open Play,Right Foot,0.022615774,,Normal
+3857261,38,England,Marcus Rashford,108.4,35,Open Play,Right Foot,0.081256144,,Overhead Kick
+3857261,43,England,Harry Kane,101.5,35.7,Open Play,Left Foot,0.028181294,,Normal
+3857261,47,England,Harry Kane,101.2,27.6,Open Play,Right Foot,0.030065771,,Normal
+3857261,47,England,John Stones,112.8,55.4,Open Play,Head,0.006450981,,Normal
+3857261,49,Wales,Joe Allen,100.7,51.3,Open Play,Left Foot,0.04109325,,Normal
+3857261,49,England,Marcus Rashford,96.1,29.3,Free Kick,Right Foot,0.05780817,1,Normal
+3857261,50,England,Phil Foden,114.5,34.1,Open Play,Left Foot,0.44030064,1,Normal
+3857261,55,Wales,Kieffer Roberto Francisco Moore,90.1,22.3,Open Play,Right Foot,0.00753591,,Normal
+3857261,67,England,Marcus Rashford,109.9,50.3,Open Play,Left Foot,0.096602984,1,Normal
+3857261,71,England,Marcus Rashford,110.3,52.4,Open Play,Right Foot,0.13184288,,Normal
+3857261,72,Wales,Brennan Johnson,104.5,57.3,Open Play,Right Foot,0.02192258,,Normal
+3857261,76,England,Jude Bellingham,104.3,32.8,Open Play,Right Foot,0.25030845,,Normal
+3857261,76,England,Jude Bellingham,112.7,29.3,Open Play,Left Foot,0.24362406,,Normal
+3857261,76,England,Phil Foden,116.1,39.5,Open Play,Left Foot,0.6100251,,Half Volley
+3857261,82,Wales,Harry Wilson,92.6,52.6,Free Kick,Left Foot,0.031328887,,Normal
+3857261,83,Wales,Rubin Colwill,98.3,26.1,Open Play,Right Foot,0.025066664,,Normal
+3857261,86,Wales,Kieffer Roberto Francisco Moore,102.1,34.6,Open Play,Right Foot,0.058446433,,Normal
+3857261,90,England,John Stones,114.4,43.9,Open Play,Left Foot,0.45507616,,Half Volley
+3857261,93,England,Phil Foden,111,48.5,Open Play,Left Foot,0.09753507,,Normal
+3857290,9,Cameroon,Bryan Mbeumo,109.4,22.7,Open Play,Left Foot,0.016072592,,Normal
+3857290,9,Cameroon,Karl Brillant Toko Ekambi,108.7,32.1,Open Play,Right Foot,0.15900026,,Half Volley
+3857290,11,Switzerland,Granit Xhaka,88.1,28.2,Open Play,Left Foot,0.012105021,,Normal
+3857290,25,Cameroon,Ngoran Suiru Fai Collins,98.8,59.8,Open Play,Right Foot,0.009452554,,Normal
+3857290,29,Cameroon,Martin Hongla Yma II,110.6,53.8,Open Play,Right Foot,0.08237888,,Normal
+3857290,39,Switzerland,Nico Elvedi,113.3,38.7,Open Play,Head,0.19001445,,Normal
+3857290,40,Cameroon,Jean-Eric Maxim Choupo-Moting,105.2,53.5,Open Play,Right Foot,0.041722767,,Normal
+3857290,45,Switzerland,Manuel Obafemi Akanji,114.7,38.7,Open Play,Head,0.15555824,,Normal
+3857290,47,Switzerland,Breel-Donald Embolo,111.9,39.5,Open Play,Right Foot,0.55189455,1,Normal
+3857290,49,Cameroon,Nicolas Alexis Julio N'Koulou Ndoubena,116.1,35.1,Open Play,Head,0.24569963,,Normal
+3857290,56,Cameroon,Jean-Eric Maxim Choupo-Moting,119.2,47.9,Open Play,Right Foot,0.0123953605,,Normal
+3857290,65,Cameroon,André-Frank Zambo Anguissa,107.5,44.3,Open Play,Head,0.046351306,,Normal
+3857290,65,Switzerland,Ruben Vargas,107.5,41.8,Open Play,Right Foot,0.1977995,,Normal
+3857290,88,Switzerland,Granit Xhaka,96.2,37.3,Open Play,Left Foot,0.048882935,,Normal
+3857290,94,Switzerland,Haris Seferović,108,45.8,Open Play,Left Foot,0.27028984,,Normal
+3857298,4,Portugal,Otávio Edmilson da Silva Monteiro,96.6,34.3,Open Play,Right Foot,0.02513017,,Volley
+3857298,5,Portugal,Rúben Diogo Da Silva Neves,98.1,36.6,Open Play,Right Foot,0.07171052,,Normal
+3857298,9,Portugal,Cristiano Ronaldo dos Santos Aveiro,107.7,39.2,Open Play,Right Foot,0.4577736,,Normal
+3857298,12,Portugal,Cristiano Ronaldo dos Santos Aveiro,116.3,43.7,Open Play,Head,0.2074416,,Normal
+3857298,27,Portugal,João Félix Sequeira,104.2,35.6,Open Play,Left Foot,0.07848694,,Normal
+3857298,35,Portugal,Otávio Edmilson da Silva Monteiro,99.9,32.5,Open Play,Right Foot,0.045895047,,Normal
+3857298,41,Portugal,Cristiano Ronaldo dos Santos Aveiro,110,25.1,Open Play,Left Foot,0.030432492,,Normal
+3857298,53,Ghana,Alidu Seidu,88.8,44.2,Open Play,Left Foot,0.015372672,,Half Volley
+3857298,54,Ghana,Mohammed Kudus,92.9,31,Open Play,Left Foot,0.030134441,,Normal
+3857298,64,Portugal,Cristiano Ronaldo dos Santos Aveiro,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3857298,66,Ghana,Iñaki Williams Arthuer,91.1,47.3,Open Play,Right Foot,0.020453067,,Normal
+3857298,68,Ghana,Thomas Teye Partey,92.4,52.5,Open Play,Right Foot,0.021057075,,Normal
+3857298,71,Ghana,Mohammed Kudus,90.8,34.5,Open Play,Left Foot,0.02159481,,Half Volley
+3857298,72,Ghana,André Ayew Pelé,115.6,39.8,Open Play,Right Foot,0.48524466,1,Half Volley
+3857298,77,Portugal,João Félix Sequeira,107.5,52.6,Open Play,Right Foot,0.21504128,1,Normal
+3857298,79,Portugal,Rafael Alexandre Conceição Leão,111.7,28.3,Open Play,Right Foot,0.15539157,1,Normal
+3857298,88,Ghana,Osman Bukari,113.5,40.2,Open Play,Head,0.15547352,1,Normal
+3857298,91,Ghana,Mohamed Salisu,106.9,30.6,Open Play,Head,0.02431712,,Normal
+3857298,95,Portugal,Rafael Alexandre Conceição Leão,95.5,29.9,Open Play,Right Foot,0.026070174,,Normal
+3857298,97,Ghana,Osman Bukari,103.3,12.6,Open Play,Right Foot,0.0063759447,,Normal
+3857285,0,Senegal,Boulaye Dia,107,27.1,Open Play,Left Foot,0.034865376,,Half Volley
+3857285,3,Netherlands,Vincent Janssen,103.2,34.3,Open Play,Left Foot,0.12169348,,Normal
+3857285,8,Senegal,Ismaïla Sarr,97.5,44.1,Open Play,Left Foot,0.059537582,,Normal
+3857285,16,Netherlands,Daley Blind,112.8,32.9,Open Play,Head,0.04866169,,Normal
+3857285,18,Netherlands,Vincent Janssen,98.3,44.3,Open Play,Left Foot,0.03382374,,Normal
+3857285,24,Senegal,Ismaïla Sarr,102.7,25.9,Open Play,Right Foot,0.034923773,,Normal
+3857285,26,Netherlands,Virgil van Dijk,109.4,38,Open Play,Head,0.045367446,,Normal
+3857285,28,Senegal,Idrissa Gana Gueye,100.9,48.4,Open Play,Right Foot,0.025139945,,Normal
+3857285,28,Senegal,Krépin Diatta,100,56.6,Open Play,Left Foot,0.03131155,,Normal
+3857285,32,Senegal,Youssouf Sabaly,84.7,54,Open Play,Right Foot,0.0068181115,,Normal
+3857285,39,Netherlands,Steven Berghuis,97.2,47.3,Open Play,Left Foot,0.030127633,,Volley
+3857285,52,Netherlands,Virgil van Dijk,111.1,40.2,Open Play,Head,0.06871433,,Normal
+3857285,53,Senegal,Youssouf Sabaly,96.9,57.9,Open Play,Right Foot,0.011074076,,Normal
+3857285,57,Senegal,Krépin Diatta,115.2,50.5,Open Play,Right Foot,0.058196757,,Half Volley
+3857285,59,Netherlands,Steven Berghuis,95.3,32.8,Open Play,Left Foot,0.038496487,,Normal
+3857285,64,Senegal,Boulaye Dia,107.6,56.5,Open Play,Right Foot,0.04221427,,Normal
+3857285,72,Senegal,Idrissa Gana Gueye,103.3,40.4,Open Play,Right Foot,0.06520781,,Half Volley
+3857285,74,Senegal,Cheikh Ahmadou Bamba Mbacke Dieng,104.3,31.7,Open Play,Left Foot,0.07416881,,Half Volley
+3857285,81,Senegal,Ismaïla Sarr,111.3,40.6,Open Play,Head,0.06430619,,Normal
+3857285,83,Netherlands,Cody Mathès Gakpo,112.3,39,Open Play,Head,0.28603274,1,Normal
+3857285,85,Senegal,Pape Gueye,93.8,56.8,Open Play,Left Foot,0.008650101,,Normal
+3857285,91,Senegal,Ismail Jakobs,91,27.5,Open Play,Left Foot,0.014392905,,Half Volley
+3857285,92,Senegal,Cheikh Ahmadou Bamba Mbacke Dieng,112.8,35.7,Open Play,Head,0.16068545,,Normal
+3857285,98,Netherlands,Memphis Depay,101.2,50.1,Open Play,Left Foot,0.102816984,,Normal
+3857285,98,Netherlands,Davy Klaassen,109.5,34.8,Open Play,Left Foot,0.34814927,1,Normal
+3857282,9,United States,Joshua Sargent,116,35.3,Open Play,Head,0.25332773,,Normal
+3857282,13,Wales,Ethan Ampadu,87.6,43.1,Open Play,Right Foot,0.013776194,,Half Volley
+3857282,28,United States,Sergino Dest,90.9,56.6,Open Play,Right Foot,0.0066337776,,Normal
+3857282,35,United States,Timothy Weah,107.7,37.8,Open Play,Right Foot,0.20100605,1,Normal
+3857282,44,Wales,Ben Davies,114.7,37.5,Open Play,Head,0.14399761,,Normal
+3857282,60,Wales,Kieffer Roberto Francisco Moore,93.4,42.2,Open Play,Left Foot,0.032130886,,Half Volley
+3857282,63,Wales,Ben Davies,109.2,38.3,Open Play,Head,0.18666926,,Diving Header
+3857282,64,Wales,Kieffer Roberto Francisco Moore,116.3,43.4,Open Play,Head,0.19270518,,Normal
+3857282,74,United States,Haji Wright,106.6,46.9,Open Play,Head,0.027433796,,Normal
+3857282,76,United States,Brenden Aaronson,116.3,46.7,Open Play,Head,0.09428854,,Normal
+3857282,81,Wales,Gareth Frank Bale,108,40,Penalty,Left Foot,0.7835,1,Normal
+3857282,88,Wales,Brennan Johnson,109.9,56.2,Open Play,Right Foot,0.042556882,,Normal
+3857282,91,United States,Tyler Adams,92.8,35.5,Open Play,Right Foot,0.019808901,,Half Volley
+3857297,7,Saudi Arabia,Mohammed Al Burayk,91.6,24.8,Open Play,Right Foot,0.012477021,,Normal
+3857297,12,Saudi Arabia,Mohammed Kanoo,105.5,54.5,Open Play,Right Foot,0.03839731,,Normal
+3857297,25,Poland,Krystian Bielik,111.7,39.3,Open Play,Head,0.075333446,,Normal
+3857297,32,Saudi Arabia,Saleh Khalid Al Shehri,108.5,45,Open Play,Head,0.044610713,,Normal
+3857297,38,Poland,Piotr Zieliński,111.9,44.7,Open Play,Right Foot,0.23496674,1,Half Volley
+3857297,40,Poland,Robert Lewandowski,112.9,58.5,Open Play,Right Foot,0.009729679,,Half Volley
+3857297,45,Saudi Arabia,Salem Mohammed Al Dawsari,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3857297,45,Saudi Arabia,Mohammed Al Burayk,112.7,32.9,Open Play,Right Foot,0.35719204,,Normal
+3857297,50,Saudi Arabia,Saud Abdullah Abdul Hamid,85.9,24.5,Open Play,Right Foot,0.005913877,,Normal
+3857297,50,Saudi Arabia,Mohammed Kanoo,104.2,39.3,Open Play,Right Foot,0.03705331,,Overhead Kick
+3857297,53,Saudi Arabia,Salem Mohammed Al Dawsari,97.6,21.6,Open Play,Right Foot,0.010959039,,Normal
+3857297,54,Saudi Arabia,Salem Mohammed Al Dawsari,114.6,36.1,Open Play,Left Foot,0.16438472,,Normal
+3857297,54,Saudi Arabia,Abdulelah Saad Hameed Al-Malki,97,40,Open Play,Right Foot,0.0391187,,Volley
+3857297,59,Saudi Arabia,Firas Tariq Nasser Al Albirakan,112.9,27.5,Open Play,Left Foot,0.11089649,,Normal
+3857297,60,Saudi Arabia,Mohammed Kanoo,107.3,49.4,Open Play,Right Foot,0.07597345,,Normal
+3857297,62,Poland,Arkadiusz Milik,111,38.8,Open Play,Head,0.13519733,,Normal
+3857297,65,Poland,Robert Lewandowski,115.1,44.4,Open Play,Other,0.25903136,,Normal
+3857297,67,Saudi Arabia,Nawaf Shaker Al Abid,95.1,46.7,Free Kick,Left Foot,0.0660456,,Normal
+3857297,68,Saudi Arabia,Salem Mohammed Al Dawsari,96,34.2,Open Play,Right Foot,0.03677261,,Normal
+3857297,72,Poland,Robert Lewandowski,107.3,49,Open Play,Right Foot,0.09536816,,Normal
+3857297,77,Saudi Arabia,Abdulelah Saad Hameed Al-Malki,103.2,34.7,Open Play,Left Foot,0.10027991,,Normal
+3857297,80,Poland,Krzysztof Piątek,107.4,41.4,Open Play,Head,0.02819521,,Normal
+3857297,81,Poland,Robert Lewandowski,107.2,44.6,Open Play,Left Foot,0.47824246,1,Normal
+3857297,86,Saudi Arabia,Abdulrahman Al-Obood,118,48.2,Open Play,Head,0.041744728,,Normal
+3857297,89,Poland,Robert Lewandowski,109.9,48.1,Open Play,Right Foot,0.4181081,,Lob
+3857297,95,Saudi Arabia,Mohammed Kanoo,95.3,32.9,Open Play,Right Foot,0.046656966,,Normal
+3857294,0,Netherlands,Memphis Depay,114.9,52.7,Open Play,Right Foot,0.04113277,,Half Volley
+3857294,2,Qatar,Hassan Khalid Al Heidos,89.6,52,Open Play,Right Foot,0.015712837,,Normal
+3857294,3,Netherlands,Daley Blind,114.1,29,Open Play,Right Foot,0.10723932,,Normal
+3857294,3,Netherlands,Daley Blind,115.2,28.6,Open Play,Right Foot,0.042171385,,Volley
+3857294,6,Netherlands,Cody Mathès Gakpo,93.2,29.5,Open Play,Right Foot,0.023612352,,Normal
+3857294,13,Netherlands,Frenkie de Jong,96.9,32.3,Open Play,Right Foot,0.032602046,,Normal
+3857294,13,Netherlands,Memphis Depay,107.4,31.3,Open Play,Right Foot,0.14338174,,Half Volley
+3857294,18,Netherlands,Davy Klaassen,113,44.5,Open Play,Head,0.08364612,,Normal
+3857294,24,Qatar,Abdelkarim Hassan Al Haj Fadlalla,109.2,45.5,Open Play,Right Foot,0.067132466,,Volley
+3857294,25,Netherlands,Memphis Depay,113.6,30.5,Open Play,Right Foot,0.0753362,,Normal
+3857294,25,Netherlands,Cody Mathès Gakpo,103.3,39.8,Open Play,Right Foot,0.14035599,1,Normal
+3857294,28,Qatar,Ismaeel Mohammad Mohammad,93.9,39.3,Open Play,Right Foot,0.03016361,,Normal
+3857294,47,Netherlands,Memphis Depay,93.6,49.7,Open Play,Right Foot,0.029451067,,Half Volley
+3857294,48,Netherlands,Memphis Depay,116.4,34.2,Open Play,Right Foot,0.2959347,,Volley
+3857294,48,Netherlands,Frenkie de Jong,117.6,40.3,Open Play,Right Foot,0.6883914,1,Half Volley
+3857294,76,Qatar,Abdulaziz Hatem Mohammed Abdullah,94.7,53.1,Open Play,Right Foot,0.024495702,,Normal
+3857294,87,Qatar,Pedro Miguel Correia,88.8,53.2,Open Play,Right Foot,0.00621196,,Normal
+3857294,91,Netherlands,Steven Berghuis,102.2,59.1,Open Play,Left Foot,0.010698183,,Normal
+3857266,5,France,Ousmane Dembélé,97.8,38,Open Play,Right Foot,0.04759094,,Normal
+3857266,9,France,Adrien Rabiot,115,45.6,Open Play,Head,0.10936305,,Normal
+3857266,12,France,Raphaël Varane,112.4,46.9,Open Play,Head,0.0425816,,Normal
+3857266,14,France,Olivier Giroud,111.9,38.9,Open Play,Head,0.11903284,,Normal
+3857266,20,France,Adrien Rabiot,108.9,44.3,Open Play,Head,0.04225832,,Normal
+3857266,29,France,Jules Koundé,109,56.2,Open Play,Right Foot,0.02881258,,Half Volley
+3857266,32,France,Antoine Griezmann,118.2,23.1,Open Play,Left Foot,0.010852635,,Normal
+3857266,32,France,Aurélien Djani Tchouaméni,99.7,39.1,Open Play,Right Foot,0.054124165,,Normal
+3857266,32,France,Ousmane Dembélé,108.2,48,Open Play,Left Foot,0.046849832,,Volley
+3857266,33,France,Adrien Rabiot,100.1,24.5,Open Play,Left Foot,0.02230111,,Normal
+3857266,35,Denmark,Andreas Evald Cornelius,107.4,55.8,Open Play,Right Foot,0.048269883,,Normal
+3857266,36,France,Olivier Giroud,108.6,45.2,Open Play,Head,0.045027424,,Normal
+3857266,39,France,Kylian Mbappé Lottin,106,43.8,Open Play,Right Foot,0.18605462,,Normal
+3857266,44,Denmark,Christian Dannemann Eriksen,83,42.5,Open Play,Right Foot,0.006951803,,Normal
+3857266,47,France,Kylian Mbappé Lottin,98.6,18.5,Open Play,Right Foot,0.011081066,,Normal
+3857266,55,France,Kylian Mbappé Lottin,104.1,30.1,Open Play,Left Foot,0.03630777,,Normal
+3857266,59,France,Antoine Griezmann,102.6,38.8,Open Play,Left Foot,0.21733604,,Half Volley
+3857266,60,France,Kylian Mbappé Lottin,110.8,31.3,Open Play,Right Foot,0.08505598,1,Half Volley
+3857266,67,Denmark,Joachim Andersen,112.2,43.9,Open Play,Head,0.082872435,,Normal
+3857266,67,Denmark,Andreas Christensen,113,37.6,Open Play,Head,0.25384808,1,Normal
+3857266,72,Denmark,Jesper Lindstrøm,107.4,33,Open Play,Right Foot,0.18929456,,Normal
+3857266,73,Denmark,Christian Dannemann Eriksen,93.3,45.1,Open Play,Left Foot,0.0264413,,Normal
+3857266,77,France,Aurélien Djani Tchouaméni,113.7,37.7,Open Play,Head,0.22405402,,Diving Header
+3857266,78,France,Jules Koundé,110.7,40.7,Open Play,Head,0.106879756,,Normal
+3857266,79,France,Adrien Rabiot,112.7,47.3,Open Play,Left Foot,0.080693014,,Overhead Kick
+3857266,80,Denmark,Martin Braithwaite Christensen,110,45.1,Open Play,Right Foot,0.23786028,,Normal
+3857266,83,Denmark,Pierre-Emile Højbjerg,87.2,48.7,Open Play,Right Foot,0.015153575,,Normal
+3857266,85,France,Kylian Mbappé Lottin,117.8,36.5,Open Play,Other,0.38353118,1,Normal
+3857266,88,Denmark,Joachim Andersen,94.3,53.4,Open Play,Left Foot,0.014218964,,Normal
+3857266,90,France,Kylian Mbappé Lottin,99.4,25.5,Open Play,Right Foot,0.033781487,,Half Volley
+3857266,96,Denmark,Joakim Mæhle,87.5,42.4,Open Play,Right Foot,0.013632962,,Half Volley
+3857284,13,Germany,Joshua Kimmich,93,31.2,Open Play,Right Foot,0.022911863,,Normal
+3857284,15,Germany,Antonio Rüdiger,110.5,50.6,Open Play,Head,0.026021937,,Normal
+3857284,19,Germany,Joshua Kimmich,96.9,39.6,Open Play,Right Foot,0.05193508,,Normal
+3857284,25,Germany,İlkay Gündoğan,99.7,29.6,Open Play,Right Foot,0.042519,,Normal
+3857284,27,Germany,İlkay Gündoğan,94.4,42.8,Open Play,Right Foot,0.041637745,,Normal
+3857284,28,Germany,İlkay Gündoğan,105.3,36.8,Open Play,Right Foot,0.12241382,,Normal
+3857284,32,Germany,İlkay Gündoğan,108,40,Penalty,Right Foot,0.7835,1,Normal
+3857284,37,Germany,Serge Gnabry,93.1,48.2,Open Play,Left Foot,0.028658802,,Normal
+3857284,37,Germany,Jamal Musiala,108.5,28.3,Open Play,Right Foot,0.03933018,,Normal
+3857284,40,Germany,İlkay Gündoğan,93.3,39,Open Play,Right Foot,0.031919174,,Normal
+3857284,41,Germany,Joshua Kimmich,97,42.2,Open Play,Right Foot,0.05113006,,Normal
+3857284,44,Germany,Jamal Musiala,101.9,45.1,Open Play,Right Foot,0.06614002,,Normal
+3857284,48,Germany,Joshua Kimmich,100.3,40.5,Open Play,Left Foot,0.047906045,,Half Volley
+3857284,48,Germany,Serge Gnabry,114.3,29.9,Open Play,Left Foot,0.21508263,,Normal
+3857284,50,Japan,Daizen Maeda,111,34.3,Open Play,Head,0.07710243,,Normal
+3857284,46,Germany,Serge Gnabry,108.3,57.9,Open Play,Right Foot,0.013327111,,Normal
+3857284,49,Japan,Daichi Kamada,103.3,47.4,Open Play,Right Foot,0.06444196,,Normal
+3857284,50,Germany,Jamal Musiala,107.2,41,Open Play,Right Foot,0.15860753,,Normal
+3857284,57,Japan,Takuma Asano,114.7,49.4,Open Play,Head,0.06737846,,Normal
+3857284,59,Germany,İlkay Gündoğan,103,40,Open Play,Right Foot,0.10696415,,Normal
+3857284,60,Japan,Takuma Asano,106.4,25.8,Open Play,Left Foot,0.06586899,,Normal
+3857284,65,Japan,Takuma Asano,106.9,26.5,Open Play,Left Foot,0.029970925,,Normal
+3857284,66,Japan,Ko Itakura,112.6,51.3,Open Play,Head,0.034016185,,Normal
+3857284,67,Japan,Takuma Asano,112.5,51.1,Open Play,Right Foot,0.0360808,,Normal
+3857284,69,Germany,Jonas Hofmann,111.1,48.5,Open Play,Right Foot,0.32657883,,Half Volley
+3857284,69,Germany,Serge Gnabry,103.3,57.9,Open Play,Left Foot,0.02483029,,Normal
+3857284,70,Germany,Serge Gnabry,112.2,43.5,Open Play,Head,0.11167552,,Normal
+3857284,70,Germany,Serge Gnabry,117.7,49.5,Open Play,Right Foot,0.0550312,,Normal
+3857284,72,Japan,Junya Ito,109.2,36.3,Open Play,Right Foot,0.06845111,,Half Volley
+3857284,72,Japan,Hiroki Sakai,113.4,46.3,Open Play,Right Foot,0.28772855,,Half Volley
+3857284,74,Japan,Takumi Minamino,112.8,24.4,Open Play,Left Foot,0.013784891,,Normal
+3857284,74,Japan,Ritsu Doan,112.1,41.5,Open Play,Left Foot,0.4777511,1,Normal
+3857284,79,Germany,Antonio Rüdiger,115.5,39.4,Open Play,Head,0.18550046,,Normal
+3857284,82,Japan,Takuma Asano,117.7,50.2,Open Play,Right Foot,0.02668418,1,Normal
+3857284,89,Germany,Niclas Füllkrug,106.9,41,Open Play,Head,0.031593546,,Normal
+3857284,93,Germany,Antonio Rüdiger,86.2,37.2,Open Play,Right Foot,0.017847534,,Normal
+3857284,94,Germany,Leon Goretzka,100.3,40.9,Open Play,Right Foot,0.088851534,,Half Volley
+3857284,97,Germany,Niklas Süle,116.5,31.6,Open Play,Right Foot,0.07610536,,Volley
+3857254,2,Tunisia,Youssef Msakni,92.6,52,Open Play,Right Foot,0.023819994,,Normal
+3857254,4,Tunisia,Issam Jebali,114,54.8,Open Play,Left Foot,0.014059674,,Normal
+3857254,10,Tunisia,Mohamed Dräger,93.4,44.5,Open Play,Right Foot,0.033114884,,Normal
+3857254,11,Tunisia,Youssef Msakni,114.7,29.6,Open Play,Head,0.04366076,,Normal
+3857254,22,Denmark,Kasper Dolberg,115.3,32.5,Open Play,Right Foot,0.124032564,,Volley
+3857254,22,Denmark,Joachim Andersen,99.7,30.3,Open Play,Left Foot,0.02765422,,Half Volley
+3857254,32,Denmark,Pierre-Emile Højbjerg,95.4,19,Open Play,Right Foot,0.008709067,,Normal
+3857254,38,Tunisia,Yassine Meriah,111.4,49.3,Open Play,Right Foot,0.046073906,,Half Volley
+3857254,38,Tunisia,Aïssa Bilal Laïdouni,115,52.2,Open Play,Right Foot,0.06712157,,Normal
+3857254,42,Tunisia,Issam Jebali,112,44.9,Open Play,Right Foot,0.4656446,,Lob
+3857254,42,Tunisia,Ellyes Joris Skhiri,99.8,40.9,Open Play,Left Foot,0.059586592,,Half Volley
+3857254,45,Tunisia,Issam Jebali,112.1,47.5,Open Play,Head,0.11338296,,Normal
+3857254,45,Tunisia,Youssef Msakni,114.7,48.7,Open Play,Right Foot,0.07208876,,Volley
+3857254,50,Tunisia,Mohamed Dräger,92.2,49.3,Open Play,Right Foot,0.020917216,,Normal
+3857254,52,Tunisia,Ellyes Joris Skhiri,99.5,39.6,Open Play,Right Foot,0.041405495,,Volley
+3857254,52,Tunisia,Dylan Daniel Mahmoud Bronn,103.9,36.4,Open Play,Right Foot,0.059058707,,Half Volley
+3857254,56,Denmark,Kasper Dolberg,117,35,Open Play,Head,0.25651878,,Normal
+3857254,68,Denmark,Christian Dannemann Eriksen,99.2,36.8,Open Play,Left Foot,0.08509644,,Normal
+3857254,69,Denmark,Andreas Christensen,117.4,37,Open Play,Head,0.27134958,,Normal
+3857254,69,Denmark,Andreas Evald Cornelius,118.2,43.9,Open Play,Head,0.5683119,,Normal
+3857254,75,Denmark,Mathias Jensen,102.5,24.2,Open Play,Right Foot,0.02872357,,Normal
+3857254,91,Denmark,Andreas Evald Cornelius,114.4,36.8,Open Play,Head,0.14539434,,Normal
+3857254,91,Denmark,Joakim Mæhle,95,30.2,Open Play,Right Foot,0.028684001,,Normal
+3857254,96,Denmark,Andreas Evald Cornelius,108.8,46.4,Open Play,Head,0.022084296,,Normal
+3857265,6,Poland,Robert Lewandowski,110.6,37.2,Open Play,Head,0.056964528,,Normal
+3857265,11,Mexico,Héctor Alfredo Moreno Herrera,114.5,42.4,Open Play,Head,0.1766503,,Normal
+3857265,25,Mexico,Ernesto Alexis Vega Rojas,113.2,34.6,Open Play,Head,0.098180205,,Normal
+3857265,43,Mexico,Ernesto Alexis Vega Rojas,108.5,23.7,Open Play,Left Foot,0.025630916,,Volley
+3857265,44,Mexico,Jorge Eduardo Sánchez Ramos,110.1,60.7,Open Play,Right Foot,0.0069717234,,Normal
+3857265,46,Mexico,Luis Gerardo Chávez Magallón,92.1,56.9,Open Play,Left Foot,0.008207667,,Normal
+3857265,51,Mexico,Hirving Rodrigo Lozano Bahena,93.9,25.2,Open Play,Right Foot,0.02413981,,Normal
+3857265,57,Poland,Robert Lewandowski,108.1,40,Penalty,Right Foot,0.7835,,Normal
+3857265,57,Poland,Jakub Kamiński,113.4,48.8,Open Play,Right Foot,0.10166888,,Normal
+3857265,59,Mexico,Ernesto Alexis Vega Rojas,107.9,29.9,Open Play,Right Foot,0.0609232,,Normal
+3857265,63,Mexico,Henry Josué Martín Mex,106.7,35.1,Open Play,Head,0.06434309,,Normal
+3857265,65,Mexico,Ernesto Alexis Vega Rojas,102.7,60.6,Open Play,Right Foot,0.009746956,,Normal
+3857265,79,Mexico,Ernesto Alexis Vega Rojas,93,24.5,Open Play,Right Foot,0.014301864,,Half Volley
+3857265,81,Poland,Jakub Piotr Kiwior,113.3,41.7,Open Play,Head,0.12449861,,Normal
+3857265,93,Poland,Jakub Kamiński,109.4,24.8,Open Play,Left Foot,0.04959144,,Normal
+3857265,95,Poland,Grzegorz Krychowiak,90.9,48.7,Open Play,Right Foot,0.02170277,,Normal
+3857265,95,Mexico,Carlos Uriel Antuna Romero,101.9,56.4,Open Play,Left Foot,0.0400392,,Normal
+3857301,3,Senegal,Ismaïla Sarr,113.5,52.4,Open Play,Right Foot,0.07323868,,Normal
+3857301,8,Senegal,Nampalys Mendy,93.8,39.3,Open Play,Right Foot,0.025409508,,Half Volley
+3857301,14,Qatar,Akram Hassan Afif,92.5,41.5,Open Play,Right Foot,0.019990891,,Half Volley
+3857301,15,Senegal,Krépin Diatta,111.2,26.7,Open Play,Left Foot,0.039485876,,Normal
+3857301,16,Senegal,Famara Diedhiou,112.9,38.6,Open Play,Head,0.14633009,,Normal
+3857301,23,Senegal,Idrissa Gana Gueye,95.4,52.7,Open Play,Right Foot,0.029332913,,Normal
+3857301,25,Qatar,Abdelkarim Hassan Al Haj Fadlalla,93.6,20.3,Open Play,Left Foot,0.009041326,,Normal
+3857301,40,Senegal,Boulaye Dia,107.2,33.3,Open Play,Right Foot,0.23054633,1,Normal
+3857301,47,Senegal,Famara Diedhiou,112.5,48.1,Open Play,Head,0.038498666,1,Normal
+3857301,54,Qatar,Abdelkarim Hassan Al Haj Fadlalla,111.6,39.3,Open Play,Right Foot,0.16305494,,Half Volley
+3857301,56,Senegal,Ismaïla Sarr,112.1,27.2,Open Play,Left Foot,0.030363984,,Half Volley
+3857301,58,Senegal,Famara Diedhiou,108.8,48.6,Open Play,Right Foot,0.05329144,,Half Volley
+3857301,60,Qatar,Abdelkarim Hassan Al Haj Fadlalla,89.5,22.9,Open Play,Right Foot,0.006098259,,Normal
+3857301,62,Qatar,Almoez Ali Zainalabiddin Abdulla,102.6,34.4,Open Play,Left Foot,0.21404111,,Normal
+3857301,66,Qatar,Ismaeel Mohammad Mohammad,113.2,40.5,Open Play,Other,0.3277431,,Normal
+3857301,68,Senegal,Nampalys Mendy,107.3,53.4,Open Play,Right Foot,0.067961,,Normal
+3857301,77,Qatar,Mohammed Muntari,110.1,38.7,Open Play,Head,0.072239615,1,Normal
+3857301,80,Senegal,Boulaye Dia,107.1,38.8,Open Play,Head,0.052429575,,Normal
+3857301,83,Senegal,Cheikh Ahmadou Bamba Mbacke Dieng,107.8,45.3,Open Play,Right Foot,0.11607656,1,Normal
+3857301,88,Qatar,Abdelkarim Hassan Al Haj Fadlalla,95.4,52.1,Open Play,Left Foot,0.023370314,,Normal
+3857301,89,Qatar,Mohammed Muntari,110.5,39.5,Open Play,Head,0.06740542,,Normal
+3857301,93,Qatar,Almoez Ali Zainalabiddin Abdulla,97.1,41.8,Open Play,Left Foot,0.057101198,,Normal
+3857268,0,Belgium,Michy Batshuayi Tunga,91.7,31.8,Open Play,Right Foot,0.017552001,,Normal
+3857268,1,Canada,Stephen Antunes Eustáquio,109.8,50,Open Play,Right Foot,0.0798905,,Normal
+3857268,6,Canada,Jonathan David,111.4,42.8,Open Play,Right Foot,0.12589528,,Half Volley
+3857268,7,Canada,Tajon Buchanan,106.2,35.6,Open Play,Right Foot,0.05664073,,Half Volley
+3857268,10,Canada,Alphonso Davies,108.1,40.1,Penalty,Left Foot,0.7835,,Normal
+3857268,10,Canada,Jonathan David,110.4,34.6,Open Play,Right Foot,0.20472932,,Volley
+3857268,12,Canada,Richie Laryea,105,56.4,Open Play,Left Foot,0.033730526,,Normal
+3857268,12,Canada,Jonathan David,107.7,45.9,Open Play,Left Foot,0.08619453,,Normal
+3857268,15,Canada,David Junior Hoilett,104.9,53.9,Open Play,Left Foot,0.04071268,,Normal
+3857268,22,Belgium,Michy Batshuayi Tunga,112.3,50.2,Open Play,Right Foot,0.04664896,,Normal
+3857268,26,Canada,Atiba Hutchinson,98.1,44.7,Open Play,Right Foot,0.04634635,,Normal
+3857268,29,Canada,Alistair Johnston,108.1,56.3,Open Play,Right Foot,0.033541974,,Normal
+3857268,30,Canada,Jonathan David,104.4,37.5,Open Play,Right Foot,0.08845105,,Normal
+3857268,31,Canada,Jonathan David,111.1,34.1,Open Play,Head,0.088843234,,Normal
+3857268,32,Belgium,Michy Batshuayi Tunga,111.8,51.3,Open Play,Right Foot,0.08121458,,Volley
+3857268,43,Belgium,Michy Batshuayi Tunga,109,36.1,Open Play,Left Foot,0.24992359,1,Half Volley
+3857268,46,Canada,Tajon Buchanan,112.6,42.5,Open Play,Left Foot,0.29588586,,Half Volley
+3857268,48,Canada,Stephen Antunes Eustáquio,100.5,38.5,Open Play,Right Foot,0.048581414,,Half Volley
+3857268,47,Canada,Jonathan David,111.7,36.9,Open Play,Head,0.120068476,,Normal
+3857268,49,Canada,Stephen Antunes Eustáquio,97.8,52.7,Open Play,Right Foot,0.03604073,,Normal
+3857268,62,Canada,Tajon Buchanan,98.3,34.5,Open Play,Right Foot,0.0587075,,Normal
+3857268,66,Canada,Richie Laryea,101.7,54.6,Open Play,Right Foot,0.022910038,,Normal
+3857268,66,Belgium,Michy Batshuayi Tunga,103.9,43,Open Play,Right Foot,0.0897183,,Normal
+3857268,76,Canada,Jonathan David,103.1,38.1,Open Play,Left Foot,0.04574546,,Normal
+3857268,79,Canada,Cyle Larin,108.2,44.1,Open Play,Head,0.07200206,,Normal
+3857268,84,Belgium,Leander Dendoncker,112.5,43.5,Open Play,Head,0.08894938,,Normal
+3857268,85,Belgium,Kevin De Bruyne,96.6,39.5,Open Play,Right Foot,0.061057936,,Normal
+3857268,85,Canada,Cyle Larin,111.7,37.5,Open Play,Head,0.111036494,,Normal
+3857268,90,Belgium,Thomas Meunier,98,55.5,Open Play,Right Foot,0.025805552,,Normal
+3857268,90,Belgium,Kevin De Bruyne,114.3,59.2,Open Play,Right Foot,0.009170555,,Normal
+3857268,91,Canada,Cyle Larin,111.1,36.1,Open Play,Head,0.06675813,,Normal
+3857269,5,Switzerland,Silvan Widmer,114.9,30,Open Play,Right Foot,0.05117428,,Volley
+3857269,26,Brazil,Vinícius José Paixão de Oliveira Júnior,112.1,34,Open Play,Right Foot,0.21638125,,Volley
+3857269,27,Brazil,Carlos Henrique Casimiro,94.3,39.7,Open Play,Right Foot,0.023129713,,Half Volley
+3857269,30,Brazil,Raphael Dias Belloli,90.1,46.2,Open Play,Left Foot,0.02201561,,Normal
+3857269,31,Brazil,Richarlison de Andrade,104.2,41.2,Open Play,Head,0.022230485,,Normal
+3857269,36,Brazil,Éder Gabriel Militão,93.2,45,Open Play,Right Foot,0.02857021,,Normal
+3857269,43,Brazil,Thiago Emiliano da Silva,115,43.5,Open Play,Head,0.14148508,,Normal
+3857269,52,Switzerland,Djibril Sow,112.6,48.8,Open Play,Right Foot,0.087867536,,Normal
+3857269,53,Switzerland,Ruben Vargas,104.3,26.2,Open Play,Right Foot,0.029704679,,Normal
+3857269,54,Switzerland,Manuel Obafemi Akanji,103.5,43.9,Open Play,Head,0.028123023,,Normal
+3857269,59,Switzerland,Djibril Sow,99.4,37,Open Play,Right Foot,0.0625126,,Normal
+3857269,59,Switzerland,Edimilson Fernandes,97.4,42.8,Open Play,Right Foot,0.029247057,,Normal
+3857269,69,Brazil,Marcos Aoás Corrêa,110.6,37.4,Open Play,Head,0.07814184,,Normal
+3857269,71,Brazil,Richarlison de Andrade,107,26.5,Open Play,Left Foot,0.038312852,,Normal
+3857269,80,Brazil,Bruno Guimarães Rodriguez Moura,102.2,47.4,Open Play,Head,0.021188514,,Normal
+3857269,82,Brazil,Carlos Henrique Casimiro,106.3,29.4,Open Play,Right Foot,0.068805926,1,Half Volley
+3857269,86,Brazil,Rodrygo Silva de Goes,109.7,25.4,Open Play,Right Foot,0.04824855,,Normal
+3857269,86,Brazil,Antony Matheus dos Santos,102.1,56.6,Open Play,Left Foot,0.020722246,,Normal
+3857269,93,Brazil,Rodrygo Silva de Goes,105.8,41.8,Open Play,Right Foot,0.19349767,,Normal
+3869321,4,Argentina,Rodrigo Javier De Paul,101.6,53.3,Open Play,Right Foot,0.02377054,,Half Volley
+3869321,21,Argentina,Lionel Andrés Messi Cuccittini,96.6,50.3,Open Play,Left Foot,0.037832856,,Normal
+3869321,23,Netherlands,Steven Bergwijn,101.6,32.9,Open Play,Left Foot,0.089517,,Half Volley
+3869321,32,Argentina,Rodrigo Javier De Paul,97.6,42.3,Open Play,Right Foot,0.049762752,,Normal
+3869321,34,Argentina,Nahuel Molina Lucero,109.1,42.4,Open Play,Right Foot,0.43442267,1,Normal
+3869321,39,Argentina,Lionel Andrés Messi Cuccittini,104,32.2,Open Play,Right Foot,0.03387043,,Normal
+3869321,62,Argentina,Lionel Andrés Messi Cuccittini,96,33.3,Free Kick,Left Foot,0.07608311,,Normal
+3869321,72,Argentina,Lionel Andrés Messi Cuccittini,108,40,Penalty,Left Foot,0.7835,1,Normal
+3869321,82,Netherlands,Wout Weghorst,108.7,46.4,Open Play,Head,0.047416847,1,Normal
+3869321,84,Netherlands,Steven Berghuis,104.6,53.3,Open Play,Left Foot,0.032538008,,Half Volley
+3869321,89,Netherlands,Denzel Dumfries,113.5,52.9,Open Play,Right Foot,0.047394842,,Half Volley
+3869321,92,Netherlands,Steven Berghuis,97.2,37.9,Free Kick,Left Foot,0.08017064,,Normal
+3869321,100,Netherlands,Wout Weghorst,111.8,39.9,Open Play,Left Foot,0.21959315,1,Normal
+3869321,109,Argentina,Lionel Andrés Messi Cuccittini,101.1,53.3,Open Play,Left Foot,0.035418287,,Normal
+3869321,112,Netherlands,Luuk de Jong,110.9,28.4,Open Play,Left Foot,0.05290734,,Volley
+3869321,113,Argentina,Lautaro Javier Martínez,109.5,45.9,Open Play,Right Foot,0.2245604,,Normal
+3869321,114,Argentina,Enzo Fernandez,94.2,43.8,Open Play,Left Foot,0.032085553,,Normal
+3869321,115,Argentina,Germán Alejandro Pezzella,112.5,31.3,Open Play,Head,0.04452438,,Normal
+3869321,118,Argentina,Lautaro Javier Martínez,97.6,38.6,Open Play,Left Foot,0.08241133,,Normal
+3869321,119,Argentina,Lionel Andrés Messi Cuccittini,96.6,41.6,Open Play,Left Foot,0.04201436,,Normal
+3869321,120,Argentina,Enzo Fernandez,97.2,49.3,Open Play,Right Foot,0.038940463,,Normal
+3869321,120,Netherlands,Virgil van Dijk,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869321,121,Argentina,Lionel Andrés Messi Cuccittini,108.1,40.1,Penalty,Left Foot,0.7835,1,Normal
+3869321,121,Netherlands,Steven Berghuis,108.1,40.1,Penalty,Left Foot,0.7835,,Normal
+3869321,122,Argentina,Leandro Daniel Paredes,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869321,123,Netherlands,Teun Koopmeiners,108.1,40.1,Penalty,Left Foot,0.7835,1,Normal
+3869321,124,Argentina,Gonzalo Ariel Montiel,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869321,124,Netherlands,Wout Weghorst,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869321,126,Argentina,Enzo Fernandez,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869321,126,Netherlands,Luuk de Jong,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869321,127,Argentina,Lautaro Javier Martínez,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3857292,1,Germany,Jamal Musiala,99.6,29.7,Open Play,Right Foot,0.06331741,,Normal
+3857292,6,Germany,Leon Goretzka,109.5,48,Open Play,Right Foot,0.15352516,,Normal
+3857292,8,Germany,Thomas Müller,108.2,42.4,Open Play,Head,0.14610097,,Diving Header
+3857292,9,Germany,Serge Gnabry,111.9,33.1,Open Play,Head,0.0895267,1,Normal
+3857292,13,Germany,Leon Goretzka,113.1,35.8,Open Play,Head,0.18187125,,Normal
+3857292,20,Germany,Thomas Müller,111.6,41.1,Open Play,Head,0.069567084,,Normal
+3857292,29,Germany,Serge Gnabry,105.2,30.9,Open Play,Right Foot,0.044056788,,Normal
+3857292,34,Germany,Joshua Kimmich,92.4,55.8,Open Play,Right Foot,0.011488004,,Normal
+3857292,35,Germany,Jamal Musiala,105.7,33.6,Open Play,Right Foot,0.16202919,,Normal
+3857292,38,Germany,Serge Gnabry,106.4,28.9,Open Play,Right Foot,0.06251996,,Normal
+3857292,41,Costa Rica,Keysher Fuller Spence,107.3,51.1,Open Play,Right Foot,0.14103858,,Half Volley
+3857292,44,Germany,Leroy Sané,98.5,47.8,Open Play,Left Foot,0.080942705,,Normal
+3857292,45,Germany,Leroy Sané,99.5,44.5,Open Play,Left Foot,0.078109905,,Normal
+3857292,51,Costa Rica,Keysher Fuller Spence,108.9,54.5,Open Play,Right Foot,0.050267275,,Normal
+3857292,51,Costa Rica,Yeltsin Ignacio Tejeda Valverde,97.2,48.9,Open Play,Right Foot,0.042256437,,Half Volley
+3857292,54,Germany,Serge Gnabry,100.7,26.9,Open Play,Right Foot,0.029866349,,Normal
+3857292,54,Germany,Leroy Sané,91,39.6,Open Play,Left Foot,0.02438984,,Normal
+3857292,57,Costa Rica,Kendall Jamaal Waston Manley,108.9,45.4,Open Play,Head,0.099276,,Diving Header
+3857292,57,Costa Rica,Yeltsin Ignacio Tejeda Valverde,114.3,38.1,Open Play,Right Foot,0.4798206,1,Normal
+3857292,60,Germany,Jamal Musiala,111.2,28.5,Open Play,Left Foot,0.082946144,,Normal
+3857292,60,Germany,Jamal Musiala,117.3,31.5,Open Play,Right Foot,0.1066145,,Volley
+3857292,61,Germany,Thomas Müller,106.3,47.2,Open Play,Right Foot,0.05438086,,Normal
+3857292,61,Germany,Antonio Rüdiger,114.5,44.2,Open Play,Right Foot,0.41498688,,Normal
+3857292,66,Germany,Jamal Musiala,100.6,27.6,Open Play,Right Foot,0.037713535,,Normal
+3857292,66,Germany,Kai Havertz,107.3,35.1,Open Play,Right Foot,0.110909514,,Half Volley
+3857292,69,Costa Rica,Juan Pablo Vargas Campos,116.1,43.1,Open Play,Left Foot,0.18427365,,Volley
+3857292,72,Germany,Kai Havertz,109.3,42.6,Open Play,Right Foot,0.4749194,1,Half Volley
+3857292,73,Germany,Kai Havertz,102.8,36,Open Play,Left Foot,0.14038351,,Normal
+3857292,75,Germany,Niclas Füllkrug,115.2,44.6,Open Play,Right Foot,0.36338806,,Half Volley
+3857292,79,Costa Rica,Jewison Bennette,94.4,46.4,Open Play,Left Foot,0.037811525,,Normal
+3857292,83,Germany,Jamal Musiala,104.6,30.8,Open Play,Right Foot,0.060394496,,Normal
+3857292,84,Germany,Kai Havertz,113.1,37.6,Open Play,Left Foot,0.31018513,1,Half Volley
+3857292,85,Germany,Kai Havertz,110.4,27,Open Play,Left Foot,0.11890341,,Normal
+3857292,85,Germany,Mario Götze,107,43.6,Open Play,Head,0.066507556,,Normal
+3857292,88,Germany,Niclas Füllkrug,114.8,42.5,Open Play,Left Foot,0.510154,1,Half Volley
+3857292,94,Germany,Niclas Füllkrug,101.1,39.1,Open Play,Right Foot,0.046867393,,Half Volley
+3857292,95,Germany,Niclas Füllkrug,117.9,32.7,Open Play,Head,0.13407986,,Normal
+3857292,99,Germany,Jamal Musiala,107.5,40.3,Open Play,Left Foot,0.085460834,,Normal
+3857295,2,Japan,Ritsu Doan,91.7,53.8,Open Play,Left Foot,0.015573137,,Half Volley
+3857295,3,Costa Rica,Gerson Torres Barrantes,90.1,47.7,Open Play,Left Foot,0.01353695,,Volley
+3857295,34,Costa Rica,Francisco Javier Calvo Quesada,91,26.8,Open Play,Left Foot,0.014244432,,Half Volley
+3857295,34,Costa Rica,Joel Nathaniel Campbell Samuels,101,29.1,Open Play,Left Foot,0.051288527,,Normal
+3857295,37,Japan,Wataru Endo,100.1,51.7,Open Play,Left Foot,0.03132781,,Normal
+3857295,45,Japan,Hidemasa Morita,101.4,30.9,Open Play,Right Foot,0.09737273,,Normal
+3857295,45,Japan,Takuma Asano,104.1,50.2,Open Play,Right Foot,0.051375452,,Volley
+3857295,47,Japan,Wataru Endo,95.2,41.1,Open Play,Right Foot,0.042255066,,Normal
+3857295,47,Japan,Takuma Asano,107.6,37.5,Open Play,Head,0.08747226,,Normal
+3857295,49,Japan,Ko Itakura,105,40,Open Play,Left Foot,0.07774679,,Normal
+3857295,49,Japan,Wataru Endo,103.1,34.1,Open Play,Right Foot,0.04122181,,Normal
+3857295,56,Japan,Yuki Soma,105.4,22.1,Open Play,Right Foot,0.022210024,,Normal
+3857295,62,Japan,Yuki Soma,98.1,35.7,Free Kick,Right Foot,0.08557594,,Normal
+3857295,71,Japan,Daichi Kamada,101.2,43.2,Free Kick,Right Foot,0.10029054,,Normal
+3857295,71,Japan,Yuki Soma,95.7,44.3,Open Play,Right Foot,0.027111016,,Half Volley
+3857295,80,Costa Rica,Keysher Fuller Spence,102.6,47.5,Open Play,Left Foot,0.120298475,1,Normal
+3857295,87,Japan,Daichi Kamada,108,37.6,Open Play,Right Foot,0.09400092,,Normal
+3869685,4,Argentina,Alexis Mac Allister,92.4,30,Open Play,Right Foot,0.024542088,,Normal
+3869685,7,Argentina,Rodrigo Javier De Paul,99.2,47.9,Open Play,Right Foot,0.062813334,,Normal
+3869685,16,Argentina,Ángel Fabián Di María Hernández,103.1,34.6,Open Play,Right Foot,0.106800534,,Normal
+3869685,22,Argentina,Lionel Andrés Messi Cuccittini,108,40,Penalty,Left Foot,0.7835,1,Normal
+3869685,31,Argentina,Alexis Mac Allister,94.3,23.5,Open Play,Right Foot,0.010577817,,Half Volley
+3869685,35,Argentina,Ángel Fabián Di María Hernández,111.8,32.1,Open Play,Left Foot,0.30340916,1,Normal
+3869685,48,Argentina,Rodrigo Javier De Paul,103.3,52.3,Open Play,Right Foot,0.040216275,,Volley
+3869685,58,Argentina,Julián Álvarez,110.5,24.9,Open Play,Left Foot,0.05953379,,Normal
+3869685,59,Argentina,Lionel Andrés Messi Cuccittini,109.7,46,Open Play,Right Foot,0.11555985,,Normal
+3869685,67,France,Randal Kolo Muani,113.4,34.6,Open Play,Head,0.09618377,,Normal
+3869685,70,France,Kylian Mbappé Lottin,102.5,27.9,Open Play,Right Foot,0.050644457,,Normal
+3869685,71,Argentina,Enzo Fernandez,98.9,32.2,Open Play,Right Foot,0.041589838,,Normal
+3869685,79,France,Kylian Mbappé Lottin,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869685,80,France,Kylian Mbappé Lottin,104.8,30.1,Open Play,Right Foot,0.1017027,1,Volley
+3869685,83,Argentina,Enzo Fernandez,92.2,35.9,Open Play,Right Foot,0.030159522,,Normal
+3869685,92,France,Kylian Mbappé Lottin,95.9,32.2,Open Play,Right Foot,0.0324491,,Normal
+3869685,93,France,Adrien Rabiot,108.9,28.5,Open Play,Left Foot,0.09333491,,Normal
+3869685,96,Argentina,Lionel Andrés Messi Cuccittini,96.2,40.9,Open Play,Left Foot,0.0430315,,Normal
+3869685,92,Argentina,Alexis Mac Allister,98.2,23.8,Open Play,Right Foot,0.019259434,,Half Volley
+3869685,99,France,Youssouf Fofana,89.8,39.9,Open Play,Right Foot,0.023031652,,Normal
+3869685,104,Argentina,Lautaro Javier Martínez,108.8,45.3,Open Play,Right Foot,0.23260574,,Normal
+3869685,104,Argentina,Gonzalo Ariel Montiel,96.3,49.4,Open Play,Right Foot,0.020604363,,Half Volley
+3869685,105,Argentina,Lautaro Javier Martínez,105.1,33.5,Open Play,Left Foot,0.14029205,,Half Volley
+3869685,106,Argentina,Lionel Andrés Messi Cuccittini,103.6,55.8,Open Play,Left Foot,0.024784861,,Half Volley
+3869685,107,Argentina,Lautaro Javier Martínez,114.4,52,Open Play,Right Foot,0.10407211,,Normal
+3869685,107,Argentina,Lionel Andrés Messi Cuccittini,116.6,43,Open Play,Right Foot,0.48840353,1,Half Volley
+3869685,115,France,Kylian Mbappé Lottin,101.4,26.6,Open Play,Right Foot,0.03075741,,Normal
+3869685,117,France,Kylian Mbappé Lottin,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869685,122,France,Randal Kolo Muani,103.7,45.1,Open Play,Right Foot,0.27751395,,Half Volley
+3869685,122,Argentina,Lautaro Javier Martínez,110.8,41.6,Open Play,Head,0.10655013,,Normal
+3869685,120,France,Kylian Mbappé Lottin,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869685,121,Argentina,Lionel Andrés Messi Cuccittini,108.1,40.1,Penalty,Left Foot,0.7835,1,Normal
+3869685,121,France,Kingsley Coman,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869685,122,Argentina,Paulo Bruno Exequiel Dybala,108.1,40.1,Penalty,Left Foot,0.7835,1,Normal
+3869685,123,France,Aurélien Djani Tchouaméni,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869685,124,Argentina,Leandro Daniel Paredes,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869685,125,France,Randal Kolo Muani,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869685,125,Argentina,Gonzalo Ariel Montiel,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869684,6,Croatia,Joško Gvardiol,108.8,38,Open Play,Head,0.1243582,1,Diving Header
+3869684,8,Morocco,Achraf Dari,115.6,39,Open Play,Head,0.4178385,1,Normal
+3869684,9,Croatia,Mislav Oršić,99.5,23.8,Open Play,Right Foot,0.02730659,,Normal
+3869684,13,Croatia,Josip Stanišić,94.4,41.3,Open Play,Right Foot,0.040524755,,Normal
+3869684,17,Croatia,Mislav Oršić,104.9,38.8,Open Play,Right Foot,0.11308218,,Normal
+3869684,17,Croatia,Andrej Kramarić,111.3,34.8,Open Play,Head,0.13429043,,Normal
+3869684,23,Croatia,Luka Modrić,101.2,49.5,Open Play,Left Foot,0.07012748,,Normal
+3869684,32,Morocco,Sofiane Boufal,112.4,29.5,Open Play,Left Foot,0.08611878,,Volley
+3869684,36,Morocco,Youssef En-Nesyri,117.8,48.9,Open Play,Head,0.04761149,,Normal
+3869684,39,Morocco,Hakim Ziyech,90.6,53.5,Open Play,Left Foot,0.014617449,,Normal
+3869684,41,Croatia,Mislav Oršić,106.5,21.3,Open Play,Right Foot,0.013095795,1,Normal
+3869684,46,Croatia,Marko Livaja,90.5,39.5,Open Play,Right Foot,0.02019975,,Normal
+3869684,46,Croatia,Mislav Oršić,100.8,24.2,Open Play,Right Foot,0.028195048,,Normal
+3869684,54,Croatia,Mislav Oršić,87.5,26.6,Open Play,Right Foot,0.0065055056,,Normal
+3869684,64,Morocco,Youssef En-Nesyri,110.6,40.5,Open Play,Head,0.072652236,,Normal
+3869684,70,Croatia,Nikola Vlašić,90.9,36.9,Open Play,Right Foot,0.03597725,,Normal
+3869684,74,Morocco,Youssef En-Nesyri,115.5,48.3,Open Play,Left Foot,0.16040824,,Half Volley
+3869684,86,Croatia,Mateo Kovačić,110.3,29.2,Open Play,Left Foot,0.23560598,,Normal
+3869684,89,Morocco,Youssef En-Nesyri,110.9,36.5,Open Play,Head,0.057190012,,Normal
+3869684,90,Morocco,Hakim Ziyech,89.6,46.9,Open Play,Left Foot,0.021768013,,Normal
+3869684,95,Morocco,Youssef En-Nesyri,113.6,43.4,Open Play,Head,0.1132524,,Normal
+3857256,0,Switzerland,Granit Xhaka,96,38.8,Open Play,Left Foot,0.036565553,,Half Volley
+3857256,0,Switzerland,Breel-Donald Embolo,113.1,40.7,Open Play,Left Foot,0.35328916,,Half Volley
+3857256,0,Switzerland,Granit Xhaka,103.8,41.9,Open Play,Right Foot,0.06952749,,Half Volley
+3857256,4,Serbia,Nikola Milenković,112.2,36.8,Open Play,Head,0.08160872,,Normal
+3857256,10,Serbia,Andrija Živković,97.8,51.5,Open Play,Left Foot,0.030001678,,Normal
+3857256,10,Serbia,Dušan Vlahović,115.4,38.6,Open Play,Other,0.5168786,,Normal
+3857256,13,Switzerland,Remo Freuler,107.8,35.9,Open Play,Left Foot,0.09611784,,Half Volley
+3857256,19,Switzerland,Xherdan Shaqiri,107.5,50.6,Open Play,Left Foot,0.06969889,1,Normal
+3857256,21,Switzerland,Granit Xhaka,97.3,33.7,Open Play,Left Foot,0.04476528,,Normal
+3857256,22,Serbia,Dušan Vlahović,109.6,35.4,Open Play,Head,0.08628477,,Normal
+3857256,25,Serbia,Aleksandar Mitrović,108.3,38.6,Open Play,Head,0.06371751,1,Normal
+3857256,29,Switzerland,Xherdan Shaqiri,107.7,49.2,Open Play,Left Foot,0.3934682,,Normal
+3857256,34,Serbia,Dušan Vlahović,106.2,31.8,Open Play,Left Foot,0.15928414,1,Normal
+3857256,37,Switzerland,Ruben Vargas,101,47.3,Open Play,Right Foot,0.0683221,,Normal
+3857256,43,Switzerland,Breel-Donald Embolo,114.4,36.9,Open Play,Right Foot,0.72697556,1,Normal
+3857256,47,Serbia,Aleksandar Mitrović,101.7,33.7,Open Play,Right Foot,0.056521177,,Volley
+3857256,47,Switzerland,Remo Freuler,107.2,41.2,Open Play,Left Foot,0.15381548,1,Half Volley
+3857256,56,Switzerland,Fabian Lukas Schär,110.7,30.5,Open Play,Right Foot,0.07925899,,Volley
+3857256,56,Switzerland,Breel-Donald Embolo,116.1,39.3,Open Play,Right Foot,0.6647709,,Half Volley
+3857256,60,Serbia,Dušan Tadić,107.4,31.7,Open Play,Left Foot,0.061684445,,Half Volley
+3857256,70,Serbia,Aleksandar Mitrović,106.2,25.8,Open Play,Right Foot,0.03203667,,Normal
+3857256,72,Serbia,Luka Jović,102.2,43.2,Open Play,Head,0.02594082,,Normal
+3857256,81,Switzerland,Manuel Obafemi Akanji,99.4,52.7,Open Play,Right Foot,0.030122569,,Normal
+3857256,88,Switzerland,Christian Fassnacht,105.3,28.9,Open Play,Right Foot,0.31681746,,Normal
+3857256,91,Serbia,Luka Jović,105,39.8,Open Play,Head,0.03223471,,Normal
+3857256,99,Serbia,Nemanja Radonjić,105.7,51.3,Open Play,Left Foot,0.042810295,,Half Volley
+3869151,16,Argentina,Alejandro Darío Gómez,98.2,20.1,Open Play,Right Foot,0.011147299,,Normal
+3869151,28,Australia,Harry Souttar,111.9,44,Open Play,Head,0.06809473,,Normal
+3869151,34,Argentina,Lionel Andrés Messi Cuccittini,104.2,48.9,Open Play,Left Foot,0.06663833,1,Normal
+3869151,49,Argentina,Lionel Andrés Messi Cuccittini,99.8,38.5,Open Play,Left Foot,0.04517154,,Normal
+3869151,56,Argentina,Julián Álvarez,110.4,50.3,Open Play,Right Foot,0.28060678,1,Normal
+3869151,65,Argentina,Lionel Andrés Messi Cuccittini,95.4,33.6,Open Play,Left Foot,0.032841697,,Normal
+3869151,74,Argentina,Nicolás Alejandro Tagliafico,103.2,24.9,Open Play,Left Foot,0.05181273,,Normal
+3869151,76,Australia,Craig Goodwin,98.2,22.6,Open Play,Left Foot,0.013616442,,Half Volley
+3869151,80,Australia,Aziz Eraltay Behich,110.6,33.2,Open Play,Right Foot,0.07721693,,Normal
+3869151,80,Australia,Ajdin Hrustic,100,52.7,Open Play,Left Foot,0.033247408,,Normal
+3869151,87,Argentina,Lautaro Javier Martínez,108.3,52.3,Open Play,Right Foot,0.051439364,,Normal
+3869151,88,Argentina,Lautaro Javier Martínez,107.6,31.9,Open Play,Right Foot,0.24890411,,Normal
+3869151,92,Argentina,Lautaro Javier Martínez,109.1,31.8,Open Play,Left Foot,0.37209997,,Normal
+3869151,92,Argentina,Lionel Andrés Messi Cuccittini,104.6,52.2,Open Play,Left Foot,0.055600196,,Normal
+3869151,93,Argentina,Exequiel Alejandro Palacios,103.6,50.1,Open Play,Right Foot,0.046685893,,Normal
+3869151,93,Argentina,Lionel Andrés Messi Cuccittini,102.2,40,Open Play,Left Foot,0.032042325,,Normal
+3869151,93,Argentina,Lautaro Javier Martínez,108.3,30.8,Open Play,Left Foot,0.076142184,,Normal
+3869151,94,Argentina,Lionel Andrés Messi Cuccittini,106.4,37,Open Play,Left Foot,0.110446885,,Half Volley
+3869151,96,Australia,Garang Kuol,113.1,49.4,Open Play,Right Foot,0.23394231,,Normal
+3857257,2,Australia,Riley McGree,94.6,46.6,Open Play,Left Foot,0.038979717,,Normal
+3857257,10,Denmark,Jesper Lindstrøm,110.1,43.9,Open Play,Right Foot,0.09599891,,Normal
+3857257,10,Denmark,Mathias Jensen,112.7,56.3,Open Play,Right Foot,0.019605601,,Normal
+3857257,13,Denmark,Andreas Skov Olsen,104.7,50.7,Open Play,Right Foot,0.10059545,,Normal
+3857257,21,Australia,Riley McGree,101.3,59,Open Play,Left Foot,0.010740947,,Half Volley
+3857257,24,Denmark,Andreas Skov Olsen,109.6,50.5,Open Play,Right Foot,0.09373255,,Normal
+3857257,28,Denmark,Christian Dannemann Eriksen,102.9,25.6,Open Play,Right Foot,0.035615563,,Normal
+3857257,31,Australia,Mitchell Thomas Duke,102.5,36.7,Open Play,Head,0.037495814,,Normal
+3857257,40,Australia,Mitchell Thomas Duke,98.3,20.9,Open Play,Right Foot,0.010397313,,Normal
+3857257,46,Australia,Aziz Eraltay Behich,100.2,34.1,Open Play,Right Foot,0.049681988,,Half Volley
+3857257,47,Australia,Jackson Irvine,109.6,30.8,Open Play,Left Foot,0.17342122,,Half Volley
+3857257,51,Denmark,Andreas Skov Olsen,107.2,52.9,Open Play,Left Foot,0.046983063,,Normal
+3857257,59,Australia,Mathew Leckie,105.7,31.5,Open Play,Left Foot,0.11353828,1,Normal
+3857257,68,Denmark,Andreas Skov Olsen,103.1,49.3,Open Play,Left Foot,0.070518844,,Normal
+3857257,68,Denmark,Joachim Andersen,113.9,52.3,Open Play,Head,0.020115681,,Normal
+3857257,76,Denmark,Alexander Hartmann Bah,99.4,54.5,Open Play,Right Foot,0.019515881,,Half Volley
+3857257,76,Denmark,Kasper Dolberg,105.2,39.6,Open Play,Left Foot,0.049264465,,Backheel
+3857257,81,Denmark,Jesper Lindstrøm,97.5,38.2,Open Play,Right Foot,0.048889678,,Normal
+3857257,84,Australia,Keanu Baccus,97.7,47.5,Open Play,Right Foot,0.035468098,,Normal
+3857257,87,Denmark,Alexander Hartmann Bah,108.6,57,Open Play,Right Foot,0.03670106,,Normal
+3857257,94,Denmark,Kasper Dolberg,117.6,33.5,Open Play,Right Foot,0.08217044,,Backheel
+3857257,94,Denmark,Andreas Evald Cornelius,116.6,51.6,Open Play,Head,0.017447446,,Normal
+3857258,12,Brazil,Neymar da Silva Santos Junior,119.2,0.7,Corner,Right Foot,0.00018,,Normal
+3857258,20,Brazil,Neymar da Silva Santos Junior,91.6,29.2,Open Play,Right Foot,0.020173745,,Normal
+3857258,20,Brazil,Carlos Henrique Casimiro,84.3,34.2,Open Play,Right Foot,0.0075366697,,Normal
+3857258,34,Brazil,Raphael Dias Belloli,105.3,49.2,Open Play,Left Foot,0.119197816,,Half Volley
+3857258,36,Serbia,Filip Mladenović,113.6,28.9,Open Play,Head,0.026318645,,Normal
+3857258,40,Brazil,Vinícius José Paixão de Oliveira Júnior,113.2,27,Open Play,Right Foot,0.09814694,,Half Volley
+3857258,45,Brazil,Raphael Dias Belloli,105.9,47.3,Open Play,Left Foot,0.4224228,,Normal
+3857258,49,Brazil,Neymar da Silva Santos Junior,99.1,27,Free Kick,Right Foot,0.06281959,,Normal
+3857258,50,Brazil,Thiago Emiliano da Silva,113.1,34.1,Open Play,Head,0.06673048,,Normal
+3857258,50,Brazil,Richarlison de Andrade,115.8,29.3,Open Play,Right Foot,0.0399856,,Half Volley
+3857258,53,Brazil,Danilo Luiz da Silva,95.9,54.2,Open Play,Right Foot,0.016877638,,Volley
+3857258,54,Brazil,Neymar da Silva Santos Junior,107.5,38.9,Open Play,Left Foot,0.11246919,,Half Volley
+3857258,59,Brazil,Alex Sandro Lobo Silva,88,32,Open Play,Left Foot,0.021819543,,Normal
+3857258,59,Brazil,Vinícius José Paixão de Oliveira Júnior,105,20.1,Open Play,Right Foot,0.009459062,,Normal
+3857258,61,Brazil,Vinícius José Paixão de Oliveira Júnior,110,26.9,Open Play,Right Foot,0.07986015,,Normal
+3857258,61,Brazil,Richarlison de Andrade,114.5,41.8,Open Play,Right Foot,0.568145,1,Volley
+3857258,66,Brazil,Vinícius José Paixão de Oliveira Júnior,109.1,28.2,Open Play,Left Foot,0.14253756,,Normal
+3857258,68,Serbia,Strahinja Pavlović,111.8,38.5,Open Play,Head,0.098937765,,Normal
+3857258,69,Serbia,Darko Lazović,95.6,50.9,Open Play,Right Foot,0.018288644,,Half Volley
+3857258,72,Brazil,Richarlison de Andrade,107.1,39.6,Open Play,Right Foot,0.07569885,1,Volley
+3857258,76,Brazil,Carlos Henrique Casimiro,86.3,31.2,Open Play,Right Foot,0.010592449,,Normal
+3857258,80,Brazil,Carlos Henrique Casimiro,98.1,35.2,Open Play,Right Foot,0.06218912,,Normal
+3857258,81,Brazil,Rodrygo Silva de Goes,98.8,27.3,Open Play,Right Foot,0.03669105,,Normal
+3857258,82,Brazil,Frederico Rodrigues Santos,95.6,43.5,Open Play,Left Foot,0.088970646,,Normal
+3857258,84,Serbia,Nikola Milenković,99.3,59.6,Open Play,Right Foot,0.011090157,,Normal
+3857258,86,Brazil,Rodrygo Silva de Goes,101.5,30.6,Open Play,Right Foot,0.051727816,,Normal
+3857258,87,Brazil,Antony Matheus dos Santos,99.4,59.1,Open Play,Left Foot,0.009657804,,Normal
+3857258,97,Serbia,Nemanja Radonjić,93.8,21.5,Open Play,Right Foot,0.008691933,,Normal
+3857288,5,Australia,Fran Karačić,90.9,41.2,Open Play,Right Foot,0.015131147,,Volley
+3857288,20,Tunisia,Mohamed Dräger,92,42.5,Open Play,Right Foot,0.029703999,,Normal
+3857288,22,Australia,Mitchell Thomas Duke,110.1,32.5,Open Play,Head,0.04459479,1,Normal
+3857288,26,Australia,Mitchell Thomas Duke,110.7,34.3,Open Play,Head,0.03948435,,Normal
+3857288,33,Australia,Jackson Irvine,114.3,48.2,Open Play,Right Foot,0.07543106,,Backheel
+3857288,37,Tunisia,Youssef Msakni,102.8,54.8,Open Play,Right Foot,0.031703874,,Normal
+3857288,40,Tunisia,Mohamed Dräger,109.2,48.4,Open Play,Right Foot,0.21984866,,Normal
+3857288,43,Australia,Mitchell Thomas Duke,104.9,40.6,Open Play,Head,0.040856346,,Normal
+3857288,43,Australia,Fran Karačić,106.4,54.9,Open Play,Left Foot,0.035070673,,Half Volley
+3857288,45,Australia,Fran Karačić,87.2,52.2,Open Play,Right Foot,0.0052714557,,Volley
+3857288,47,Tunisia,Youssef Msakni,111,45.5,Open Play,Right Foot,0.23484555,,Normal
+3857288,56,Australia,Mitchell Thomas Duke,107.3,39.8,Open Play,Head,0.06400663,,Normal
+3857288,60,Tunisia,Ferjani Sassi,91.2,52.7,Open Play,Right Foot,0.020219443,,Normal
+3857288,65,Tunisia,Youssef Msakni,101.8,31.8,Open Play,Right Foot,0.058604978,,Normal
+3857288,71,Tunisia,Youssef Msakni,108.1,25,Open Play,Left Foot,0.026706748,,Normal
+3857288,71,Tunisia,Youssef Msakni,95.6,42.2,Open Play,Right Foot,0.048467197,,Normal
+3857288,73,Australia,Aaron Mooy,95.6,44.1,Open Play,Right Foot,0.039191317,,Half Volley
+3857288,74,Tunisia,Youssef Msakni,110.1,38,Open Play,Head,0.10262261,,Normal
+3857288,83,Tunisia,Montassar Omar Talbi,89.6,34.9,Open Play,Right Foot,0.012159805,,Volley
+3857288,85,Tunisia,Taha Yassine Khenissi,98.4,54.6,Open Play,Right Foot,0.012915949,,Normal
+3857288,86,Tunisia,Naïm Sliti,109.8,47.4,Open Play,Left Foot,0.1403044,,Normal
+3857288,87,Tunisia,Wahbi Khazri,109.9,49.4,Open Play,Left Foot,0.09264534,,Normal
+3857288,91,Tunisia,Wahbi Khazri,108.4,24.1,Open Play,Right Foot,0.021421792,,Normal
+3857267,2,Senegal,Idrissa Gana Gueye,106.9,45.7,Open Play,Right Foot,0.21271749,,Normal
+3857267,7,Senegal,Boulaye Dia,109.3,51.9,Open Play,Right Foot,0.16839646,,Normal
+3857267,9,Ecuador,Enner Remberto Valencia Lastra,86.9,40.9,Free Kick,Right Foot,0.021615954,,Normal
+3857267,9,Ecuador,Enner Remberto Valencia Lastra,95.9,37.7,Open Play,Right Foot,0.02803523,,Half Volley
+3857267,10,Senegal,Ismaïla Sarr,99.2,40.2,Open Play,Right Foot,0.042373266,,Half Volley
+3857267,11,Senegal,Iliman Ndiaye,99.7,52.9,Open Play,Left Foot,0.02889044,,Normal
+3857267,23,Senegal,Ismaïla Sarr,104.1,25.5,Open Play,Right Foot,0.023828069,,Normal
+3857267,24,Senegal,Pape Gueye,93,36.3,Open Play,Left Foot,0.025696881,,Normal
+3857267,24,Senegal,Abdou Diallo,107.9,41.9,Open Play,Head,0.035411544,,Normal
+3857267,36,Senegal,Pathé Ismaël Ciss,108.1,33.6,Open Play,Head,0.03057826,,Normal
+3857267,43,Senegal,Ismaïla Sarr,108,40,Penalty,Right Foot,0.7835,1,Normal
+3857267,46,Senegal,Iliman Ndiaye,107.3,46.7,Open Play,Left Foot,0.04522632,,Half Volley
+3857267,48,Ecuador,José Adoni Cifuentes Charcopa,93.8,51.3,Open Play,Right Foot,0.025271386,,Normal
+3857267,56,Ecuador,Michael Steveen Estrada Martínez,106.7,38.8,Open Play,Head,0.042533338,,Normal
+3857267,66,Ecuador,Felix Eduardo Torres Caicedo,113.7,42.7,Open Play,Head,0.15397952,,Normal
+3857267,66,Ecuador,Moisés Isaac Caicedo Corozo,117.2,35.6,Open Play,Right Foot,0.5894187,1,Volley
+3857267,69,Senegal,Kalidou Koulibaly,114.3,46,Open Play,Right Foot,0.23427999,1,Volley
+3857267,75,Ecuador,Gonzalo Jordy Plata Jiménez,107,42.8,Open Play,Left Foot,0.058988493,,Half Volley
+3857267,81,Senegal,Boulaye Dia,101.3,54.6,Open Play,Right Foot,0.04455093,,Normal
+3857267,87,Senegal,Pape Gueye,102.6,54.8,Open Play,Right Foot,0.03201506,,Normal
+3857267,88,Ecuador,Jeremy Leonel Sarmiento Morante,105.3,32.1,Open Play,Head,0.02928531,,Normal
+3857267,93,Ecuador,Jackson Gabriel Porozo Vernaza,105.9,34.3,Open Play,Head,0.052534856,,Normal
+3857287,12,Uruguay,Matías Vecino Falero,109.5,28.6,Open Play,Head,0.052239094,,Normal
+3857287,18,Uruguay,Federico Santiago Valverde Dipetta,103.9,35.4,Open Play,Left Foot,0.05187739,,Half Volley
+3857287,33,South Korea,Ui-Jo Hwang,108.9,42.7,Open Play,Right Foot,0.323128,,Normal
+3857287,38,South Korea,In-Beom Hwang,89.7,57.6,Open Play,Right Foot,0.007071261,,Normal
+3857287,42,Uruguay,Diego Roberto Godín Leal,110,40.4,Open Play,Head,0.054689027,,Normal
+3857287,45,Uruguay,José María Giménez de Vargas,103.5,35.9,Open Play,Head,0.046385217,,Normal
+3857287,52,South Korea,Min Jae Kim,111.5,46.1,Open Play,Other,0.046898182,,Normal
+3857287,54,Uruguay,Rodrigo Bentancur Colmán,101.3,38.3,Open Play,Right Foot,0.052523207,,Normal
+3857287,68,Uruguay,Federico Santiago Valverde Dipetta,90.5,27.4,Open Play,Right Foot,0.014167523,,Half Volley
+3857287,68,Uruguay,Edinson Roberto Cavani Gómez,106.6,47.5,Open Play,Right Foot,0.03804607,,Normal
+3857287,74,South Korea,Kang-In Lee,94.5,54.2,Open Play,Left Foot,0.023162797,,Normal
+3857287,76,South Korea,Gue-Sung Cho,93.4,42,Open Play,Left Foot,0.036145955,,Half Volley
+3857287,80,Uruguay,Darwin Gabriel Núñez Ribeiro,100.6,28.3,Open Play,Right Foot,0.028178101,,Normal
+3857287,86,Uruguay,Edinson Roberto Cavani Gómez,110.5,39.7,Open Play,Head,0.06689449,,Normal
+3857287,88,Uruguay,Federico Santiago Valverde Dipetta,95.7,22.6,Open Play,Right Foot,0.012294213,,Normal
+3857287,89,South Korea,Heung-Min Son,93.8,36.6,Open Play,Left Foot,0.0335565,,Normal
+3857287,93,South Korea,In-Beom Hwang,94.9,26.7,Open Play,Left Foot,0.023029828,,Normal
+3869486,3,Portugal,João Félix Sequeira,106.8,44.2,Open Play,Head,0.0989785,,Diving Header
+3869486,5,Morocco,Youssef En-Nesyri,112.7,39.4,Open Play,Head,0.117904566,,Normal
+3869486,12,Portugal,Raphaël Adelino José Guerreiro,105.6,23.6,Open Play,Left Foot,0.019215545,,Volley
+3869486,17,Morocco,Hakim Ziyech,96.1,60.9,Open Play,Left Foot,0.008206696,,Normal
+3869486,25,Morocco,Youssef En-Nesyri,106.7,39.8,Open Play,Head,0.043849364,,Normal
+3869486,30,Portugal,João Félix Sequeira,100.9,27.7,Open Play,Right Foot,0.027014187,,Half Volley
+3869486,34,Morocco,Selim Amallah,108.7,31.3,Open Play,Left Foot,0.06053267,,Half Volley
+3869486,34,Morocco,Sofiane Boufal,97,27.8,Open Play,Right Foot,0.03503226,,Normal
+3869486,38,Portugal,João Félix Sequeira,102.2,35.4,Open Play,Right Foot,0.060545366,,Half Volley
+3869486,41,Morocco,Youssef En-Nesyri,112.6,39.7,Open Play,Head,0.20030825,1,Normal
+3869486,44,Portugal,Bruno Miguel Borges Fernandes,108,62.3,Open Play,Right Foot,0.0067060287,,Half Volley
+3869486,46,Morocco,Yahia Attiyat allah,107.6,26.3,Open Play,Left Foot,0.082217455,,Normal
+3869486,55,Morocco,Azzedine Ounahi,93.4,44.2,Open Play,Right Foot,0.032880384,,Normal
+3869486,57,Portugal,Gonçalo Matias Ramos,108.7,40,Open Play,Head,0.10594022,,Normal
+3869486,60,Portugal,João Félix Sequeira,109.7,29.4,Open Play,Head,0.026895314,,Normal
+3869486,63,Portugal,Bruno Miguel Borges Fernandes,101,35.5,Open Play,Right Foot,0.057325892,,Normal
+3869486,70,Portugal,Bernardo Mota Veiga de Carvalho e Silva,109.8,35.9,Open Play,Right Foot,0.10927713,,Normal
+3869486,81,Portugal,João Félix Sequeira,102,57.1,Open Play,Left Foot,0.025960794,,Normal
+3869486,90,Portugal,Cristiano Ronaldo dos Santos Aveiro,101.8,53.7,Open Play,Right Foot,0.05699573,,Normal
+3869486,95,Morocco,Zakaria Aboukhlal,101.1,45.9,Open Play,Right Foot,0.39109123,,Lob
+3869486,96,Portugal,Kléper Laveran Lima Ferreira,114.1,44.5,Open Play,Head,0.14926605,,Normal
+3857260,1,Mexico,Luis Gerardo Chávez Magallón,91.7,51.5,Open Play,Left Foot,0.021919996,,Normal
+3857260,2,Saudi Arabia,Saleh Khalid Al Shehri,92.9,41.7,Open Play,Left Foot,0.02182735,,Volley
+3857260,2,Mexico,Ernesto Alexis Vega Rojas,101.6,38.9,Open Play,Right Foot,0.3665275,,Normal
+3857260,7,Saudi Arabia,Mohammed Kanoo,113,54.1,Open Play,Right Foot,0.047937077,,Half Volley
+3857260,12,Saudi Arabia,Mohammed Kanoo,96.3,33.5,Free Kick,Right Foot,0.073429175,,Normal
+3857260,22,Mexico,Luis Gerardo Chávez Magallón,92.7,40.4,Open Play,Left Foot,0.01981399,,Volley
+3857260,24,Mexico,Orbelín Pineda Alvarado,104,44.6,Open Play,Right Foot,0.0489465,,Normal
+3857260,26,Mexico,Orbelín Pineda Alvarado,115.8,34.5,Open Play,Head,0.30787364,,Diving Header
+3857260,34,Mexico,Luis Gerardo Chávez Magallón,89.6,28.9,Open Play,Left Foot,0.016814427,,Normal
+3857260,35,Mexico,Jesús Daniel Gallardo Vasconcelos,106.8,43.3,Open Play,Right Foot,0.06430086,,Half Volley
+3857260,40,Mexico,Luis Gerardo Chávez Magallón,84.6,49.2,Free Kick,Left Foot,0.0066389865,,Normal
+3857260,40,Mexico,Orbelín Pineda Alvarado,102,45.2,Open Play,Left Foot,0.062194254,,Normal
+3857260,44,Mexico,Ernesto Alexis Vega Rojas,106.1,29.3,Open Play,Right Foot,0.04950449,,Normal
+3857260,44,Mexico,Luis Gerardo Chávez Magallón,92.9,30,Open Play,Left Foot,0.015146091,,Half Volley
+3857260,50,Saudi Arabia,Ali Al Hassan,110.1,45.6,Open Play,Head,0.10154356,,Diving Header
+3857260,46,Mexico,Luis Gerardo Chávez Magallón,85.5,41.2,Open Play,Left Foot,0.018109906,,Normal
+3857260,46,Mexico,Hirving Rodrigo Lozano Bahena,102.7,19.2,Open Play,Right Foot,0.0068189544,,Normal
+3857260,46,Mexico,Henry Josué Martín Mex,116.7,40.2,Open Play,Left Foot,0.28809994,1,Volley
+3857260,49,Saudi Arabia,Sultan Abdullah Salim Al Ghannam,115.8,46.7,Open Play,Right Foot,0.21450256,,Volley
+3857260,51,Mexico,Luis Gerardo Chávez Magallón,86.7,41.3,Free Kick,Left Foot,0.024289701,1,Normal
+3857260,54,Saudi Arabia,Sultan Abdullah Salim Al Ghannam,114.8,52.4,Open Play,Head,0.030311959,,Normal
+3857260,58,Mexico,Henry Josué Martín Mex,112,40,Open Play,Head,0.09122391,,Normal
+3857260,61,Saudi Arabia,Abdulelah Al Amri,109.1,45.1,Open Play,Head,0.037819926,,Normal
+3857260,66,Mexico,Hirving Rodrigo Lozano Bahena,97.5,31.3,Open Play,Right Foot,0.05300886,,Normal
+3857260,66,Saudi Arabia,Firas Tariq Nasser Al Albirakan,101.4,25.4,Open Play,Left Foot,0.013105479,,Half Volley
+3857260,69,Mexico,Henry Josué Martín Mex,108.8,34.9,Open Play,Left Foot,0.22500646,,Volley
+3857260,72,Mexico,Luis Gerardo Chávez Magallón,87.3,40.5,Free Kick,Left Foot,0.027150616,,Normal
+3857260,75,Mexico,Orbelín Pineda Alvarado,100.5,32.9,Open Play,Right Foot,0.08600338,,Normal
+3857260,77,Mexico,Carlos Uriel Antuna Romero,109.4,35.9,Open Play,Right Foot,0.26870292,,Normal
+3857260,77,Mexico,Edson Omar Álvarez Velázquez,85.8,42.8,Open Play,Right Foot,0.013687578,,Half Volley
+3857260,80,Saudi Arabia,Salem Mohammed Al Dawsari,89.2,40.3,Open Play,Right Foot,0.019886926,,Normal
+3857260,82,Mexico,Luis Gerardo Chávez Magallón,101,46,Open Play,Left Foot,0.057560198,,Normal
+3857260,88,Mexico,Rogelio Gabriel Funes Mori,98.8,37.4,Open Play,Right Foot,0.06664524,,Normal
+3857260,91,Mexico,Hirving Rodrigo Lozano Bahena,92.9,31.8,Free Kick,Right Foot,0.05359905,,Normal
+3857260,93,Mexico,Hirving Rodrigo Lozano Bahena,101.9,28.3,Open Play,Right Foot,0.06253588,,Normal
+3857260,94,Saudi Arabia,Salem Mohammed Al Dawsari,110.9,45.2,Open Play,Right Foot,0.51574713,1,Normal
+3857264,4,Poland,Krystian Bielik,100.7,41.3,Open Play,Left Foot,0.061495427,,Normal
+3857264,6,Argentina,Lionel Andrés Messi Cuccittini,99,37.7,Open Play,Right Foot,0.050872557,,Normal
+3857264,8,Argentina,Ángel Fabián Di María Hernández,94.3,40.5,Open Play,Left Foot,0.034158513,,Normal
+3857264,9,Argentina,Lionel Andrés Messi Cuccittini,111.7,25.8,Open Play,Left Foot,0.053250678,,Normal
+3857264,16,Argentina,Marcos Javier Acuña,107,27.9,Open Play,Right Foot,0.05141401,,Half Volley
+3857264,21,Poland,Kamil Glik,105.9,43.5,Open Play,Right Foot,0.06557972,,Backheel
+3857264,27,Argentina,Julián Álvarez,110.8,47.7,Open Play,Right Foot,0.1493578,,Normal
+3857264,27,Argentina,Marcos Javier Acuña,102.9,22.5,Open Play,Left Foot,0.024708062,,Normal
+3857264,32,Argentina,Ángel Fabián Di María Hernández,119.6,79.2,Corner,Left Foot,0.00018,,Normal
+3857264,34,Argentina,Enzo Fernandez,91.6,39.7,Open Play,Right Foot,0.024548035,,Normal
+3857264,35,Argentina,Julián Álvarez,110.4,27.6,Open Play,Left Foot,0.19083758,,Normal
+3857264,38,Argentina,Lionel Andrés Messi Cuccittini,108.1,40.1,Penalty,Left Foot,0.7835,,Normal
+3857264,42,Argentina,Julián Álvarez,102.4,27,Open Play,Right Foot,0.03720347,,Normal
+3857264,42,Argentina,Rodrigo Javier De Paul,112.2,40.3,Open Play,Other,0.3152717,,Normal
+3857264,43,Argentina,Ángel Fabián Di María Hernández,106.7,58.4,Open Play,Left Foot,0.010134568,,Normal
+3857264,45,Argentina,Alexis Mac Allister,106,46.7,Open Play,Right Foot,0.107545994,1,Normal
+3857264,49,Poland,Kamil Glik,108.8,43.5,Open Play,Head,0.04381306,,Normal
+3857264,52,Poland,Michał Skóraś,101.1,56.9,Open Play,Left Foot,0.026707038,,Normal
+3857264,52,Argentina,Lionel Andrés Messi Cuccittini,105.8,28.4,Open Play,Left Foot,0.06119443,,Normal
+3857264,55,Argentina,Lionel Andrés Messi Cuccittini,109.4,50.7,Open Play,Left Foot,0.058334265,,Normal
+3857264,55,Argentina,Julián Álvarez,107.7,41.5,Open Play,Left Foot,0.15200824,,Normal
+3857264,60,Argentina,Alexis Mac Allister,106,46,Open Play,Left Foot,0.13009955,,Normal
+3857264,63,Argentina,Lionel Andrés Messi Cuccittini,107.2,25.9,Open Play,Left Foot,0.023947677,,Normal
+3857264,66,Argentina,Julián Álvarez,106,33.5,Open Play,Right Foot,0.10054177,1,Normal
+3857264,70,Argentina,Lionel Andrés Messi Cuccittini,106.5,35.1,Open Play,Left Foot,0.13232325,,Normal
+3857264,72,Argentina,Julián Álvarez,106.1,52.6,Open Play,Right Foot,0.18145993,,Normal
+3857264,85,Argentina,Lautaro Javier Martínez,109.4,52.2,Open Play,Right Foot,0.17955275,,Normal
+3857264,91,Argentina,Nicolás Alejandro Tagliafico,108.2,30.2,Open Play,Left Foot,0.22421487,,Lob
+3857289,9,Mexico,César Jasib Montes Castro,107.6,38.6,Open Play,Left Foot,0.0988946,,Volley
+3857289,39,Argentina,Lautaro Javier Martínez,112.7,39.5,Open Play,Head,0.13799548,,Normal
+3857289,44,Mexico,Ernesto Alexis Vega Rojas,92.4,35.8,Free Kick,Right Foot,0.05948228,,Normal
+3857289,49,Mexico,Ernesto Alexis Vega Rojas,92.8,23,Open Play,Right Foot,0.0077116457,,Half Volley
+3857289,47,Mexico,Hirving Rodrigo Lozano Bahena,93.5,36.8,Open Play,Right Foot,0.040303126,,Normal
+3857289,50,Argentina,Lionel Andrés Messi Cuccittini,94.8,41.9,Free Kick,Left Foot,0.067327775,,Normal
+3857289,63,Argentina,Lionel Andrés Messi Cuccittini,94.9,37.4,Open Play,Left Foot,0.033919714,1,Normal
+3857289,69,Argentina,Nahuel Molina Lucero,101.5,49.2,Open Play,Right Foot,0.050896797,,Half Volley
+3857289,86,Argentina,Enzo Fernandez,106.5,22.8,Open Play,Right Foot,0.035064373,1,Normal
+3869254,4,Switzerland,Breel-Donald Embolo,104.1,27.2,Open Play,Left Foot,0.06137733,,Normal
+3869254,16,Portugal,Gonçalo Matias Ramos,111.3,27.5,Open Play,Left Foot,0.10102074,1,Normal
+3869254,21,Portugal,Otávio Edmilson da Silva Monteiro,101.4,36.8,Open Play,Right Foot,0.032515083,,Half Volley
+3869254,21,Portugal,Gonçalo Matias Ramos,100.7,32.2,Open Play,Right Foot,0.072023906,,Normal
+3869254,29,Switzerland,Xherdan Shaqiri,87.2,46.1,Free Kick,Left Foot,0.023890225,,Normal
+3869254,32,Portugal,Kléper Laveran Lima Ferreira,114.3,40,Open Play,Head,0.12779379,1,Normal
+3869254,37,Switzerland,Remo Freuler,115.9,44,Open Play,Head,0.2948616,,Normal
+3869254,37,Switzerland,Fabian Lukas Schär,99.9,53.7,Open Play,Right Foot,0.024413843,,Volley
+3869254,42,Portugal,Gonçalo Matias Ramos,107.5,33.4,Open Play,Left Foot,0.31703457,,Normal
+3869254,47,Portugal,Raphaël Adelino José Guerreiro,96,25,Open Play,Left Foot,0.021823613,,Normal
+3869254,48,Portugal,Gonçalo Matias Ramos,114.4,35.1,Open Play,Head,0.09938955,,Normal
+3869254,50,Portugal,Gonçalo Matias Ramos,115.8,44.4,Open Play,Left Foot,0.5086819,1,Normal
+3869254,52,Portugal,João Félix Sequeira,103.5,26.4,Open Play,Left Foot,0.043932665,,Normal
+3869254,53,Portugal,Kléper Laveran Lima Ferreira,110.8,35.6,Open Play,Head,0.05800441,,Normal
+3869254,54,Portugal,Raphaël Adelino José Guerreiro,110.9,32.4,Open Play,Left Foot,0.35848966,1,Normal
+3869254,57,Switzerland,Manuel Obafemi Akanji,118.7,35.4,Open Play,Right Foot,0.6688656,1,Volley
+3869254,65,Switzerland,Xherdan Shaqiri,101.7,63.9,Open Play,Left Foot,0.007870479,,Normal
+3869254,66,Portugal,Gonçalo Matias Ramos,112.6,45.8,Open Play,Right Foot,0.46699882,1,Lob
+3869254,70,Switzerland,Denis Lemi Zakaria Lako Lado,97.5,36.4,Open Play,Right Foot,0.04188712,,Normal
+3869254,75,Portugal,Cristiano Ronaldo dos Santos Aveiro,88.9,44.9,Free Kick,Right Foot,0.028790973,,Normal
+3869254,79,Switzerland,Breel-Donald Embolo,102.1,39.2,Open Play,Right Foot,0.032889098,,Overhead Kick
+3869254,80,Switzerland,Granit Xhaka,113.2,34.5,Open Play,Head,0.0836758,,Normal
+3869254,84,Switzerland,Noah Okafor,108.4,23.1,Open Play,Right Foot,0.032096077,,Normal
+3869254,91,Portugal,Rafael Alexandre Conceição Leão,105,21.7,Open Play,Right Foot,0.010257767,1,Normal
+3869254,93,Portugal,Rúben Santos Gato Alves Dias,108,41.9,Open Play,Head,0.03750256,,Normal
+3869118,20,England,John Stones,113.5,45.4,Open Play,Other,0.08366814,,Normal
+3869118,21,Senegal,Boulaye Dia,108.6,42.7,Open Play,Right Foot,0.05336251,,Volley
+3869118,22,Senegal,Ismaïla Sarr,115.7,40.5,Open Play,Right Foot,0.629174,,Half Volley
+3869118,31,Senegal,Boulaye Dia,112.8,28.9,Open Play,Left Foot,0.0358749,,Normal
+3869118,38,England,Jordan Brian Henderson,107.6,38,Open Play,Left Foot,0.13174866,1,Normal
+3869118,40,England,Harry Kane,110,39.3,Open Play,Right Foot,0.18422936,,Normal
+3869118,47,England,Harry Kane,104.3,50.7,Open Play,Right Foot,0.20664306,1,Normal
+3869118,49,Senegal,Pape Matar Sarr,92.8,35.2,Open Play,Left Foot,0.018660808,,Half Volley
+3869118,53,England,Bukayo Saka,107.7,53.4,Open Play,Right Foot,0.03518777,,Normal
+3869118,55,England,Harry Kane,90.5,27.1,Open Play,Right Foot,0.015214441,,Normal
+3869118,56,England,Bukayo Saka,111,35.9,Open Play,Left Foot,0.21738943,1,Normal
+3869118,68,Senegal,Pape Matar Sarr,89,36.2,Open Play,Right Foot,0.013223637,,Normal
+3869118,73,Senegal,Pape Matar Sarr,87.8,49.9,Free Kick,Right Foot,0.021199826,,Normal
+3869118,83,Senegal,Ismaïla Sarr,111.6,39.3,Open Play,Head,0.107544675,,Normal
+3869118,86,Senegal,Pape Gueye,96.7,52.4,Open Play,Left Foot,0.027956013,,Normal
+3869118,88,Senegal,Pape Matar Sarr,93.1,38.3,Open Play,Right Foot,0.032847784,,Normal
+3869118,90,England,Marcus Rashford,117.8,45.9,Open Play,Right Foot,0.1459426,,Half Volley
+3869118,92,Senegal,Cheikh Ahmadou Bamba Mbacke Dieng,94,54.7,Free Kick,Right Foot,0.03296228,,Normal
+3869519,15,Croatia,Dejan Lovren,115,27.7,Open Play,Head,0.014029023,,Normal
+3869519,24,Argentina,Enzo Fernandez,93.1,36.9,Open Play,Right Foot,0.027808638,,Normal
+3869519,30,Croatia,Ivan Perišić,106.9,23.2,Open Play,Right Foot,0.034139045,,Lob
+3869519,33,Argentina,Lionel Andrés Messi Cuccittini,108,40,Penalty,Left Foot,0.7835,1,Normal
+3869519,38,Argentina,Julián Álvarez,112.7,37.4,Open Play,Right Foot,0.36172354,1,Volley
+3869519,40,Argentina,Rodrigo Javier De Paul,95.6,51.4,Open Play,Right Foot,0.027667157,,Normal
+3869519,41,Argentina,Alexis Mac Allister,113.5,32.8,Open Play,Head,0.0684051,,Normal
+3869519,44,Croatia,Luka Modrić,92.9,46.3,Open Play,Right Foot,0.026162526,,Normal
+3869519,44,Croatia,Mario Pašalić,119.4,45.8,Open Play,Right Foot,0.07864248,,Half Volley
+3869519,48,Argentina,Leandro Daniel Paredes,85,44.8,Open Play,Right Foot,0.014370957,,Normal
+3869519,57,Argentina,Lionel Andrés Messi Cuccittini,112.7,30.1,Open Play,Left Foot,0.10581502,,Normal
+3869519,57,Croatia,Mislav Oršić,98.4,22.8,Open Play,Right Foot,0.021008598,,Normal
+3869519,61,Croatia,Dejan Lovren,112.7,40.1,Open Play,Head,0.09374543,,Normal
+3869519,68,Argentina,Julián Álvarez,113.3,45.4,Open Play,Right Foot,0.33366448,1,Normal
+3869519,72,Croatia,Ivan Perišić,82.3,43.9,Free Kick,Left Foot,0.00752127,,Normal
+3869519,74,Croatia,Ivan Perišić,85.8,21.3,Open Play,Left Foot,0.0058680973,,Normal
+3869519,77,Croatia,Mislav Oršić,108,21.9,Open Play,Right Foot,0.011610668,,Normal
+3869519,82,Argentina,Alexis Mac Allister,107.1,46.7,Open Play,Right Foot,0.14140838,,Volley
+3869519,88,Croatia,Lovro Majer,96,35.4,Open Play,Left Foot,0.044770177,,Half Volley
+3869519,92,Croatia,Nikola Vlašić,103.6,52.3,Open Play,Left Foot,0.049129687,,Normal
+3869519,94,Croatia,Dejan Lovren,89.3,36.5,Open Play,Left Foot,0.02342664,,Normal
+3869354,3,England,Philip Foden,100.2,40,Open Play,Left Foot,0.022691524,,Half Volley
+3869354,10,France,Olivier Giroud,110.3,38.2,Open Play,Head,0.21537142,,Diving Header
+3869354,16,France,Aurélien Djani Tchouaméni,92.5,43.5,Open Play,Right Foot,0.027870113,1,Normal
+3869354,20,England,Luke Shaw,98,53.2,Free Kick,Left Foot,0.05589417,,Normal
+3869354,21,England,Harry Kane,113.6,52.2,Open Play,Right Foot,0.07522586,,Normal
+3869354,21,England,Jude Bellingham,117.3,35.7,Open Play,Head,0.21807538,,Normal
+3869354,28,England,Harry Kane,96.7,57.1,Open Play,Right Foot,0.018916143,,Normal
+3869354,38,France,Kylian Mbappé Lottin,107.9,32.9,Open Play,Left Foot,0.06798863,,Half Volley
+3869354,46,England,Jude Bellingham,101.1,48,Open Play,Right Foot,0.046397094,,Half Volley
+3869354,47,England,Harry Maguire,116.2,30.9,Open Play,Head,0.048588943,,Normal
+3869354,51,England,Jordan Brian Henderson,101.1,56.4,Open Play,Right Foot,0.017202334,,Half Volley
+3869354,53,England,Harry Kane,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869354,54,France,Adrien Rabiot,95.6,43.2,Open Play,Left Foot,0.06667264,,Half Volley
+3869354,59,England,Bukayo Saka,103.2,47.6,Open Play,Right Foot,0.07073746,,Normal
+3869354,60,France,Ousmane Dembélé,99.5,53.8,Open Play,Left Foot,0.030820057,,Normal
+3869354,61,England,Harry Kane,99.1,53.8,Open Play,Left Foot,0.029508974,,Normal
+3869354,69,England,Harry Maguire,109.1,35,Open Play,Head,0.07199757,,Normal
+3869354,70,England,Luke Shaw,108.4,21.7,Open Play,Left Foot,0.006951497,,Normal
+3869354,74,France,Olivier Giroud,112.9,47,Open Play,Head,0.075690374,,Normal
+3869354,76,France,Olivier Giroud,111.3,40.5,Open Play,Left Foot,0.20829616,,Volley
+3869354,77,France,Olivier Giroud,114.7,36.4,Open Play,Head,0.14665264,1,Normal
+3869354,83,England,Harry Kane,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869354,88,England,Mason Mount,89.5,44.7,Open Play,Right Foot,0.024138648,,Normal
+3869354,100,England,Marcus Rashford,97.5,34.1,Free Kick,Right Foot,0.07922588,,Normal
+3869552,4,France,Kylian Mbappé Lottin,108.5,47.3,Open Play,Left Foot,0.09459595,,Normal
+3869552,4,France,Theo Bernard François Hernández,115.7,31.5,Open Play,Left Foot,0.0979349,1,Half Volley
+3869552,9,Morocco,Azzedine Ounahi,95.5,26.2,Open Play,Right Foot,0.01924696,,Normal
+3869552,16,Morocco,Hakim Ziyech,106.4,54.6,Open Play,Right Foot,0.06111174,,Normal
+3869552,16,France,Olivier Giroud,105.4,26.8,Open Play,Left Foot,0.09802507,,Normal
+3869552,25,Morocco,Achraf Hakimi Mouh,95.3,53.3,Open Play,Right Foot,0.020597277,,Normal
+3869552,32,France,Aurélien Djani Tchouaméni,96,32.9,Open Play,Right Foot,0.040336993,,Normal
+3869552,34,France,Olivier Giroud,111.9,44.5,Open Play,Head,0.060999498,,Normal
+3869552,34,France,Youssouf Fofana,104.3,46.5,Open Play,Left Foot,0.061363008,,Half Volley
+3869552,35,France,Kylian Mbappé Lottin,111.7,30.9,Open Play,Right Foot,0.15100354,,Normal
+3869552,35,France,Olivier Giroud,105.8,42.5,Open Play,Left Foot,0.2635025,,Normal
+3869552,39,France,Raphaël Varane,113.7,47.9,Open Play,Right Foot,0.07554505,,Volley
+3869552,43,Morocco,Jawad El Yamiq,107.2,33.9,Open Play,Right Foot,0.06408756,,Overhead Kick
+3869552,43,Morocco,Sofiane Boufal,96.7,37.2,Open Play,Right Foot,0.035300843,,Half Volley
+3869552,46,France,Jules Koundé,94,50.6,Open Play,Right Foot,0.01766911,,Half Volley
+3869552,52,Morocco,Yahia Attiyat allah,109.8,35.1,Open Play,Right Foot,0.24936919,,Half Volley
+3869552,53,Morocco,Sofyan Amrabat,92.5,36,Open Play,Right Foot,0.020691318,,Normal
+3869552,70,France,Marcus Thuram,114.5,45.5,Open Play,Head,0.115658596,,Normal
+3869552,73,France,Youssouf Fofana,111.6,27.3,Open Play,Left Foot,0.040043775,,Normal
+3869552,78,France,Kylian Mbappé Lottin,107.2,29.8,Open Play,Right Foot,0.033641826,,Normal
+3869552,78,France,Randal Kolo Muani,115.6,43.8,Open Play,Right Foot,0.8521293,1,Normal
+3869552,85,Morocco,Zakaria Aboukhlal,107.1,41,Open Play,Head,0.024939176,,Normal
+3869552,92,Morocco,Abdessamad Ezzalzouli,106.9,32.9,Open Play,Right Foot,0.05950738,,Normal
+3869552,92,Morocco,Azzedine Ounahi,103,48.2,Open Play,Right Foot,0.06379096,,Normal
+3869552,93,Morocco,Azzedine Ounahi,98.1,48,Open Play,Left Foot,0.03807111,,Normal
+3869552,93,Morocco,Azzedine Ounahi,108.6,44.6,Open Play,Right Foot,0.067406826,,Half Volley
+3869552,93,Morocco,Abderrazak Hamdallah,115.9,37.4,Open Play,Other,0.50624365,,Normal
+3869420,4,Brazil,Vinícius José Paixão de Oliveira Júnior,98.8,20.8,Open Play,Right Foot,0.008460451,,Normal
+3869420,12,Croatia,Ivan Perišić,112.2,43.2,Open Play,Right Foot,0.19016835,,Half Volley
+3869420,18,Croatia,Andrej Kramarić,99.5,27,Open Play,Right Foot,0.026674595,,Normal
+3869420,19,Brazil,Vinícius José Paixão de Oliveira Júnior,103,34.8,Open Play,Right Foot,0.06970771,,Normal
+3869420,20,Brazil,Neymar da Silva Santos Junior,107.2,24.9,Open Play,Right Foot,0.025347186,,Normal
+3869420,22,Brazil,Carlos Henrique Casimiro,96.4,49.8,Open Play,Right Foot,0.030699778,,Normal
+3869420,29,Croatia,Ivan Perišić,100.8,20.7,Open Play,Right Foot,0.012010745,,Normal
+3869420,41,Brazil,Neymar da Silva Santos Junior,100.9,17.2,Free Kick,Right Foot,0.008240742,,Normal
+3869420,50,Croatia,Ivan Perišić,111.9,41.4,Open Play,Head,0.11005159,,Normal
+3869420,54,Brazil,Neymar da Silva Santos Junior,112.6,29,Open Play,Left Foot,0.16692519,,Normal
+3869420,65,Brazil,Carlos Henrique Casimiro,89.1,28.8,Free Kick,Right Foot,0.026057322,,Normal
+3869420,65,Brazil,Lucas Tolentino Coelho de Lima,111.6,34.5,Open Play,Left Foot,0.26807922,,Half Volley
+3869420,66,Brazil,Éder Gabriel Militão,101.4,53.7,Open Play,Right Foot,0.04353941,,Normal
+3869420,70,Croatia,Andrej Kramarić,101.2,57.3,Open Play,Left Foot,0.030721588,,Normal
+3869420,75,Brazil,Neymar da Silva Santos Junior,114.1,28.2,Open Play,Left Foot,0.12963046,,Normal
+3869420,79,Brazil,Lucas Tolentino Coelho de Lima,104.6,32.8,Open Play,Left Foot,0.092192985,,Normal
+3869420,81,Brazil,Richarlison de Andrade,109.4,41,Open Play,Head,0.067200735,,Normal
+3869420,84,Croatia,Nikola Vlašić,107,54.2,Open Play,Right Foot,0.026884926,,Normal
+3869420,85,Brazil,Éder Gabriel Militão,102.5,50.1,Open Play,Right Foot,0.04975106,,Normal
+3869420,85,Brazil,Éder Gabriel Militão,104.7,46.8,Open Play,Left Foot,0.06132018,,Half Volley
+3869420,93,Brazil,Antony Matheus dos Santos,94.6,56.8,Open Play,Left Foot,0.013999131,,Normal
+3869420,91,Brazil,Pedro Guilherme Abreu dos Santos,112.9,49.4,Open Play,Head,0.057022728,,Normal
+3869420,100,Brazil,Pedro Guilherme Abreu dos Santos,107.2,38.8,Open Play,Right Foot,0.113875866,,Volley
+3869420,102,Croatia,Marcelo Brozović,103.7,46.4,Open Play,Right Foot,0.12467693,,Normal
+3869420,104,Brazil,Danilo Luiz da Silva,96.9,22.6,Open Play,Right Foot,0.0154907415,,Normal
+3869420,105,Brazil,Neymar da Silva Santos Junior,116.5,47.2,Open Play,Right Foot,0.4674385,1,Normal
+3869420,116,Croatia,Bruno Petković,103.2,38.6,Open Play,Left Foot,0.09977819,1,Normal
+3869420,119,Croatia,Lovro Majer,91.5,55,Open Play,Left Foot,0.01192189,,Normal
+3869420,121,Brazil,Carlos Henrique Casimiro,114,31,Open Play,Left Foot,0.10135116,,Half Volley
+3869420,120,Croatia,Nikola Vlašić,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869420,120,Brazil,Rodrygo Silva de Goes,107.9,40,Penalty,Right Foot,0.7835,,Normal
+3869420,121,Croatia,Lovro Majer,108,40,Penalty,Left Foot,0.7835,1,Normal
+3869420,122,Brazil,Carlos Henrique Casimiro,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869420,123,Croatia,Luka Modrić,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869420,123,Brazil,Pedro Guilherme Abreu dos Santos,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869420,124,Croatia,Mislav Oršić,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869420,125,Brazil,Marcos Aoás Corrêa,108,40,Penalty,Right Foot,0.7835,,Normal
+3869220,11,Morocco,Achraf Hakimi Mouh,93.4,27.5,Free Kick,Right Foot,0.041958537,,Normal
+3869220,25,Spain,Marco Asensio Willemsen,115,25,Open Play,Left Foot,0.025564773,,Half Volley
+3869220,32,Morocco,Noussair Mazraoui,89.4,37.7,Open Play,Left Foot,0.023416335,,Normal
+3869220,41,Morocco,Nayef Aguerd,113.2,43.7,Open Play,Head,0.25141555,,Normal
+3869220,54,Spain,Daniel Olmo Carvajal,110.2,12.6,Open Play,Right Foot,0.0073576192,,Normal
+3869220,77,Spain,Daniel Olmo Carvajal,97.2,31.3,Open Play,Right Foot,0.031760626,,Half Volley
+3869220,81,Spain,Álvaro Borja Morata Martín,118.8,50.9,Open Play,Right Foot,0.017266534,,Normal
+3869220,85,Morocco,Walid Cheddira,110.6,40.8,Open Play,Right Foot,0.119254045,,Half Volley
+3869220,90,Spain,Álvaro Borja Morata Martín,115.3,51.1,Open Play,Head,0.049165204,,Normal
+3869220,95,Spain,Aymeric Laporte,107.7,38.8,Open Play,Head,0.04145577,,Normal
+3869220,99,Spain,Alejandro Balde Martínez,112.5,28.9,Open Play,Left Foot,0.077706024,,Normal
+3869220,102,Spain,Rodrigo Hernández Cascante,79.9,46.8,Open Play,Right Foot,0.0056476467,,Normal
+3869220,103,Morocco,Walid Cheddira,109.7,47.1,Open Play,Left Foot,0.1301347,,Normal
+3869220,106,Spain,Marcos Llorente Moreno,100.3,53.3,Open Play,Right Foot,0.024551911,,Half Volley
+3869220,105,Morocco,Abdelhamid Sabiri,59.6,39.7,Open Play,Right Foot,0.004195439,,Lob
+3869220,120,Spain,Sergio Busquets i Burgos,102.6,47.1,Open Play,Left Foot,0.0709334,,Normal
+3869220,121,Spain,Carlos Soler Barragán,104.3,44.4,Open Play,Head,0.039505202,,Normal
+3869220,122,Spain,Pablo Sarabia García,117.8,48.1,Open Play,Right Foot,0.10407615,,Volley
+3869220,120,Morocco,Abdelhamid Sabiri,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869220,121,Spain,Pablo Sarabia García,108,40,Penalty,Left Foot,0.7835,,Normal
+3869220,121,Morocco,Hakim Ziyech,108,40,Penalty,Left Foot,0.7835,1,Normal
+3869220,122,Spain,Carlos Soler Barragán,108,40,Penalty,Right Foot,0.7835,,Normal
+3869220,123,Morocco,Badr Banoun,108,40,Penalty,Right Foot,0.7835,,Normal
+3869220,124,Spain,Sergio Busquets i Burgos,108,40,Penalty,Right Foot,0.7835,,Normal
+3869220,125,Morocco,Achraf Hakimi Mouh,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869219,2,Japan,Shogo Taniguchi,112.6,38.8,Open Play,Head,0.11361285,,Normal
+3869219,7,Croatia,Ivan Perišić,116.7,29,Open Play,Right Foot,0.05943511,,Normal
+3869219,7,Croatia,Andrej Kramarić,114.5,38.3,Open Play,Left Foot,0.17775308,,Half Volley
+3869219,23,Croatia,Joško Gvardiol,101.1,43.6,Open Play,Left Foot,0.061746918,,Normal
+3869219,40,Japan,Daichi Kamada,114.1,28.8,Open Play,Right Foot,0.08994952,,Normal
+3869219,42,Japan,Daizen Maeda,113.5,44.3,Open Play,Left Foot,0.45874894,1,Half Volley
+3869219,45,Japan,Daichi Kamada,94.7,38.3,Open Play,Right Foot,0.03904812,,Normal
+3869219,48,Croatia,Mateo Kovačić,100.1,47.1,Open Play,Right Foot,0.02993381,,Volley
+3869219,49,Japan,Hidemasa Morita,98.2,36.8,Open Play,Right Foot,0.041140273,,Half Volley
+3869219,54,Croatia,Ivan Perišić,106,34.1,Open Play,Head,0.02684295,1,Normal
+3869219,56,Japan,Wataru Endo,94.4,52.9,Open Play,Right Foot,0.019910807,,Normal
+3869219,59,Japan,Wataru Endo,90,41.9,Open Play,Right Foot,0.020528734,,Normal
+3869219,59,Japan,Hidemasa Morita,97.8,36.3,Open Play,Right Foot,0.052081473,,Normal
+3869219,59,Japan,Ritsu Doan,100.4,43.7,Open Play,Left Foot,0.056113943,,Normal
+3869219,62,Croatia,Luka Modrić,96.3,48.9,Open Play,Right Foot,0.031055314,,Half Volley
+3869219,65,Croatia,Ivan Perišić,95.5,48.2,Open Play,Left Foot,0.018378427,,Normal
+3869219,65,Croatia,Andrej Kramarić,98.9,23.8,Open Play,Right Foot,0.018472007,,Normal
+3869219,65,Croatia,Ante Budimir,109.5,45.1,Open Play,Head,0.10111922,,Normal
+3869219,73,Croatia,Mario Pašalić,107.5,44.5,Open Play,Head,0.035465226,,Normal
+3869219,76,Croatia,Ivan Perišić,98.1,30.4,Open Play,Left Foot,0.030077945,,Normal
+3869219,85,Croatia,Mario Pašalić,110.5,42.8,Open Play,Head,0.052599985,,Normal
+3869219,91,Japan,Shogo Taniguchi,114.6,49.3,Open Play,Head,0.0608747,,Normal
+3869219,100,Croatia,Ivan Perišić,107.2,34.1,Open Play,Right Foot,0.07439702,,Half Volley
+3869219,100,Croatia,Borna Barišić,95.1,31.3,Open Play,Left Foot,0.015196718,,Volley
+3869219,104,Japan,Kaoru Mitoma,99.8,34.6,Open Play,Right Foot,0.054134306,,Normal
+3869219,104,Japan,Wataru Endo,95.7,37.1,Open Play,Right Foot,0.02615668,,Volley
+3869219,104,Japan,Takumi Minamino,102.6,40.3,Open Play,Right Foot,0.03667642,,Volley
+3869219,113,Croatia,Marko Livaja,112.8,47.7,Open Play,Head,0.047236525,,Normal
+3869219,120,Croatia,Mislav Oršić,106.8,19.7,Open Play,Right Foot,0.009676031,,Normal
+3869219,120,Croatia,Lovro Majer,99.8,33,Open Play,Right Foot,0.06501122,,Normal
+3869219,120,Japan,Takumi Minamino,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869219,120,Croatia,Nikola Vlašić,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869219,121,Japan,Kaoru Mitoma,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869219,121,Croatia,Marcelo Brozović,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869219,122,Japan,Takuma Asano,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869219,123,Croatia,Marko Livaja,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869219,123,Japan,Maya Yoshida,108.1,40.1,Penalty,Right Foot,0.7835,,Normal
+3869219,124,Croatia,Mario Pašalić,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3869253,6,Brazil,Neymar da Silva Santos Junior,111.3,44.4,Open Play,Right Foot,0.083826184,,Normal
+3869253,6,Brazil,Vinícius José Paixão de Oliveira Júnior,110,29.9,Open Play,Right Foot,0.13057186,1,Normal
+3869253,12,Brazil,Neymar da Silva Santos Junior,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869253,16,South Korea,Hee-Chan Hwang,90.4,28,Open Play,Right Foot,0.016991004,,Normal
+3869253,16,South Korea,In-Beom Hwang,91.7,46.4,Open Play,Left Foot,0.026666574,,Normal
+3869253,24,South Korea,Hee-Chan Hwang,82.7,33,Open Play,Right Foot,0.0058221314,,Normal
+3869253,28,Brazil,Richarlison de Andrade,110.7,43.3,Open Play,Left Foot,0.5379008,1,Normal
+3869253,30,Brazil,Raphael Dias Belloli,94.7,30.7,Open Play,Left Foot,0.02589997,,Normal
+3869253,31,South Korea,Hee-Chan Hwang,119.3,30.8,Open Play,Right Foot,0.017834108,,Normal
+3869253,33,Brazil,Carlos Henrique Casimiro,93.6,43.2,Open Play,Right Foot,0.029429397,,Normal
+3869253,35,Brazil,Lucas Tolentino Coelho de Lima,110,44.8,Open Play,Right Foot,0.08633457,1,Volley
+3869253,45,Brazil,Lucas Tolentino Coelho de Lima,112,49.2,Open Play,Left Foot,0.2577265,,Normal
+3869253,48,Brazil,Richarlison de Andrade,110.3,51.6,Open Play,Right Foot,0.2681848,,Normal
+3869253,48,Brazil,Neymar da Silva Santos Junior,111.4,42.3,Open Play,Other,0.26870713,,Normal
+3869253,45,Brazil,Raphael Dias Belloli,104.3,51.7,Open Play,Left Foot,0.04634087,,Normal
+3869253,46,South Korea,Heung-Min Son,105.3,27.9,Open Play,Right Foot,0.1490943,,Normal
+3869253,53,Brazil,Raphael Dias Belloli,110.4,50.6,Open Play,Left Foot,0.080992505,,Normal
+3869253,53,Brazil,Vinícius José Paixão de Oliveira Júnior,110.4,26.8,Open Play,Right Foot,0.05640157,,Normal
+3869253,57,Brazil,Raphael Dias Belloli,91,34,Free Kick,Left Foot,0.04321825,,Normal
+3869253,61,Brazil,Raphael Dias Belloli,114.6,51.1,Open Play,Right Foot,0.16284284,,Normal
+3869253,67,South Korea,Hee-Chan Hwang,106.8,51.7,Open Play,Right Foot,0.04724954,,Half Volley
+3869253,75,South Korea,Seung-Ho Paik,93.7,39.8,Open Play,Left Foot,0.023081098,1,Half Volley
+3869253,88,Brazil,Daniel Alves da Silva,111.1,53.1,Open Play,Right Foot,0.027839905,,Overhead Kick
+3869253,89,Brazil,Gleison Bremer Silva Nascimento,116.1,41,Open Play,Head,0.34439024,,Normal
+3869253,89,South Korea,Hee-Chan Hwang,112.9,53.6,Open Play,Right Foot,0.058088522,,Half Volley
+3869253,92,Brazil,Daniel Alves da Silva,88.4,46.1,Open Play,Right Foot,0.027316706,,Normal
+3869152,3,France,Raphaël Varane,114.3,40,Open Play,Head,0.1462742,,Normal
+3869152,10,France,Ousmane Dembélé,116,51.8,Open Play,Right Foot,0.040392082,,Normal
+3869152,12,France,Aurélien Djani Tchouaméni,87.8,30.9,Open Play,Right Foot,0.017185243,,Normal
+3869152,16,France,Ousmane Dembélé,99.2,46.7,Open Play,Left Foot,0.07651916,,Normal
+3869152,20,Poland,Robert Lewandowski,92.5,43.3,Open Play,Left Foot,0.03323787,,Normal
+3869152,21,France,Jules Koundé,94.5,56.1,Open Play,Right Foot,0.01624438,,Normal
+3869152,24,Poland,Przemysław Frankowski,109.5,24.7,Open Play,Right Foot,0.043646414,,Normal
+3869152,32,Poland,Robert Lewandowski,94.8,26.6,Free Kick,Right Foot,0.042642463,,Normal
+3869152,33,Poland,Matty Cash,99.1,56.2,Open Play,Right Foot,0.023505978,,Normal
+3869152,34,France,Kylian Mbappé Lottin,111.5,24.9,Open Play,Left Foot,0.047962468,,Normal
+3869152,35,France,Olivier Giroud,105.2,44.5,Open Play,Left Foot,0.046657436,,Half Volley
+3869152,37,Poland,Piotr Zieliński,106.6,41.6,Open Play,Right Foot,0.13905574,,Normal
+3869152,37,Poland,Piotr Zieliński,111.4,43.9,Open Play,Left Foot,0.2098723,,Half Volley
+3869152,37,Poland,Jakub Kamiński,114.1,50.5,Open Play,Right Foot,0.07224382,,Half Volley
+3869152,43,France,Olivier Giroud,105.6,32.3,Open Play,Left Foot,0.28635955,1,Normal
+3869152,45,Poland,Jakub Kamiński,108.8,51.7,Open Play,Right Foot,0.03898995,,Half Volley
+3869152,47,France,Antoine Griezmann,106.9,63.2,Free Kick,Left Foot,0.008752431,,Normal
+3869152,47,France,Theo Bernard François Hernández,98,38.5,Open Play,Right Foot,0.032634486,,Volley
+3869152,55,France,Kylian Mbappé Lottin,102,26.7,Open Play,Right Foot,0.02943752,,Normal
+3869152,62,France,Kylian Mbappé Lottin,110.2,26.3,Open Play,Right Foot,0.054253228,,Normal
+3869152,65,France,Olivier Giroud,115.8,46.8,Open Play,Left Foot,0.12365263,,Volley
+3869152,70,Poland,Kamil Glik,114,32,Open Play,Head,0.041239407,,Normal
+3869152,73,France,Kylian Mbappé Lottin,104.8,28.6,Open Play,Right Foot,0.08738103,1,Normal
+3869152,80,France,Theo Bernard François Hernández,105,33.4,Open Play,Right Foot,0.069959894,,Normal
+3869152,90,France,Kylian Mbappé Lottin,106.2,25.2,Open Play,Right Foot,0.042708755,1,Normal
+3869152,91,Poland,Robert Lewandowski,105.6,48.7,Open Play,Right Foot,0.061160102,,Half Volley
+3869152,93,Poland,Robert Lewandowski,113,40,Open Play,Head,0.10443308,,Normal
+3869152,98,Poland,Robert Lewandowski,108,40,Penalty,Right Foot,0.7835,1,Normal
+3869117,2,United States,Christian Pulisic,107.1,34.9,Open Play,Left Foot,0.3196895,,Half Volley
+3869117,9,Netherlands,Memphis Depay,104.9,43.7,Open Play,Right Foot,0.16183718,1,Normal
+3869117,17,Netherlands,Daley Blind,103.6,30.6,Open Play,Left Foot,0.07337185,,Normal
+3869117,20,Netherlands,Memphis Depay,106.1,62.1,Open Play,Right Foot,0.008920797,,Half Volley
+3869117,42,United States,Timothy Weah,97.5,53.3,Open Play,Right Foot,0.028368456,,Half Volley
+3869117,43,United States,Sergino Dest,105.2,46.2,Open Play,Right Foot,0.07418261,,Normal
+3869117,45,Netherlands,Daley Blind,107.6,38.5,Open Play,Right Foot,0.2502288,1,Normal
+3869117,48,United States,Weston McKennie,109.1,36.5,Open Play,Head,0.03899759,,Normal
+3869117,48,United States,Tim Ream,116.5,37.1,Open Play,Left Foot,0.2582279,,Half Volley
+3869117,48,United States,Weston McKennie,108.4,37,Open Play,Head,0.06857926,,Normal
+3869117,50,United States,Sergino Dest,100.9,57.3,Open Play,Left Foot,0.01609117,,Normal
+3869117,52,United States,Christian Pulisic,98.4,27.3,Open Play,Right Foot,0.040512722,,Normal
+3869117,53,United States,Weston McKennie,102.1,35,Open Play,Left Foot,0.053084504,,Half Volley
+3869117,60,Netherlands,Cody Mathès Gakpo,100,50.7,Open Play,Left Foot,0.053106464,,Normal
+3869117,60,Netherlands,Memphis Depay,98.6,47,Open Play,Right Foot,0.046333984,,Normal
+3869117,62,United States,Timothy Weah,99.1,51,Open Play,Left Foot,0.04334448,,Normal
+3869117,70,Netherlands,Virgil van Dijk,111.8,41.3,Open Play,Head,0.08036702,,Normal
+3869117,70,Netherlands,Teun Koopmeiners,94.5,37.8,Open Play,Left Foot,0.04472613,,Normal
+3869117,70,Netherlands,Memphis Depay,113.1,34.4,Open Play,Head,0.27671057,,Diving Header
+3869117,73,United States,Giovanni Reyna,98.9,49.9,Open Play,Left Foot,0.042619057,,Normal
+3869117,74,United States,Haji Wright,115.2,55.6,Open Play,Right Foot,0.046546377,,Normal
+3869117,75,United States,Haji Wright,115.1,45.2,Open Play,Right Foot,0.3636808,1,Normal
+3869117,77,Netherlands,Steven Bergwijn,109.5,32.8,Open Play,Right Foot,0.25042096,,Normal
+3869117,78,United States,Christian Pulisic,99.5,25.3,Open Play,Left Foot,0.031073315,,Normal
+3869117,80,Netherlands,Denzel Dumfries,113.5,44.3,Open Play,Left Foot,0.23592436,1,Volley
+3869117,85,United States,Walker Zimmerman,107.2,43,Open Play,Right Foot,0.05674074,,Volley
+3869117,88,United States,Giovanni Reyna,103.1,51.4,Open Play,Left Foot,0.043403003,,Normal
+3869117,93,United States,Yunus Dimoara Musah,103.9,44.2,Open Play,Right Foot,0.054460905,,Half Volley
+3869117,94,United States,Haji Wright,111.3,40.2,Open Play,Head,0.072495155,,Normal
+3857270,2,Uruguay,Mathías Olivera Miramontes,98.2,27.8,Open Play,Left Foot,0.039672486,,Normal
+3857270,2,Portugal,William Silva de Carvalho,104.9,30.5,Open Play,Right Foot,0.048683427,,Volley
+3857270,7,Portugal,Bruno Miguel Borges Fernandes,90.8,53.9,Open Play,Right Foot,0.014580331,,Normal
+3857270,11,Uruguay,José María Giménez de Vargas,109.4,37.1,Open Play,Head,0.050594334,,Normal
+3857270,15,Portugal,João Félix Sequeira,101,30.9,Open Play,Right Foot,0.033737455,,Normal
+3857270,17,Portugal,Cristiano Ronaldo dos Santos Aveiro,96,23.4,Free Kick,Right Foot,0.026755862,,Normal
+3857270,19,Portugal,Rúben Diogo Da Silva Neves,92.4,50,Open Play,Right Foot,0.015326656,,Half Volley
+3857270,31,Uruguay,Rodrigo Bentancur Colmán,106.8,41.3,Open Play,Right Foot,0.49410823,,Normal
+3857270,34,Portugal,Cristiano Ronaldo dos Santos Aveiro,99.4,24.7,Open Play,Left Foot,0.029249214,,Normal
+3857270,34,Portugal,João Félix Sequeira,91.6,31.8,Open Play,Right Foot,0.022321237,,Normal
+3857270,35,Uruguay,Rodrigo Bentancur Colmán,108.4,29.5,Open Play,Right Foot,0.07433986,,Normal
+3857270,36,Portugal,Bruno Miguel Borges Fernandes,93.1,33,Open Play,Right Foot,0.028039778,,Normal
+3857270,51,Portugal,João Félix Sequeira,107.9,27.1,Open Play,Left Foot,0.036293734,,Normal
+3857270,53,Portugal,Bruno Miguel Borges Fernandes,99.4,14.6,Open Play,Right Foot,0.0077694156,1,Normal
+3857270,56,Portugal,Cristiano Ronaldo dos Santos Aveiro,84.9,19.1,Open Play,Right Foot,0.007159395,,Normal
+3857270,57,Uruguay,Edinson Roberto Cavani Gómez,102.9,39.7,Open Play,Right Foot,0.07401822,,Volley
+3857270,59,Uruguay,Darwin Gabriel Núñez Ribeiro,92.8,43.6,Open Play,Right Foot,0.03092143,,Normal
+3857270,64,Uruguay,Mathías Olivera Miramontes,108.1,33.8,Open Play,Head,0.041303303,,Normal
+3857270,74,Uruguay,Maximiliano Gómez González,99.2,43.2,Open Play,Right Foot,0.047642853,,Normal
+3857270,77,Uruguay,Luis Alberto Suárez Díaz,115.6,34,Open Play,Left Foot,0.088375136,,Half Volley
+3857270,78,Uruguay,Giorgian Daniel De Arrascaeta Benedetti,109.3,50,Open Play,Right Foot,0.2560759,,Normal
+3857270,82,Portugal,Rafael Alexandre Conceição Leão,95.3,49.1,Open Play,Right Foot,0.026902085,,Normal
+3857270,85,Uruguay,Federico Santiago Valverde Dipetta,88.2,44.5,Open Play,Right Foot,0.019629322,,Normal
+3857270,92,Portugal,Bruno Miguel Borges Fernandes,108,40,Penalty,Right Foot,0.7835,1,Normal
+3857270,97,Portugal,Bruno Miguel Borges Fernandes,117.7,50,Open Play,Right Foot,0.032710962,,Volley
+3857270,98,Portugal,Bruno Miguel Borges Fernandes,100.6,35,Open Play,Right Foot,0.100704454,,Half Volley
+3857263,6,Spain,Daniel Olmo Carvajal,100.5,26.1,Open Play,Right Foot,0.032144632,,Normal
+3857263,21,Spain,Jordi Alba Ramos,96.6,23.3,Open Play,Right Foot,0.021667236,,Normal
+3857263,24,Germany,Serge Gnabry,102.8,56.6,Open Play,Left Foot,0.028963488,,Normal
+3857263,25,Spain,Ferrán Torres García,102.8,46.4,Open Play,Left Foot,0.068952255,,Normal
+3857263,29,Germany,Antonio Rüdiger,89.6,25.9,Open Play,Right Foot,0.0065071667,,Normal
+3857263,35,Spain,Ferrán Torres García,109.8,54.6,Open Play,Right Foot,0.04777013,,Normal
+3857263,44,Germany,Antonio Rüdiger,113.7,60.2,Open Play,Right Foot,0.008851705,,Half Volley
+3857263,55,Germany,Joshua Kimmich,105.8,40.6,Open Play,Right Foot,0.09558376,,Normal
+3857263,58,Spain,Daniel Olmo Carvajal,85.8,31.1,Open Play,Right Foot,0.0118638035,,Normal
+3857263,61,Spain,Álvaro Borja Morata Martín,113.2,34.3,Open Play,Right Foot,0.31874228,1,Normal
+3857263,63,Germany,Leon Goretzka,96.2,39.7,Open Play,Right Foot,0.036448006,,Normal
+3857263,64,Spain,Marco Asensio Willemsen,101.7,45.4,Open Play,Left Foot,0.13836038,,Normal
+3857263,72,Germany,Niclas Füllkrug,111.2,41.5,Open Play,Right Foot,0.3730103,,Normal
+3857263,72,Germany,Jamal Musiala,110.1,50.1,Open Play,Right Foot,0.28996226,,Normal
+3857263,72,Germany,Serge Gnabry,104.9,23.6,Open Play,Right Foot,0.024480116,,Volley
+3857263,73,Germany,Niclas Füllkrug,111.3,42.8,Open Play,Head,0.065169856,,Normal
+3857263,80,Germany,Joshua Kimmich,98.9,25.7,Free Kick,Right Foot,0.053563386,,Normal
+3857263,82,Germany,Niclas Füllkrug,110.8,51.9,Open Play,Right Foot,0.16441207,1,Normal
+3857259,5,Serbia,Aleksandar Mitrović,110.4,33,Open Play,Head,0.06545554,,Normal
+3857259,10,Serbia,Aleksandar Mitrović,114.4,54.2,Open Play,Left Foot,0.016927462,,Normal
+3857259,10,Serbia,Filip Kostić,108.2,21.4,Open Play,Left Foot,0.012009094,,Normal
+3857259,15,Cameroon,Nicolas Alexis Julio N'Koulou Ndoubena,95.9,33.9,Open Play,Left Foot,0.046143826,,Normal
+3857259,16,Serbia,Aleksandar Mitrović,108.9,38.6,Open Play,Right Foot,0.063389905,,Half Volley
+3857259,18,Cameroon,Pierre Kunde Malong,108.1,60.1,Open Play,Right Foot,0.009715966,,Half Volley
+3857259,19,Cameroon,Pierre Kunde Malong,96.8,50.1,Open Play,Right Foot,0.029523049,,Normal
+3857259,28,Cameroon,Nicolas Alexis Julio N'Koulou Ndoubena,115.2,33.5,Open Play,Head,0.09064111,,Normal
+3857259,28,Cameroon,Jean-Charles Castelletto,118.5,43.2,Open Play,Right Foot,0.8945071,1,Volley
+3857259,42,Cameroon,Pierre Kunde Malong,103.5,53.8,Open Play,Right Foot,0.0845098,,Normal
+3857259,42,Cameroon,Pierre Kunde Malong,110.5,55.1,Open Play,Right Foot,0.056867022,,Normal
+3857259,45,Serbia,Strahinja Pavlović,110.7,42.8,Open Play,Head,0.07892812,1,Normal
+3857259,47,Serbia,Sergej Milinković-Savić,99.6,46.7,Open Play,Left Foot,0.058657028,1,Normal
+3857259,50,Serbia,Aleksandar Mitrović,98.4,45.9,Open Play,Right Foot,0.08318807,,Normal
+3857259,51,Serbia,Saša Lukić,103,49.6,Open Play,Right Foot,0.039666813,,Half Volley
+3857259,52,Serbia,Aleksandar Mitrović,113.6,40.2,Open Play,Right Foot,0.8974681,1,Normal
+3857259,59,Cameroon,Vincent Paté Aboubakar,106.5,47.6,Open Play,Left Foot,0.05176351,,Normal
+3857259,61,Cameroon,Karl Brillant Toko Ekambi,106.4,24.5,Open Play,Right Foot,0.02132554,,Normal
+3857259,62,Serbia,Sergej Milinković-Savić,96.4,47.8,Open Play,Right Foot,0.10917903,,Lob
+3857259,62,Cameroon,Vincent Paté Aboubakar,104.4,49,Open Play,Right Foot,0.28323865,1,Lob
+3857259,65,Cameroon,Jean-Eric Maxim Choupo-Moting,111,37,Open Play,Left Foot,0.46942416,1,Normal
+3857259,69,Serbia,Nikola Milenković,110.5,45.7,Open Play,Head,0.0304652,,Normal
+3857259,75,Serbia,Aleksandar Mitrović,110.1,55.7,Open Play,Right Foot,0.10947208,,Normal
+3857259,77,Serbia,Sergej Milinković-Savić,95.2,48.2,Open Play,Right Foot,0.032438725,,Normal
+3857259,86,Cameroon,Vincent Paté Aboubakar,94,24.8,Open Play,Right Foot,0.025639288,,Normal
+3857259,88,Serbia,Aleksandar Mitrović,105.1,38.3,Open Play,Right Foot,0.1134657,,Normal
+3857259,94,Cameroon,Georges-Kévin Nkoudou Mbida,103.3,13.7,Free Kick,Right Foot,0.0070103277,,Normal
+3857259,94,Serbia,Marko Grujić,92.3,33.6,Open Play,Right Foot,0.027356416,,Half Volley
+3857283,4,Belgium,Michy Batshuayi Tunga,110,29.6,Open Play,Left Foot,0.13561569,,Normal
+3857283,15,Belgium,Kevin De Bruyne,95.2,30.1,Open Play,Right Foot,0.023734333,,Half Volley
+3857283,16,Belgium,Amadou Onana,114.6,38.6,Open Play,Head,0.22733837,,Normal
+3857283,18,Belgium,Thomas Meunier,101.1,27.4,Open Play,Right Foot,0.050302412,,Normal
+3857283,20,Morocco,Hakim Ziyech,88.5,52,Open Play,Left Foot,0.010982664,,Normal
+3857283,27,Morocco,Selim Amallah,106,49.7,Open Play,Right Foot,0.054105066,,Volley
+3857283,34,Morocco,Achraf Hakimi Mouh,109.4,56.3,Open Play,Right Foot,0.054164495,,Normal
+3857283,34,Belgium,Kevin De Bruyne,94.1,42.1,Open Play,Left Foot,0.021631707,,Normal
+3857283,38,Belgium,Kevin De Bruyne,112.6,6.7,Free Kick,Right Foot,0.007375095,,Normal
+3857283,49,Morocco,Hakim Ziyech,95.2,48.1,Open Play,Left Foot,0.02991042,,Normal
+3857283,51,Belgium,Eden Hazard,104.9,58.7,Open Play,Right Foot,0.009158539,,Normal
+3857283,51,Belgium,Amadou Onana,111.4,40.8,Open Play,Head,0.06452631,,Normal
+3857283,56,Morocco,Sofiane Boufal,106.6,22,Open Play,Right Foot,0.01369968,,Normal
+3857283,60,Morocco,Noussair Mazraoui,87.4,35.3,Open Play,Right Foot,0.022188112,,Normal
+3857283,64,Belgium,Dries Mertens,97.9,37.7,Open Play,Right Foot,0.065653466,,Normal
+3857283,68,Morocco,Azzedine Ounahi,87.6,38.2,Open Play,Right Foot,0.023304239,,Normal
+3857283,72,Morocco,Romain Saïss,118,36.4,Open Play,Other,0.56495196,1,Normal
+3857283,81,Belgium,Jan Vertonghen,109.1,37.6,Open Play,Head,0.03727616,,Normal
+3857283,90,Morocco,Abderrazak Hamdallah,116.6,28.9,Open Play,Left Foot,0.036752854,,Normal
+3857283,91,Morocco,Zakaria Aboukhlal,110.3,46.8,Open Play,Right Foot,0.18104906,1,Normal
+3857286,15,Ecuador,Enner Remberto Valencia Lastra,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3857286,28,Ecuador,Romario Andrés Ibarra Mina,96.5,46.4,Open Play,Right Foot,0.057691004,,Normal
+3857286,30,Ecuador,Enner Remberto Valencia Lastra,109.6,38,Open Play,Head,0.08878088,1,Normal
+3857286,32,Qatar,Abdelkarim Hassan Al Haj Fadlalla,88.4,22.4,Open Play,Left Foot,0.0062173195,,Normal
+3857286,49,Qatar,Almoez Ali Zainalabiddin Abdulla,113,43.7,Open Play,Head,0.21267414,,Normal
+3857286,51,Ecuador,Angelo Smit Preciado Quiñónez,91.7,61.5,Open Play,Right Foot,0.0066099144,,Normal
+3857286,54,Ecuador,Romario Andrés Ibarra Mina,101.9,32.3,Open Play,Right Foot,0.07894745,,Normal
+3857286,61,Qatar,Pedro Miguel Correia,106.5,47.5,Open Play,Head,0.030855335,,Normal
+3857286,74,Qatar,Akram Hassan Afif,92.1,23.1,Open Play,Right Foot,0.009109482,,Normal
+3857286,85,Qatar,Mohammed Muntari,100.2,55.2,Open Play,Right Foot,0.045332674,,Half Volley
+3857286,94,Ecuador,Kevin José Rodríguez Cortez,112.3,37.4,Open Play,Head,0.13848205,,Normal
+3857300,1,Argentina,Lionel Andrés Messi Cuccittini,104.5,44.5,Open Play,Left Foot,0.15308252,,Normal
+3857300,9,Argentina,Lionel Andrés Messi Cuccittini,108,40,Penalty,Left Foot,0.7835,1,Normal
+3857300,20,Argentina,Alejandro Darío Gómez,98.4,20.2,Open Play,Right Foot,0.011924569,,Normal
+3857300,41,Argentina,Lautaro Javier Martínez,113.2,33.8,Open Play,Head,0.0877444,,Normal
+3857300,41,Argentina,Rodrigo Javier De Paul,101.1,41.8,Open Play,Right Foot,0.050540753,,Half Volley
+3857300,47,Saudi Arabia,Saleh Khalid Al Shehri,108,29.6,Open Play,Left Foot,0.080592275,1,Normal
+3857300,52,Saudi Arabia,Nawaf Shaker Al Abid,104.9,54.1,Open Play,Left Foot,0.040064447,,Normal
+3857300,52,Saudi Arabia,Salem Mohammed Al Dawsari,102.4,25.3,Open Play,Right Foot,0.03280492,1,Normal
+3857300,62,Argentina,Lisandro Martínez,111.1,39.9,Open Play,Right Foot,0.33156127,,Normal
+3857300,62,Argentina,Nicolás Alejandro Tagliafico,116.1,37.2,Open Play,Other,0.63619345,,Normal
+3857300,68,Argentina,Lautaro Javier Martínez,116.5,31.1,Open Play,Head,0.077176735,,Normal
+3857300,71,Argentina,Ángel Fabián Di María Hernández,111.4,54.4,Open Play,Right Foot,0.0639515,,Normal
+3857300,73,Argentina,Ángel Fabián Di María Hernández,86.7,57.3,Open Play,Left Foot,0.015201165,,Half Volley
+3857300,75,Argentina,Enzo Fernandez,108.2,39.6,Open Play,Head,0.036932193,,Normal
+3857300,79,Argentina,Lionel Andrés Messi Cuccittini,92.8,47.1,Free Kick,Left Foot,0.056788407,,Normal
+3857300,83,Argentina,Lionel Andrés Messi Cuccittini,113.6,32.2,Open Play,Head,0.077553175,,Normal
+3857300,90,Argentina,Nicolás Hernán Otamendi,109.5,37.8,Open Play,Head,0.048093256,,Normal
+3857300,100,Argentina,Julián Álvarez,112.5,33.2,Open Play,Head,0.061390053,,Normal
+3857299,3,South Korea,Gue-Sung Cho,111.9,44.7,Open Play,Left Foot,0.09163986,,Normal
+3857299,7,South Korea,Woo-Yeong Jeong,96.7,49.1,Open Play,Right Foot,0.03008143,,Normal
+3857299,7,South Korea,Min Jae Kim,114.5,47.9,Open Play,Head,0.059008703,,Normal
+3857299,7,South Korea,In-Beom Hwang,95.7,54.9,Open Play,Right Foot,0.019586006,,Normal
+3857299,17,South Korea,Gue-Sung Cho,115.4,30.4,Open Play,Head,0.055939306,,Normal
+3857299,23,Ghana,Mohamed Salisu,115.5,37.9,Open Play,Left Foot,0.4040968,1,Half Volley
+3857299,33,Ghana,Mohammed Kudus,113.1,41.8,Open Play,Head,0.20083603,1,Normal
+3857299,44,South Korea,Woo-Young Jung,100.6,20,Open Play,Right Foot,0.010946972,,Normal
+3857299,49,Ghana,Thomas Teye Partey,118.3,36.2,Open Play,Head,0.21468838,,Normal
+3857299,49,Ghana,Tariq Lamptey,104.8,52.1,Open Play,Left Foot,0.07450179,,Normal
+3857299,52,South Korea,Gue-Sung Cho,111.6,36.7,Open Play,Head,0.07677545,,Normal
+3857299,57,South Korea,Gue-Sung Cho,112.6,38.4,Open Play,Head,0.23484395,1,Normal
+3857299,60,South Korea,Gue-Sung Cho,115.5,43.7,Open Play,Head,0.16237147,1,Normal
+3857299,67,Ghana,Iñaki Williams Arthuer,109.2,32.5,Open Play,Right Foot,0.10557394,,Normal
+3857299,67,Ghana,Mohammed Kudus,108.4,48.6,Open Play,Left Foot,0.15416233,1,Normal
+3857299,74,South Korea,Kang-In Lee,90.9,45.4,Free Kick,Left Foot,0.034794893,,Normal
+3857299,75,South Korea,Heung-Min Son,110.9,29.2,Open Play,Right Foot,0.065267496,,Normal
+3857299,75,South Korea,Kang-In Lee,114.2,56.1,Open Play,Left Foot,0.011154885,,Normal
+3857299,75,South Korea,Jin-Su Kim,112,30.1,Open Play,Left Foot,0.19109753,,Volley
+3857299,82,Ghana,Salis Abdul Samed,96.1,40.1,Open Play,Right Foot,0.026676558,,Volley
+3857299,83,South Korea,Jin-Su Kim,107.7,23.5,Open Play,Left Foot,0.03964235,,Normal
+3857299,85,South Korea,Jin-Su Kim,112,33.2,Open Play,Head,0.054534186,,Normal
+3857299,90,South Korea,Heung-Min Son,109.6,28.5,Open Play,Right Foot,0.060233038,,Normal
+3857299,90,South Korea,Young-Gwon Kim,103.6,37.6,Open Play,Left Foot,0.064945966,,Normal
+3857299,90,South Korea,Sang-Ho Na,113,49.3,Open Play,Head,0.05996953,,Normal
+3857299,93,South Korea,Gue-Sung Cho,111.6,23.1,Open Play,Left Foot,0.014336902,,Normal
+3857299,99,South Korea,Kang-In Lee,98.5,56.8,Open Play,Left Foot,0.025138553,,Normal
+3857299,100,South Korea,Kyung-Won Kwon,83.8,54.1,Open Play,Left Foot,0.005484339,,Normal
+3857293,15,Ghana,Jordan Ayew,101.8,36.6,Open Play,Right Foot,0.07146578,,Normal
+3857293,20,Ghana,André Ayew Pelé,108,40,Penalty,Left Foot,0.7835,,Normal
+3857293,22,Uruguay,Darwin Gabriel Núñez Ribeiro,106.8,29,Open Play,Right Foot,0.15781382,,Lob
+3857293,25,Uruguay,Luis Alberto Suárez Díaz,108.6,33.4,Open Play,Right Foot,0.2733873,,Normal
+3857293,25,Uruguay,Giorgian Daniel De Arrascaeta Benedetti,118,42.7,Open Play,Head,0.71106935,1,Normal
+3857293,31,Uruguay,Giorgian Daniel De Arrascaeta Benedetti,110.8,31.2,Open Play,Right Foot,0.16736692,1,Volley
+3857293,36,Ghana,Mohammed Kudus,94.7,45.8,Open Play,Left Foot,0.041819587,,Normal
+3857293,49,Uruguay,José María Giménez de Vargas,106.5,42.5,Open Play,Head,0.03238874,,Normal
+3857293,45,Ghana,Osman Bukari,104.7,50.8,Open Play,Right Foot,0.08441304,,Half Volley
+3857293,64,Uruguay,Facundo Pellistri Rebollo,107.5,33.2,Open Play,Right Foot,0.099497445,,Normal
+3857293,69,Uruguay,Federico Santiago Valverde Dipetta,92.5,22.5,Open Play,Right Foot,0.0066686436,,Volley
+3857293,69,Uruguay,Federico Santiago Valverde Dipetta,93,21.1,Open Play,Right Foot,0.008103582,,Normal
+3857293,70,Ghana,Mohammed Kudus,95.7,47.2,Open Play,Right Foot,0.04665373,,Normal
+3857293,76,Uruguay,Federico Santiago Valverde Dipetta,59,4,Open Play,Right Foot,0.003913026,,Normal
+3857293,78,Ghana,Antoine Semenyo,109.6,28,Open Play,Left Foot,0.12024433,,Normal
+3857293,80,Ghana,Mohammed Kudus,96.8,42.8,Open Play,Left Foot,0.05586675,,Normal
+3857293,94,Ghana,Mohammed Kudus,108,43.6,Open Play,Left Foot,0.10750313,,Half Volley
+3857293,94,Uruguay,Maximiliano Gómez González,93,49.4,Open Play,Right Foot,0.030132728,,Normal
+3857293,95,Ghana,Kamaldeen Sulemana,99.5,50.6,Open Play,Right Foot,0.081227794,,Normal
+3857293,96,Uruguay,Sebastián Coates Nión,108.8,43,Open Play,Right Foot,0.103292696,,Normal
+3857293,99,Uruguay,Diego Nicolás De La Cruz Arcosa,91.4,33.9,Free Kick,Right Foot,0.0429242,,Normal
+3857291,4,Spain,Daniel Olmo Carvajal,112.4,45.9,Open Play,Right Foot,0.20824905,,Volley
+3857291,8,Spain,Marco Asensio Willemsen,102.5,40.7,Open Play,Left Foot,0.1501565,,Normal
+3857291,10,Spain,Daniel Olmo Carvajal,112.3,39.3,Open Play,Right Foot,0.48925844,1,Lob
+3857291,20,Spain,Marco Asensio Willemsen,105.8,33.4,Open Play,Left Foot,0.09218961,1,Half Volley
+3857291,30,Spain,Ferrán Torres García,108.1,40.1,Penalty,Right Foot,0.7835,1,Normal
+3857291,42,Spain,Marco Asensio Willemsen,91.7,29.8,Open Play,Left Foot,0.015886325,,Normal
+3857291,49,Spain,Marco Asensio Willemsen,110.5,30.5,Open Play,Left Foot,0.04809784,,Normal
+3857291,47,Spain,Marco Asensio Willemsen,100.5,45.7,Open Play,Left Foot,0.08547543,,Normal
+3857291,53,Spain,Ferrán Torres García,114.7,49.4,Open Play,Left Foot,0.10498973,1,Normal
+3857291,61,Spain,Daniel Olmo Carvajal,92,25.7,Open Play,Right Foot,0.017297672,,Normal
+3857291,62,Spain,Álvaro Borja Morata Martín,112,54,Open Play,Right Foot,0.06487478,,Normal
+3857291,69,Spain,Daniel Olmo Carvajal,110.3,29.3,Open Play,Head,0.033574425,,Normal
+3857291,73,Spain,Pablo Martín Páez Gavira,103,45.8,Open Play,Right Foot,0.056229107,1,Volley
+3857291,89,Spain,Carlos Soler Barragán,109.7,40.1,Open Play,Right Foot,0.33333436,1,Normal
+3857291,91,Spain,Álvaro Borja Morata Martín,104,36.4,Open Play,Left Foot,0.16366571,1,Normal
+3857291,95,Spain,Carlos Soler Barragán,102.5,42.5,Open Play,Right Foot,0.10654532,,Normal
+3857291,97,Spain,Carlos Soler Barragán,103.5,16.7,Free Kick,Right Foot,0.008599174,,Normal
+3857281,1,Canada,Alphonso Davies,109.6,36.4,Open Play,Head,0.08130363,1,Normal
+3857281,21,Croatia,Marko Livaja,109.5,36.8,Open Play,Right Foot,0.4341785,,Normal
+3857281,34,Croatia,Marko Livaja,109.9,50,Open Play,Right Foot,0.24546398,,Normal
+3857281,35,Croatia,Andrej Kramarić,114.1,29.4,Open Play,Left Foot,0.14639324,1,Normal
+3857281,43,Croatia,Marko Livaja,101,39.1,Open Play,Right Foot,0.13916126,1,Normal
+3857281,46,Croatia,Andrej Kramarić,98.7,33.1,Open Play,Left Foot,0.059277993,,Normal
+3857281,48,Canada,Jonathan Osorio,98.3,50.1,Open Play,Right Foot,0.03829635,,Normal
+3857281,53,Croatia,Andrej Kramarić,108.2,42.1,Open Play,Right Foot,0.24875651,,Normal
+3857281,55,Canada,Jonathan David,96.4,39.9,Open Play,Right Foot,0.052886155,,Normal
+3857281,57,Canada,Tajon Buchanan,99.8,52.9,Open Play,Right Foot,0.023891453,,Normal
+3857281,62,Canada,Alphonso Davies,101.1,59.8,Free Kick,Left Foot,0.011981465,,Normal
+3857281,69,Croatia,Andrej Kramarić,106.8,47.1,Open Play,Left Foot,0.10933437,1,Normal
+3857281,71,Croatia,Andrej Kramarić,115.1,46.8,Open Play,Left Foot,0.1355834,,Half Volley
+3857281,76,Canada,David Junior Hoilett,92.2,33,Open Play,Right Foot,0.019849088,,Normal
+3857281,77,Croatia,Ivan Perišić,115.3,26.9,Open Play,Left Foot,0.031612467,,Normal
+3857281,77,Croatia,Marcelo Brozović,110.3,42.6,Open Play,Left Foot,0.30414897,,Normal
+3857281,81,Croatia,Ivan Perišić,96,26.3,Open Play,Left Foot,0.02367336,,Normal
+3857281,89,Croatia,Mislav Oršić,98.2,35.1,Open Play,Right Foot,0.045590583,,Normal
+3857281,92,Canada,David Junior Hoilett,98.1,33.5,Open Play,Right Foot,0.03737635,,Half Volley
+3857281,92,Canada,David Junior Hoilett,99.5,26.7,Open Play,Right Foot,0.02121069,,Volley
+3857281,93,Croatia,Lovro Majer,109.2,45.4,Open Play,Left Foot,0.68703645,1,Normal
+3857280,1,Brazil,Frederico Rodrigues Santos,108.7,38.6,Open Play,Left Foot,0.29454654,,Normal
+3857280,1,Brazil,Antony Matheus dos Santos,103.3,25.5,Open Play,Left Foot,0.038875267,,Normal
+3857280,13,Brazil,Gabriel Teodoro Martinelli Silva,111.8,34.5,Open Play,Head,0.12449543,,Normal
+3857280,14,Brazil,Gabriel Fernando de Jesus,113.4,48.9,Open Play,Head,0.044797283,,Normal
+3857280,21,Brazil,Frederico Rodrigues Santos,107.6,39.2,Open Play,Right Foot,0.083684884,,Half Volley
+3857280,29,Brazil,Rodrygo Silva de Goes,94,42.7,Free Kick,Right Foot,0.0651609,,Normal
+3857280,33,Brazil,Daniel Alves da Silva,96.7,29.3,Free Kick,Right Foot,0.06485747,,Normal
+3857280,37,Brazil,Antony Matheus dos Santos,105.6,52.3,Open Play,Left Foot,0.033440635,,Normal
+3857280,45,Brazil,Gabriel Teodoro Martinelli Silva,101.3,45.2,Open Play,Right Foot,0.047920834,,Normal
+3857280,46,Brazil,Rodrygo Silva de Goes,107.8,50,Open Play,Right Foot,0.06651591,,Normal
+3857280,47,Cameroon,Bryan Mbeumo,113.5,47.4,Open Play,Head,0.11827337,,Normal
+3857280,50,Cameroon,Vincent Paté Aboubakar,109.5,54,Open Play,Right Foot,0.07058843,,Normal
+3857280,52,Brazil,Gabriel Fernando de Jesus,111.9,36.3,Open Play,Right Foot,0.27918908,,Normal
+3857280,53,Cameroon,Pierre Kunde Malong,91.8,17.8,Open Play,Right Foot,0.006493906,,Normal
+3857280,55,Brazil,Gabriel Teodoro Martinelli Silva,108.9,25.7,Open Play,Right Foot,0.038835723,,Normal
+3857280,56,Brazil,Éder Gabriel Militão,105.3,39.2,Open Play,Left Foot,0.075584605,,Half Volley
+3857280,57,Brazil,Antony Matheus dos Santos,101,51.2,Open Play,Left Foot,0.037848417,,Normal
+3857280,72,Brazil,Bruno Guimarães Rodriguez Moura,99.9,37.6,Open Play,Right Foot,0.086029716,,Normal
+3857280,77,Cameroon,Jules Olivier Ntcham,92.8,35.5,Open Play,Right Foot,0.03332142,,Normal
+3857280,79,Cameroon,Vincent Paté Aboubakar,104.1,25.5,Open Play,Right Foot,0.042308386,,Normal
+3857280,80,Cameroon,Christopher Wooh,106.3,39.9,Open Play,Right Foot,0.05692788,,Half Volley
+3857280,83,Brazil,Bruno Guimarães Rodriguez Moura,114.9,44,Open Play,Right Foot,0.14917652,,Normal
+3857280,88,Brazil,Pedro Guilherme Abreu dos Santos,104.2,47.1,Open Play,Left Foot,0.18481041,,Normal
+3857280,91,Cameroon,Vincent Paté Aboubakar,106.7,40.7,Open Play,Head,0.05544736,1,Normal
+3857280,95,Brazil,Pedro Guilherme Abreu dos Santos,108.8,37.5,Open Play,Head,0.07645427,,Normal
+3857280,96,Brazil,Bruno Guimarães Rodriguez Moura,112.9,39.8,Open Play,Head,0.17098139,,Normal
+3857280,97,Brazil,Gabriel Teodoro Martinelli Silva,115.1,36,Open Play,Head,0.1945778,,Normal
+3857280,98,Brazil,Bruno Guimarães Rodriguez Moura,114.1,35.3,Open Play,Right Foot,0.22043578,,Half Volley
+3857279,1,France,Ousmane Dembélé,95,47.8,Open Play,Left Foot,0.018982504,,Volley
+3857279,2,Australia,Riley McGree,89.5,39.1,Open Play,Right Foot,0.030384658,,Normal
+3857279,8,Australia,Craig Goodwin,114.2,31.3,Open Play,Left Foot,0.19147108,1,Half Volley
+3857279,12,France,Theo Bernard François Hernández,92.7,34,Open Play,Left Foot,0.017692888,,Volley
+3857279,21,Australia,Mitchell Thomas Duke,91.1,46.9,Open Play,Right Foot,0.017896876,,Normal
+3857279,25,France,Antoine Griezmann,112.1,52.7,Open Play,Right Foot,0.034694295,,Half Volley
+3857279,26,France,Adrien Rabiot,111.6,42,Open Play,Head,0.16905431,1,Normal
+3857279,28,France,Olivier Giroud,112.3,39.8,Open Play,Head,0.17925091,,Normal
+3857279,31,France,Olivier Giroud,110.5,39.2,Open Play,Right Foot,0.77927965,1,Normal
+3857279,36,France,Kylian Mbappé Lottin,105,47.2,Open Play,Right Foot,0.08709453,,Half Volley
+3857279,36,France,Olivier Giroud,104.5,38.9,Open Play,Right Foot,0.14067347,,Half Volley
+3857279,39,France,Ousmane Dembélé,106.5,38.2,Open Play,Right Foot,0.08098688,,Half Volley
+3857279,41,France,Antoine Griezmann,99.5,47.5,Open Play,Left Foot,0.04884043,,Normal
+3857279,44,France,Kylian Mbappé Lottin,112.9,40.2,Open Play,Right Foot,0.5517509,,Volley
+3857279,46,Australia,Jackson Irvine,110.1,43.4,Open Play,Head,0.083539926,,Normal
+3857279,49,France,Aurélien Djani Tchouaméni,96.3,40.8,Open Play,Right Foot,0.035826564,,Normal
+3857279,49,France,Olivier Giroud,111.6,44.2,Open Play,Left Foot,0.07860331,,Overhead Kick
+3857279,60,France,Kylian Mbappé Lottin,107.5,31.1,Open Play,Right Foot,0.12751806,,Normal
+3857279,62,France,Kylian Mbappé Lottin,109.2,30.1,Open Play,Left Foot,0.07606661,,Normal
+3857279,62,France,Ibrahima Konaté,113,40,Open Play,Head,0.096129,,Normal
+3857279,63,France,Kylian Mbappé Lottin,108,25.2,Open Play,Right Foot,0.027555656,,Normal
+3857279,66,France,Antoine Griezmann,105.3,36.2,Open Play,Left Foot,0.17584424,,Normal
+3857279,66,France,Kylian Mbappé Lottin,115.7,24.7,Open Play,Left Foot,0.013371275,,Normal
+3857279,67,France,Kylian Mbappé Lottin,113.5,42.2,Open Play,Head,0.14142905,1,Normal
+3857279,70,France,Olivier Giroud,113.5,42.6,Open Play,Head,0.16888039,1,Normal
+3857279,89,France,Ibrahima Konaté,112.1,41.4,Open Play,Head,0.07988335,,Normal
+3857279,90,France,Theo Bernard François Hernández,112.8,32.1,Open Play,Head,0.041087516,,Normal
+3857262,4,Portugal,Ricardo Jorge Luz Horta,113.6,47,Open Play,Right Foot,0.29158956,1,Normal
+3857262,14,Portugal,João Pedro Cavaco Cancelo,117.5,20.6,Open Play,Right Foot,0.010523141,,Normal
+3857262,15,South Korea,Heung-Min Son,108.5,21.6,Open Play,Right Foot,0.011031977,,Normal
+3857262,16,South Korea,Gue-Sung Cho,111.1,32,Open Play,Head,0.040536147,,Normal
+3857262,26,South Korea,Young-Gwon Kim,116.7,38,Open Play,Left Foot,0.6242964,1,Half Volley
+3857262,30,South Korea,In-Beom Hwang,98.2,31.4,Open Play,Left Foot,0.020656463,,Normal
+3857262,33,Portugal,José Diogo Dalot Teixeira,92.8,40,Open Play,Left Foot,0.036435805,,Normal
+3857262,34,Portugal,Vitor Machado Ferreira,91.6,45.7,Open Play,Right Foot,0.017112639,,Half Volley
+3857262,36,Portugal,Cristiano Ronaldo dos Santos Aveiro,110.6,56.3,Open Play,Right Foot,0.022429451,,Normal
+3857262,39,South Korea,Heung-Min Son,94.6,44.2,Open Play,Left Foot,0.024709688,,Half Volley
+3857262,40,Portugal,Matheus Luiz Nunes,92.6,58.9,Open Play,Right Foot,0.007849269,,Normal
+3857262,41,Portugal,Vitor Machado Ferreira,97.8,46.9,Open Play,Right Foot,0.03675865,,Normal
+3857262,41,Portugal,Cristiano Ronaldo dos Santos Aveiro,112.7,35,Open Play,Head,0.28873095,,Diving Header
+3857262,43,Portugal,Ricardo Jorge Luz Horta,104.3,43.4,Open Play,Left Foot,0.11468789,,Normal
+3857262,46,Portugal,Ricardo Jorge Luz Horta,101.8,45.2,Open Play,Right Foot,0.052517958,,Normal
+3857262,55,South Korea,Heung-Min Son,104.5,54.7,Open Play,Right Foot,0.023785131,,Normal
+3857262,56,South Korea,Jae-Sung Lee,97.9,50.9,Open Play,Left Foot,0.021393217,,Volley
+3857262,65,South Korea,Heung-Min Son,98.1,47.1,Open Play,Left Foot,0.039930075,,Normal
+3857262,66,South Korea,In-Beom Hwang,98.4,35.1,Open Play,Left Foot,0.100738145,,Normal
+3857262,69,South Korea,Heung-Min Son,111.1,52.8,Open Play,Right Foot,0.04621987,,Volley
+3857262,71,Portugal,Rafael Alexandre Conceição Leão,94.1,55,Open Play,Right Foot,0.029762346,,Normal
+3857262,73,South Korea,Kang-In Lee,88,49.4,Free Kick,Left Foot,0.023724081,,Normal
+3857262,80,Portugal,João Maria Lobo Alves Palhinha Gonçalves,88.8,40.2,Open Play,Right Foot,0.021024177,,Normal
+3857262,89,Portugal,João Pedro Cavaco Cancelo,112.1,25,Open Play,Left Foot,0.04430043,,Normal
+3857262,90,South Korea,Hee-Chan Hwang,108.3,44.6,Open Play,Right Foot,0.42196128,1,Normal

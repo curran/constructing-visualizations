@@ -1,0 +1,16 @@
+{
+  "name": "ga4-ecommerce",
+  "version": "1.0.0",
+  "description": "Google Analytics 4 Sample Ecommerce dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-stringify": "^6.8.0"
+  }
+}
