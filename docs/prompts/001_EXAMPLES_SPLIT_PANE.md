@@ -23,7 +23,6 @@ function PseudoScatterPlot() {
 }
 ```
 
-
 2. "Pseudo Bar Chart"
 
 ```
@@ -41,7 +40,6 @@ function PseudoBarChart() {
 
 3. Pseudo Line Chart
 
-
 ```
 function PseudoBarChart() {
   return (
@@ -57,7 +55,6 @@ function PseudoBarChart() {
 }
 ```
 
-
 React router reference:
 
 ```
@@ -69,7 +66,6 @@ ReactDOM.createRoot(root).render(
   </BrowserRouter>,
 );
 ```
-
 
 Install React Router
 Next install React Router from npm:
@@ -85,14 +81,14 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div>Hello World</div>,
-  },
+{
+path: "/",
+element: <div>Hello World</div>,
+},
 ]);
 
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
-  <RouterProvider router={router} />,
+<RouterProvider router={router} />,
 );

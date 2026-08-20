@@ -8,5 +8,5 @@ export function PseudoScatterPlot() {
       <circle cx="688" cy="119" r="34"></circle>
       <circle cx="878" cy="55" r="34"></circle>
     </svg>
-  )
+  );
 }

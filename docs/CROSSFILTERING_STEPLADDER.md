@@ -31,17 +31,14 @@ function filterRows(rows: any[], filters: Filters) {
 ```tsx
 const [filters, setFilters] = useState<Filters>({});
 
-const filteredRows = useMemo(
-  () => filterRows(rows, filters),
-  [rows, filters]
-);
+const filteredRows = useMemo(() => filterRows(rows, filters), [rows, filters]);
 ```
 
 Use when:
 
-* under ~10k rows
-* simple dashboard
-* correctness first
+- under ~10k rows
+- simple dashboard
+- correctness first
 
 ---
 
@@ -69,8 +66,8 @@ function updateFilter<K extends keyof Filters>(key: K, value: Filters[K]) {
 
 Key idea:
 
-* React owns filter state
-* charts are controlled components
+- React owns filter state
+- charts are controlled components
 
 ---
 
@@ -110,16 +107,13 @@ function useThrottledValue<T>(value: T, delay: number) {
 
 ```tsx
 const throttledFilters = useThrottledValue(filters, 500);
-const filteredRows = useMemo(
-  () => filterRows(rows, throttledFilters),
-  [rows, throttledFilters]
-);
+const filteredRows = useMemo(() => filterRows(rows, throttledFilters), [rows, throttledFilters]);
 ```
 
 Better for brushing:
 
-* throttle during drag
-* commit final value on brush end
+- throttle during drag
+- commit final value on brush end
 
 ---
 
@@ -135,13 +129,13 @@ let dataset: any[] = [];
 self.onmessage = (event) => {
   const msg = event.data;
 
-  if (msg.type === "init") {
+  if (msg.type === 'init') {
     dataset = msg.rows;
-    self.postMessage({ type: "ready" });
+    self.postMessage({ type: 'ready' });
     return;
   }
 
-  if (msg.type === "filter") {
+  if (msg.type === 'filter') {
     const { version, filters } = msg;
 
     const indices: number[] = [];
@@ -159,7 +153,7 @@ self.onmessage = (event) => {
       if (pass) indices.push(i);
     }
 
-    self.postMessage({ type: "result", version, indices });
+    self.postMessage({ type: 'result', version, indices });
   }
 };
 ```
@@ -167,17 +161,17 @@ self.onmessage = (event) => {
 ### main thread
 
 ```ts
-const worker = new Worker(new URL("./worker.ts", import.meta.url), {
-  type: "module",
+const worker = new Worker(new URL('./worker.ts', import.meta.url), {
+  type: 'module',
 });
 
-worker.postMessage({ type: "init", rows });
+worker.postMessage({ type: 'init', rows });
 ```
 
 Use when:
 
-* filtering starts causing jank
-* still okay with full scans in worker
+- filtering starts causing jank
+- still okay with full scans in worker
 
 ---
 
@@ -196,7 +190,7 @@ function requestCompute(filters: Filters) {
 
   if (inFlightVersion == null) {
     inFlightVersion = nextVersion;
-    worker.postMessage({ type: "filter", version: nextVersion, filters });
+    worker.postMessage({ type: 'filter', version: nextVersion, filters });
   }
 }
 
@@ -209,7 +203,7 @@ worker.onmessage = (event) => {
   if (latestRequestedVersion > version) {
     inFlightVersion = latestRequestedVersion;
     worker.postMessage({
-      type: "filter",
+      type: 'filter',
       version: latestRequestedVersion,
       filters: latestFiltersRef.current,
     });
@@ -219,9 +213,9 @@ worker.onmessage = (event) => {
 
 Key idea:
 
-* no queue
-* no `shallowEqual`
-* version numbers only
+- no queue
+- no `shallowEqual`
+- version numbers only
 
 ---
 
@@ -230,20 +224,17 @@ Key idea:
 Avoid sending big cloned objects across threads.
 
 ```ts
-self.postMessage({ type: "result", version, indices });
+self.postMessage({ type: 'result', version, indices });
 ```
 
 ```tsx
-const filteredRows = useMemo(
-  () => indices.map((i) => rows[i]),
-  [indices, rows]
-);
+const filteredRows = useMemo(() => indices.map((i) => rows[i]), [indices, rows]);
 ```
 
 Even better:
 
-* charts consume `rows + indices`
-* only tables reconstruct full rows
+- charts consume `rows + indices`
+- only tables reconstruct full rows
 
 ---
 
@@ -255,20 +246,20 @@ Now deep linking and back/forward work.
 
 ```ts
 type UrlSchema = {
-  age: { type: "numeric-range" };
-  state: { type: "categorical-set" };
+  age: { type: 'numeric-range' };
+  state: { type: 'categorical-set' };
 };
 
 function parseFilters(params: URLSearchParams): Filters {
   const filters: Filters = {};
 
-  const age = params.get("age");
+  const age = params.get('age');
   if (age) {
     const m = age.match(/^(-?\d+\.?\d*)\.\.(-?\d+\.?\d*)$/);
     if (m) filters.age = [Number(m[1]), Number(m[2])];
   }
 
-  const states = params.getAll("state");
+  const states = params.getAll('state');
   if (states.length) filters.state = states;
 
   return filters;
@@ -278,10 +269,10 @@ function serializeFilters(filters: Filters) {
   const params = new URLSearchParams();
 
   if (filters.age) {
-    params.set("age", `${filters.age[0]}..${filters.age[1]}`);
+    params.set('age', `${filters.age[0]}..${filters.age[1]}`);
   }
   if (filters.state) {
-    for (const s of filters.state) params.append("state", s);
+    for (const s of filters.state) params.append('state', s);
   }
 
   return params;
@@ -293,23 +284,20 @@ function serializeFilters(filters: Filters) {
 ```tsx
 const [searchParams, setSearchParams] = useSearchParams();
 
-const filters = useMemo(
-  () => parseFilters(searchParams),
-  [searchParams]
-);
+const filters = useMemo(() => parseFilters(searchParams), [searchParams]);
 
-function patchFilters(patch: Partial<Filters>, history: "push" | "replace" = "replace") {
+function patchFilters(patch: Partial<Filters>, history: 'push' | 'replace' = 'replace') {
   const next = { ...filters, ...patch };
   setSearchParams(serializeFilters(next), {
-    replace: history !== "push",
+    replace: history !== 'push',
   });
 }
 ```
 
 Use:
 
-* `replace` while dragging
-* `push` on commit
+- `replace` while dragging
+- `push` on commit
 
 ---
 
@@ -334,9 +322,9 @@ const effectiveFilters = {
 
 Pattern:
 
-* local preview during drag
-* URL on commit
-* worker uses `preview ?? committed`
+- local preview during drag
+- URL on commit
+- worker uses `preview ?? committed`
 
 ---
 
@@ -346,14 +334,17 @@ Do not return only indices. Return chart-ready data.
 
 ```ts
 self.postMessage({
-  type: "result",
+  type: 'result',
   version,
   selectedCount: indices.length,
   histograms: {
     age: { min, max, step, counts },
   },
   categoryCounts: {
-    state: [["NY", 42], ["CA", 31]],
+    state: [
+      ['NY', 42],
+      ['CA', 31],
+    ],
   },
   scatter: {
     x: scatterX,
@@ -386,9 +377,9 @@ const state = rows.map((r) => r.state);
 
 Why:
 
-* less property lookup
-* better cache locality
-* much faster scans
+- less property lookup
+- better cache locality
+- much faster scans
 
 ---
 
@@ -435,14 +426,15 @@ For numeric range filters, avoid scanning whole columns.
 ```ts
 function stableSortedIndex(values: Float64Array) {
   return Uint32Array.from(
-    Array.from({ length: values.length }, (_, i) => i).sort((a, b) => values[a] - values[b])
+    Array.from({ length: values.length }, (_, i) => i).sort((a, b) => values[a] - values[b]),
   );
 }
 ```
 
 ```ts
 function lowerBound(index: Uint32Array, values: Float64Array, x: number) {
-  let lo = 0, hi = index.length;
+  let lo = 0,
+    hi = index.length;
   while (lo < hi) {
     const mid = (lo + hi) >> 1;
     if (values[index[mid]] < x) lo = mid + 1;
@@ -466,7 +458,7 @@ for (let i = start; i < end; i += 1) {
 
 Now range filtering is closer to:
 
-* `O(log N + K)` instead of `O(N)`
+- `O(log N + K)` instead of `O(N)`
 
 ---
 
@@ -513,10 +505,10 @@ for (const value of selectedValues) {
 
 Now the worker owns:
 
-* column store
-* per-dimension masks
-* combined mask
-* aggregations
+- column store
+- per-dimension masks
+- combined mask
+- aggregations
 
 ```ts
 class CrossfilterEngine {
@@ -526,15 +518,11 @@ class CrossfilterEngine {
 
     return {
       selectedCount: this.selectedCount(),
-      histograms: viewState.histograms?.map((h) =>
-        this.histogram(h.column, h.bins, h.domain)
-      ) ?? [],
-      categoryCounts: viewState.categoryCounts?.map((c) =>
-        this.categoryCount(c.column, c.limit)
-      ) ?? [],
-      scatter: viewState.scatter
-        ? this.scatter(viewState.scatter)
-        : undefined,
+      histograms:
+        viewState.histograms?.map((h) => this.histogram(h.column, h.bins, h.domain)) ?? [],
+      categoryCounts:
+        viewState.categoryCounts?.map((c) => this.categoryCount(c.column, c.limit)) ?? [],
+      scatter: viewState.scatter ? this.scatter(viewState.scatter) : undefined,
     };
   }
 }
@@ -560,20 +548,18 @@ React Router URL
 const { viewState, patchViewState } = useDashboardUrlState(schema, defaults);
 const [agePreview, setAgePreview] = useState<[number, number] | undefined>();
 
-const effectiveViewState = useMemo(() => ({
-  ...viewState,
-  filters: {
-    ...viewState.filters,
-    age: agePreview ?? viewState.filters.age,
-  },
-}), [viewState, agePreview]);
-
-const { result, isComputing } = useCrossfilterWorker(
-  workerUrl,
-  rows,
-  schema,
-  effectiveViewState
+const effectiveViewState = useMemo(
+  () => ({
+    ...viewState,
+    filters: {
+      ...viewState.filters,
+      age: agePreview ?? viewState.filters.age,
+    },
+  }),
+  [viewState, agePreview],
 );
+
+const { result, isComputing } = useCrossfilterWorker(workerUrl, rows, schema, effectiveViewState);
 ```
 
 Brush pattern:
@@ -623,10 +609,7 @@ type ComputeResult = {
 Best for large scatter payloads.
 
 ```ts
-self.postMessage(
-  { x, y },
-  [x.buffer, y.buffer]
-);
+self.postMessage({ x, y }, [x.buffer, y.buffer]);
 ```
 
 ### D. Ignore-self linked views
@@ -658,26 +641,26 @@ Current bitset combination is already fast. The next step is updating only chang
 
 ### Good enough
 
-* centralized filters
-* worker filtering
-* single-flight scheduling
-* URL-synced committed filters
+- centralized filters
+- worker filtering
+- single-flight scheduling
+- URL-synced committed filters
 
 ### Strong production baseline
 
-* worker-side aggregates
-* columnar storage
-* bitsets
-* sorted numeric indexes
-* React Router source-of-truth URL
+- worker-side aggregates
+- columnar storage
+- bitsets
+- sorted numeric indexes
+- React Router source-of-truth URL
 
 ### Advanced
 
-* ignore-self linked views
-* transferables
-* paging
-* incremental updates
-* compressed full dashboard state in URL
+- ignore-self linked views
+- transferables
+- paging
+- incremental updates
+- compressed full dashboard state in URL
 
 ---
 
@@ -706,20 +689,19 @@ Level 16 : transferables / ignore-self / paging / incremental updates
 
 If you want one target architecture to implement and stop, choose this:
 
-* React Router URL owns committed state
-* local React state owns in-progress brush preview
-* worker owns filtering + aggregation
-* worker uses columnar storage + bitsets
-* main thread renders only chart-ready results
-* single-flight latest-wins scheduling
+- React Router URL owns committed state
+- local React state owns in-progress brush preview
+- worker owns filtering + aggregation
+- worker uses columnar storage + bitsets
+- main thread renders only chart-ready results
+- single-flight latest-wins scheduling
 
 That is the best balance of:
 
-* clean
-* simple
-* fast
-* shareable
-* scalable
+- clean
+- simple
+- fast
+- shareable
+- scalable
 
 If you want, I can turn this outline into a one-file “architecture README” formatted for your codebase.
-

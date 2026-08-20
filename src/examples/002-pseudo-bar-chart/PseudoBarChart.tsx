@@ -6,5 +6,5 @@ export function PseudoBarChart() {
       <rect x="497" y="253" width="190" height="205"></rect>
       <rect x="724" y="343" width="190" height="115"></rect>
     </svg>
-  )
+  );
 }
