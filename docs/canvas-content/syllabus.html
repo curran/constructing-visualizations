@@ -1,0 +1,1388 @@
+<p><span style="font-size: 36pt">Data Visualization CS573</span></p>
+<p><span style="font-size: 18pt">Visualization Analysis and Design with React + D3</span></p>
+<p>August 20 &ndash; December 11, 2026</p>
+<p><strong>Name of Course: Data Visualization CS573</strong></p>
+<p><strong>Department: Computer Science</strong></p>
+<p><strong>Term: 2026 Fall Semester</strong></p>
+<p><strong>Instructor:</strong></p>
+<p><span>Curran Kelleher</span></p>
+<p><span>Contact: ckelleher@wpi.edu</span></p>
+<p>&nbsp;</p>
+<p><strong>Textbooks:</strong></p>
+<ul>
+  <li>
+    <span
+      ><a
+        href="https://www.amazon.com/Visualization-Analysis-Design-AK-Peters/dp/1466508914/ref=sr_1_1?ie=UTF8&amp;qid=1504184029&amp;sr=8-1&amp;keywords=Visualization+Analysis+%26+Design+by+Tamara+Munzner"
+        >Visualization Analysis &amp; Design by Tamara Munzner (2014)</a
+      >
+      (ISBN 9781466508910) - </span
+    >required
+  </li>
+  <li>
+    Official documentation used throughout the course (free):
+    <a class="inline_disabled" href="https://react.dev/learn" target="_blank" rel="noopener"
+      >React docs</a
+    >,
+    <a class="inline_disabled" href="https://d3js.org/" target="_blank" rel="noopener">D3 docs</a>,
+    and
+    <a
+      class="inline_disabled"
+      href="https://developer.mozilla.org/en-US/docs/Web/SVG"
+      target="_blank"
+      rel="noopener"
+      >MDN SVG reference</a
+    >
+  </li>
+</ul>
+<p><strong>Course Description:</strong></p>
+<p>
+  <span
+    >This course introduces the theory and practice of data visualization through the framework of
+    Tamara Munzner&rsquo;s </span
+  ><i><span>Visualization Analysis and Design</span></i
+  ><span
+    >. Students learn to reason about visualization systematically: data abstraction, task
+    abstraction, visual encoding with marks and channels, interaction, idiom selection, and
+    evaluation. Technically, students build interactive visualizations using React, SVG, and D3. The
+    course progresses from basic scatterplots through interaction, small multiples, maps, networks
+    and trees, reduction strategies, and focus+context designs, culminating in an original
+    interactive visualization project. This course will be JavaScript-heavy, so a willingness to
+    learn JavaScript, React, and related technologies is a must.</span
+  >
+</p>
+<p>&nbsp;</p>
+<p><strong>Prerequisites:</strong></p>
+<ul>
+  <li><span>Some programming experience in any language</span></li>
+  <li><span>Ideally a course on computer graphics, but this is not strictly required</span></li>
+  <li>
+    <span>Willingness to invest in becoming proficient in JavaScript, React, SVG, and D3</span>
+  </li>
+  <li><span>Interest in interactive data visualization!</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Learning Outcomes:</strong></p>
+<p><span>By the completion of this course, learners will be able to:</span></p>
+<ul>
+  <li><span>Analyze datasets using Munzner&rsquo;s what / why / how framework</span></li>
+  <li><span>Choose appropriate visual encodings for different data and task types</span></li>
+  <li><span>Build interactive visualizations using React, SVG, and D3</span></li>
+  <li>
+    <span
+      >Implement scales, axes, legends, interaction, filtering, brushing, and coordinated
+      views</span
+    >
+  </li>
+  <li><span>Critique visualizations using design principles and task-oriented reasoning</span></li>
+  <li><span>Design, build, and present a complete interactive visualization project</span></li>
+  <li>
+    <span
+      >Explain design choices clearly in terms of data, tasks, marks, channels, and
+      interaction</span
+    >
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Communication:</strong></p>
+<ul>
+  <li>Primary communication will be via Discord</li>
+  <li>Direct message me in the Discord for quick communication</li>
+  <li>
+    If you have a question that only I can answer, and is not suitable for messaging in Discord,
+    email me at
+    <a style="font-family: inherit; font-size: 1rem" href="mailto:ckelleher@wpi.edu"
+      >ckelleher@wpi.edu</a
+    >
+  </li>
+  <li>
+    <span style="color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem"
+      >I will respond within 24 hours on weekdays (business hours 9-5)</span
+    >
+  </li>
+  <li>
+    <span style="color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem"
+      >Office hours time: TBD based on student preferences</span
+    >
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Course Approach:</strong></p>
+<ul>
+  <li><span>We will use Canvas for content presentation and submission of assignments</span></li>
+  <li><span>Course material will be delivered weekly as Canvas modules</span></li>
+  <li>
+    <span
+      >Canvas modules will include video lectures, assigned reading, studio code walkthroughs, and
+      links to external resources such as videos in YouTube, articles, code examples, and
+      tutorials</span
+    >
+  </li>
+  <li>
+    <span>Each week pairs a </span><strong>standalone skill assignment</strong
+    ><span> (practice the current concept) with a </span><strong>semester project milestone</strong
+    ><span> (incremental progress on your final project)</span>
+  </li>
+  <li>
+    <span
+      >Studios are hands-on React + D3 implementation practice; critiques are recurring discussions
+      of visualization design decisions</span
+    >
+  </li>
+  <li><span>Weeks begin on Thursday mornings and close on Wednesdays at 11:59pm</span></li>
+  <li>
+    <span>Assignments submitted later than 11:59pm on Wednesdays of the given week</span
+    ><span> will be considered late</span>
+  </li>
+  <li><span>The course will run for 15 weeks</span></li>
+  <li>
+    <span
+      >The
+      <a
+        class="inline_disabled"
+        href="https://www.wpi.edu/academics/calendar"
+        target="_blank"
+        rel="noopener"
+        >WPI academic calendar</a
+      >
+      will be respected regarding holidays and breaks</span
+    >
+  </li>
+  <li>
+    <span>Students will be </span>expected<span>
+      to put in approximately 10-15 hours of work per week</span
+    >
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Semester Structure:</strong></p>
+<table style="width: 100%" border="1">
+  <tbody>
+    <tr>
+      <td style="width: 30%">
+        <p><strong>Component</strong></p>
+      </td>
+      <td style="width: 70%">
+        <p><strong>Description</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 30%">
+        <p><span>Weekly skill assignments</span></p>
+      </td>
+      <td style="width: 70%">
+        <p><span>Short technical/conceptual exercises, independent of the final project</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 30%">
+        <p><span>Semester project milestones</span></p>
+      </td>
+      <td style="width: 70%">
+        <p><span>Weekly deliverables building toward the final project</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 30%">
+        <p><span>Readings</span></p>
+      </td>
+      <td style="width: 70%">
+        <p><span>Munzner chapters and supplemental examples</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 30%">
+        <p><span>Studios</span></p>
+      </td>
+      <td style="width: 70%">
+        <p><span>React + D3 implementation practice</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 30%">
+        <p><span>Critiques</span></p>
+      </td>
+      <td style="width: 70%">
+        <p><span>Regular discussion of visualization design decisions</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 30%">
+        <p><span>Final project</span></p>
+      </td>
+      <td style="width: 70%">
+        <p><span>Interactive visualization with design rationale and presentation</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Course Content:</strong></p>
+<p>
+  The course will roughly be 50/50 theory and practice. The theory part comes from Munzner&rsquo;s
+  <i>Visualization Analysis and Design</i>. The practice part is original React + D3 material
+  developed by me, Curran Kelleher!
+</p>
+<p>Reference links:</p>
+<ul>
+  <li>
+    <a
+      class="inline_disabled"
+      href="https://www.cs.ubc.ca/~tmm/vadbook/"
+      target="_blank"
+      rel="noopener"
+      >Visualization Analysis and Design Website</a
+    >
+  </li>
+  <li>
+    <a
+      class="inline_disabled"
+      href="https://www.youtube.com/watch?v=1GhZisgc6DI&amp;list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk"
+      target="_blank"
+      rel="noopener"
+      >YouTube Playlist: Visualization Analysis and Design 2021</a
+    >
+  </li>
+  <li>
+    <a
+      class="inline_disabled"
+      href="https://www.youtube.com/watch?v=bZhWCO-bDek&amp;list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G"
+      target="_blank"
+      rel="noopener"
+      >YouTube Playlist: Constructing Visualizations 2024</a
+    >
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Weekly Schedule:</strong></p>
+<table style="width: 100%" border="1">
+  <tbody>
+    <tr>
+      <td style="width: 6%">
+        <p><strong>Week</strong></p>
+      </td>
+      <td style="width: 20%">
+        <p><strong>Theme</strong></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading / React + D3 Focus / Assignments</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>1</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Why Visualize?</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 1: What&rsquo;s Vis, and Why Do It?</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >React functional components, JSX, SVG coordinate system, basic marks
+              (<code>&lt;circle&gt;</code>, <code>&lt;rect&gt;</code>,
+              <code>&lt;line&gt;</code>)</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Simple Scatterplot with Hardcoded Data (50 points)</span></li>
+          <li><span>Project Milestone: Explore 3 Possible Datasets (40 points)</span></li>
+          <li><span>Participation: Introduce Yourself (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>2</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>What: Data Abstraction</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 2: What: Data Abstraction</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Loading CSV data with D3, parsing and typing data, mapping data to SVG
+              attributes</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span>Skill Assignment: Write a Data Abstraction for a Sample Dataset (50 points)</span>
+          </li>
+          <li>
+            <span
+              >Project Milestone: Choose Project Dataset Candidate + Brief Data Abstraction (40
+              points)</span
+            >
+          </li>
+          <li><span>Participation: Ask a Question (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>3</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Why: Task Abstraction</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 3: Why: Task Abstraction</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >React <code>useState</code> for UI controls, dropdown menus and filters, conditional
+              rendering</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Skill Assignment: Convert Real-World Questions into Abstract Tasks (50 points)</span
+            >
+          </li>
+          <li>
+            <span
+              >Project Milestone: Project Audience Statement + 3&ndash;5 Abstract Tasks (40
+              points)</span
+            >
+          </li>
+          <li><span>Participation: Voice Your Desires (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>4</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>How: Marks and Channels</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 5: Marks and Channels</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >D3 linear and ordinal scales, axes with <code>d3-axis</code>, encoding data to
+              position, color, and size</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Skill Assignment: Three Scatterplot Encoding Variations + Tradeoff Reflection (50
+              points)</span
+            >
+          </li>
+          <li>
+            <span
+              >Project Milestone: First Project Encoding Sketch (3+ attributes, justified) (40
+              points)</span
+            >
+          </li>
+          <li><span>Participation: Imagine the Adjacent Possible (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>5</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Design Rules</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 6: Rules of Thumb</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Labels and annotations in SVG, responsive layout with <code>viewBox</code>,
+              legends</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Critique and Redesign a Weak Chart (50 points)</span></li>
+          <li>
+            <span
+              >Project Milestone: Project Design Critique &mdash; 3 Problems + Fixes (40
+              points)</span
+            >
+          </li>
+          <li><span>Participation: Voice Your Frustrations (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>6</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Arrange Tables</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 7: Arrange Tables</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Bar charts with D3 band scales, aggregation with <code>d3-array</code>, heatmaps
+              using color encoding</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Skill Assignment: Build a Comparison Chart and a Distribution Chart (50 points)</span
+            >
+          </li>
+          <li>
+            <span
+              >Project Milestone: Alternate Prototype with a Different Arrangement (40 points)</span
+            >
+          </li>
+          <li><span>Participation: Studio Critique Contribution (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>7</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Spatial Data</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 8: Arrange Spatial Data</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >GeoJSON and TopoJSON, D3 projections and <code>geoPath</code>, choropleth maps</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span>Skill Assignment: Build a Choropleth Map from Provided GeoJSON (50 points)</span>
+          </li>
+          <li>
+            <span
+              >Project Milestone: Spatial Structure Decision + Map Sketch or Justification (40
+              points)</span
+            >
+          </li>
+          <li><span>Participation: Peer Feedback (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>8</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Networks and Trees</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 9: Arrange Networks and Trees</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >D3 force layout, hierarchical layouts (treemap, dendrogram), SVG
+              <code>&lt;line&gt;</code> and <code>&lt;path&gt;</code> for edges</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Build a Network or Tree Visualization (50 points)</span></li>
+          <li>
+            <span
+              >Project Milestone: Relational Structure Decision + Network/Tree Sketch or
+              Justification (40 points)</span
+            >
+          </li>
+          <li><span>Participation: Help Someone Out (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>9</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Color</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 10: Map Color and Other Channels</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >D3 color scales (<code>scaleSequential</code>, <code>scaleDiverging</code>,
+              <code>scaleOrdinal</code>), color legends, accessibility considerations</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Skill Assignment: Color Redesign &mdash; Sequential, Diverging, and Categorical (50
+              points)</span
+            >
+          </li>
+          <li><span>Project Milestone: Project Color / Accessibility Pass (40 points)</span></li>
+          <li><span>Participation: Create a Chart Appreciation Video (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>10</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Manipulate View</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 11: Manipulate View</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >D3 brush, zoom and pan with <code>d3-zoom</code>, tooltips, filtering with React
+              state</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Skill Assignment: Add Two Interaction Techniques (Tooltip + Brush/Filter) (50
+              points)</span
+            >
+          </li>
+          <li>
+            <span>Project Milestone: First Interactive Feature in Your Project (40 points)</span>
+          </li>
+          <li><span>Participation: Voice Your Frustrations / Desires (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>11</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Multiple Views</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 12: Facet into Multiple Views</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span>Small multiples with React, shared state across views, linked highlighting</span>
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Build a Small Multiples Visualization (50 points)</span></li>
+          <li>
+            <span>Project Milestone: Add a Second (Coordinated) View or Faceting (40 points)</span>
+          </li>
+          <li><span>Participation: Peer Project Critique (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>12</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Reduce</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 13: Reduce Items and Attributes</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Aggregation with <code>d3-array</code> (<code>rollup</code>, <code>group</code>),
+              binning with <code>d3.bin</code>, dynamic filtering with React state</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Skill Assignment: Apply Two Reduction Strategies (Before / After Views) (50
+              points)</span
+            >
+          </li>
+          <li>
+            <span>Project Milestone: Improve Project Data Transformation Layer (40 points)</span>
+          </li>
+          <li><span>Participation: Schedule a 1:1 (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>13</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Focus + Context</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 14: Embed: Focus+Context</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Overview + detail with linked views, D3 zoom for semantic zooming, annotations with
+              SVG text and lines</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Build an Overview + Detail View (50 points)</span></li>
+          <li>
+            <span>Project Milestone: Add an Annotation Layer or Detail Panel (40 points)</span>
+          </li>
+          <li><span>Participation: Studio Critique Contribution (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>14</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Evaluation</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 4: Analysis: Four Levels for Validation</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Code refactoring for clarity, accessibility audit (keyboard navigation, ARIA,
+              contrast), performance review</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Structured Peer Usability Critique (50 points)</span></li>
+          <li>
+            <span
+              >Project Milestone: Full Project Draft + Peer Review + Incorporate 3 Pieces of
+              Feedback (40 points)</span
+            >
+          </li>
+          <li><span>Participation: Fill Out Feedback Survey (10 points)</span></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 6%">
+        <p><span>15</span></p>
+      </td>
+      <td style="width: 20%">
+        <p><span>Final Synthesis</span></p>
+      </td>
+      <td style="width: 74%">
+        <p><strong>Reading</strong><span>:</span></p>
+        <ul>
+          <li><span>VAD Chapter 15: Analysis Case Studies</span></li>
+        </ul>
+        <p><strong>React + D3 Focus</strong><span>:</span></p>
+        <ul>
+          <li>
+            <span
+              >Final polish and deployment, README and design rationale documentation, presentation
+              preparation</span
+            >
+          </li>
+        </ul>
+        <p><strong>Assignments</strong><span>:</span></p>
+        <ul>
+          <li><span>Skill Assignment: Final Reflection (50 points)</span></li>
+          <li><span>Project Milestone: Final Project Submission (40 points)</span></li>
+          <li>
+            <span
+              >Final Presentation: Dataset, Tasks, Design Decisions, Future Work (10 points)</span
+            >
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <i><span>Note: Weekly topics and assignments may be subject to change.</span></i>
+</p>
+<p>&nbsp;</p>
+<p><strong>Weekly Detail:</strong></p>
+<details>
+  <summary><strong>Week 1 &mdash; Why Visualize? (VAD Ch. 1)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Visualization helps people reason about data. It can support
+    exploration, confirmation, communication, explanation, and decision-making.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> React functional components; JSX; the SVG coordinate
+    system; basic marks with <code>&lt;circle&gt;</code>, <code>&lt;rect&gt;</code>, and
+    <code>&lt;line&gt;</code>.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build a simple scatterplot using hardcoded data in
+    React + SVG.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Explore 3 possible datasets. Write a short
+    paragraph on each describing what the data contains, where it comes from, and what questions it
+    might answer.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 2 &mdash; What: Data Abstraction (VAD Ch. 2)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> All datasets can be described in terms of dataset types,
+    attribute types, and the relationships between items. Understanding the &ldquo;what&rdquo; is
+    the foundation of visualization design.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Loading CSV data with D3; parsing and typing data; mapping
+    data to SVG attributes.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Write a data abstraction for a provided sample
+    dataset: identify dataset type, attribute types (quantitative, ordinal, categorical), and key
+    items.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Choose a dataset candidate for your semester
+    project. Write a brief data abstraction: what type of data is it, what are the key attributes,
+    and what makes it interesting?
+  </p>
+</details>
+<details>
+  <summary><strong>Week 3 &mdash; Why: Task Abstraction (VAD Ch. 3)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> User tasks can be abstracted into a small vocabulary: search,
+    query, compare, summarize, explore, annotate. Identifying the right task helps choose the right
+    visualization.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> React <code>useState</code> for UI controls; dropdown
+    menus and filters; conditional rendering.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Take a set of real-world questions and convert them
+    into abstract visualization tasks using Munzner&rsquo;s task vocabulary.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Write a project audience statement and a list of
+    3&ndash;5 abstract tasks your visualization should support.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 4 &mdash; How: Marks and Channels (VAD Ch. 5)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Visual encoding maps data to marks (points, lines, areas) and
+    channels (position, color, size, shape). Some channels are more effective than others depending
+    on data type.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> D3 linear and ordinal scales; axes with
+    <code>d3-axis</code>; encoding data to position, color, and size.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build 3 variations of a scatterplot, each using a
+    different encoding for a third variable (color, size, shape). Reflect on the tradeoffs.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Sketch a first visual encoding for your project
+    dataset. Map at least 3 attributes to marks and channels. Justify your choices.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 5 &mdash; Design Rules (VAD Ch. 6)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Good visualization design follows principles of expressiveness
+    and effectiveness. Common pitfalls include overplotting, misleading scales, excessive
+    decoration, and poor labeling.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Labels and annotations in SVG; responsive layout with
+    <code>viewBox</code>; legends.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Find a weak or misleading chart in the wild. Critique
+    it using Munzner&rsquo;s principles. Redesign it.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Conduct a design critique of your current project
+    prototype. Identify at least 3 design problems and propose fixes.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 6 &mdash; Arrange Tables (VAD Ch. 7)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Tabular data can be visualized using bar charts, stacked bars,
+    heatmaps, dot plots, and other arrangements. The right arrangement depends on the task.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Bar charts with D3 band scales; aggregation with
+    <code>d3-array</code>; heatmaps using color encoding.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build a chart that supports comparison (e.g., grouped
+    bar) and one that supports distribution (e.g., histogram or heatmap).
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Build an alternate prototype of your project using
+    a different visual arrangement. Compare it with your first sketch.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 7 &mdash; Spatial Data (VAD Ch. 8)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Spatial datasets have geographic or geometric structure. Maps
+    leverage positional encoding as a primary channel, which is highly effective for spatial tasks.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> GeoJSON and TopoJSON; D3 projections and
+    <code>geoPath</code>; choropleth maps.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build a choropleth map from a provided GeoJSON
+    dataset.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Decide whether your project dataset has meaningful
+    spatial structure. If so, sketch a map view. If not, explain why spatial encoding is not
+    appropriate.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 8 &mdash; Networks and Trees (VAD Ch. 9)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Network and tree datasets have relational structure. Idioms
+    include node-link diagrams, adjacency matrices, and treemaps.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> D3 force layout; hierarchical layouts (treemap,
+    dendrogram); SVG <code>&lt;line&gt;</code> and <code>&lt;path&gt;</code> for edges.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build either a network visualization (force-directed)
+    or a tree visualization (treemap or dendrogram) from provided data.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Decide whether your project dataset has relational
+    structure. If so, sketch a network or tree view. If not, explain why.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 9 &mdash; Color (VAD Ch. 10)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Color is a powerful but easily misused channel. Sequential,
+    diverging, and categorical palettes serve different data types. Accessibility requires
+    sufficient contrast and colorblind-safe choices.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> D3 color scales (<code>scaleSequential</code>,
+    <code>scaleDiverging</code>, <code>scaleOrdinal</code>); color legends; accessibility
+    considerations.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Take an existing chart and redesign its color scheme.
+    Apply a sequential scale, a diverging scale, and a categorical scale to the same data. Reflect
+    on the differences.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Apply a deliberate color scheme to your project.
+    Verify accessibility using a colorblind simulation tool.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 10 &mdash; Manipulate View (VAD Ch. 11)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Interaction idioms let users change what they see: filtering,
+    zooming, panning, selecting, and brushing. These support exploration and focus.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> D3 brush; zoom and pan with <code>d3-zoom</code>;
+    tooltips; filtering with React state.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Add at least two interaction techniques to an existing
+    chart: a tooltip and a brush or filter.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Add the first interactive feature to your project.
+    This could be a tooltip, a dropdown filter, or a brush selection.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 11 &mdash; Multiple Views (VAD Ch. 12)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Multiple coordinated views let users see different aspects of
+    the same data simultaneously. Small multiples support comparison across facets.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Small multiples with React; shared state across views;
+    linked highlighting.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build a small multiples visualization: the same chart
+    repeated for different subsets or facets of the data.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Add a second view to your project, or facet an
+    existing view into small multiples. The views should share state or be coordinated in some way.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 12 &mdash; Reduce (VAD Ch. 13)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Large datasets require reduction strategies: filtering,
+    aggregation, binning, and sampling. These reduce visual complexity without losing the signal.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Aggregation with
+    <code>d3-array</code> (<code>rollup</code>, <code>group</code>); binning with
+    <code>d3.bin</code>; dynamic filtering with React state.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Take a large dataset and apply at least two reduction
+    strategies. Show before and after views.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Improve your project&rsquo;s data transformation
+    layer. Apply at least one aggregation or reduction to simplify the display and support the
+    user&rsquo;s tasks.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 13 &mdash; Focus + Context (VAD Ch. 14)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Focus+context designs let users zoom into detail while retaining
+    awareness of the overall structure. Techniques include overview+detail, semantic zoom, and
+    annotations.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Overview + detail with linked views; D3 zoom for semantic
+    zooming; annotations with SVG text and lines.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Build an overview+detail view: one chart provides a
+    broad summary, and selecting a region reveals detail in a second view.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Add an annotation layer or a detail panel to your
+    project. This could be callout labels, a detail tooltip panel, or a focus view.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 14 &mdash; Evaluation (VAD Ch. 4)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> Visualizations can be evaluated at four nested levels &mdash;
+    domain situation, data/task abstraction, visual encoding and interaction idiom, and algorithm
+    &mdash; each with its own threats and validation methods, including expert review, user studies,
+    and heuristic analysis. Identifying usability problems and fixing them is part of the design
+    process.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Code refactoring for clarity; accessibility audit
+    (keyboard navigation, ARIA, contrast); performance review.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Conduct a peer usability critique of a
+    classmate&rsquo;s project. Write a structured critique using Munzner&rsquo;s evaluation
+    framework.
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Complete a full draft of your project. Participate
+    in peer review. Incorporate at least 3 pieces of feedback.
+  </p>
+</details>
+<details>
+  <summary><strong>Week 15 &mdash; Final Synthesis (VAD Ch. 15)</strong></summary>
+  <p>
+    <strong>Munzner theme:</strong> A complete visualization system integrates data abstraction,
+    task abstraction, visual encoding, and interaction into a coherent, usable whole. Case-study
+    analysis shows how real systems combine idioms and justify their design choices.
+  </p>
+  <p>
+    <strong>React + D3 concepts:</strong> Final polish and deployment; README and design rationale
+    documentation; presentation preparation.
+  </p>
+  <p>
+    <strong>Weekly skill assignment:</strong> Write a final reflection: what did you learn, what
+    would you do differently, and what visualization problems remain unsolved?
+  </p>
+  <p>
+    <strong>Semester project milestone:</strong> Submit your final project and present it to the
+    class. Your presentation should cover: the dataset, the tasks, the design decisions, and what
+    you would improve with more time.
+  </p>
+</details>
+<p>&nbsp;</p>
+<p><strong>Course Requirements:</strong></p>
+<ul>
+  <li aria-level="1"><strong>Grade Determination Breakdown</strong></li>
+</ul>
+<table style="width: 340px">
+  <tbody>
+    <tr>
+      <td style="width: 210px">
+        <p><span>Category</span></p>
+      </td>
+      <td style="width: 130px">
+        <p><span>Percentage</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 210px">
+        <p><span>Assignments</span></p>
+      </td>
+      <td style="width: 130px">
+        <p><span>50%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 210px">
+        <p><span>Project</span></p>
+      </td>
+      <td style="width: 130px">
+        <p><span>30%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 210px">
+        <p><span>Participation</span></p>
+      </td>
+      <td style="width: 130px">
+        <p><span>20%</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<ul>
+  <li aria-level="1"><strong>Assignments</strong></li>
+</ul>
+<p>
+  <span
+    >We will have two weekly deliverables &mdash; a standalone skill assignment and a semester
+    project milestone &mdash; both due by the end of the week (Wednesday 11:59PM). Submission of the
+    assignments will be inside the Canvas online system. </span
+  ><span
+    >Many assignments will involve submission of a link to your work in an external system such as
+    VizHub or GitHub. Feedback can be expected within two weeks after submission.</span
+  >
+</p>
+<ul>
+  <li aria-level="1"><strong>Final Project</strong></li>
+</ul>
+<p>
+  <span
+    >The semester project accumulates from the weekly milestones into a polished interactive
+    visualization built with React, SVG, and D3. The final deliverable includes the deployed
+    visualization, a README documenting your design rationale (data abstraction, task abstraction,
+    encoding choices, and interaction design), and an in-class presentation during Week 15.</span
+  >
+</p>
+<ul>
+  <li aria-level="1"><strong>Late Work Policy</strong></li>
+</ul>
+<p>
+  <span>Late work will be accepted, with a 10% grade penalty for each day that it is late.</span>
+</p>
+<ul>
+  <li aria-level="1"><strong>Class Participation Expectations and Criteria</strong></li>
+</ul>
+<p>
+  <span
+    >Our Discord channel will function as a participatory space for discussion, like a classroom.
+    Students are encouraged and expected to actively participate in discussions and critiques there.
+    Critique is a core practice of this course: you will regularly share work in progress, respond
+    to specific design questions, and give structured feedback on the work of others. Each
+    assignment will include specific grading criteria with regard to participation.</span
+  >
+</p>
+<p>&nbsp;</p>
+<p><strong>Technical Requirements:</strong></p>
+<ul>
+  <li><span>Chrome Web Browser</span></li>
+  <li><span>GitHub account</span></li>
+  <li>
+    <span
+      >Node.js (LTS) and a code editor such as VS Code, or a browser-based environment such as
+      VizHub</span
+    >
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Library Access:&nbsp;</strong></p>
+<p>
+  <span
+    >As a student at WPI, you have access to a variety of resources through the library.&nbsp; Use
+    the link </span
+  ><a href="https://www.wpi.edu/library"><span>here</span></a
+  ><span>
+    to access databases, e-journals, and/or e-books.&nbsp; You will be required to log in with your
+    WPI username and password to access materials.</span
+  >
+</p>
+<p>&nbsp;</p>
+<p><strong>POLICIES</strong></p>
+<p><strong>Academic Integrity:</strong></p>
+<p>
+  <span>You are expected to be familiar with the </span
+  ><i><span>Student Guide to Academic Integrity at WPI</span></i
+  ><span> that is downloadable from </span
+  ><a
+    href="https://www.wpi.edu/sites/default/files/docs/Offices/Marketing-Communications/AIStudentguide2019-2020-pages.pdf"
+    ><span>here</span></a
+  ><span
+    >.&nbsp; Consequences for violating the Academic Honest Policy range from earning a zero on the
+    assignment, failing the course, or being suspended or expelled from WPI.</span
+  >
+</p>
+<p><span>Common examples of violations include:</span></p>
+<ul>
+  <li aria-level="1">
+    <span
+      >Copying and pasting text directly from a source without providing appropriately cited
+      credit</span
+    >
+  </li>
+  <li aria-level="1">
+    <span
+      >Paraphrasing, summarizing, or rephrasing from a source without providing appropriate
+      citations</span
+    >
+  </li>
+  <li aria-level="1"><span>Collaborating on individual assignments</span></li>
+  <li aria-level="1">
+    <span
+      >Turning in work where a good portion of the work is someone else&rsquo;s, even if properly
+      cited</span
+    >
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Academic Accommodations:</strong></p>
+<p>
+  <span
+    >We at WPI strive to create an inclusive environment where all students are valued members of
+    the class community.&nbsp;&nbsp;</span
+  >
+</p>
+<p>
+  <span
+    >If you need course adaptations or accommodations because of a disability, or if you have
+    medical information to share with us that may impact your performance or participation in this
+    course, please make an appointment with us as soon as possible.&nbsp;&nbsp;</span
+  >
+</p>
+<p>
+  <span
+    >Students with approved academic accommodations should plan to submit their accommodation
+    letters through the </span
+  ><a href="https://clockwork.wpi.edu/ClockWork/custom/misc/home.aspx"
+    ><span>Office of Accessibility Services Student Portal</span></a
+  ><span
+    >.&nbsp; Should you have any questions about how accommodations can be implemented in this
+    particular course, please contact me as soon as possible.&nbsp;&nbsp;</span
+  >
+</p>
+<p>
+  <span
+    >Students who are not currently registered with the Office of Accessibility Services (OAS) but
+    who would like to find out more information regarding requesting accommodations and what that
+    entails should plan to contact them via:&nbsp;</span
+  >
+</p>
+<p>
+  <strong>Email: </strong
+  ><a href="mailto:AccessibilityServices@wpi.edu"><strong>AccessibilityServices@wpi.edu</strong></a
+  ><strong> and/or&nbsp;</strong>
+</p>
+<p><strong>Phone: (508) 831-4908.</strong></p>
+<p><strong>On Campus &ndash; Unity Hall</strong></p>
+<p>&nbsp;</p>
+<p><strong>Mental Health</strong></p>
+<p>&nbsp;</p>
+<p>
+  <a
+    href="https://www.wpi.edu/student-experience/health-counseling/counseling-services/self-help/suicide#warningsigns"
+    ><span>WPI&rsquo;s Student Development &amp; Counseling Center (SDCC)</span></a
+  ><span>
+    staff are available for students in need of support: contact them directly and confidentially by
+    phone at 508-831-5540 or email at </span
+  ><a href="mailto:SDCC@wpi.edu"><span>SDCC@wpi.edu</span></a
+  ><span>; or stop by their office at 16 Einhorn Road.&nbsp;</span>
+</p>
+<p>
+  <span>The I&rsquo;m </span
+  ><a href="https://fs28.formsite.com/webteamwpiedu/concerned-about-student/index.html"
+    ><span>Concerned About a Student form</span></a
+  ><span>
+    provides a venue to connect with WPI services if you know of a student who is struggling and
+    needs outreach.&nbsp;</span
+  >
+</p>
+<p>
+  <span>The </span><strong>988 Suicide &amp; Crisis Lifeline is a free, 24/7 </strong
+  ><span
+    >service that can provide individuals with support, information, and local resources regarding
+    suicide. </span
+  ><strong>Call or text 988, or visit </strong
+  ><a href="https://988lifeline.org/"><strong>988lifeline.org</strong></a
+  ><strong>.</strong><span> There is also </span
+  ><a
+    href="https://www.wpi.edu/student-experience/health-counseling/counseling-services/self-help/suicide#warningsigns"
+    ><span>Suicide Awareness &amp; Prevention information on the WPI website.</span></a
+  ><span>&nbsp;</span>
+</p>
+<p>
+  <span
+    >If there is a chance someone is in imminent danger of suicidal action, WPI Campus Police can be
+    reached at 508-831-5555 (or call 911 if off campus).</span
+  >
+</p>
+<p><br /><br /></p>
+<p><strong>Grading Policy:</strong></p>
+<p><span>Final course grades are based on a student&rsquo;s performance as follows:</span></p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p><span>Letter Grade</span></p>
+      </td>
+      <td>
+        <p><span>Percentage</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><span>A</span></p>
+      </td>
+      <td>
+        <p><span>90 - 100</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><span>B</span></p>
+      </td>
+      <td>
+        <p><span>80 - 89</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><span>C</span></p>
+      </td>
+      <td>
+        <p><span>70 - 79</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><span>D</span></p>
+      </td>
+      <td>
+        <p><span>60 - 69</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><span>F</span></p>
+      </td>
+      <td>
+        <p><span>&lt; 60</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <span
+    >Course incompletes may be granted if the major part of the course is completed; however, no
+    additional credit can be given for missed class discussions or teamwork beyond the end of the
+    course.&nbsp; In addition, in the case of an incomplete, the student is responsible for handing
+    in the final work within the WPI required timeframe of one (1) year.&nbsp; After this time, an
+    incomplete grade changes to a failing (F) grade.</span
+  >
+</p>
