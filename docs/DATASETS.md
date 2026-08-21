@@ -1,9 +1,10 @@
 # Advanced Data Visualization Curricula
+
 ## A Curated Bundle of Public Datasets and Pedagogical Methodologies
 
 The pedagogical efficacy of a data visualization curriculum relies fundamentally on the semantic richness, structural diversity, and topological complexity of the datasets it employs. Teaching graphical perception—mapping data attributes to visual channels such as position, length, area, color, and angle—requires datasets that naturally exhibit the characteristics suited to each encoding. As a curriculum progresses from fundamental charts (bar charts, scatter plots) to complex compositional and relational graphics (stream graphs, trees, pie-on-map projections, node-link diagrams), the underlying data must possess the requisite dimensionality and temporal depth.
 
-Critically, the curation must transcend trivial, artificially clean, or analytically exhausted data—most notably the overused character co-occurrence network of Victor Hugo's *Les Misérables*. The optimal sources expose real-world phenomena: demographic momentum, socioeconomic stratification, the temporal rhythms of human behavior, the geospatial distribution of belief, the hyper-accelerated economics of artificial intelligence, and the evolutionary topology of technical and transportation networks.
+Critically, the curation must transcend trivial, artificially clean, or analytically exhausted data—most notably the overused character co-occurrence network of Victor Hugo's _Les Misérables_. The optimal sources expose real-world phenomena: demographic momentum, socioeconomic stratification, the temporal rhythms of human behavior, the geospatial distribution of belief, the hyper-accelerated economics of artificial intelligence, and the evolutionary topology of technical and transportation networks.
 
 ---
 
@@ -11,15 +12,15 @@ Critically, the curation must transcend trivial, artificially clean, or analytic
 
 If you were locking in a course bundle today, the strongest course-ready set consists of **seven core public sources**, chosen for being official or highly durable, topically varied, and structured enough to cover nearly every chart type without forcing students into excessive data wrangling.
 
-| Role | Primary Source | Notes |
-|------|---------------|-------|
-| **Global time-series backbone** | UN World Population Prospects 2024 | Estimates 1950→present, projections to 2100, 237 countries/areas |
-| **Hierarchy layer** | UN M49 Standard | World → Region → Sub-region → Country |
-| **U.S. county demographics** | Census ACS 5-Year Estimates | Joined to Census cartographic boundary files; PEP as freshness supplement |
-| **Labor market** | BLS LAUS + BLS QCEW | Time series + industrial structure, both keyed to county |
-| **Religion (pie-on-map)** | Pew Global Religious Composition (2010 & 2020) | Country-level, 201 territories; RLS optional U.S. add-on |
-| **AI economics** | OpenRouter Models API | Teach from a *frozen, dated snapshot* for reproducibility |
-| **Node-link / flows** | BTS Origin–Destination Survey + airport points | Airports as nodes, routes as weighted edges |
+| Role                            | Primary Source                                 | Notes                                                                     |
+| ------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------- |
+| **Global time-series backbone** | UN World Population Prospects 2024             | Estimates 1950→present, projections to 2100, 237 countries/areas          |
+| **Hierarchy layer**             | UN M49 Standard                                | World → Region → Sub-region → Country                                     |
+| **U.S. county demographics**    | Census ACS 5-Year Estimates                    | Joined to Census cartographic boundary files; PEP as freshness supplement |
+| **Labor market**                | BLS LAUS + BLS QCEW                            | Time series + industrial structure, both keyed to county                  |
+| **Religion (pie-on-map)**       | Pew Global Religious Composition (2010 & 2020) | Country-level, 201 territories; RLS optional U.S. add-on                  |
+| **AI economics**                | OpenRouter Models API                          | Teach from a _frozen, dated snapshot_ for reproducibility                 |
+| **Node-link / flows**           | BTS Origin–Destination Survey + airport points | Airports as nodes, routes as weighted edges                               |
 
 > This set is broad without being random. It gives students official global demography, official U.S. county demographics, official labor data, a well-scoped religion dataset, a current AI-market dataset, and a non-generic real network—demonstrating that chart forms are not stylistic choices but emerge from distinct data structures: **time series, hierarchies, compositions, geographies, and graphs.**
 
@@ -41,12 +42,12 @@ Analytically, these encodings reveal **demographic momentum**: a global line cha
 
 For trees, the best companion is the **UN M49 standard**, which provides the official statistical hierarchy with stable numeric and ISO codes. Because it meshes with the WPP file, students can build a hierarchy and immediately attach population measures to each node.
 
-| Hierarchical Level | Conceptual Node | Example Child Nodes |
-|---|---|---|
-| **Root** | Global Entity | World |
-| **Branch (L1)** | Continent / Major Area | Asia, Europe, Africa, Oceania, Latin America, Northern America |
-| **Branch (L2)** | Sub-Region | Asia $\rightarrow$ Southern, Western, South-Eastern, Eastern, Central Asia |
-| **Leaf (L3)** | Country / Territory | Southern Asia $\rightarrow$ Afghanistan, Bangladesh, Bhutan, India, Iran, Maldives, Nepal, Pakistan, Sri Lanka |
+| Hierarchical Level | Conceptual Node        | Example Child Nodes                                                                                            |
+| ------------------ | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Root**           | Global Entity          | World                                                                                                          |
+| **Branch (L1)**    | Continent / Major Area | Asia, Europe, Africa, Oceania, Latin America, Northern America                                                 |
+| **Branch (L2)**    | Sub-Region             | Asia $\rightarrow$ Southern, Western, South-Eastern, Eastern, Central Asia                                     |
+| **Leaf (L3)**      | Country / Territory    | Southern Asia $\rightarrow$ Afghanistan, Bangladesh, Bhutan, India, Iran, Maldives, Nepal, Pakistan, Sri Lanka |
 
 Parsing flat CSV metadata into nested JSON teaches recursive data structures, and the resulting tree footprint provides pre-attentive insight into political fragmentation. The Caribbean branch, for instance, forms a dense cluster of island nations, while Northern America terminates sparsely into just five entities (Bermuda, Canada, Greenland, Saint Pierre and Miquelon, the United States).
 
@@ -75,16 +76,16 @@ $$r = \sqrt{\frac{A}{\pi}}$$
 
 so that **area**, not radius, scales linearly with population. Dense regions (the American Northeast; or, globally, Western Europe) then suffer severe overlap and occlusion, forcing advanced techniques such as **D3.js force-directed collision detection** to repel overlapping marks, or programmatic leader lines that displace charts into open ocean while preserving geographic association.
 
-> **Course-design judgment:** With the global file, use pie symbols on a *selected subset of countries or a regional view* rather than all 201 at once—pie marks clutter a full world map quickly. The data are best suited to comparison.
+> **Course-design judgment:** With the global file, use pie symbols on a _selected subset of countries or a regional view_ rather than all 201 at once—pie marks clutter a full world map quickly. The data are best suited to comparison.
 
 #### State Religious Metrics (RLS, if used)
 
-| Metric | Survey Construct | Insight Derived |
-|---|---|---|
-| Importance of Religion | % who say religion is very important | Internalized subjective value of ideological frameworks |
-| Religious Attendance | % attending services ≥ monthly | Active communal participation and institutional strength |
-| Frequency of Prayer | % who pray daily | Private, habitual practice distinct from attendance |
-| Belief in God | % believing with absolute certainty | Fundamental metaphysical conviction across denominations |
+| Metric                 | Survey Construct                     | Insight Derived                                          |
+| ---------------------- | ------------------------------------ | -------------------------------------------------------- |
+| Importance of Religion | % who say religion is very important | Internalized subjective value of ideological frameworks  |
+| Religious Attendance   | % attending services ≥ monthly       | Active communal participation and institutional strength |
+| Frequency of Prayer    | % who pray daily                     | Private, habitual practice distinct from attendance      |
+| Belief in God          | % believing with absolute certainty  | Fundamental metaphysical conviction across denominations |
 
 ---
 
@@ -112,12 +113,12 @@ The same county data anchors dense scatter plots—educational attainment ($x$) 
 
 The result shows a strong, heteroskedastic positive correlation, but the analytical value lies in the outliers: counties with low attainment yet exceptionally high incomes often map to resource-extraction economies (the oil-and-gas boomtowns of North Dakota)—a lesson in how localized industrial shocks perturb macroeconomic trends.
 
-| County Metric | Source / Program | Visualization Utility |
-|---|---|---|
-| Poverty Rate | Census SAIPE | Choropleth color encoding; systemic regional distress |
-| Educational Attainment | ACS / USDA ERS | Scatter x-axis; multi-generational human capital |
-| Unemployment Rate | BLS LAUS | Scatter y-axis; acute economic volatility |
-| Median Household Income | Census SAIPE | Bubble radius scaling; absolute localized purchasing power |
+| County Metric           | Source / Program | Visualization Utility                                      |
+| ----------------------- | ---------------- | ---------------------------------------------------------- |
+| Poverty Rate            | Census SAIPE     | Choropleth color encoding; systemic regional distress      |
+| Educational Attainment  | ACS / USDA ERS   | Scatter x-axis; multi-generational human capital           |
+| Unemployment Rate       | BLS LAUS         | Scatter y-axis; acute economic volatility                  |
+| Median Household Income | Census SAIPE     | Bubble radius scaling; absolute localized purchasing power |
 
 ---
 
@@ -163,12 +164,12 @@ Each model object exposes an `id`, an architecture `modality` (e.g., `text->text
 
 This forces non-linear scales. Context lengths range from 4,096 tokens to windows exceeding 2,000,000; pricing spans from free open weights to several dollars per million tokens. Plotting `context_length` ($x$) against `pricing` ($y$) **strictly requires logarithmic scales** (`d3.scaleLog()`) to prevent collapse near the origin.
 
-| API Field | Type | D3.js Mapping |
-|---|---|---|
-| `id` / `name` | String | SVG tooltips for identification |
-| `context_length` | Number | x-axis; requires `scaleLog()` |
-| `pricing.prompt` | String (Float) | y-axis; requires `scaleLog()` |
-| `architecture.modality` | String | `scaleOrdinal()` to hex colors (text vs. multimodal) |
+| API Field               | Type           | D3.js Mapping                                        |
+| ----------------------- | -------------- | ---------------------------------------------------- |
+| `id` / `name`           | String         | SVG tooltips for identification                      |
+| `context_length`        | Number         | x-axis; requires `scaleLog()`                        |
+| `pricing.prompt`        | String (Float) | y-axis; requires `scaleLog()`                        |
+| `architecture.modality` | String         | `scaleOrdinal()` to hex colors (text vs. multimodal) |
 
 Clustering reveals distinct market tiers: a dense, competitive floor of open-weight models (Llama, Mistral, Qwen derivatives) near zero marginal cost, against a sparse upper frontier of proprietary reasoning models. Mapping intelligence benchmarks to marker radius ($z$-axis) exposes a counterintuitive **value ratio**—smaller distilled models often dominate intelligence-per-dollar—illustrating the deflationary economics of neural architectures. Accompanying bar charts can rank models by usage volume.
 
@@ -176,7 +177,7 @@ Clustering reveals distinct market tiers: a dense, competitive floor of open-wei
 
 ## 6. Complex Systems and Topology — Node-Link Diagrams
 
-To retire the analytically exhausted *Les Misérables* default, the recommended primary network is a **real, current, geographically meaningful** one.
+To retire the analytically exhausted _Les Misérables_ default, the recommended primary network is a **real, current, geographically meaningful** one.
 
 ### Primary: BTS Origin–Destination Survey
 
@@ -208,16 +209,16 @@ If you prefer to keep the network unit inside the Census/BLS ecosystem, the Cens
 
 ## How the Final Set Covers Your Textbook
 
-| Chart Type | Recommended Dataset(s) |
-|---|---|
-| **Line / area / multi-line** | UN WPP (population trajectories); LAUS (county unemployment); QCEW (industry employment) |
-| **Stacked area / stream graphs** | UN WPP aggregated to M49 regions; QCEW by sector; ATUS for behavioral flow |
-| **Bar / grouped bars** | ACS county demographics; QCEW industry profiles; Pew global religion |
-| **Scatter plots** | ACS × LAUS/QCEW (socioeconomics); OpenRouter (price vs. capability) |
-| **Choropleths** | ACS or LAUS/QCEW + Census cartographic boundaries; Pew or UN + ISO/M49 boundaries |
-| **Pie charts on a map** | Pew global religion (regional subset) |
-| **Trees / hierarchies** | UN M49 (canonical); QCEW industry-by-geography (secondary treemap) |
-| **Node-link diagrams** | BTS OD40/DB1C + airports (primary); ACS migration flows (backup) |
+| Chart Type                       | Recommended Dataset(s)                                                                   |
+| -------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Line / area / multi-line**     | UN WPP (population trajectories); LAUS (county unemployment); QCEW (industry employment) |
+| **Stacked area / stream graphs** | UN WPP aggregated to M49 regions; QCEW by sector; ATUS for behavioral flow               |
+| **Bar / grouped bars**           | ACS county demographics; QCEW industry profiles; Pew global religion                     |
+| **Scatter plots**                | ACS × LAUS/QCEW (socioeconomics); OpenRouter (price vs. capability)                      |
+| **Choropleths**                  | ACS or LAUS/QCEW + Census cartographic boundaries; Pew or UN + ISO/M49 boundaries        |
+| **Pie charts on a map**          | Pew global religion (regional subset)                                                    |
+| **Trees / hierarchies**          | UN M49 (canonical); QCEW industry-by-geography (secondary treemap)                       |
+| **Node-link diagrams**           | BTS OD40/DB1C + airports (primary); ACS migration flows (backup)                         |
 
 ---
 

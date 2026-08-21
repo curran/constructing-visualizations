@@ -1,38 +1,41 @@
-import { useCallback, useEffect } from 'react'
-import { useSearchParams } from 'react-router'
-import { examples, examplesMap, defaultExample } from './examples'
+import { useCallback, useEffect } from 'react';
+import { useSearchParams } from 'react-router';
+import { examples, examplesMap, defaultExample } from './examples';
 
 function App() {
-  const [searchParams, setSearchParams] = useSearchParams()
-  const selectedExampleId = searchParams.get('example') || defaultExample
-  const selectedExample = examplesMap.get(selectedExampleId)
-  const SelectedComponent = selectedExample?.component
-  const hideSidebar = searchParams.has('hideSidebar')
+  const [searchParams, setSearchParams] = useSearchParams();
+  const selectedExampleId = searchParams.get('example') || defaultExample;
+  const selectedExample = examplesMap.get(selectedExampleId);
+  const SelectedComponent = selectedExample?.component;
+  const hideSidebar = searchParams.has('hideSidebar');
 
-  const handleSelectExample = useCallback((exampleId: string) => {
-    setSearchParams({ example: exampleId })
-  }, [setSearchParams])
+  const handleSelectExample = useCallback(
+    (exampleId: string) => {
+      setSearchParams({ example: exampleId });
+    },
+    [setSearchParams],
+  );
 
   const toggleSidebar = useCallback(() => {
-    const newParams = new URLSearchParams(searchParams)
+    const newParams = new URLSearchParams(searchParams);
     if (newParams.has('hideSidebar')) {
-      newParams.delete('hideSidebar')
+      newParams.delete('hideSidebar');
     } else {
-      newParams.set('hideSidebar', 'true')
+      newParams.set('hideSidebar', 'true');
     }
-    setSearchParams(newParams)
-  }, [searchParams, setSearchParams])
+    setSearchParams(newParams);
+  }, [searchParams, setSearchParams]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
-        toggleSidebar()
+        toggleSidebar();
       }
-    }
+    };
 
-    window.addEventListener('keydown', handleKeyDown)
-    return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [toggleSidebar])
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [toggleSidebar]);
 
   return (
     <div className="w-screen h-screen flex bg-white">
@@ -46,9 +49,7 @@ function App() {
                 key={example.id}
                 onClick={() => handleSelectExample(example.id)}
                 className={`w-full text-left px-3 py-2 rounded transition-colors ${
-                  selectedExampleId === example.id
-                    ? 'font-bold bg-gray-100'
-                    : 'hover:bg-gray-50'
+                  selectedExampleId === example.id ? 'font-bold bg-gray-100' : 'hover:bg-gray-50'
                 }`}
               >
                 {example.name}
@@ -63,7 +64,7 @@ function App() {
         {SelectedComponent ? <SelectedComponent /> : <div>Example not found</div>}
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

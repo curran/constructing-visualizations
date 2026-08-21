@@ -2,14 +2,14 @@
 
 ## Course description
 
-This course introduces students to the theory and practice of data visualization through the framework of Tamara Munzner's *Visualization Analysis and Design*. Students learn to reason about visualization through data abstraction, task abstraction, visual encoding, interaction, idiom selection, and evaluation.
+This course introduces students to the theory and practice of data visualization through the framework of Tamara Munzner's _Visualization Analysis and Design_. Students learn to reason about visualization through data abstraction, task abstraction, visual encoding, interaction, idiom selection, and evaluation.
 
 Technically, students build interactive visualizations using React, SVG, and D3. The course progresses from basic scatterplots to interaction, small multiples, maps, networks, focus+context designs, and final project development.
 
 Each week includes two assignments:
 
-* a standalone weekly assignment to practice the current concept, and
-* a semester project milestone that gradually develops a polished final visualization project.
+- a standalone weekly assignment to practice the current concept, and
+- a semester project milestone that gradually develops a polished final visualization project.
 
 ---
 
@@ -29,48 +29,48 @@ By the end of the course, students should be able to:
 
 ## Semester structure
 
-| Component | Description |
-| --- | --- |
-| Weekly skill assignments | Short technical/conceptual exercises unrelated to final project |
-| Semester project milestones | Weekly deliverables building toward final project |
-| Readings | Munzner chapters and supplemental examples |
-| Studios | In-class React + D3 implementation practice |
-| Critiques | Regular discussion of visualization design decisions |
-| Final project | Interactive visualization with design rationale and presentation |
+| Component                   | Description                                                      |
+| --------------------------- | ---------------------------------------------------------------- |
+| Weekly skill assignments    | Short technical/conceptual exercises unrelated to final project  |
+| Semester project milestones | Weekly deliverables building toward final project                |
+| Readings                    | Munzner chapters and supplemental examples                       |
+| Studios                     | In-class React + D3 implementation practice                      |
+| Critiques                   | Regular discussion of visualization design decisions             |
+| Final project               | Interactive visualization with design rationale and presentation |
 
 ---
 
 ## Suggested grading breakdown
 
-| Category | Weight |
-| --- | --- |
-| Weekly skill assignments | 30% |
-| Semester project milestones | 25% |
-| Final project | 25% |
-| Final presentation | 10% |
-| Participation / critique | 10% |
+| Category                    | Weight |
+| --------------------------- | ------ |
+| Weekly skill assignments    | 30%    |
+| Semester project milestones | 25%    |
+| Final project               | 25%    |
+| Final presentation          | 10%    |
+| Participation / critique    | 10%    |
 
 ---
 
 ## 15-week course overview
 
-| Week | Munzner alignment | Theme | React + D3 focus | Standalone weekly assignment | Semester project milestone |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Ch. 1 | Why visualize? | React components, SVG basics | Make a simple scatterplot | Explore 3 possible datasets |
-| 2 | Ch. 2 | What: data abstraction | CSV loading, parsing, data types | Write a data abstraction for a sample dataset | Choose project dataset candidate |
-| 3 | Ch. 3 | Why: task abstraction | State, controls, dropdowns | Convert questions into tasks | Write project audience + questions |
-| 4 | Ch. 4 | How: marks and channels | Scales, axes, encodings | Build 3 scatterplot variations | Make first project encoding sketch |
-| 5 | Ch. 5 | Design rules | Labels, legends, responsive layout | Critique and redesign a weak chart | Project design critique |
-| 6 | Ch. 6 | Arrange tables | Bar charts, aggregation, heatmaps | Build comparison/distribution charts | Build alternate project prototype |
-| 7 | Ch. 7 | Spatial data | GeoJSON, projections, maps | Build a map from provided data | Decide whether project has spatial structure |
-| 8 | Ch. 8 | Networks and trees | Hierarchies, force layout, trees | Build network or tree visualization | Decide whether project has relational structure |
-| 9 | Ch. 9 | Color | Color scales, palettes, legends | Redesign color in a chart | Apply project color/accessibility pass |
-| 10 | Ch. 10 | Manipulate view | Tooltips, filters, zoom, brush | Add interaction to a chart | Add first project interaction |
-| 11 | Ch. 11 | Multiple views | Small multiples, linked views | Build small multiples | Add project second view or faceting |
-| 12 | Ch. 12 | Reduce | Filtering, binning, aggregation | Reduce a large dataset | Improve project data transformation |
-| 13 | Ch. 13 | Focus + context | Overview/detail, annotations | Build overview + detail view | Add project annotations or detail panel |
-| 14 | Ch. 14 | Evaluation | Refactoring, accessibility, peer review | Conduct peer usability critique | Final project draft + peer review |
-| 15 | Ch. 15 | Final synthesis | Deployment, polish | Final reflection | Final presentation and submission |
+| Week | Munzner alignment | Theme                   | React + D3 focus                        | Standalone weekly assignment                  | Semester project milestone                      |
+| ---- | ----------------- | ----------------------- | --------------------------------------- | --------------------------------------------- | ----------------------------------------------- |
+| 1    | Ch. 1             | Why visualize?          | React components, SVG basics            | Make a simple scatterplot                     | Explore 3 possible datasets                     |
+| 2    | Ch. 2             | What: data abstraction  | CSV loading, parsing, data types        | Write a data abstraction for a sample dataset | Choose project dataset candidate                |
+| 3    | Ch. 3             | Why: task abstraction   | State, controls, dropdowns              | Convert questions into tasks                  | Write project audience + questions              |
+| 4    | Ch. 4             | How: marks and channels | Scales, axes, encodings                 | Build 3 scatterplot variations                | Make first project encoding sketch              |
+| 5    | Ch. 5             | Design rules            | Labels, legends, responsive layout      | Critique and redesign a weak chart            | Project design critique                         |
+| 6    | Ch. 6             | Arrange tables          | Bar charts, aggregation, heatmaps       | Build comparison/distribution charts          | Build alternate project prototype               |
+| 7    | Ch. 7             | Spatial data            | GeoJSON, projections, maps              | Build a map from provided data                | Decide whether project has spatial structure    |
+| 8    | Ch. 8             | Networks and trees      | Hierarchies, force layout, trees        | Build network or tree visualization           | Decide whether project has relational structure |
+| 9    | Ch. 9             | Color                   | Color scales, palettes, legends         | Redesign color in a chart                     | Apply project color/accessibility pass          |
+| 10   | Ch. 10            | Manipulate view         | Tooltips, filters, zoom, brush          | Add interaction to a chart                    | Add first project interaction                   |
+| 11   | Ch. 11            | Multiple views          | Small multiples, linked views           | Build small multiples                         | Add project second view or faceting             |
+| 12   | Ch. 12            | Reduce                  | Filtering, binning, aggregation         | Reduce a large dataset                        | Improve project data transformation             |
+| 13   | Ch. 13            | Focus + context         | Overview/detail, annotations            | Build overview + detail view                  | Add project annotations or detail panel         |
+| 14   | Ch. 14            | Evaluation              | Refactoring, accessibility, peer review | Conduct peer usability critique               | Final project draft + peer review               |
+| 15   | Ch. 15            | Final synthesis         | Deployment, polish                      | Final reflection                              | Final presentation and submission               |
 
 ---
 
@@ -82,10 +82,10 @@ Visualization helps people reason about data. It can support exploration, confir
 
 ### React + D3 concepts
 
-* React functional components
-* JSX
-* SVG coordinate system
-* Basic marks: `<circle>`, `<rect>`, `<line>`
+- React functional components
+- JSX
+- SVG coordinate system
+- Basic marks: `<circle>`, `<rect>`, `<line>`
 
 ### Weekly skill assignment
 
@@ -105,9 +105,9 @@ All datasets can be described in terms of dataset types, attribute types, and th
 
 ### React + D3 concepts
 
-* Loading CSV data with D3
-* Parsing and typing data
-* Mapping data to SVG attributes
+- Loading CSV data with D3
+- Parsing and typing data
+- Mapping data to SVG attributes
 
 ### Weekly skill assignment
 
@@ -127,9 +127,9 @@ User tasks can be abstracted into a small vocabulary: search, query, compare, su
 
 ### React + D3 concepts
 
-* React `useState` for UI controls
-* Dropdown menus and filters
-* Conditional rendering
+- React `useState` for UI controls
+- Dropdown menus and filters
+- Conditional rendering
 
 ### Weekly skill assignment
 
@@ -149,9 +149,9 @@ Visual encoding maps data to marks (points, lines, areas) and channels (position
 
 ### React + D3 concepts
 
-* D3 linear and ordinal scales
-* Axes with `d3-axis`
-* Encoding data to position, color, and size
+- D3 linear and ordinal scales
+- Axes with `d3-axis`
+- Encoding data to position, color, and size
 
 ### Weekly skill assignment
 
@@ -171,9 +171,9 @@ Good visualization design follows principles of expressiveness and effectiveness
 
 ### React + D3 concepts
 
-* Labels and annotations in SVG
-* Responsive layout with viewBox
-* Legends
+- Labels and annotations in SVG
+- Responsive layout with viewBox
+- Legends
 
 ### Weekly skill assignment
 
@@ -193,9 +193,9 @@ Tabular data can be visualized using bar charts, stacked bars, heatmaps, dot plo
 
 ### React + D3 concepts
 
-* Bar charts with D3 band scales
-* Aggregation with `d3-array`
-* Heatmaps using color encoding
+- Bar charts with D3 band scales
+- Aggregation with `d3-array`
+- Heatmaps using color encoding
 
 ### Weekly skill assignment
 
@@ -215,9 +215,9 @@ Spatial datasets have geographic or geometric structure. Maps leverage positiona
 
 ### React + D3 concepts
 
-* GeoJSON and TopoJSON
-* D3 projections and `geoPath`
-* Choropleth maps
+- GeoJSON and TopoJSON
+- D3 projections and `geoPath`
+- Choropleth maps
 
 ### Weekly skill assignment
 
@@ -237,9 +237,9 @@ Network and tree datasets have relational structure. Idioms include node-link di
 
 ### React + D3 concepts
 
-* D3 force layout
-* Hierarchical layouts (treemap, dendrogram)
-* SVG `<line>` and `<path>` for edges
+- D3 force layout
+- Hierarchical layouts (treemap, dendrogram)
+- SVG `<line>` and `<path>` for edges
 
 ### Weekly skill assignment
 
@@ -259,9 +259,9 @@ Color is a powerful but easily misused channel. Sequential, diverging, and categ
 
 ### React + D3 concepts
 
-* D3 color scales (`scaleSequential`, `scaleDiverging`, `scaleOrdinal`)
-* Color legends
-* Accessibility considerations
+- D3 color scales (`scaleSequential`, `scaleDiverging`, `scaleOrdinal`)
+- Color legends
+- Accessibility considerations
 
 ### Weekly skill assignment
 
@@ -281,10 +281,10 @@ Interaction idioms let users change what they see: filtering, zooming, panning, 
 
 ### React + D3 concepts
 
-* D3 brush
-* Zoom and pan with `d3-zoom`
-* Tooltips
-* Filtering with React state
+- D3 brush
+- Zoom and pan with `d3-zoom`
+- Tooltips
+- Filtering with React state
 
 ### Weekly skill assignment
 
@@ -304,9 +304,9 @@ Multiple coordinated views let users see different aspects of the same data simu
 
 ### React + D3 concepts
 
-* Small multiples with React
-* Shared state across views
-* Linked highlighting
+- Small multiples with React
+- Shared state across views
+- Linked highlighting
 
 ### Weekly skill assignment
 
@@ -326,9 +326,9 @@ Large datasets require reduction strategies: filtering, aggregation, binning, an
 
 ### React + D3 concepts
 
-* Aggregation with `d3-array` (`rollup`, `group`)
-* Binning with `d3.bin`
-* Dynamic filtering with React state
+- Aggregation with `d3-array` (`rollup`, `group`)
+- Binning with `d3.bin`
+- Dynamic filtering with React state
 
 ### Weekly skill assignment
 
@@ -348,9 +348,9 @@ Focus+context designs let users zoom into detail while retaining awareness of th
 
 ### React + D3 concepts
 
-* Overview + detail with linked views
-* D3 zoom for semantic zooming
-* Annotations with SVG text and lines
+- Overview + detail with linked views
+- D3 zoom for semantic zooming
+- Annotations with SVG text and lines
 
 ### Weekly skill assignment
 
@@ -370,9 +370,9 @@ Visualizations can be evaluated through expert review, user studies, and heurist
 
 ### React + D3 concepts
 
-* Code refactoring for clarity
-* Accessibility audit (keyboard nav, ARIA, contrast)
-* Performance review
+- Code refactoring for clarity
+- Accessibility audit (keyboard nav, ARIA, contrast)
+- Performance review
 
 ### Weekly skill assignment
 
@@ -392,9 +392,9 @@ A complete visualization system integrates data abstraction, task abstraction, v
 
 ### React + D3 concepts
 
-* Final polish and deployment
-* README and design rationale documentation
-* Presentation preparation
+- Final polish and deployment
+- README and design rationale documentation
+- Presentation preparation
 
 ### Weekly skill assignment
 
