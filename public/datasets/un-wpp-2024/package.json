@@ -1,0 +1,18 @@
+{
+  "name": "un-wpp-2024",
+  "version": "1.0.0",
+  "description": "UN World Population Prospects 2024 dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "csv-parse": "^7.0.0",
+    "csv-stringify": "^6.8.0"
+  }
+}

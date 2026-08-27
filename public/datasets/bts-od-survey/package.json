@@ -1,0 +1,17 @@
+{
+  "name": "bts-od-survey",
+  "version": "1.0.0",
+  "description": "BTS Origin & Destination Survey dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "csv-stringify": "^6.8.0"
+  }
+}

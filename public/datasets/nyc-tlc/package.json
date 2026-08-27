@@ -1,0 +1,18 @@
+{
+  "name": "nyc-tlc",
+  "version": "1.0.0",
+  "description": "NYC TLC Trip Records dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parse": "^7.0.0",
+    "csv-stringify": "^6.8.0",
+    "duckdb": "^1.4.4"
+  }
+}

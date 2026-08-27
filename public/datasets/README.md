@@ -1,0 +1,55 @@
+# Datasets
+
+A collection of public datasets curated for the Constructing Visualizations course.
+Each dataset is stored as a clean CSV file alongside a script that documents how
+it was generated.
+
+Total: **19 datasets**, **23 CSV files** (~42 MB combined).
+
+## Dataset Index
+
+| Dataset | CSV File(s) | Size | Rows | Source |
+|---|---|---|---|---|
+| `npm-top-packages` | `npm-top-10000.csv` | 8.0K | 12 | npm Registry API (partial) |
+| `yrbss-2023` | `yrbss_2023.csv` | 12K | 151 | Published CDC rates |
+| `fred-macro` | `fred_macro.csv` | 16K | 313 | FRED CSV download |
+| `un-m49` | `un_m49_hierarchy.csv` | 20K | 280 | ISO-3166 with Regions |
+| `pew-religion` | `pew_religion.csv` | 96K | 1,289 | Pew Research ZIP |
+| `openrouter-models` | `openrouter_models.csv` | 112K | 365 | OpenRouter API |
+| `statsbomb` | `statsbomb_shots.csv` | 132K | 1,495 | StatsBomb GitHub |
+| `census-county-boundaries` | `county_boundaries.csv` | 216K | 3,223 | Census Gazetteer |
+| `bls-qcew` | `bls_qcew_county_all_industries_2024.csv` | 228K | 3,138 | Derived (`00` code, 2024 only) |
+| `cdc-places` | `cdc_places.csv` | 272K | 3,145 | data.cdc.gov |
+| `acs-5yr-county` | `acs_5yr_county.csv` | 304K | 3,223 | Census API + Gazetteer |
+| `ga4-ecommerce` | `ga4_ecommerce.csv` | 368K | 7,328 | Synthetic GA4 ecommerce |
+| `bls-qcew` | `bls_qcew_county_all_industries.csv` | 1.2M | 15,686 | Derived (`00` code, all years) |
+| `bls-qcew` | `bls_qcew_county_manufacturing.csv` | 1.1M | 15,562 | Derived (`31-33` code, all years) |
+| `nyc-tlc` | `nyc_tlc_trips.csv` | 1.6M | 24,119 | NYC S3 + DuckDB |
+| `un-wpp-2024` | `un_wpp_2024.csv` | 1.9M | 16,966 | World Bank API |
+| `nasa-exoplanets` | `nasa_exoplanets.csv` | 2.5M | 27,522 | NASA TAP API |
+| `noaa-storm-events` | `noaa_storm_events_2024.csv` | 4.0M | 69,802 | NOAA NCEI |
+| `bls-qcew` | `bls_qcew_county_2024.csv` | 5.4M | 65,355 | Derived (all codes, 2024 only) |
+| `bls-laus` | `bls_laus_county.csv` | 6.2M | 119,104 | BLS FTP |
+| `online-retail-ii` | `online_retail_ii.csv` | 8.1M | 127,531 | UCI ML Repository |
+| `bts-od-survey` | `bts_airline_routes.csv` + `bts_airports.csv` | 8.5M + 516K | 244,966 + 6,054 | BTS TranStats + DuckDB |
+
+## Notes
+
+- All datasets were downloaded from public APIs or portals — no authentication required
+  for most sources. Exceptions noted in each dataset's README.
+- **ga4-ecommerce** uses realistic synthetic data (BigQuery access unavailable).
+- **un-wpp-2024** uses the UN World Population Prospects 2024 estimates.
+- Each dataset subdirectory contains the CSV file(s), a generation script (`.mjs`), and a README
+  with schema documentation and methodology.
+
+## Generation
+
+All datasets were generated in parallel by orchestrating agent workers, each
+responsible for one dataset.
+
+To regenerate a specific dataset:
+
+```bash
+cd {dataset-name}
+node fetch-{name}.mjs
+```

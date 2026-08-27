@@ -1,0 +1,1289 @@
+country,iso3,region,year,religion,pct_2010,pct_2020,population_2010,population_2020,diversity_index
+Afghanistan,AFG,Asia-Pacific,2020,Buddhism,0,0,28284089,39068979,0.03
+Afghanistan,AFG,Asia-Pacific,2020,Christianity,0.1,0,28284089,39068979,0.03
+Afghanistan,AFG,Asia-Pacific,2020,Hinduism,0,0,28284089,39068979,0.03
+Afghanistan,AFG,Asia-Pacific,2020,Islam,99.7,99.9,28284089,39068979,0.03
+Afghanistan,AFG,Asia-Pacific,2020,Judaism,0,0,28284089,39068979,0.03
+Afghanistan,AFG,Asia-Pacific,2020,Other Religions,0.1,0.1,28284089,39068979,0.03
+Afghanistan,AFG,Asia-Pacific,2020,Unaffiliated,0,0,28284089,39068979,0.03
+Albania,ALB,Europe,2020,Buddhism,0,0,2928722,2871954,4.75
+Albania,ALB,Europe,2020,Christianity,20.3,17.8,2928722,2871954,4.75
+Albania,ALB,Europe,2020,Hinduism,0,0,2928722,2871954,4.75
+Albania,ALB,Europe,2020,Islam,70.2,74.5,2928722,2871954,4.75
+Albania,ALB,Europe,2020,Judaism,0,0,2928722,2871954,4.75
+Albania,ALB,Europe,2020,Other Religions,0,0,2928722,2871954,4.75
+Albania,ALB,Europe,2020,Unaffiliated,9.5,7.7,2928722,2871954,4.75
+Algeria,DZA,Middle East-North Africa,2020,Buddhism,0,0,36188236,44042091,0.37
+Algeria,DZA,Middle East-North Africa,2020,Christianity,0.3,0.3,36188236,44042091,0.37
+Algeria,DZA,Middle East-North Africa,2020,Islam,98.6,98.4,36188236,44042091,0.37
+Algeria,DZA,Middle East-North Africa,2020,Judaism,0,0,36188236,44042091,0.37
+Algeria,DZA,Middle East-North Africa,2020,Other Religions,0,0,36188236,44042091,0.37
+Algeria,DZA,Middle East-North Africa,2020,Unaffiliated,1.1,1.3,36188236,44042091,0.37
+Angola,AGO,Sub-Saharan Africa,2020,Buddhism,0,0,23294825,33451133,1.52
+Angola,AGO,Sub-Saharan Africa,2020,Christianity,91.6,93,23294825,33451133,1.52
+Angola,AGO,Sub-Saharan Africa,2020,Hinduism,0,0,23294825,33451133,1.52
+Angola,AGO,Sub-Saharan Africa,2020,Islam,0.2,0.3,23294825,33451133,1.52
+Angola,AGO,Sub-Saharan Africa,2020,Judaism,0,0,23294825,33451133,1.52
+Angola,AGO,Sub-Saharan Africa,2020,Other Religions,3.8,0.6,23294825,33451133,1.52
+Angola,AGO,Sub-Saharan Africa,2020,Unaffiliated,4.5,6.1,23294825,33451133,1.52
+Argentina,ARG,Latin America-Caribbean,2020,Buddhism,0,0,41288694,45191965,2.44
+Argentina,ARG,Latin America-Caribbean,2020,Christianity,88.1,88.5,41288694,45191965,2.44
+Argentina,ARG,Latin America-Caribbean,2020,Hinduism,0,0,41288694,45191965,2.44
+Argentina,ARG,Latin America-Caribbean,2020,Islam,1,0.9,41288694,45191965,2.44
+Argentina,ARG,Latin America-Caribbean,2020,Judaism,0.4,0.4,41288694,45191965,2.44
+Argentina,ARG,Latin America-Caribbean,2020,Other Religions,0.7,1,41288694,45191965,2.44
+Argentina,ARG,Latin America-Caribbean,2020,Unaffiliated,9.7,9.2,41288694,45191965,2.44
+Armenia,ARM,Asia-Pacific,2020,Buddhism,0,0,2931078,2890893,0.62
+Armenia,ARM,Asia-Pacific,2020,Christianity,97.5,97.3,2931078,2890893,0.62
+Armenia,ARM,Asia-Pacific,2020,Hinduism,0,0,2931078,2890893,0.62
+Armenia,ARM,Asia-Pacific,2020,Islam,0,0.3,2931078,2890893,0.62
+Armenia,ARM,Asia-Pacific,2020,Judaism,0,0,2931078,2890893,0.62
+Armenia,ARM,Asia-Pacific,2020,Other Religions,1.2,1.2,2931078,2890893,0.62
+Armenia,ARM,Asia-Pacific,2020,Unaffiliated,1.2,1.2,2931078,2890893,0.62
+Aruba,ABW,Latin America-Caribbean,2020,Buddhism,0.5,0.5,100114,107401,3.75
+Aruba,ABW,Latin America-Caribbean,2020,Christianity,82.2,81.4,100114,107401,3.75
+Aruba,ABW,Latin America-Caribbean,2020,Hinduism,0.2,0.3,100114,107401,3.75
+Aruba,ABW,Latin America-Caribbean,2020,Islam,0.2,0.3,100114,107401,3.75
+Aruba,ABW,Latin America-Caribbean,2020,Judaism,0.4,0.4,100114,107401,3.75
+Aruba,ABW,Latin America-Caribbean,2020,Other Religions,10.9,11.2,100114,107401,3.75
+Aruba,ABW,Latin America-Caribbean,2020,Unaffiliated,5.6,5.9,100114,107401,3.75
+Australia,AUS,Asia-Pacific,2020,Buddhism,2.7,2.6,22141581,25743791,6.99
+Australia,AUS,Asia-Pacific,2020,Christianity,67.1,46.8,22141581,25743791,6.99
+Australia,AUS,Asia-Pacific,2020,Hinduism,1.4,3,22141581,25743791,6.99
+Australia,AUS,Asia-Pacific,2020,Islam,2.5,3.5,22141581,25743791,6.99
+Australia,AUS,Asia-Pacific,2020,Judaism,0.5,0.4,22141581,25743791,6.99
+Australia,AUS,Asia-Pacific,2020,Other Religions,0.9,1.4,22141581,25743791,6.99
+Australia,AUS,Asia-Pacific,2020,Unaffiliated,24.9,42.3,22141581,25743791,6.99
+Austria,AUT,Europe,2020,Buddhism,0.2,0.3,8365092,8921405,5.58
+Austria,AUT,Europe,2020,Christianity,80.4,68.2,8365092,8921405,5.58
+Austria,AUT,Europe,2020,Hinduism,0.1,0.1,8365092,8921405,5.58
+Austria,AUT,Europe,2020,Islam,5.4,8.3,8365092,8921405,5.58
+Austria,AUT,Europe,2020,Judaism,0.2,0.1,8365092,8921405,5.58
+Austria,AUT,Europe,2020,Other Religions,0.2,0.6,8365092,8921405,5.58
+Austria,AUT,Europe,2020,Unaffiliated,13.5,22.4,8365092,8921405,5.58
+Azerbaijan,AZE,Asia-Pacific,2020,Buddhism,0,0,9146851,10181730,1.17
+Azerbaijan,AZE,Asia-Pacific,2020,Christianity,1.6,0.4,9146851,10181730,1.17
+Azerbaijan,AZE,Asia-Pacific,2020,Hinduism,0,0,9146851,10181730,1.17
+Azerbaijan,AZE,Asia-Pacific,2020,Islam,97.1,94.7,9146851,10181730,1.17
+Azerbaijan,AZE,Asia-Pacific,2020,Judaism,0.2,0.1,9146851,10181730,1.17
+Azerbaijan,AZE,Asia-Pacific,2020,Unaffiliated,1.1,4.8,9146851,10181730,1.17
+Bahamas,BHS,Latin America-Caribbean,2020,Christianity,97.5,97.6,367478,395863,0.55
+Bahamas,BHS,Latin America-Caribbean,2020,Hinduism,0.1,0.1,367478,395863,0.55
+Bahamas,BHS,Latin America-Caribbean,2020,Islam,0.1,0.1,367478,395863,0.55
+Bahamas,BHS,Latin America-Caribbean,2020,Judaism,0.1,0,367478,395863,0.55
+Bahamas,BHS,Latin America-Caribbean,2020,Other Religions,0.3,0.3,367478,395863,0.55
+Bahamas,BHS,Latin America-Caribbean,2020,Unaffiliated,1.9,1.9,367478,395863,0.55
+Bahrain,BHR,Middle East-North Africa,2020,Buddhism,0.2,0.2,1213244,1483077,4.91
+Bahrain,BHR,Middle East-North Africa,2020,Christianity,15.7,13.7,1213244,1483077,4.91
+Bahrain,BHR,Middle East-North Africa,2020,Hinduism,12.9,11.2,1213244,1483077,4.91
+Bahrain,BHR,Middle East-North Africa,2020,Islam,70.2,74,1213244,1483077,4.91
+Bahrain,BHR,Middle East-North Africa,2020,Judaism,0,0,1213244,1483077,4.91
+Bahrain,BHR,Middle East-North Africa,2020,Other Religions,0.6,0.6,1213244,1483077,4.91
+Bahrain,BHR,Middle East-North Africa,2020,Unaffiliated,0.4,0.3,1213244,1483077,4.91
+Bangladesh,BGD,Asia-Pacific,2020,Buddhism,0.6,0.6,152201982,166298024,1.92
+Bangladesh,BGD,Asia-Pacific,2020,Christianity,0.3,0.3,152201982,166298024,1.92
+Bangladesh,BGD,Asia-Pacific,2020,Hinduism,8.6,7.9,152201982,166298024,1.92
+Bangladesh,BGD,Asia-Pacific,2020,Islam,90.4,91.1,152201982,166298024,1.92
+Bangladesh,BGD,Asia-Pacific,2020,Other Religions,0.1,0.1,152201982,166298024,1.92
+Barbados,BRB,Latin America-Caribbean,2020,Buddhism,0.1,0.1,275244,281698,4.21
+Barbados,BRB,Latin America-Caribbean,2020,Christianity,76.6,77.3,275244,281698,4.21
+Barbados,BRB,Latin America-Caribbean,2020,Hinduism,0.5,0.5,275244,281698,4.21
+Barbados,BRB,Latin America-Caribbean,2020,Islam,0.7,0.7,275244,281698,4.21
+Barbados,BRB,Latin America-Caribbean,2020,Judaism,0,0,275244,281698,4.21
+Barbados,BRB,Latin America-Caribbean,2020,Other Religions,1.3,1.2,275244,281698,4.21
+Barbados,BRB,Latin America-Caribbean,2020,Unaffiliated,20.8,20.1,275244,281698,4.21
+Belarus,BLR,Europe,2020,Buddhism,0,0,9490752,9350944,2.99
+Belarus,BLR,Europe,2020,Christianity,93.8,85.1,9490752,9350944,2.99
+Belarus,BLR,Europe,2020,Hinduism,0,0,9490752,9350944,2.99
+Belarus,BLR,Europe,2020,Islam,0.3,0.3,9490752,9350944,2.99
+Belarus,BLR,Europe,2020,Judaism,0.1,0.1,9490752,9350944,2.99
+Belarus,BLR,Europe,2020,Other Religions,0.7,0.7,9490752,9350944,2.99
+Belarus,BLR,Europe,2020,Unaffiliated,5,13.8,9490752,9350944,2.99
+Belgium,BEL,Europe,2020,Buddhism,0.1,0.2,10936626,11540107,6.8
+Belgium,BEL,Europe,2020,Christianity,61.1,51,10936626,11540107,6.8
+Belgium,BEL,Europe,2020,Hinduism,0.1,0.2,10936626,11540107,6.8
+Belgium,BEL,Europe,2020,Islam,5.1,6.8,10936626,11540107,6.8
+Belgium,BEL,Europe,2020,Judaism,0.3,0.3,10936626,11540107,6.8
+Belgium,BEL,Europe,2020,Other Religions,1.2,2.6,10936626,11540107,6.8
+Belgium,BEL,Europe,2020,Unaffiliated,32,39,10936626,11540107,6.8
+Belize,BLZ,Latin America-Caribbean,2020,Buddhism,0.3,0.3,320245,390812,4.83
+Belize,BLZ,Latin America-Caribbean,2020,Christianity,74,74.4,320245,390812,4.83
+Belize,BLZ,Latin America-Caribbean,2020,Hinduism,0.2,0.2,320245,390812,4.83
+Belize,BLZ,Latin America-Caribbean,2020,Islam,0.2,0.2,320245,390812,4.83
+Belize,BLZ,Latin America-Caribbean,2020,Judaism,0.2,0.2,320245,390812,4.83
+Belize,BLZ,Latin America-Caribbean,2020,Other Religions,9.1,9.2,320245,390812,4.83
+Belize,BLZ,Latin America-Caribbean,2020,Unaffiliated,16,15.6,320245,390812,4.83
+Benin,BEN,Sub-Saharan Africa,2020,Buddhism,0,0,9797484,13070169,7.05
+Benin,BEN,Sub-Saharan Africa,2020,Christianity,58.3,53.2,9797484,13070169,7.05
+Benin,BEN,Sub-Saharan Africa,2020,Hinduism,0,0,9797484,13070169,7.05
+Benin,BEN,Sub-Saharan Africa,2020,Islam,23.5,31.4,9797484,13070169,7.05
+Benin,BEN,Sub-Saharan Africa,2020,Judaism,0,0,9797484,13070169,7.05
+Benin,BEN,Sub-Saharan Africa,2020,Other Religions,13.8,10.5,9797484,13070169,7.05
+Benin,BEN,Sub-Saharan Africa,2020,Unaffiliated,4.4,4.9,9797484,13070169,7.05
+Bhutan,BTN,Asia-Pacific,2020,Buddhism,74.7,74.7,701632,770006,4.55
+Bhutan,BTN,Asia-Pacific,2020,Christianity,0.5,0.6,701632,770006,4.55
+Bhutan,BTN,Asia-Pacific,2020,Hinduism,22.6,22.5,701632,770006,4.55
+Bhutan,BTN,Asia-Pacific,2020,Islam,0.2,0.2,701632,770006,4.55
+Bhutan,BTN,Asia-Pacific,2020,Judaism,0,0,701632,770006,4.55
+Bhutan,BTN,Asia-Pacific,2020,Other Religions,1.9,1.9,701632,770006,4.55
+Bhutan,BTN,Asia-Pacific,2020,Unaffiliated,0,0,701632,770006,4.55
+Bolivia,BOL,Latin America-Caribbean,2020,Buddhism,0,0,10182345,11816300,2.33
+Bolivia,BOL,Latin America-Caribbean,2020,Christianity,95.7,88.9,10182345,11816300,2.33
+Bolivia,BOL,Latin America-Caribbean,2020,Hinduism,0,0,10182345,11816300,2.33
+Bolivia,BOL,Latin America-Caribbean,2020,Islam,0,0,10182345,11816300,2.33
+Bolivia,BOL,Latin America-Caribbean,2020,Judaism,0,0,10182345,11816300,2.33
+Bolivia,BOL,Latin America-Caribbean,2020,Other Religions,0.2,1.5,10182345,11816300,2.33
+Bolivia,BOL,Latin America-Caribbean,2020,Unaffiliated,4,9.5,10182345,11816300,2.33
+Bosnia-Herzegovina,BIH,Europe,2020,Buddhism,0,0,3811472,3299350,5.98
+Bosnia-Herzegovina,BIH,Europe,2020,Christianity,46.5,44.7,3811472,3299350,5.98
+Bosnia-Herzegovina,BIH,Europe,2020,Islam,51.3,53.6,3811472,3299350,5.98
+Bosnia-Herzegovina,BIH,Europe,2020,Judaism,0,0,3811472,3299350,5.98
+Bosnia-Herzegovina,BIH,Europe,2020,Other Religions,1.1,0.6,3811472,3299350,5.98
+Bosnia-Herzegovina,BIH,Europe,2020,Unaffiliated,1.1,1,3811472,3299350,5.98
+Botswana,BWA,Sub-Saharan Africa,2020,Buddhism,0.2,0.2,2033111,2365894,3.51
+Botswana,BWA,Sub-Saharan Africa,2020,Christianity,80.5,82.3,2033111,2365894,3.51
+Botswana,BWA,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,2033111,2365894,3.51
+Botswana,BWA,Sub-Saharan Africa,2020,Islam,0.7,0.3,2033111,2365894,3.51
+Botswana,BWA,Sub-Saharan Africa,2020,Judaism,0,0,2033111,2365894,3.51
+Botswana,BWA,Sub-Saharan Africa,2020,Other Religions,3.8,2.3,2033111,2365894,3.51
+Botswana,BWA,Sub-Saharan Africa,2020,Unaffiliated,14.7,14.7,2033111,2365894,3.51
+Brazil,BRA,Latin America-Caribbean,2020,Buddhism,0.1,0.1,193701930,208660843,3.83
+Brazil,BRA,Latin America-Caribbean,2020,Christianity,89.2,80.7,193701930,208660843,3.83
+Brazil,BRA,Latin America-Caribbean,2020,Hinduism,0,0,193701930,208660843,3.83
+Brazil,BRA,Latin America-Caribbean,2020,Islam,0,0,193701930,208660843,3.83
+Brazil,BRA,Latin America-Caribbean,2020,Judaism,0.1,0,193701930,208660843,3.83
+Brazil,BRA,Latin America-Caribbean,2020,Other Religions,2.5,5.7,193701930,208660843,3.83
+Brazil,BRA,Latin America-Caribbean,2020,Unaffiliated,8.1,13.5,193701930,208660843,3.83
+Brunei,BRN,Asia-Pacific,2020,Buddhism,7.8,6.3,392332,447404,3.68
+Brunei,BRN,Asia-Pacific,2020,Christianity,8.7,6.7,392332,447404,3.68
+Brunei,BRN,Asia-Pacific,2020,Hinduism,1.3,1.3,392332,447404,3.68
+Brunei,BRN,Asia-Pacific,2020,Islam,78.8,82.2,392332,447404,3.68
+Brunei,BRN,Asia-Pacific,2020,Other Religions,3.2,3.4,392332,447404,3.68
+Brunei,BRN,Asia-Pacific,2020,Unaffiliated,0.2,0.2,392332,447404,3.68
+Bulgaria,BGR,Europe,2020,Buddhism,0,0,7437599,6933652,4.05
+Bulgaria,BGR,Europe,2020,Christianity,81.4,79.5,7437599,6933652,4.05
+Bulgaria,BGR,Europe,2020,Hinduism,0,0,7437599,6933652,4.05
+Bulgaria,BGR,Europe,2020,Islam,10,10.3,7437599,6933652,4.05
+Bulgaria,BGR,Europe,2020,Judaism,0,0,7437599,6933652,4.05
+Bulgaria,BGR,Europe,2020,Other Religions,0.1,0.1,7437599,6933652,4.05
+Bulgaria,BGR,Europe,2020,Unaffiliated,8.4,10,7437599,6933652,4.05
+Burkina Faso,BFA,Sub-Saharan Africa,2020,Buddhism,0,0,16176498,21478690,5.43
+Burkina Faso,BFA,Sub-Saharan Africa,2020,Christianity,26.6,28,16176498,21478690,5.43
+Burkina Faso,BFA,Sub-Saharan Africa,2020,Hinduism,0,0,16176498,21478690,5.43
+Burkina Faso,BFA,Sub-Saharan Africa,2020,Islam,64.3,67.4,16176498,21478690,5.43
+Burkina Faso,BFA,Sub-Saharan Africa,2020,Other Religions,8.4,4,16176498,21478690,5.43
+Burkina Faso,BFA,Sub-Saharan Africa,2020,Unaffiliated,0.6,0.6,16176498,21478690,5.43
+Burundi,BDI,Sub-Saharan Africa,2020,Buddhism,0,0,9376445,12617036,1.13
+Burundi,BDI,Sub-Saharan Africa,2020,Christianity,95.4,95,9376445,12617036,1.13
+Burundi,BDI,Sub-Saharan Africa,2020,Hinduism,0,0,9376445,12617036,1.13
+Burundi,BDI,Sub-Saharan Africa,2020,Islam,2.1,3,9376445,12617036,1.13
+Burundi,BDI,Sub-Saharan Africa,2020,Judaism,0,0,9376445,12617036,1.13
+Burundi,BDI,Sub-Saharan Africa,2020,Other Religions,0.7,0.8,9376445,12617036,1.13
+Burundi,BDI,Sub-Saharan Africa,2020,Unaffiliated,1.9,1.3,9376445,12617036,1.13
+Cambodia,KHM,Asia-Pacific,2020,Buddhism,96.9,97.1,14500726,16725474,0.66
+Cambodia,KHM,Asia-Pacific,2020,Christianity,0.4,0.3,14500726,16725474,0.66
+Cambodia,KHM,Asia-Pacific,2020,Hinduism,0,0,14500726,16725474,0.66
+Cambodia,KHM,Asia-Pacific,2020,Islam,1.9,2,14500726,16725474,0.66
+Cambodia,KHM,Asia-Pacific,2020,Other Religions,0.7,0.5,14500726,16725474,0.66
+Cambodia,KHM,Asia-Pacific,2020,Unaffiliated,0.1,0.1,14500726,16725474,0.66
+Cameroon,CMR,Sub-Saharan Africa,2020,Buddhism,0,0,19668066,26210558,5.22
+Cameroon,CMR,Sub-Saharan Africa,2020,Christianity,71.7,69.8,19668066,26210558,5.22
+Cameroon,CMR,Sub-Saharan Africa,2020,Hinduism,0,0,19668066,26210558,5.22
+Cameroon,CMR,Sub-Saharan Africa,2020,Islam,21.3,25.2,19668066,26210558,5.22
+Cameroon,CMR,Sub-Saharan Africa,2020,Judaism,0,0,19668066,26210558,5.22
+Cameroon,CMR,Sub-Saharan Africa,2020,Other Religions,3.9,2.9,19668066,26210558,5.22
+Cameroon,CMR,Sub-Saharan Africa,2020,Unaffiliated,3.1,2.1,19668066,26210558,5.22
+Canada,CAN,North America,2020,Buddhism,1.1,1.7,34196899,38171902,6.91
+Canada,CAN,North America,2020,Christianity,67.2,53.3,34196899,38171902,6.91
+Canada,CAN,North America,2020,Hinduism,1.6,1.5,34196899,38171902,6.91
+Canada,CAN,North America,2020,Islam,3.2,4.9,34196899,38171902,6.91
+Canada,CAN,North America,2020,Judaism,1,0.9,34196899,38171902,6.91
+Canada,CAN,North America,2020,Other Religions,2,3,34196899,38171902,6.91
+Canada,CAN,North America,2020,Unaffiliated,23.9,34.6,34196899,38171902,6.91
+Cape Verde,CPV,Sub-Saharan Africa,2020,Buddhism,0,0,509785,514680,4.02
+Cape Verde,CPV,Sub-Saharan Africa,2020,Christianity,85.7,78.3,509785,514680,4.02
+Cape Verde,CPV,Sub-Saharan Africa,2020,Hinduism,0,0,509785,514680,4.02
+Cape Verde,CPV,Sub-Saharan Africa,2020,Islam,0.3,0.3,509785,514680,4.02
+Cape Verde,CPV,Sub-Saharan Africa,2020,Judaism,0,0,509785,514680,4.02
+Cape Verde,CPV,Sub-Saharan Africa,2020,Other Religions,0.4,0.8,509785,514680,4.02
+Cape Verde,CPV,Sub-Saharan Africa,2020,Unaffiliated,13.6,20.6,509785,514680,4.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Buddhism,0,0,4492996,5026629,2.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Christianity,89.8,90.7,4492996,5026629,2.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Hinduism,0,0,4492996,5026629,2.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Islam,8.4,6.2,4492996,5026629,2.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Judaism,0,0,4492996,5026629,2.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Other Religions,0.8,2.6,4492996,5026629,2.02
+Central African Republic,CAF,Sub-Saharan Africa,2020,Unaffiliated,1,0.5,4492996,5026629,2.02
+Chad,TCD,Sub-Saharan Africa,2020,Buddhism,0,0,12312575,17224679,6.18
+Chad,TCD,Sub-Saharan Africa,2020,Christianity,39.5,38.9,12312575,17224679,6.18
+Chad,TCD,Sub-Saharan Africa,2020,Hinduism,0,0,12312575,17224679,6.18
+Chad,TCD,Sub-Saharan Africa,2020,Islam,57.3,56.4,12312575,17224679,6.18
+Chad,TCD,Sub-Saharan Africa,2020,Other Religions,0.5,1.6,12312575,17224679,6.18
+Chad,TCD,Sub-Saharan Africa,2020,Unaffiliated,2.7,3.1,12312575,17224679,6.18
+Channel Islands,---,Europe,2020,Buddhism,0,0,158620,166236,2.96
+Channel Islands,---,Europe,2020,Christianity,85.4,85.2,158620,166236,2.96
+Channel Islands,---,Europe,2020,Hinduism,0.1,0.1,158620,166236,2.96
+Channel Islands,---,Europe,2020,Islam,0.1,0.1,158620,166236,2.96
+Channel Islands,---,Europe,2020,Judaism,0.1,0.1,158620,166236,2.96
+Channel Islands,---,Europe,2020,Other Religions,0.3,0.3,158620,166236,2.96
+Channel Islands,---,Europe,2020,Unaffiliated,14.1,14.2,158620,166236,2.96
+Chile,CHL,Latin America-Caribbean,2020,Buddhism,0,0,17181464,19370624,5.15
+Chile,CHL,Latin America-Caribbean,2020,Christianity,86,68.3,17181464,19370624,5.15
+Chile,CHL,Latin America-Caribbean,2020,Hinduism,0,0,17181464,19370624,5.15
+Chile,CHL,Latin America-Caribbean,2020,Islam,0,0.1,17181464,19370624,5.15
+Chile,CHL,Latin America-Caribbean,2020,Judaism,0.2,0.1,17181464,19370624,5.15
+Chile,CHL,Latin America-Caribbean,2020,Other Religions,0.2,1.2,17181464,19370624,5.15
+Chile,CHL,Latin America-Caribbean,2020,Unaffiliated,13.6,30.3,17181464,19370624,5.15
+China,CHN,Asia-Pacific,2020,Buddhism,5.6,3.7,1351561514,1426106093,2.26
+China,CHN,Asia-Pacific,2020,Christianity,2.3,1.8,1351561514,1426106093,2.26
+China,CHN,Asia-Pacific,2020,Hinduism,0,0,1351561514,1426106093,2.26
+China,CHN,Asia-Pacific,2020,Islam,1.5,1.8,1351561514,1426106093,2.26
+China,CHN,Asia-Pacific,2020,Judaism,0,0,1351561514,1426106093,2.26
+China,CHN,Asia-Pacific,2020,Other Religions,3.1,3,1351561514,1426106093,2.26
+China,CHN,Asia-Pacific,2020,Unaffiliated,87.4,89.6,1351561514,1426106093,2.26
+Colombia,COL,Latin America-Caribbean,2020,Buddhism,0,0,44777319,50629998,2.86
+Colombia,COL,Latin America-Caribbean,2020,Christianity,92.4,86.2,44777319,50629998,2.86
+Colombia,COL,Latin America-Caribbean,2020,Hinduism,0,0,44777319,50629998,2.86
+Colombia,COL,Latin America-Caribbean,2020,Islam,0,0,44777319,50629998,2.86
+Colombia,COL,Latin America-Caribbean,2020,Judaism,0,0,44777319,50629998,2.86
+Colombia,COL,Latin America-Caribbean,2020,Other Religions,0.3,3.8,44777319,50629998,2.86
+Colombia,COL,Latin America-Caribbean,2020,Unaffiliated,7.2,9.9,44777319,50629998,2.86
+Comoros,COM,Sub-Saharan Africa,2020,Christianity,0.3,0.5,654836,802164,0.39
+Comoros,COM,Sub-Saharan Africa,2020,Hinduism,0,0,654836,802164,0.39
+Comoros,COM,Sub-Saharan Africa,2020,Islam,99.5,98.3,654836,802164,0.39
+Comoros,COM,Sub-Saharan Africa,2020,Other Religions,0,1.1,654836,802164,0.39
+Comoros,COM,Sub-Saharan Africa,2020,Unaffiliated,0.1,0.1,654836,802164,0.39
+Costa Rica,CRI,Latin America-Caribbean,2020,Buddhism,0,0,4555962,5034320,2.54
+Costa Rica,CRI,Latin America-Caribbean,2020,Christianity,91.2,87.9,4555962,5034320,2.54
+Costa Rica,CRI,Latin America-Caribbean,2020,Hinduism,0,0,4555962,5034320,2.54
+Costa Rica,CRI,Latin America-Caribbean,2020,Islam,0,0,4555962,5034320,2.54
+Costa Rica,CRI,Latin America-Caribbean,2020,Judaism,0.1,0.1,4555962,5034320,2.54
+Costa Rica,CRI,Latin America-Caribbean,2020,Other Religions,1.1,1.9,4555962,5034320,2.54
+Costa Rica,CRI,Latin America-Caribbean,2020,Unaffiliated,7.5,10.1,4555962,5034320,2.54
+Croatia,HRV,Europe,2020,Buddhism,0,0,4301146,3953958,1.98
+Croatia,HRV,Europe,2020,Christianity,93.7,90.9,4301146,3953958,1.98
+Croatia,HRV,Europe,2020,Hinduism,0,0,4301146,3953958,1.98
+Croatia,HRV,Europe,2020,Islam,1.5,1.4,4301146,3953958,1.98
+Croatia,HRV,Europe,2020,Judaism,0,0,4301146,3953958,1.98
+Croatia,HRV,Europe,2020,Other Religions,0.1,1.1,4301146,3953958,1.98
+Croatia,HRV,Europe,2020,Unaffiliated,4.7,6.7,4301146,3953958,1.98
+Cuba,CUB,Latin America-Caribbean,2020,Buddhism,0,0,11297409,11176354,6.48
+Cuba,CUB,Latin America-Caribbean,2020,Christianity,58.8,60.7,11297409,11176354,6.48
+Cuba,CUB,Latin America-Caribbean,2020,Hinduism,0.2,0.2,11297409,11176354,6.48
+Cuba,CUB,Latin America-Caribbean,2020,Islam,0.1,0.1,11297409,11176354,6.48
+Cuba,CUB,Latin America-Caribbean,2020,Judaism,0,0,11297409,11176354,6.48
+Cuba,CUB,Latin America-Caribbean,2020,Other Religions,17.3,17.4,11297409,11176354,6.48
+Cuba,CUB,Latin America-Caribbean,2020,Unaffiliated,23.5,21.6,11297409,11176354,6.48
+Curacao,CUW,Latin America-Caribbean,2020,Buddhism,0.3,0.3,156879,185018,2.04
+Curacao,CUW,Latin America-Caribbean,2020,Christianity,90.7,90.6,156879,185018,2.04
+Curacao,CUW,Latin America-Caribbean,2020,Hinduism,2,2,156879,185018,2.04
+Curacao,CUW,Latin America-Caribbean,2020,Islam,0.5,0.5,156879,185018,2.04
+Curacao,CUW,Latin America-Caribbean,2020,Judaism,0.2,0.2,156879,185018,2.04
+Curacao,CUW,Latin America-Caribbean,2020,Other Religions,0.5,0.4,156879,185018,2.04
+Curacao,CUW,Latin America-Caribbean,2020,Unaffiliated,5.9,5.9,156879,185018,2.04
+Cyprus,CYP,Asia-Pacific,2020,Buddhism,0.6,0.6,1127817,1302248,5.57
+Cyprus,CYP,Asia-Pacific,2020,Christianity,65.5,67.7,1127817,1302248,5.57
+Cyprus,CYP,Asia-Pacific,2020,Hinduism,0.3,0.3,1127817,1302248,5.57
+Cyprus,CYP,Asia-Pacific,2020,Islam,26.6,24.4,1127817,1302248,5.57
+Cyprus,CYP,Asia-Pacific,2020,Judaism,0,0,1127817,1302248,5.57
+Cyprus,CYP,Asia-Pacific,2020,Other Religions,0.4,0.5,1127817,1302248,5.57
+Cyprus,CYP,Asia-Pacific,2020,Unaffiliated,6.5,6.6,1127817,1302248,5.57
+Czech Republic,CZE,Europe,2020,Buddhism,0.1,0.1,10464036,10550130,4.67
+Czech Republic,CZE,Europe,2020,Christianity,30,26.4,10464036,10550130,4.67
+Czech Republic,CZE,Europe,2020,Hinduism,0,0,10464036,10550130,4.67
+Czech Republic,CZE,Europe,2020,Islam,0.2,0.3,10464036,10550130,4.67
+Czech Republic,CZE,Europe,2020,Judaism,0,0,10464036,10550130,4.67
+Czech Republic,CZE,Europe,2020,Other Religions,1.1,0.3,10464036,10550130,4.67
+Czech Republic,CZE,Europe,2020,Unaffiliated,68.5,72.8,10464036,10550130,4.67
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Buddhism,0,0,68563038,95989998,0.85
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Christianity,96.5,96.3,68563038,95989998,0.85
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Hinduism,0,0,68563038,95989998,0.85
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Islam,1.2,1.3,68563038,95989998,0.85
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Judaism,0,0,68563038,95989998,0.85
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Other Religions,0.9,1.3,68563038,95989998,0.85
+Democratic Republic of the Congo,COD,Sub-Saharan Africa,2020,Unaffiliated,1.4,1.2,68563038,95989998,0.85
+Denmark,DNK,Europe,2020,Buddhism,0.5,0.7,5547863,5831530,4.42
+Denmark,DNK,Europe,2020,Christianity,80.2,76.9,5547863,5831530,4.42
+Denmark,DNK,Europe,2020,Hinduism,0.3,0.4,5547863,5831530,4.42
+Denmark,DNK,Europe,2020,Islam,3.2,4.2,5547863,5831530,4.42
+Denmark,DNK,Europe,2020,Judaism,0.1,0.1,5547863,5831530,4.42
+Denmark,DNK,Europe,2020,Other Religions,1.2,1,5547863,5831530,4.42
+Denmark,DNK,Europe,2020,Unaffiliated,14.5,16.6,5547863,5831530,4.42
+Djibouti,DJI,Sub-Saharan Africa,2020,Christianity,1.3,1.1,930252,1105189,0.53
+Djibouti,DJI,Sub-Saharan Africa,2020,Hinduism,0,0,930252,1105189,0.53
+Djibouti,DJI,Sub-Saharan Africa,2020,Islam,97.4,97.7,930252,1105189,0.53
+Djibouti,DJI,Sub-Saharan Africa,2020,Other Religions,0.1,0.1,930252,1105189,0.53
+Djibouti,DJI,Sub-Saharan Africa,2020,Unaffiliated,1.1,1.1,930252,1105189,0.53
+Dominican Republic,DOM,Latin America-Caribbean,2020,Buddhism,0,0,9820175,11008300,4.18
+Dominican Republic,DOM,Latin America-Caribbean,2020,Christianity,84.9,77.6,9820175,11008300,4.18
+Dominican Republic,DOM,Latin America-Caribbean,2020,Hinduism,0,0,9820175,11008300,4.18
+Dominican Republic,DOM,Latin America-Caribbean,2020,Islam,0,0,9820175,11008300,4.18
+Dominican Republic,DOM,Latin America-Caribbean,2020,Judaism,0,0,9820175,11008300,4.18
+Dominican Republic,DOM,Latin America-Caribbean,2020,Other Religions,0.1,2.7,9820175,11008300,4.18
+Dominican Republic,DOM,Latin America-Caribbean,2020,Unaffiliated,14.9,19.6,9820175,11008300,4.18
+Ecuador,ECU,Latin America-Caribbean,2020,Buddhism,0,0,15076695,17546065,2.43
+Ecuador,ECU,Latin America-Caribbean,2020,Christianity,95.6,88.5,15076695,17546065,2.43
+Ecuador,ECU,Latin America-Caribbean,2020,Hinduism,0,0,15076695,17546065,2.43
+Ecuador,ECU,Latin America-Caribbean,2020,Islam,0,0,15076695,17546065,2.43
+Ecuador,ECU,Latin America-Caribbean,2020,Judaism,0,0,15076695,17546065,2.43
+Ecuador,ECU,Latin America-Caribbean,2020,Other Religions,0.1,3,15076695,17546065,2.43
+Ecuador,ECU,Latin America-Caribbean,2020,Unaffiliated,4.3,8.4,15076695,17546065,2.43
+Egypt,EGY,Middle East-North Africa,2020,Buddhism,0,0,89196073,109315124,1.07
+Egypt,EGY,Middle East-North Africa,2020,Christianity,5.1,4.8,89196073,109315124,1.07
+Egypt,EGY,Middle East-North Africa,2020,Hinduism,0,0,89196073,109315124,1.07
+Egypt,EGY,Middle East-North Africa,2020,Islam,94.9,95.2,89196073,109315124,1.07
+Egypt,EGY,Middle East-North Africa,2020,Judaism,0,0,89196073,109315124,1.07
+Egypt,EGY,Middle East-North Africa,2020,Other Religions,0,0,89196073,109315124,1.07
+Egypt,EGY,Middle East-North Africa,2020,Unaffiliated,0,0,89196073,109315124,1.07
+El Salvador,SLV,Latin America-Caribbean,2020,Buddhism,0,0,6068250,6234674,2.65
+El Salvador,SLV,Latin America-Caribbean,2020,Christianity,88.3,87.1,6068250,6234674,2.65
+El Salvador,SLV,Latin America-Caribbean,2020,Hinduism,0,0,6068250,6234674,2.65
+El Salvador,SLV,Latin America-Caribbean,2020,Islam,0,0,6068250,6234674,2.65
+El Salvador,SLV,Latin America-Caribbean,2020,Judaism,0,0,6068250,6234674,2.65
+El Salvador,SLV,Latin America-Caribbean,2020,Other Religions,0,1,6068250,6234674,2.65
+El Salvador,SLV,Latin America-Caribbean,2020,Unaffiliated,11.6,11.9,6068250,6234674,2.65
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Buddhism,0,0,1189085,1716469,2.44
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Christianity,88.7,88.7,1189085,1716469,2.44
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Hinduism,0,0,1189085,1716469,2.44
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Islam,4,4,1189085,1716469,2.44
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Judaism,0,0.1,1189085,1716469,2.44
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Other Religions,2.2,2.1,1189085,1716469,2.44
+Equatorial Guinea,GNQ,Sub-Saharan Africa,2020,Unaffiliated,5,5,1189085,1716469,2.44
+Eritrea,ERI,Sub-Saharan Africa,2020,Buddhism,0,0,2945187,3291271,6.01
+Eritrea,ERI,Sub-Saharan Africa,2020,Christianity,47.1,46.7,2945187,3291271,6.01
+Eritrea,ERI,Sub-Saharan Africa,2020,Hinduism,0,0,2945187,3291271,6.01
+Eritrea,ERI,Sub-Saharan Africa,2020,Islam,51.3,51.7,2945187,3291271,6.01
+Eritrea,ERI,Sub-Saharan Africa,2020,Judaism,0,0,2945187,3291271,6.01
+Eritrea,ERI,Sub-Saharan Africa,2020,Other Religions,0.6,0.6,2945187,3291271,6.01
+Eritrea,ERI,Sub-Saharan Africa,2020,Unaffiliated,1,1.1,2945187,3291271,6.01
+Estonia,EST,Europe,2020,Buddhism,0.1,0.2,1331449,1329670,6.21
+Estonia,EST,Europe,2020,Christianity,61.2,52.6,1331449,1329670,6.21
+Estonia,EST,Europe,2020,Hinduism,0.1,0.1,1331449,1329670,6.21
+Estonia,EST,Europe,2020,Islam,0.5,0.6,1331449,1329670,6.21
+Estonia,EST,Europe,2020,Judaism,0.2,0.1,1331449,1329670,6.21
+Estonia,EST,Europe,2020,Other Religions,6.4,2.8,1331449,1329670,6.21
+Estonia,EST,Europe,2020,Unaffiliated,31.5,43.6,1331449,1329670,6.21
+Eswatini,SWZ,Sub-Saharan Africa,2020,Buddhism,0,0,1111650,1192730,1.48
+Eswatini,SWZ,Sub-Saharan Africa,2020,Christianity,93.1,93.2,1111650,1192730,1.48
+Eswatini,SWZ,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,1111650,1192730,1.48
+Eswatini,SWZ,Sub-Saharan Africa,2020,Islam,0.3,0.1,1111650,1192730,1.48
+Eswatini,SWZ,Sub-Saharan Africa,2020,Judaism,0,0,1111650,1192730,1.48
+Eswatini,SWZ,Sub-Saharan Africa,2020,Other Religions,2.4,0.3,1111650,1192730,1.48
+Eswatini,SWZ,Sub-Saharan Africa,2020,Unaffiliated,4,6.2,1111650,1192730,1.48
+Ethiopia,ETH,Sub-Saharan Africa,2020,Buddhism,0,0,90538514,118917672,5.71
+Ethiopia,ETH,Sub-Saharan Africa,2020,Christianity,62.6,61.6,90538514,118917672,5.71
+Ethiopia,ETH,Sub-Saharan Africa,2020,Hinduism,0,0,90538514,118917672,5.71
+Ethiopia,ETH,Sub-Saharan Africa,2020,Islam,34.8,36.2,90538514,118917672,5.71
+Ethiopia,ETH,Sub-Saharan Africa,2020,Judaism,0,0,90538514,118917672,5.71
+Ethiopia,ETH,Sub-Saharan Africa,2020,Other Religions,2.6,2.1,90538514,118917672,5.71
+Ethiopia,ETH,Sub-Saharan Africa,2020,Unaffiliated,0.1,0.1,90538514,118917672,5.71
+Federated States of Micronesia,FSM,Asia-Pacific,2020,Buddhism,0.1,0.1,107540,110917,0.28
+Federated States of Micronesia,FSM,Asia-Pacific,2020,Christianity,98.8,98.8,107540,110917,0.28
+Federated States of Micronesia,FSM,Asia-Pacific,2020,Hinduism,0,0,107540,110917,0.28
+Federated States of Micronesia,FSM,Asia-Pacific,2020,Islam,0,0,107540,110917,0.28
+Federated States of Micronesia,FSM,Asia-Pacific,2020,Other Religions,0.4,0.4,107540,110917,0.28
+Federated States of Micronesia,FSM,Asia-Pacific,2020,Unaffiliated,0.7,0.7,107540,110917,0.28
+Fiji,FJI,Asia-Pacific,2020,Buddhism,0.1,0.1,910419,914963,5.31
+Fiji,FJI,Asia-Pacific,2020,Christianity,65.5,69.5,910419,914963,5.31
+Fiji,FJI,Asia-Pacific,2020,Hinduism,27.1,24.1,910419,914963,5.31
+Fiji,FJI,Asia-Pacific,2020,Islam,6.3,5.8,910419,914963,5.31
+Fiji,FJI,Asia-Pacific,2020,Judaism,0,0,910419,914963,5.31
+Fiji,FJI,Asia-Pacific,2020,Other Religions,0.8,0.3,910419,914963,5.31
+Fiji,FJI,Asia-Pacific,2020,Unaffiliated,0.3,0.3,910419,914963,5.31
+Finland,FIN,Europe,2020,Buddhism,0.2,0.3,5363351,5529612,4.84
+Finland,FIN,Europe,2020,Christianity,81.8,72.3,5363351,5529612,4.84
+Finland,FIN,Europe,2020,Hinduism,0.1,0.1,5363351,5529612,4.84
+Finland,FIN,Europe,2020,Islam,0.8,1.6,5363351,5529612,4.84
+Finland,FIN,Europe,2020,Judaism,0.1,0.1,5363351,5529612,4.84
+Finland,FIN,Europe,2020,Other Religions,0.5,0.5,5363351,5529612,4.84
+Finland,FIN,Europe,2020,Unaffiliated,16.6,25,5363351,5529612,4.84
+France,FRA,Europe,2020,Buddhism,0.5,0.7,63417363,65905278,6.93
+France,FRA,Europe,2020,Christianity,57.1,46.5,63417363,65905278,6.93
+France,FRA,Europe,2020,Hinduism,0.1,0.1,63417363,65905278,6.93
+France,FRA,Europe,2020,Islam,6.6,9.1,63417363,65905278,6.93
+France,FRA,Europe,2020,Judaism,0.8,0.7,63417363,65905278,6.93
+France,FRA,Europe,2020,Other Religions,0.4,0.3,63417363,65905278,6.93
+France,FRA,Europe,2020,Unaffiliated,34.5,42.6,63417363,65905278,6.93
+French Guiana,GUF,Latin America-Caribbean,2020,Buddhism,0.6,0.6,234565,289056,3.28
+French Guiana,GUF,Latin America-Caribbean,2020,Christianity,84.5,84.2,234565,289056,3.28
+French Guiana,GUF,Latin America-Caribbean,2020,Hinduism,1.6,1.6,234565,289056,3.28
+French Guiana,GUF,Latin America-Caribbean,2020,Islam,0.9,0.9,234565,289056,3.28
+French Guiana,GUF,Latin America-Caribbean,2020,Judaism,0,0,234565,289056,3.28
+French Guiana,GUF,Latin America-Caribbean,2020,Other Religions,9,9.2,234565,289056,3.28
+French Guiana,GUF,Latin America-Caribbean,2020,Unaffiliated,3.3,3.4,234565,289056,3.28
+French Polynesia,PYF,Asia-Pacific,2020,Buddhism,0.1,0.1,270580,279209,1.45
+French Polynesia,PYF,Asia-Pacific,2020,Christianity,93.5,93.4,270580,279209,1.45
+French Polynesia,PYF,Asia-Pacific,2020,Hinduism,0.1,0.1,270580,279209,1.45
+French Polynesia,PYF,Asia-Pacific,2020,Islam,0.4,0.3,270580,279209,1.45
+French Polynesia,PYF,Asia-Pacific,2020,Judaism,0.1,0.1,270580,279209,1.45
+French Polynesia,PYF,Asia-Pacific,2020,Other Religions,1,1,270580,279209,1.45
+French Polynesia,PYF,Asia-Pacific,2020,Unaffiliated,4.9,5,270580,279209,1.45
+Gabon,GAB,Sub-Saharan Africa,2020,Christianity,86,83.7,1719879,2322539,3.36
+Gabon,GAB,Sub-Saharan Africa,2020,Islam,5.4,8.6,1719879,2322539,3.36
+Gabon,GAB,Sub-Saharan Africa,2020,Other Religions,0.7,1.9,1719879,2322539,3.36
+Gabon,GAB,Sub-Saharan Africa,2020,Unaffiliated,7.8,5.8,1719879,2322539,3.36
+Gambia,GMB,Sub-Saharan Africa,2020,Christianity,3.5,2.9,1926630,2515734,0.68
+Gambia,GMB,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,1926630,2515734,0.68
+Gambia,GMB,Sub-Saharan Africa,2020,Islam,96.2,97,1926630,2515734,0.68
+Gambia,GMB,Sub-Saharan Africa,2020,Other Religions,0.2,0,1926630,2515734,0.68
+Gambia,GMB,Sub-Saharan Africa,2020,Unaffiliated,0,0,1926630,2515734,0.68
+Georgia,GEO,Europe,2020,Buddhism,0,0,3895925,3795678,2.47
+Georgia,GEO,Europe,2020,Christianity,88.6,88.2,3895925,3795678,2.47
+Georgia,GEO,Europe,2020,Hinduism,0,0,3895925,3795678,2.47
+Georgia,GEO,Europe,2020,Islam,10.7,10.5,3895925,3795678,2.47
+Georgia,GEO,Europe,2020,Judaism,0,0,3895925,3795678,2.47
+Georgia,GEO,Europe,2020,Other Religions,0.2,0.3,3895925,3795678,2.47
+Georgia,GEO,Europe,2020,Unaffiliated,0.4,1,3895925,3795678,2.47
+Germany,DEU,Europe,2020,Buddhism,0.3,0.3,80830924,83628709,6.4
+Germany,DEU,Europe,2020,Christianity,62.2,56.2,80830924,83628709,6.4
+Germany,DEU,Europe,2020,Hinduism,0.1,0.2,80830924,83628709,6.4
+Germany,DEU,Europe,2020,Islam,5.1,6.5,80830924,83628709,6.4
+Germany,DEU,Europe,2020,Judaism,0.1,0.1,80830924,83628709,6.4
+Germany,DEU,Europe,2020,Other Religions,0.2,0.4,80830924,83628709,6.4
+Germany,DEU,Europe,2020,Unaffiliated,31.8,36.1,80830924,83628709,6.4
+Ghana,GHA,Sub-Saharan Africa,2020,Christianity,71.1,71.3,25474995,31887809,5.21
+Ghana,GHA,Sub-Saharan Africa,2020,Islam,17.7,19.9,25474995,31887809,5.21
+Ghana,GHA,Sub-Saharan Africa,2020,Other Religions,6,7.8,25474995,31887809,5.21
+Ghana,GHA,Sub-Saharan Africa,2020,Unaffiliated,5.3,1.1,25474995,31887809,5.21
+Greece,GRC,Europe,2020,Buddhism,0,0,11124670,10699369,2.27
+Greece,GRC,Europe,2020,Christianity,91.2,89.5,11124670,10699369,2.27
+Greece,GRC,Europe,2020,Hinduism,0.1,0.1,11124670,10699369,2.27
+Greece,GRC,Europe,2020,Islam,4.5,5.1,11124670,10699369,2.27
+Greece,GRC,Europe,2020,Judaism,0,0,11124670,10699369,2.27
+Greece,GRC,Europe,2020,Other Religions,0.4,0.5,11124670,10699369,2.27
+Greece,GRC,Europe,2020,Unaffiliated,3.7,4.7,11124670,10699369,2.27
+Grenada,GRD,Latin America-Caribbean,2020,Christianity,87.5,87.5,111586,116341,2.66
+Grenada,GRD,Latin America-Caribbean,2020,Hinduism,0.2,0.2,111586,116341,2.66
+Grenada,GRD,Latin America-Caribbean,2020,Islam,0.4,0.4,111586,116341,2.66
+Grenada,GRD,Latin America-Caribbean,2020,Other Religions,6.2,6.2,111586,116341,2.66
+Grenada,GRD,Latin America-Caribbean,2020,Unaffiliated,5.8,5.8,111586,116341,2.66
+Guadeloupe,GLP,Latin America-Caribbean,2020,Buddhism,0.2,0.2,408812,407394,0.94
+Guadeloupe,GLP,Latin America-Caribbean,2020,Christianity,95.8,95.9,408812,407394,0.94
+Guadeloupe,GLP,Latin America-Caribbean,2020,Hinduism,0.5,0.5,408812,407394,0.94
+Guadeloupe,GLP,Latin America-Caribbean,2020,Islam,0.4,0.4,408812,407394,0.94
+Guadeloupe,GLP,Latin America-Caribbean,2020,Judaism,0.4,0.4,408812,407394,0.94
+Guadeloupe,GLP,Latin America-Caribbean,2020,Other Religions,0.2,0.2,408812,407394,0.94
+Guadeloupe,GLP,Latin America-Caribbean,2020,Unaffiliated,2.5,2.5,408812,407394,0.94
+Guam,GUM,Asia-Pacific,2020,Buddhism,1.1,1.1,166522,162158,1.34
+Guam,GUM,Asia-Pacific,2020,Christianity,94.2,94,166522,162158,1.34
+Guam,GUM,Asia-Pacific,2020,Islam,0,0,166522,162158,1.34
+Guam,GUM,Asia-Pacific,2020,Other Religions,3.1,3.1,166522,162158,1.34
+Guam,GUM,Asia-Pacific,2020,Unaffiliated,1.6,1.8,166522,162158,1.34
+Guatemala,GTM,Latin America-Caribbean,2020,Buddhism,0,0,14500113,17357326,1.76
+Guatemala,GTM,Latin America-Caribbean,2020,Christianity,93,92,14500113,17357326,1.76
+Guatemala,GTM,Latin America-Caribbean,2020,Hinduism,0,0,14500113,17357326,1.76
+Guatemala,GTM,Latin America-Caribbean,2020,Islam,0,0,14500113,17357326,1.76
+Guatemala,GTM,Latin America-Caribbean,2020,Judaism,0,0,14500113,17357326,1.76
+Guatemala,GTM,Latin America-Caribbean,2020,Other Religions,0.9,2,14500113,17357326,1.76
+Guatemala,GTM,Latin America-Caribbean,2020,Unaffiliated,6.1,6,14500113,17357326,1.76
+Guinea,GIN,Sub-Saharan Africa,2020,Buddhism,0.1,0.1,10396086,13371183,2.71
+Guinea,GIN,Sub-Saharan Africa,2020,Christianity,8.5,11.7,10396086,13371183,2.71
+Guinea,GIN,Sub-Saharan Africa,2020,Islam,87.9,86.8,10396086,13371183,2.71
+Guinea,GIN,Sub-Saharan Africa,2020,Other Religions,0.2,0.1,10396086,13371183,2.71
+Guinea,GIN,Sub-Saharan Africa,2020,Unaffiliated,3.4,1.3,10396086,13371183,2.71
+Guinea-Bissau,GNB,Sub-Saharan Africa,2020,Christianity,26.2,21.7,1566347,2013255,7.17
+Guinea-Bissau,GNB,Sub-Saharan Africa,2020,Islam,53.7,56,1566347,2013255,7.17
+Guinea-Bissau,GNB,Sub-Saharan Africa,2020,Other Religions,17.7,10.7,1566347,2013255,7.17
+Guinea-Bissau,GNB,Sub-Saharan Africa,2020,Unaffiliated,2.4,11.6,1566347,2013255,7.17
+Guyana,GUY,Latin America-Caribbean,2020,Buddhism,0,0,749257,807482,5.9
+Guyana,GUY,Latin America-Caribbean,2020,Christianity,63.9,65.9,749257,807482,5.9
+Guyana,GUY,Latin America-Caribbean,2020,Hinduism,24.8,23.4,749257,807482,5.9
+Guyana,GUY,Latin America-Caribbean,2020,Islam,6.8,6.5,749257,807482,5.9
+Guyana,GUY,Latin America-Caribbean,2020,Judaism,0,0,749257,807482,5.9
+Guyana,GUY,Latin America-Caribbean,2020,Other Religions,1.3,1.2,749257,807482,5.9
+Guyana,GUY,Latin America-Caribbean,2020,Unaffiliated,3.1,2.9,749257,807482,5.9
+Haiti,HTI,Latin America-Caribbean,2020,Buddhism,0,0,9803294,11243848,2.38
+Haiti,HTI,Latin America-Caribbean,2020,Christianity,91.1,88.7,9803294,11243848,2.38
+Haiti,HTI,Latin America-Caribbean,2020,Islam,0,0,9803294,11243848,2.38
+Haiti,HTI,Latin America-Caribbean,2020,Judaism,0,0,9803294,11243848,2.38
+Haiti,HTI,Latin America-Caribbean,2020,Other Religions,1.3,1.8,9803294,11243848,2.38
+Haiti,HTI,Latin America-Caribbean,2020,Unaffiliated,7.6,9.4,9803294,11243848,2.38
+Honduras,HND,Latin America-Caribbean,2020,Buddhism,0.1,0,8365878,10119641,2.42
+Honduras,HND,Latin America-Caribbean,2020,Christianity,90.1,88.5,8365878,10119641,2.42
+Honduras,HND,Latin America-Caribbean,2020,Hinduism,0,0,8365878,10119641,2.42
+Honduras,HND,Latin America-Caribbean,2020,Islam,0,0,8365878,10119641,2.42
+Honduras,HND,Latin America-Caribbean,2020,Judaism,0,0,8365878,10119641,2.42
+Honduras,HND,Latin America-Caribbean,2020,Other Religions,0.2,1.8,8365878,10119641,2.42
+Honduras,HND,Latin America-Caribbean,2020,Unaffiliated,9.6,9.7,8365878,10119641,2.42
+Hong Kong,HKG,Asia-Pacific,2020,Buddhism,11.9,8.4,7101617,7490236,5.23
+Hong Kong,HKG,Asia-Pacific,2020,Christianity,18.6,18.7,7101617,7490236,5.23
+Hong Kong,HKG,Asia-Pacific,2020,Hinduism,0.1,0.3,7101617,7490236,5.23
+Hong Kong,HKG,Asia-Pacific,2020,Islam,0.1,0.3,7101617,7490236,5.23
+Hong Kong,HKG,Asia-Pacific,2020,Judaism,0,0,7101617,7490236,5.23
+Hong Kong,HKG,Asia-Pacific,2020,Other Religions,1.2,0.9,7101617,7490236,5.23
+Hong Kong,HKG,Asia-Pacific,2020,Unaffiliated,68.2,71.4,7101617,7490236,5.23
+Hungary,HUN,Europe,2020,Buddhism,0.1,0.2,9979129,9749457,4.71
+Hungary,HUN,Europe,2020,Christianity,72.6,72.4,9979129,9749457,4.71
+Hungary,HUN,Europe,2020,Hinduism,0,0.1,9979129,9749457,4.71
+Hungary,HUN,Europe,2020,Islam,0.1,0.1,9979129,9749457,4.71
+Hungary,HUN,Europe,2020,Judaism,0.2,0.1,9979129,9749457,4.71
+Hungary,HUN,Europe,2020,Other Religions,2.1,0.1,9979129,9749457,4.71
+Hungary,HUN,Europe,2020,Unaffiliated,25,27,9979129,9749457,4.71
+Iceland,ISL,Europe,2020,Buddhism,0.4,1.3,318158,366614,4.65
+Iceland,ISL,Europe,2020,Christianity,81.3,74.9,318158,366614,4.65
+Iceland,ISL,Europe,2020,Hinduism,0.1,0.2,318158,366614,4.65
+Iceland,ISL,Europe,2020,Islam,0.7,1.2,318158,366614,4.65
+Iceland,ISL,Europe,2020,Judaism,0.1,0.2,318158,366614,4.65
+Iceland,ISL,Europe,2020,Other Religions,1.5,2.4,318158,366614,4.65
+Iceland,ISL,Europe,2020,Unaffiliated,15.9,19.8,318158,366614,4.65
+India,IND,Asia-Pacific,2020,Buddhism,0.7,0.7,1243481564,1402617696,4.03
+India,IND,Asia-Pacific,2020,Christianity,2.3,2.2,1243481564,1402617696,4.03
+India,IND,Asia-Pacific,2020,Hinduism,80,79.4,1243481564,1402617696,4.03
+India,IND,Asia-Pacific,2020,Islam,14.3,15.2,1243481564,1402617696,4.03
+India,IND,Asia-Pacific,2020,Judaism,0,0,1243481564,1402617696,4.03
+India,IND,Asia-Pacific,2020,Other Religions,2.7,2.5,1243481564,1402617696,4.03
+India,IND,Asia-Pacific,2020,Unaffiliated,0,0,1243481564,1402617696,4.03
+Indonesia,IDN,Asia-Pacific,2020,Buddhism,0.7,0.7,246305322,274814866,2.72
+Indonesia,IDN,Asia-Pacific,2020,Christianity,9.9,10.3,246305322,274814866,2.72
+Indonesia,IDN,Asia-Pacific,2020,Hinduism,1.7,1.6,246305322,274814866,2.72
+Indonesia,IDN,Asia-Pacific,2020,Islam,87.5,87,246305322,274814866,2.72
+Indonesia,IDN,Asia-Pacific,2020,Judaism,0,0,246305322,274814866,2.72
+Indonesia,IDN,Asia-Pacific,2020,Other Religions,0.1,0.4,246305322,274814866,2.72
+Indonesia,IDN,Asia-Pacific,2020,Unaffiliated,0.1,0.1,246305322,274814866,2.72
+Iran,IRN,Asia-Pacific,2020,Buddhism,0,0,77420843,87723443,0.05
+Iran,IRN,Asia-Pacific,2020,Christianity,0.2,0.1,77420843,87723443,0.05
+Iran,IRN,Asia-Pacific,2020,Hinduism,0,0,77420843,87723443,0.05
+Iran,IRN,Asia-Pacific,2020,Islam,99.7,99.8,77420843,87723443,0.05
+Iran,IRN,Asia-Pacific,2020,Judaism,0,0,77420843,87723443,0.05
+Iran,IRN,Asia-Pacific,2020,Other Religions,0.1,0.1,77420843,87723443,0.05
+Iran,IRN,Asia-Pacific,2020,Unaffiliated,0,0,77420843,87723443,0.05
+Iraq,IRQ,Middle East-North Africa,2020,Christianity,0.6,0.4,31045366,42116605,0.12
+Iraq,IRQ,Middle East-North Africa,2020,Hinduism,0,0,31045366,42116605,0.12
+Iraq,IRQ,Middle East-North Africa,2020,Islam,99.2,99.5,31045366,42116605,0.12
+Iraq,IRQ,Middle East-North Africa,2020,Other Religions,0.1,0.1,31045366,42116605,0.12
+Iraq,IRQ,Middle East-North Africa,2020,Unaffiliated,0,0,31045366,42116605,0.12
+Ireland,IRL,Europe,2020,Buddhism,0.2,0.2,4559080,4982607,3.68
+Ireland,IRL,Europe,2020,Christianity,91.9,81.2,4559080,4982607,3.68
+Ireland,IRL,Europe,2020,Hinduism,0.2,0.7,4559080,4982607,3.68
+Ireland,IRL,Europe,2020,Islam,1.1,1.7,4559080,4982607,3.68
+Ireland,IRL,Europe,2020,Judaism,0,0.1,4559080,4982607,3.68
+Ireland,IRL,Europe,2020,Other Religions,0.4,0.5,4559080,4982607,3.68
+Ireland,IRL,Europe,2020,Unaffiliated,6.1,15.6,4559080,4982607,3.68
+Israel,ISR,Middle East-North Africa,2020,Buddhism,0.1,0,7336735,8800376,4.46
+Israel,ISR,Middle East-North Africa,2020,Christianity,2,1.9,7336735,8800376,4.46
+Israel,ISR,Middle East-North Africa,2020,Hinduism,0.2,0.2,7336735,8800376,4.46
+Israel,ISR,Middle East-North Africa,2020,Islam,13.9,14.7,7336735,8800376,4.46
+Israel,ISR,Middle East-North Africa,2020,Judaism,78.5,77,7336735,8800376,4.46
+Israel,ISR,Middle East-North Africa,2020,Other Religions,1.9,1.8,7336735,8800376,4.46
+Israel,ISR,Middle East-North Africa,2020,Unaffiliated,3.6,4.4,7336735,8800376,4.46
+Italy,ITA,Europe,2020,Buddhism,0.4,0.6,60164213,59912769,3.88
+Italy,ITA,Europe,2020,Christianity,88.5,80.5,60164213,59912769,3.88
+Italy,ITA,Europe,2020,Hinduism,0.3,0.4,60164213,59912769,3.88
+Italy,ITA,Europe,2020,Islam,3.4,4.4,60164213,59912769,3.88
+Italy,ITA,Europe,2020,Judaism,0.1,0.1,60164213,59912769,3.88
+Italy,ITA,Europe,2020,Other Religions,0.6,0.7,60164213,59912769,3.88
+Italy,ITA,Europe,2020,Unaffiliated,6.7,13.3,60164213,59912769,3.88
+Ivory Coast,CIV,Sub-Saharan Africa,2020,Christianity,40.8,44.9,22488065,28915450,6.76
+Ivory Coast,CIV,Sub-Saharan Africa,2020,Islam,43.7,46.3,22488065,28915450,6.76
+Ivory Coast,CIV,Sub-Saharan Africa,2020,Other Religions,5.5,3.2,22488065,28915450,6.76
+Ivory Coast,CIV,Sub-Saharan Africa,2020,Unaffiliated,10,5.6,22488065,28915450,6.76
+Jamaica,JAM,Latin America-Caribbean,2020,Buddhism,0,0,2748568,2830739,5.45
+Jamaica,JAM,Latin America-Caribbean,2020,Christianity,70.4,68.6,2748568,2830739,5.45
+Jamaica,JAM,Latin America-Caribbean,2020,Hinduism,0,0,2748568,2830739,5.45
+Jamaica,JAM,Latin America-Caribbean,2020,Islam,0,0,2748568,2830739,5.45
+Jamaica,JAM,Latin America-Caribbean,2020,Judaism,0,0,2748568,2830739,5.45
+Jamaica,JAM,Latin America-Caribbean,2020,Other Religions,7.6,7.6,2748568,2830739,5.45
+Jamaica,JAM,Latin America-Caribbean,2020,Unaffiliated,21.8,23.7,2748568,2830739,5.45
+Japan,JPN,Asia-Pacific,2020,Buddhism,41.8,37.2,128185275,126304543,6.18
+Japan,JPN,Asia-Pacific,2020,Christianity,2.2,2.2,128185275,126304543,6.18
+Japan,JPN,Asia-Pacific,2020,Hinduism,0,0,128185275,126304543,6.18
+Japan,JPN,Asia-Pacific,2020,Islam,0.2,0.2,128185275,126304543,6.18
+Japan,JPN,Asia-Pacific,2020,Judaism,0,0,128185275,126304543,6.18
+Japan,JPN,Asia-Pacific,2020,Other Religions,3.6,2.9,128185275,126304543,6.18
+Japan,JPN,Asia-Pacific,2020,Unaffiliated,52.2,57.5,128185275,126304543,6.18
+Jordan,JOR,Middle East-North Africa,2020,Buddhism,0,0,7297044,10865228,0.66
+Jordan,JOR,Middle East-North Africa,2020,Christianity,3.4,2.8,7297044,10865228,0.66
+Jordan,JOR,Middle East-North Africa,2020,Hinduism,0.1,0,7297044,10865228,0.66
+Jordan,JOR,Middle East-North Africa,2020,Islam,96.5,97.1,7297044,10865228,0.66
+Jordan,JOR,Middle East-North Africa,2020,Other Religions,0,0,7297044,10865228,0.66
+Jordan,JOR,Middle East-North Africa,2020,Unaffiliated,0.1,0,7297044,10865228,0.66
+Kazakhstan,KAZ,Asia-Pacific,2020,Buddhism,0.1,0.1,16836811,19482117,4.14
+Kazakhstan,KAZ,Asia-Pacific,2020,Christianity,27.3,19.3,16836811,19482117,4.14
+Kazakhstan,KAZ,Asia-Pacific,2020,Islam,69.7,77.9,16836811,19482117,4.14
+Kazakhstan,KAZ,Asia-Pacific,2020,Judaism,0,0,16836811,19482117,4.14
+Kazakhstan,KAZ,Asia-Pacific,2020,Other Religions,0,0.1,16836811,19482117,4.14
+Kazakhstan,KAZ,Asia-Pacific,2020,Unaffiliated,2.9,2.5,16836811,19482117,4.14
+Kenya,KEN,Sub-Saharan Africa,2020,Buddhism,0,0,41598567,52217334,2.96
+Kenya,KEN,Sub-Saharan Africa,2020,Christianity,83.1,85.7,41598567,52217334,2.96
+Kenya,KEN,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,41598567,52217334,2.96
+Kenya,KEN,Sub-Saharan Africa,2020,Islam,11.2,10.9,41598567,52217334,2.96
+Kenya,KEN,Sub-Saharan Africa,2020,Judaism,0,0,41598567,52217334,2.96
+Kenya,KEN,Sub-Saharan Africa,2020,Other Religions,3.1,1.7,41598567,52217334,2.96
+Kenya,KEN,Sub-Saharan Africa,2020,Unaffiliated,2.4,1.6,41598567,52217334,2.96
+Kiribati,KIR,Asia-Pacific,2020,Christianity,97.3,97.6,108704,126099,0.55
+Kiribati,KIR,Asia-Pacific,2020,Islam,0.1,0.1,108704,126099,0.55
+Kiribati,KIR,Asia-Pacific,2020,Other Religions,2.5,2.2,108704,126099,0.55
+Kiribati,KIR,Asia-Pacific,2020,Unaffiliated,0,0.1,108704,126099,0.55
+Kosovo,XKX,Europe,2020,Christianity,6.1,5.6,1788743,1751417,1.26
+Kosovo,XKX,Europe,2020,Islam,93.8,94.3,1788743,1751417,1.26
+Kosovo,XKX,Europe,2020,Judaism,0,0,1788743,1751417,1.26
+Kosovo,XKX,Europe,2020,Unaffiliated,0.1,0.1,1788743,1751417,1.26
+Kuwait,KWT,Middle East-North Africa,2020,Buddhism,0.1,0.1,2943372,4400144,3.94
+Kuwait,KWT,Middle East-North Africa,2020,Christianity,9.4,10.5,2943372,4400144,3.94
+Kuwait,KWT,Middle East-North Africa,2020,Hinduism,7.4,8.5,2943372,4400144,3.94
+Kuwait,KWT,Middle East-North Africa,2020,Islam,82.6,80.2,2943372,4400144,3.94
+Kuwait,KWT,Middle East-North Africa,2020,Judaism,0,0,2943372,4400144,3.94
+Kuwait,KWT,Middle East-North Africa,2020,Other Religions,0.3,0.3,2943372,4400144,3.94
+Kuwait,KWT,Middle East-North Africa,2020,Unaffiliated,0.2,0.2,2943372,4400144,3.94
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Buddhism,0.1,0,5491761,6664140,1.81
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Christianity,7.7,5.8,5491761,6664140,1.81
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Hinduism,0,0,5491761,6664140,1.81
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Islam,90.6,91.7,5491761,6664140,1.81
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Judaism,0,0,5491761,6664140,1.81
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Other Religions,0,1.3,5491761,6664140,1.81
+Kyrgyzstan,KGZ,Asia-Pacific,2020,Unaffiliated,1.6,1.2,5491761,6664140,1.81
+Laos,LAO,Asia-Pacific,2020,Buddhism,64,64.2,6334194,7346533,5.49
+Laos,LAO,Asia-Pacific,2020,Christianity,0.7,1.5,6334194,7346533,5.49
+Laos,LAO,Asia-Pacific,2020,Islam,0.1,0,6334194,7346533,5.49
+Laos,LAO,Asia-Pacific,2020,Other Religions,35.2,34.2,6334194,7346533,5.49
+Laos,LAO,Asia-Pacific,2020,Unaffiliated,0.1,0.1,6334194,7346533,5.49
+Latvia,LVA,Europe,2020,Buddhism,0.1,0.1,2097831,1901124,4.34
+Latvia,LVA,Europe,2020,Christianity,82.9,77.3,2097831,1901124,4.34
+Latvia,LVA,Europe,2020,Hinduism,0,0,2097831,1901124,4.34
+Latvia,LVA,Europe,2020,Islam,0.7,0.7,2097831,1901124,4.34
+Latvia,LVA,Europe,2020,Judaism,0.3,0.2,2097831,1901124,4.34
+Latvia,LVA,Europe,2020,Other Religions,5,4.7,2097831,1901124,4.34
+Latvia,LVA,Europe,2020,Unaffiliated,11,17,2097831,1901124,4.34
+Lebanon,LBN,Middle East-North Africa,2020,Buddhism,0,0,5041288,5702398,5.38
+Lebanon,LBN,Middle East-North Africa,2020,Christianity,33.8,27.9,5041288,5702398,5.38
+Lebanon,LBN,Middle East-North Africa,2020,Hinduism,0,0,5041288,5702398,5.38
+Lebanon,LBN,Middle East-North Africa,2020,Islam,62.3,67.8,5041288,5702398,5.38
+Lebanon,LBN,Middle East-North Africa,2020,Judaism,0,0,5041288,5702398,5.38
+Lebanon,LBN,Middle East-North Africa,2020,Other Religions,3.8,4.3,5041288,5702398,5.38
+Lebanon,LBN,Middle East-North Africa,2020,Unaffiliated,0,0,5041288,5702398,5.38
+Lesotho,LSO,Sub-Saharan Africa,2020,Buddhism,0,0,1996251,2235727,0.61
+Lesotho,LSO,Sub-Saharan Africa,2020,Christianity,97.3,97.3,1996251,2235727,0.61
+Lesotho,LSO,Sub-Saharan Africa,2020,Hinduism,0,0,1996251,2235727,0.61
+Lesotho,LSO,Sub-Saharan Africa,2020,Islam,0.1,0.2,1996251,2235727,0.61
+Lesotho,LSO,Sub-Saharan Africa,2020,Judaism,0,0,1996251,2235727,0.61
+Lesotho,LSO,Sub-Saharan Africa,2020,Other Religions,1.1,0.7,1996251,2235727,0.61
+Lesotho,LSO,Sub-Saharan Africa,2020,Unaffiliated,1.5,1.7,1996251,2235727,0.61
+Liberia,LBR,Sub-Saharan Africa,2020,Christianity,85.7,85.2,4058890,5149464,3.01
+Liberia,LBR,Sub-Saharan Africa,2020,Hinduism,0,0,4058890,5149464,3.01
+Liberia,LBR,Sub-Saharan Africa,2020,Islam,12.1,12.7,4058890,5149464,3.01
+Liberia,LBR,Sub-Saharan Africa,2020,Other Religions,0.7,1,4058890,5149464,3.01
+Liberia,LBR,Sub-Saharan Africa,2020,Unaffiliated,1.5,1.1,4058890,5149464,3.01
+Libya,LBY,Middle East-North Africa,2020,Buddhism,0.3,0.3,6497839,7045399,0.23
+Libya,LBY,Middle East-North Africa,2020,Christianity,2.6,0.5,6497839,7045399,0.23
+Libya,LBY,Middle East-North Africa,2020,Hinduism,0.1,0.1,6497839,7045399,0.23
+Libya,LBY,Middle East-North Africa,2020,Islam,96.8,99,6497839,7045399,0.23
+Libya,LBY,Middle East-North Africa,2020,Judaism,0,0,6497839,7045399,0.23
+Libya,LBY,Middle East-North Africa,2020,Other Religions,0.1,0.1,6497839,7045399,0.23
+Libya,LBY,Middle East-North Africa,2020,Unaffiliated,0.1,0,6497839,7045399,0.23
+Lithuania,LTU,Europe,2020,Buddhism,0,0,3097720,2795765,1.7
+Lithuania,LTU,Europe,2020,Christianity,92.5,92.2,3097720,2795765,1.7
+Lithuania,LTU,Europe,2020,Hinduism,0,0,3097720,2795765,1.7
+Lithuania,LTU,Europe,2020,Islam,0.1,0.1,3097720,2795765,1.7
+Lithuania,LTU,Europe,2020,Judaism,0,0,3097720,2795765,1.7
+Lithuania,LTU,Europe,2020,Other Religions,0.5,0.6,3097720,2795765,1.7
+Lithuania,LTU,Europe,2020,Unaffiliated,6.8,7.1,3097720,2795765,1.7
+Luxembourg,LUX,Europe,2020,Buddhism,0.1,0.5,507410,630597,5.81
+Luxembourg,LUX,Europe,2020,Christianity,74.4,65.9,507410,630597,5.81
+Luxembourg,LUX,Europe,2020,Hinduism,0.1,0.4,507410,630597,5.81
+Luxembourg,LUX,Europe,2020,Islam,0.7,1.8,507410,630597,5.81
+Luxembourg,LUX,Europe,2020,Judaism,0.2,0.5,507410,630597,5.81
+Luxembourg,LUX,Europe,2020,Other Religions,4.2,5.7,507410,630597,5.81
+Luxembourg,LUX,Europe,2020,Unaffiliated,20.2,25.3,507410,630597,5.81
+Macao,MAC,Asia-Pacific,2020,Buddhism,19.6,19.6,562806,683067,5.76
+Macao,MAC,Asia-Pacific,2020,Christianity,10.1,10.1,562806,683067,5.76
+Macao,MAC,Asia-Pacific,2020,Islam,0.4,0.5,562806,683067,5.76
+Macao,MAC,Asia-Pacific,2020,Other Religions,2.2,2.2,562806,683067,5.76
+Macao,MAC,Asia-Pacific,2020,Unaffiliated,67.7,67.6,562806,683067,5.76
+Madagascar,MDG,Sub-Saharan Africa,2020,Buddhism,0,0,22183341,28953557,4.66
+Madagascar,MDG,Sub-Saharan Africa,2020,Christianity,70,74.2,22183341,28953557,4.66
+Madagascar,MDG,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,22183341,28953557,4.66
+Madagascar,MDG,Sub-Saharan Africa,2020,Islam,0.6,1.2,22183341,28953557,4.66
+Madagascar,MDG,Sub-Saharan Africa,2020,Judaism,0,0,22183341,28953557,4.66
+Madagascar,MDG,Sub-Saharan Africa,2020,Other Religions,6.9,2.2,22183341,28953557,4.66
+Madagascar,MDG,Sub-Saharan Africa,2020,Unaffiliated,22.5,22.3,22183341,28953557,4.66
+Malawi,MWI,Sub-Saharan Africa,2020,Buddhism,0,0,14826463,19533888,2.61
+Malawi,MWI,Sub-Saharan Africa,2020,Christianity,86.9,87.4,14826463,19533888,2.61
+Malawi,MWI,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,14826463,19533888,2.61
+Malawi,MWI,Sub-Saharan Africa,2020,Islam,11.6,11.6,14826463,19533888,2.61
+Malawi,MWI,Sub-Saharan Africa,2020,Judaism,0,0,14826463,19533888,2.61
+Malawi,MWI,Sub-Saharan Africa,2020,Other Religions,0.4,0.1,14826463,19533888,2.61
+Malawi,MWI,Sub-Saharan Africa,2020,Unaffiliated,1,0.9,14826463,19533888,2.61
+Malaysia,MYS,Asia-Pacific,2020,Buddhism,19.8,18.9,28655777,33889559,6.31
+Malaysia,MYS,Asia-Pacific,2020,Christianity,9.2,9.2,28655777,33889559,6.31
+Malaysia,MYS,Asia-Pacific,2020,Hinduism,6.3,6.1,28655777,33889559,6.31
+Malaysia,MYS,Asia-Pacific,2020,Islam,61.3,64.1,28655777,33889559,6.31
+Malaysia,MYS,Asia-Pacific,2020,Other Religions,1.7,0.9,28655777,33889559,6.31
+Malaysia,MYS,Asia-Pacific,2020,Unaffiliated,1.7,0.8,28655777,33889559,6.31
+Maldives,MDV,Asia-Pacific,2020,Buddhism,1.3,1.3,360792,502119,1.33
+Maldives,MDV,Asia-Pacific,2020,Christianity,1.6,1.6,360792,502119,1.33
+Maldives,MDV,Asia-Pacific,2020,Hinduism,2.5,2.5,360792,502119,1.33
+Maldives,MDV,Asia-Pacific,2020,Islam,94.1,94.1,360792,502119,1.33
+Maldives,MDV,Asia-Pacific,2020,Other Religions,0.3,0.3,360792,502119,1.33
+Maldives,MDV,Asia-Pacific,2020,Unaffiliated,0.1,0.1,360792,502119,1.33
+Mali,MLI,Sub-Saharan Africa,2020,Christianity,3.5,2.6,15945198,21713836,1.31
+Mali,MLI,Sub-Saharan Africa,2020,Islam,94,94.1,15945198,21713836,1.31
+Mali,MLI,Sub-Saharan Africa,2020,Other Religions,1.1,0.8,15945198,21713836,1.31
+Mali,MLI,Sub-Saharan Africa,2020,Unaffiliated,1.4,2.5,15945198,21713836,1.31
+Malta,MLT,Europe,2020,Buddhism,0.1,0.6,422651,518207,2.46
+Malta,MLT,Europe,2020,Christianity,97.1,88.6,422651,518207,2.46
+Malta,MLT,Europe,2020,Hinduism,0.1,1.4,422651,518207,2.46
+Malta,MLT,Europe,2020,Islam,0.2,3.6,422651,518207,2.46
+Malta,MLT,Europe,2020,Judaism,0,0.3,422651,518207,2.46
+Malta,MLT,Europe,2020,Other Religions,0.1,0.2,422651,518207,2.46
+Malta,MLT,Europe,2020,Unaffiliated,2.5,5.2,422651,518207,2.46
+Martinique,MTQ,Latin America-Caribbean,2020,Buddhism,0,0,397384,356615,0.9
+Martinique,MTQ,Latin America-Caribbean,2020,Christianity,96.4,96,397384,356615,0.9
+Martinique,MTQ,Latin America-Caribbean,2020,Hinduism,0.2,0.2,397384,356615,0.9
+Martinique,MTQ,Latin America-Caribbean,2020,Islam,0.2,0.2,397384,356615,0.9
+Martinique,MTQ,Latin America-Caribbean,2020,Other Religions,0.7,0.7,397384,356615,0.9
+Martinique,MTQ,Latin America-Caribbean,2020,Unaffiliated,2.4,2.7,397384,356615,0.9
+Mauritania,MRT,Sub-Saharan Africa,2020,Christianity,0.3,0.2,3390965,4600131,0.19
+Mauritania,MRT,Sub-Saharan Africa,2020,Islam,99.1,99.2,3390965,4600131,0.19
+Mauritania,MRT,Sub-Saharan Africa,2020,Judaism,0,0,3390965,4600131,0.19
+Mauritania,MRT,Sub-Saharan Africa,2020,Other Religions,0.5,0.5,3390965,4600131,0.19
+Mauritania,MRT,Sub-Saharan Africa,2020,Unaffiliated,0.1,0.1,3390965,4600131,0.19
+Mauritius,MUS,Sub-Saharan Africa,2020,Buddhism,0.4,0.4,1282710,1283223,7.33
+Mauritius,MUS,Sub-Saharan Africa,2020,Christianity,32.8,32.9,1282710,1283223,7.33
+Mauritius,MUS,Sub-Saharan Africa,2020,Hinduism,48.5,48.3,1282710,1283223,7.33
+Mauritius,MUS,Sub-Saharan Africa,2020,Islam,17.4,17.5,1282710,1283223,7.33
+Mauritius,MUS,Sub-Saharan Africa,2020,Judaism,0,0,1282710,1283223,7.33
+Mauritius,MUS,Sub-Saharan Africa,2020,Other Religions,0.2,0.2,1282710,1283223,7.33
+Mauritius,MUS,Sub-Saharan Africa,2020,Unaffiliated,0.7,0.8,1282710,1283223,7.33
+Mayotte,MYT,Sub-Saharan Africa,2020,Christianity,0.7,0.5,207422,284371,0.27
+Mayotte,MYT,Sub-Saharan Africa,2020,Islam,98.7,98.8,207422,284371,0.27
+Mayotte,MYT,Sub-Saharan Africa,2020,Other Religions,0.5,0.5,207422,284371,0.27
+Mayotte,MYT,Sub-Saharan Africa,2020,Unaffiliated,0.2,0.2,207422,284371,0.27
+Mexico,MEX,Latin America-Caribbean,2020,Buddhism,0,0,113623895,126799055,2.26
+Mexico,MEX,Latin America-Caribbean,2020,Christianity,95,89.2,113623895,126799055,2.26
+Mexico,MEX,Latin America-Caribbean,2020,Hinduism,0,0,113623895,126799055,2.26
+Mexico,MEX,Latin America-Caribbean,2020,Islam,0,0,113623895,126799055,2.26
+Mexico,MEX,Latin America-Caribbean,2020,Judaism,0.1,0,113623895,126799055,2.26
+Mexico,MEX,Latin America-Caribbean,2020,Other Religions,0.1,0.1,113623895,126799055,2.26
+Mexico,MEX,Latin America-Caribbean,2020,Unaffiliated,4.8,10.6,113623895,126799055,2.26
+Moldova,MDA,Europe,2020,Buddhism,0,0,3631992,3069131,0.11
+Moldova,MDA,Europe,2020,Christianity,97.9,99.5,3631992,3069131,0.11
+Moldova,MDA,Europe,2020,Islam,0.1,0.2,3631992,3069131,0.11
+Moldova,MDA,Europe,2020,Judaism,0,0,3631992,3069131,0.11
+Moldova,MDA,Europe,2020,Other Religions,0.7,0,3631992,3069131,0.11
+Moldova,MDA,Europe,2020,Unaffiliated,1.3,0.2,3631992,3069131,0.11
+Mongolia,MNG,Asia-Pacific,2020,Buddhism,53.9,51.1,2701732,3290786,6.64
+Mongolia,MNG,Asia-Pacific,2020,Christianity,2.1,1.3,2701732,3290786,6.64
+Mongolia,MNG,Asia-Pacific,2020,Hinduism,0,0,2701732,3290786,6.64
+Mongolia,MNG,Asia-Pacific,2020,Islam,3.3,3.5,2701732,3290786,6.64
+Mongolia,MNG,Asia-Pacific,2020,Other Religions,3.2,3.2,2701732,3290786,6.64
+Mongolia,MNG,Asia-Pacific,2020,Unaffiliated,37.4,40.8,2701732,3290786,6.64
+Montenegro,MNE,Europe,2020,Christianity,77.5,76,632089,607935,4.39
+Montenegro,MNE,Europe,2020,Islam,19.6,21.3,632089,607935,4.39
+Montenegro,MNE,Europe,2020,Other Religions,1.6,1.5,632089,607935,4.39
+Montenegro,MNE,Europe,2020,Unaffiliated,1.3,1.1,632089,607935,4.39
+Morocco,MAR,Middle East-North Africa,2020,Christianity,0.1,0.1,32467016,36584208,0.08
+Morocco,MAR,Middle East-North Africa,2020,Islam,99.7,99.7,32467016,36584208,0.08
+Morocco,MAR,Middle East-North Africa,2020,Judaism,0,0,32467016,36584208,0.08
+Morocco,MAR,Middle East-North Africa,2020,Other Religions,0.1,0.1,32467016,36584208,0.08
+Morocco,MAR,Middle East-North Africa,2020,Unaffiliated,0.1,0.1,32467016,36584208,0.08
+Mozambique,MOZ,Sub-Saharan Africa,2020,Buddhism,0,0,22999235,30783688,6.57
+Mozambique,MOZ,Sub-Saharan Africa,2020,Christianity,56.3,61.3,22999235,30783688,6.57
+Mozambique,MOZ,Sub-Saharan Africa,2020,Hinduism,0,0,22999235,30783688,6.57
+Mozambique,MOZ,Sub-Saharan Africa,2020,Islam,18,19.4,22999235,30783688,6.57
+Mozambique,MOZ,Sub-Saharan Africa,2020,Other Religions,6.7,4.9,22999235,30783688,6.57
+Mozambique,MOZ,Sub-Saharan Africa,2020,Unaffiliated,18.9,14.3,22999235,30783688,6.57
+Myanmar,MMR,Asia-Pacific,2020,Buddhism,87.6,89.1,49024382,53016522,2.36
+Myanmar,MMR,Asia-Pacific,2020,Christianity,6.2,6.1,49024382,53016522,2.36
+Myanmar,MMR,Asia-Pacific,2020,Hinduism,0.6,0.4,49024382,53016522,2.36
+Myanmar,MMR,Asia-Pacific,2020,Islam,4.6,3.3,49024382,53016522,2.36
+Myanmar,MMR,Asia-Pacific,2020,Judaism,0,0,49024382,53016522,2.36
+Myanmar,MMR,Asia-Pacific,2020,Other Religions,1,1,49024382,53016522,2.36
+Myanmar,MMR,Asia-Pacific,2020,Unaffiliated,0.1,0.1,49024382,53016522,2.36
+Namibia,NAM,Sub-Saharan Africa,2020,Buddhism,0,0,2109811,2728762,2.05
+Namibia,NAM,Sub-Saharan Africa,2020,Christianity,96.1,90.5,2109811,2728762,2.05
+Namibia,NAM,Sub-Saharan Africa,2020,Hinduism,0.1,0.1,2109811,2728762,2.05
+Namibia,NAM,Sub-Saharan Africa,2020,Islam,0.1,0.1,2109811,2728762,2.05
+Namibia,NAM,Sub-Saharan Africa,2020,Judaism,0,0,2109811,2728762,2.05
+Namibia,NAM,Sub-Saharan Africa,2020,Other Religions,3.5,3.6,2109811,2728762,2.05
+Namibia,NAM,Sub-Saharan Africa,2020,Unaffiliated,0.2,5.6,2109811,2728762,2.05
+Nepal,NPL,Asia-Pacific,2020,Buddhism,9,8.2,27341953,28966575,3.85
+Nepal,NPL,Asia-Pacific,2020,Christianity,1.4,1.8,27341953,28966575,3.85
+Nepal,NPL,Asia-Pacific,2020,Hinduism,81.5,81.2,27341953,28966575,3.85
+Nepal,NPL,Asia-Pacific,2020,Islam,4.4,5.1,27341953,28966575,3.85
+Nepal,NPL,Asia-Pacific,2020,Other Religions,3.6,3.8,27341953,28966575,3.85
+Nepal,NPL,Asia-Pacific,2020,Unaffiliated,0,0,27341953,28966575,3.85
+Netherlands,NLD,Europe,2020,Buddhism,0.2,0.3,16771235,17636731,6.76
+Netherlands,NLD,Europe,2020,Christianity,42.7,35.1,16771235,17636731,6.76
+Netherlands,NLD,Europe,2020,Hinduism,0.5,0.6,16771235,17636731,6.76
+Netherlands,NLD,Europe,2020,Islam,5,5.5,16771235,17636731,6.76
+Netherlands,NLD,Europe,2020,Judaism,0.2,0.2,16771235,17636731,6.76
+Netherlands,NLD,Europe,2020,Other Religions,5.8,4.2,16771235,17636731,6.76
+Netherlands,NLD,Europe,2020,Unaffiliated,45.5,54.1,16771235,17636731,6.76
+New Caledonia,NCL,Asia-Pacific,2020,Buddhism,0.6,0.6,261582,284177,3.08
+New Caledonia,NCL,Asia-Pacific,2020,Christianity,85.6,85.1,261582,284177,3.08
+New Caledonia,NCL,Asia-Pacific,2020,Islam,2.8,2.8,261582,284177,3.08
+New Caledonia,NCL,Asia-Pacific,2020,Judaism,0,0,261582,284177,3.08
+New Caledonia,NCL,Asia-Pacific,2020,Other Religions,1,1,261582,284177,3.08
+New Caledonia,NCL,Asia-Pacific,2020,Unaffiliated,10,10.5,261582,284177,3.08
+New Zealand,NZL,Asia-Pacific,2020,Buddhism,1.5,1.2,4347771,5069895,6.67
+New Zealand,NZL,Asia-Pacific,2020,Christianity,49.1,40.3,4347771,5069895,6.67
+New Zealand,NZL,Asia-Pacific,2020,Hinduism,2.3,2.8,4347771,5069895,6.67
+New Zealand,NZL,Asia-Pacific,2020,Islam,1.2,1.4,4347771,5069895,6.67
+New Zealand,NZL,Asia-Pacific,2020,Judaism,0.1,0.1,4347771,5069895,6.67
+New Zealand,NZL,Asia-Pacific,2020,Other Religions,1.5,2.9,4347771,5069895,6.67
+New Zealand,NZL,Asia-Pacific,2020,Unaffiliated,44.2,51.4,4347771,5069895,6.67
+Nicaragua,NIC,Latin America-Caribbean,2020,Buddhism,0,0,5737450,6565267,3.07
+Nicaragua,NIC,Latin America-Caribbean,2020,Christianity,86.9,84.8,5737450,6565267,3.07
+Nicaragua,NIC,Latin America-Caribbean,2020,Islam,0,0,5737450,6565267,3.07
+Nicaragua,NIC,Latin America-Caribbean,2020,Judaism,0,0,5737450,6565267,3.07
+Nicaragua,NIC,Latin America-Caribbean,2020,Other Religions,0.6,1.9,5737450,6565267,3.07
+Nicaragua,NIC,Latin America-Caribbean,2020,Unaffiliated,12.5,13.3,5737450,6565267,3.07
+Niger,NER,Sub-Saharan Africa,2020,Christianity,1.1,0.6,16548835,23717614,0.43
+Niger,NER,Sub-Saharan Africa,2020,Islam,98.6,98.1,16548835,23717614,0.43
+Niger,NER,Sub-Saharan Africa,2020,Other Religions,0.1,0.1,16548835,23717614,0.43
+Niger,NER,Sub-Saharan Africa,2020,Unaffiliated,0.2,1.2,16548835,23717614,0.43
+Nigeria,NGA,Sub-Saharan Africa,2020,Buddhism,0,0,166642886,213996181,5.81
+Nigeria,NGA,Sub-Saharan Africa,2020,Christianity,44.4,43.4,166642886,213996181,5.81
+Nigeria,NGA,Sub-Saharan Africa,2020,Hinduism,0,0,166642886,213996181,5.81
+Nigeria,NGA,Sub-Saharan Africa,2020,Islam,54.5,56.1,166642886,213996181,5.81
+Nigeria,NGA,Sub-Saharan Africa,2020,Judaism,0,0,166642886,213996181,5.81
+Nigeria,NGA,Sub-Saharan Africa,2020,Other Religions,0.6,0.2,166642886,213996181,5.81
+Nigeria,NGA,Sub-Saharan Africa,2020,Unaffiliated,0.4,0.4,166642886,213996181,5.81
+North Korea,PRK,Asia-Pacific,2020,Buddhism,1.5,1.5,24987259,26136312,4.73
+North Korea,PRK,Asia-Pacific,2020,Christianity,0.4,0.4,24987259,26136312,4.73
+North Korea,PRK,Asia-Pacific,2020,Hinduism,0,0,24987259,26136312,4.73
+North Korea,PRK,Asia-Pacific,2020,Islam,0,0,24987259,26136312,4.73
+North Korea,PRK,Asia-Pacific,2020,Other Religions,25.2,25.2,24987259,26136312,4.73
+North Korea,PRK,Asia-Pacific,2020,Unaffiliated,72.9,72.9,24987259,26136312,4.73
+North Macedonia,MKD,Europe,2020,Buddhism,0,0,2051505,1872016,5.38
+North Macedonia,MKD,Europe,2020,Christianity,65.2,64.7,2051505,1872016,5.38
+North Macedonia,MKD,Europe,2020,Islam,33.3,34.7,2051505,1872016,5.38
+North Macedonia,MKD,Europe,2020,Judaism,0,0,2051505,1872016,5.38
+North Macedonia,MKD,Europe,2020,Other Religions,0,0.1,2051505,1872016,5.38
+North Macedonia,MKD,Europe,2020,Unaffiliated,1.4,0.5,2051505,1872016,5.38
+Norway,NOR,Europe,2020,Buddhism,0.5,0.7,4889162,5379274,5.11
+Norway,NOR,Europe,2020,Christianity,78.8,71.4,4889162,5379274,5.11
+Norway,NOR,Europe,2020,Hinduism,0.2,0.2,4889162,5379274,5.11
+Norway,NOR,Europe,2020,Islam,2.5,4.1,4889162,5379274,5.11
+Norway,NOR,Europe,2020,Judaism,0.1,0.1,4889162,5379274,5.11
+Norway,NOR,Europe,2020,Other Religions,3.2,1,4889162,5379274,5.11
+Norway,NOR,Europe,2020,Unaffiliated,14.7,22.5,4889162,5379274,5.11
+Oman,OMN,Middle East-North Africa,2020,Buddhism,0.1,0.1,2757446,4522497,3.68
+Oman,OMN,Middle East-North Africa,2020,Christianity,4.4,8.1,2757446,4522497,3.68
+Oman,OMN,Middle East-North Africa,2020,Hinduism,5.2,9.5,2757446,4522497,3.68
+Oman,OMN,Middle East-North Africa,2020,Islam,90.1,81.8,2757446,4522497,3.68
+Oman,OMN,Middle East-North Africa,2020,Judaism,0,0,2757446,4522497,3.68
+Oman,OMN,Middle East-North Africa,2020,Other Religions,0.2,0.4,2757446,4522497,3.68
+Oman,OMN,Middle East-North Africa,2020,Unaffiliated,0.1,0.1,2757446,4522497,3.68
+Pakistan,PAK,Asia-Pacific,2020,Buddhism,0,0,199239047,235001746,0.79
+Pakistan,PAK,Asia-Pacific,2020,Christianity,1.5,1.3,199239047,235001746,0.79
+Pakistan,PAK,Asia-Pacific,2020,Hinduism,1.8,2.1,199239047,235001746,0.79
+Pakistan,PAK,Asia-Pacific,2020,Islam,96.7,96.5,199239047,235001746,0.79
+Pakistan,PAK,Asia-Pacific,2020,Judaism,0,0,199239047,235001746,0.79
+Pakistan,PAK,Asia-Pacific,2020,Other Religions,0,0,199239047,235001746,0.79
+Pakistan,PAK,Asia-Pacific,2020,Unaffiliated,0,0,199239047,235001746,0.79
+Palestinian territories,PSE,Middle East-North Africa,2020,Christianity,1.2,1,4016916,5069692,0.24
+Palestinian territories,PSE,Middle East-North Africa,2020,Islam,98.8,99,4016916,5069692,0.24
+Palestinian territories,PSE,Middle East-North Africa,2020,Other Religions,0,0,4016916,5069692,0.24
+Panama,PAN,Latin America-Caribbean,2020,Buddhism,0.1,0.2,3628535,4293261,1.92
+Panama,PAN,Latin America-Caribbean,2020,Christianity,93.1,91.2,3628535,4293261,1.92
+Panama,PAN,Latin America-Caribbean,2020,Hinduism,0.1,0.1,3628535,4293261,1.92
+Panama,PAN,Latin America-Caribbean,2020,Islam,0,0.1,3628535,4293261,1.92
+Panama,PAN,Latin America-Caribbean,2020,Judaism,0.2,0.2,3628535,4293261,1.92
+Panama,PAN,Latin America-Caribbean,2020,Other Religions,0.4,2.1,3628535,4293261,1.92
+Panama,PAN,Latin America-Caribbean,2020,Unaffiliated,6,6.2,3628535,4293261,1.92
+Papua New Guinea,PNG,Asia-Pacific,2020,Buddhism,0,0,7633523,9815746,0.21
+Papua New Guinea,PNG,Asia-Pacific,2020,Christianity,99.5,99.1,7633523,9815746,0.21
+Papua New Guinea,PNG,Asia-Pacific,2020,Hinduism,0,0,7633523,9815746,0.21
+Papua New Guinea,PNG,Asia-Pacific,2020,Islam,0.1,0.1,7633523,9815746,0.21
+Papua New Guinea,PNG,Asia-Pacific,2020,Judaism,0,0,7633523,9815746,0.21
+Papua New Guinea,PNG,Asia-Pacific,2020,Other Religions,0,0.5,7633523,9815746,0.21
+Papua New Guinea,PNG,Asia-Pacific,2020,Unaffiliated,0.4,0.3,7633523,9815746,0.21
+Paraguay,PRY,Latin America-Caribbean,2020,Buddhism,0,0,5737972,6603740,1.43
+Paraguay,PRY,Latin America-Caribbean,2020,Christianity,96.8,93.5,5737972,6603740,1.43
+Paraguay,PRY,Latin America-Caribbean,2020,Islam,0,0,5737972,6603740,1.43
+Paraguay,PRY,Latin America-Caribbean,2020,Judaism,0,0,5737972,6603740,1.43
+Paraguay,PRY,Latin America-Caribbean,2020,Other Religions,2.7,2.2,5737972,6603740,1.43
+Paraguay,PRY,Latin America-Caribbean,2020,Unaffiliated,0.5,4.2,5737972,6603740,1.43
+Peru,PER,Latin America-Caribbean,2020,Buddhism,0,0,29086020,32838580,1.22
+Peru,PER,Latin America-Caribbean,2020,Christianity,93.9,94.5,29086020,32838580,1.22
+Peru,PER,Latin America-Caribbean,2020,Hinduism,0,0,29086020,32838580,1.22
+Peru,PER,Latin America-Caribbean,2020,Islam,0,0,29086020,32838580,1.22
+Peru,PER,Latin America-Caribbean,2020,Judaism,0,0,29086020,32838580,1.22
+Peru,PER,Latin America-Caribbean,2020,Other Religions,3.2,0.3,29086020,32838580,1.22
+Peru,PER,Latin America-Caribbean,2020,Unaffiliated,2.8,5.1,29086020,32838580,1.22
+Philippines,PHL,Asia-Pacific,2020,Buddhism,0,0,96337125,112081264,1.85
+Philippines,PHL,Asia-Pacific,2020,Christianity,91.8,91.5,96337125,112081264,1.85
+Philippines,PHL,Asia-Pacific,2020,Hinduism,0,0,96337125,112081264,1.85
+Philippines,PHL,Asia-Pacific,2020,Islam,5.6,6.5,96337125,112081264,1.85
+Philippines,PHL,Asia-Pacific,2020,Judaism,0,0,96337125,112081264,1.85
+Philippines,PHL,Asia-Pacific,2020,Other Religions,2.5,2,96337125,112081264,1.85
+Philippines,PHL,Asia-Pacific,2020,Unaffiliated,0.1,0,96337125,112081264,1.85
+Poland,POL,Europe,2020,Buddhism,0,0,38095352,38171012,1.88
+Poland,POL,Europe,2020,Christianity,97.3,91.2,38095352,38171012,1.88
+Poland,POL,Europe,2020,Hinduism,0,0,38095352,38171012,1.88
+Poland,POL,Europe,2020,Islam,0,0,38095352,38171012,1.88
+Poland,POL,Europe,2020,Judaism,0,0,38095352,38171012,1.88
+Poland,POL,Europe,2020,Other Religions,0,0.1,38095352,38171012,1.88
+Poland,POL,Europe,2020,Unaffiliated,2.7,8.6,38095352,38171012,1.88
+Portugal,PRT,Europe,2020,Buddhism,0.2,0.2,10578660,10370519,3
+Portugal,PRT,Europe,2020,Christianity,91.8,85.1,10578660,10370519,3
+Portugal,PRT,Europe,2020,Hinduism,0.2,0.2,10578660,10370519,3
+Portugal,PRT,Europe,2020,Islam,0.3,0.4,10578660,10370519,3
+Portugal,PRT,Europe,2020,Judaism,0,0,10578660,10370519,3
+Portugal,PRT,Europe,2020,Other Religions,0.4,0.3,10578660,10370519,3
+Portugal,PRT,Europe,2020,Unaffiliated,7.2,13.8,10578660,10370519,3
+Puerto Rico,PRI,Latin America-Caribbean,2020,Buddhism,0.3,0.2,3714836,3275805,2.33
+Puerto Rico,PRI,Latin America-Caribbean,2020,Christianity,88.9,88.8,3714836,3275805,2.33
+Puerto Rico,PRI,Latin America-Caribbean,2020,Hinduism,0.1,0.1,3714836,3275805,2.33
+Puerto Rico,PRI,Latin America-Caribbean,2020,Islam,0.1,0.1,3714836,3275805,2.33
+Puerto Rico,PRI,Latin America-Caribbean,2020,Judaism,0,0,3714836,3275805,2.33
+Puerto Rico,PRI,Latin America-Caribbean,2020,Other Religions,0.2,0.3,3714836,3275805,2.33
+Puerto Rico,PRI,Latin America-Caribbean,2020,Unaffiliated,10.3,10.4,3714836,3275805,2.33
+Qatar,QAT,Middle East-North Africa,2020,Buddhism,0.2,0.2,1709230,2803375,4.63
+Qatar,QAT,Middle East-North Africa,2020,Christianity,13.4,12.5,1709230,2803375,4.63
+Qatar,QAT,Middle East-North Africa,2020,Hinduism,11.1,10.6,1709230,2803375,4.63
+Qatar,QAT,Middle East-North Africa,2020,Islam,74.6,75.9,1709230,2803375,4.63
+Qatar,QAT,Middle East-North Africa,2020,Judaism,0,0,1709230,2803375,4.63
+Qatar,QAT,Middle East-North Africa,2020,Other Religions,0.4,0.4,1709230,2803375,4.63
+Qatar,QAT,Middle East-North Africa,2020,Unaffiliated,0.3,0.3,1709230,2803375,4.63
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Buddhism,0,0,4462290,5752791,1.71
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Christianity,91.8,92.2,4462290,5752791,1.71
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Hinduism,0,0,4462290,5752791,1.71
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Islam,1.5,1.5,4462290,5752791,1.71
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Judaism,0,0,4462290,5752791,1.71
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Other Religions,1.1,1.1,4462290,5752791,1.71
+Republic of the Congo,COG,Sub-Saharan Africa,2020,Unaffiliated,5.6,5.2,4462290,5752791,1.71
+Reunion,REU,Sub-Saharan Africa,2020,Buddhism,0.2,0.2,844472,861446,2.68
+Reunion,REU,Sub-Saharan Africa,2020,Christianity,87.4,87.5,844472,861446,2.68
+Reunion,REU,Sub-Saharan Africa,2020,Hinduism,4.6,4.5,844472,861446,2.68
+Reunion,REU,Sub-Saharan Africa,2020,Islam,4.2,4.2,844472,861446,2.68
+Reunion,REU,Sub-Saharan Africa,2020,Judaism,0.1,0.1,844472,861446,2.68
+Reunion,REU,Sub-Saharan Africa,2020,Other Religions,1.5,1.4,844472,861446,2.68
+Reunion,REU,Sub-Saharan Africa,2020,Unaffiliated,2.1,2.1,844472,861446,2.68
+Romania,ROU,Europe,2020,Buddhism,0,0,20432574,19392469,0.34
+Romania,ROU,Europe,2020,Christianity,99.3,98.5,20432574,19392469,0.34
+Romania,ROU,Europe,2020,Hinduism,0,0,20432574,19392469,0.34
+Romania,ROU,Europe,2020,Islam,0.3,0.4,20432574,19392469,0.34
+Romania,ROU,Europe,2020,Judaism,0,0,20432574,19392469,0.34
+Romania,ROU,Europe,2020,Other Religions,0.1,0.1,20432574,19392469,0.34
+Romania,ROU,Europe,2020,Unaffiliated,0.2,0.9,20432574,19392469,0.34
+Russia,RUS,Europe,2020,Buddhism,0.4,0.4,143934466,146371299,5.41
+Russia,RUS,Europe,2020,Christianity,77.1,69.9,143934466,146371299,5.41
+Russia,RUS,Europe,2020,Hinduism,0.1,0.1,143934466,146371299,5.41
+Russia,RUS,Europe,2020,Islam,8.6,8.2,143934466,146371299,5.41
+Russia,RUS,Europe,2020,Judaism,0.1,0.1,143934466,146371299,5.41
+Russia,RUS,Europe,2020,Other Religions,0.7,1.2,143934466,146371299,5.41
+Russia,RUS,Europe,2020,Unaffiliated,13,20.2,143934466,146371299,5.41
+Rwanda,RWA,Sub-Saharan Africa,2020,Christianity,96.9,97,10317554,13065837,0.68
+Rwanda,RWA,Sub-Saharan Africa,2020,Hinduism,0,0,10317554,13065837,0.68
+Rwanda,RWA,Sub-Saharan Africa,2020,Islam,1.3,1.8,10317554,13065837,0.68
+Rwanda,RWA,Sub-Saharan Africa,2020,Other Religions,0.9,0.1,10317554,13065837,0.68
+Rwanda,RWA,Sub-Saharan Africa,2020,Unaffiliated,0.9,1,10317554,13065837,0.68
+Samoa,WSM,Asia-Pacific,2020,Buddhism,0.1,0,193023,211944,0.54
+Samoa,WSM,Asia-Pacific,2020,Christianity,98.6,97.6,193023,211944,0.54
+Samoa,WSM,Asia-Pacific,2020,Hinduism,0.1,0,193023,211944,0.54
+Samoa,WSM,Asia-Pacific,2020,Islam,0,0,193023,211944,0.54
+Samoa,WSM,Asia-Pacific,2020,Judaism,0,0,193023,211944,0.54
+Samoa,WSM,Asia-Pacific,2020,Other Religions,1.1,2.2,193023,211944,0.54
+Samoa,WSM,Asia-Pacific,2020,Unaffiliated,0.1,0.1,193023,211944,0.54
+Sao Tome and Principe,STP,Sub-Saharan Africa,2020,Christianity,82.3,84.4,181802,217435,3.2
+Sao Tome and Principe,STP,Sub-Saharan Africa,2020,Islam,0.2,0.1,181802,217435,3.2
+Sao Tome and Principe,STP,Sub-Saharan Africa,2020,Other Religions,5.1,5.8,181802,217435,3.2
+Sao Tome and Principe,STP,Sub-Saharan Africa,2020,Unaffiliated,12.5,9.7,181802,217435,3.2
+Saudi Arabia,SAU,Middle East-North Africa,2020,Buddhism,0.1,0.1,25157129,30991207,1.61
+Saudi Arabia,SAU,Middle East-North Africa,2020,Christianity,3.4,4.4,25157129,30991207,1.61
+Saudi Arabia,SAU,Middle East-North Africa,2020,Hinduism,2,2.6,25157129,30991207,1.61
+Saudi Arabia,SAU,Middle East-North Africa,2020,Islam,94.4,92.7,25157129,30991207,1.61
+Saudi Arabia,SAU,Middle East-North Africa,2020,Judaism,0,0,25157129,30991207,1.61
+Saudi Arabia,SAU,Middle East-North Africa,2020,Other Religions,0.1,0.1,25157129,30991207,1.61
+Saudi Arabia,SAU,Middle East-North Africa,2020,Unaffiliated,0.1,0.1,25157129,30991207,1.61
+Senegal,SEN,Sub-Saharan Africa,2020,Buddhism,0,0,12635413,16789220,0.56
+Senegal,SEN,Sub-Saharan Africa,2020,Christianity,3.4,2.4,12635413,16789220,0.56
+Senegal,SEN,Sub-Saharan Africa,2020,Islam,96.1,97.6,12635413,16789220,0.56
+Senegal,SEN,Sub-Saharan Africa,2020,Judaism,0,0,12635413,16789220,0.56
+Senegal,SEN,Sub-Saharan Africa,2020,Other Religions,0.5,0,12635413,16789220,0.56
+Senegal,SEN,Sub-Saharan Africa,2020,Unaffiliated,0,0,12635413,16789220,0.56
+Serbia,SRB,Europe,2020,Buddhism,0,0,7395865,6907812,1.85
+Serbia,SRB,Europe,2020,Christianity,95.5,91.5,7395865,6907812,1.85
+Serbia,SRB,Europe,2020,Hinduism,0,0,7395865,6907812,1.85
+Serbia,SRB,Europe,2020,Islam,3.2,4.4,7395865,6907812,1.85
+Serbia,SRB,Europe,2020,Judaism,0,0,7395865,6907812,1.85
+Serbia,SRB,Europe,2020,Other Religions,0,0,7395865,6907812,1.85
+Serbia,SRB,Europe,2020,Unaffiliated,1.2,4,7395865,6907812,1.85
+Seychelles,SYC,Sub-Saharan Africa,2020,Buddhism,0.8,0.8,94971,120291,1.36
+Seychelles,SYC,Sub-Saharan Africa,2020,Christianity,94,94,94971,120291,1.36
+Seychelles,SYC,Sub-Saharan Africa,2020,Hinduism,1.5,1.4,94971,120291,1.36
+Seychelles,SYC,Sub-Saharan Africa,2020,Islam,0.9,0.9,94971,120291,1.36
+Seychelles,SYC,Sub-Saharan Africa,2020,Other Religions,0.6,0.6,94971,120291,1.36
+Seychelles,SYC,Sub-Saharan Africa,2020,Unaffiliated,2.2,2.4,94971,120291,1.36
+Sierra Leone,SLE,Sub-Saharan Africa,2020,Christianity,18.1,19.8,6222714,7912558,3.71
+Sierra Leone,SLE,Sub-Saharan Africa,2020,Hinduism,0,0,6222714,7912558,3.71
+Sierra Leone,SLE,Sub-Saharan Africa,2020,Islam,81.6,80.1,6222714,7912558,3.71
+Sierra Leone,SLE,Sub-Saharan Africa,2020,Other Religions,0.2,0,6222714,7912558,3.71
+Sierra Leone,SLE,Sub-Saharan Africa,2020,Unaffiliated,0.1,0,6222714,7912558,3.71
+Singapore,SGP,Asia-Pacific,2020,Buddhism,33,30.8,5077014,5620151,9.25
+Singapore,SGP,Asia-Pacific,2020,Christianity,18.3,18.8,5077014,5620151,9.25
+Singapore,SGP,Asia-Pacific,2020,Hinduism,5.4,5.3,5077014,5620151,9.25
+Singapore,SGP,Asia-Pacific,2020,Islam,15.6,16.1,5077014,5620151,9.25
+Singapore,SGP,Asia-Pacific,2020,Judaism,0,0,5077014,5620151,9.25
+Singapore,SGP,Asia-Pacific,2020,Other Religions,11.1,9.1,5077014,5620151,9.25
+Singapore,SGP,Asia-Pacific,2020,Unaffiliated,16.6,19.9,5077014,5620151,9.25
+Slovakia,SVK,Europe,2020,Buddhism,0.1,0.1,5391851,5455024,4.57
+Slovakia,SVK,Europe,2020,Christianity,75.1,73.7,5391851,5455024,4.57
+Slovakia,SVK,Europe,2020,Hinduism,0,0,5391851,5455024,4.57
+Slovakia,SVK,Europe,2020,Islam,0,0.1,5391851,5455024,4.57
+Slovakia,SVK,Europe,2020,Judaism,0,0,5391851,5455024,4.57
+Slovakia,SVK,Europe,2020,Other Religions,0.1,0.7,5391851,5455024,4.57
+Slovakia,SVK,Europe,2020,Unaffiliated,24.7,25.3,5391851,5455024,4.57
+Slovenia,SVN,Europe,2020,Buddhism,0,0,2044612,2102420,5.46
+Slovenia,SVN,Europe,2020,Christianity,72.4,65.4,2044612,2102420,5.46
+Slovenia,SVN,Europe,2020,Hinduism,0.1,0,2044612,2102420,5.46
+Slovenia,SVN,Europe,2020,Islam,0.9,1.6,2044612,2102420,5.46
+Slovenia,SVN,Europe,2020,Judaism,0,0,2044612,2102420,5.46
+Slovenia,SVN,Europe,2020,Other Religions,0.1,0.6,2044612,2102420,5.46
+Slovenia,SVN,Europe,2020,Unaffiliated,26.4,32.3,2044612,2102420,5.46
+Solomon Islands,SLB,Asia-Pacific,2020,Buddhism,0.3,0.3,532968,744498,1.11
+Solomon Islands,SLB,Asia-Pacific,2020,Christianity,95.3,95,532968,744498,1.11
+Solomon Islands,SLB,Asia-Pacific,2020,Hinduism,0,0,532968,744498,1.11
+Solomon Islands,SLB,Asia-Pacific,2020,Islam,0.3,0.3,532968,744498,1.11
+Solomon Islands,SLB,Asia-Pacific,2020,Other Religions,3.8,4,532968,744498,1.11
+Solomon Islands,SLB,Asia-Pacific,2020,Unaffiliated,0.3,0.3,532968,744498,1.11
+Somalia,SOM,Sub-Saharan Africa,2020,Christianity,0,0,12261757,16651191,0.04
+Somalia,SOM,Sub-Saharan Africa,2020,Hinduism,0,0,12261757,16651191,0.04
+Somalia,SOM,Sub-Saharan Africa,2020,Islam,99.8,99.8,12261757,16651191,0.04
+Somalia,SOM,Sub-Saharan Africa,2020,Other Religions,0.1,0.1,12261757,16651191,0.04
+Somalia,SOM,Sub-Saharan Africa,2020,Unaffiliated,0,0,12261757,16651191,0.04
+South Africa,ZAF,Sub-Saharan Africa,2020,Buddhism,0,0,52344051,60562381,3.08
+South Africa,ZAF,Sub-Saharan Africa,2020,Christianity,84.3,85.3,52344051,60562381,3.08
+South Africa,ZAF,Sub-Saharan Africa,2020,Hinduism,1,1.1,52344051,60562381,3.08
+South Africa,ZAF,Sub-Saharan Africa,2020,Islam,1.9,1.6,52344051,60562381,3.08
+South Africa,ZAF,Sub-Saharan Africa,2020,Judaism,0.1,0.1,52344051,60562381,3.08
+South Africa,ZAF,Sub-Saharan Africa,2020,Other Religions,6.7,8.9,52344051,60562381,3.08
+South Africa,ZAF,Sub-Saharan Africa,2020,Unaffiliated,5.8,3.1,52344051,60562381,3.08
+South Korea,KOR,Asia-Pacific,2020,Buddhism,25.6,19,48769333,51858482,7.33
+South Korea,KOR,Asia-Pacific,2020,Christianity,32.1,32,48769333,51858482,7.33
+South Korea,KOR,Asia-Pacific,2020,Hinduism,0,0.1,48769333,51858482,7.33
+South Korea,KOR,Asia-Pacific,2020,Islam,0.2,0.3,48769333,51858482,7.33
+South Korea,KOR,Asia-Pacific,2020,Judaism,0,0,48769333,51858482,7.33
+South Korea,KOR,Asia-Pacific,2020,Other Religions,0.7,0.3,48769333,51858482,7.33
+South Korea,KOR,Asia-Pacific,2020,Unaffiliated,41.3,48.3,48769333,51858482,7.33
+South Sudan,SSD,Sub-Saharan Africa,2020,Buddhism,0,0,9745954,10698467,6.09
+South Sudan,SSD,Sub-Saharan Africa,2020,Christianity,58.7,60.5,9745954,10698467,6.09
+South Sudan,SSD,Sub-Saharan Africa,2020,Hinduism,0,0,9745954,10698467,6.09
+South Sudan,SSD,Sub-Saharan Africa,2020,Islam,6.2,6.2,9745954,10698467,6.09
+South Sudan,SSD,Sub-Saharan Africa,2020,Other Religions,34.6,32.8,9745954,10698467,6.09
+South Sudan,SSD,Sub-Saharan Africa,2020,Unaffiliated,0.4,0.4,9745954,10698467,6.09
+Spain,ESP,Europe,2020,Buddhism,0,0,46840472,47679489,5.21
+Spain,ESP,Europe,2020,Christianity,78.6,69.5,46840472,47679489,5.21
+Spain,ESP,Europe,2020,Hinduism,0,0.1,46840472,47679489,5.21
+Spain,ESP,Europe,2020,Islam,2.1,3.6,46840472,47679489,5.21
+Spain,ESP,Europe,2020,Judaism,0,0,46840472,47679489,5.21
+Spain,ESP,Europe,2020,Other Religions,0.2,0.4,46840472,47679489,5.21
+Spain,ESP,Europe,2020,Unaffiliated,19,26.4,46840472,47679489,5.21
+Sri Lanka,LKA,Asia-Pacific,2020,Buddhism,70.1,69.6,20879089,22561807,5.61
+Sri Lanka,LKA,Asia-Pacific,2020,Christianity,7.6,5.6,20879089,22561807,5.61
+Sri Lanka,LKA,Asia-Pacific,2020,Hinduism,12.6,14.5,20879089,22561807,5.61
+Sri Lanka,LKA,Asia-Pacific,2020,Islam,9.7,10.2,20879089,22561807,5.61
+Sri Lanka,LKA,Asia-Pacific,2020,Judaism,0,0,20879089,22561807,5.61
+Sri Lanka,LKA,Asia-Pacific,2020,Other Religions,0,0,20879089,22561807,5.61
+Sri Lanka,LKA,Asia-Pacific,2020,Unaffiliated,0,0.1,20879089,22561807,5.61
+St. Lucia,LCA,Latin America-Caribbean,2020,Christianity,91.5,91.7,170907,178251,1.8
+St. Lucia,LCA,Latin America-Caribbean,2020,Hinduism,0.3,0.3,170907,178251,1.8
+St. Lucia,LCA,Latin America-Caribbean,2020,Islam,0.1,0.1,170907,178251,1.8
+St. Lucia,LCA,Latin America-Caribbean,2020,Other Religions,2,2,170907,178251,1.8
+St. Lucia,LCA,Latin America-Caribbean,2020,Unaffiliated,6,5.9,170907,178251,1.8
+St. Vincent and the Grenadines,VCT,Latin America-Caribbean,2020,Christianity,86.3,86.3,109959,103526,2.87
+St. Vincent and the Grenadines,VCT,Latin America-Caribbean,2020,Hinduism,0.1,0.1,109959,103526,2.87
+St. Vincent and the Grenadines,VCT,Latin America-Caribbean,2020,Islam,0.1,0.1,109959,103526,2.87
+St. Vincent and the Grenadines,VCT,Latin America-Caribbean,2020,Other Religions,5.6,5.6,109959,103526,2.87
+St. Vincent and the Grenadines,VCT,Latin America-Caribbean,2020,Unaffiliated,7.9,7.9,109959,103526,2.87
+Sudan,SDN,Middle East-North Africa,2020,Christianity,0.2,0.5,35414400,46789231,0.26
+Sudan,SDN,Middle East-North Africa,2020,Hinduism,0,0,35414400,46789231,0.26
+Sudan,SDN,Middle East-North Africa,2020,Islam,99.7,98.9,35414400,46789231,0.26
+Sudan,SDN,Middle East-North Africa,2020,Other Religions,0,0.1,35414400,46789231,0.26
+Sudan,SDN,Middle East-North Africa,2020,Unaffiliated,0.1,0.6,35414400,46789231,0.26
+Suriname,SUR,Latin America-Caribbean,2020,Buddhism,0.4,0.4,549923,612317,7.54
+Suriname,SUR,Latin America-Caribbean,2020,Christianity,51.6,52.8,549923,612317,7.54
+Suriname,SUR,Latin America-Caribbean,2020,Hinduism,23.4,22.5,549923,612317,7.54
+Suriname,SUR,Latin America-Caribbean,2020,Islam,14.1,13.1,549923,612317,7.54
+Suriname,SUR,Latin America-Caribbean,2020,Judaism,0,0,549923,612317,7.54
+Suriname,SUR,Latin America-Caribbean,2020,Other Religions,3.1,3.1,549923,612317,7.54
+Suriname,SUR,Latin America-Caribbean,2020,Unaffiliated,7.4,8.1,549923,612317,7.54
+Sweden,SWE,Europe,2020,Buddhism,0.6,0.8,9378232,10353687,6.3
+Sweden,SWE,Europe,2020,Christianity,72.8,60.8,9378232,10353687,6.3
+Sweden,SWE,Europe,2020,Hinduism,0.3,0.5,9378232,10353687,6.3
+Sweden,SWE,Europe,2020,Islam,4.5,8.1,9378232,10353687,6.3
+Sweden,SWE,Europe,2020,Judaism,0.1,0.2,9378232,10353687,6.3
+Sweden,SWE,Europe,2020,Other Religions,0.3,0.8,9378232,10353687,6.3
+Sweden,SWE,Europe,2020,Unaffiliated,21.5,28.9,9378232,10353687,6.3
+Switzerland,CHE,Europe,2020,Buddhism,0.5,0.6,7825754,8640582,6.09
+Switzerland,CHE,Europe,2020,Christianity,73.3,61.6,7825754,8640582,6.09
+Switzerland,CHE,Europe,2020,Hinduism,0.5,0.5,7825754,8640582,6.09
+Switzerland,CHE,Europe,2020,Islam,5.1,6.1,7825754,8640582,6.09
+Switzerland,CHE,Europe,2020,Judaism,0.2,0.2,7825754,8640582,6.09
+Switzerland,CHE,Europe,2020,Other Religions,0.2,0.2,7825754,8640582,6.09
+Switzerland,CHE,Europe,2020,Unaffiliated,20.1,30.8,7825754,8640582,6.09
+Syria,SYR,Middle East-North Africa,2020,Christianity,8.6,3.8,22482421,21049429,1.3
+Syria,SYR,Middle East-North Africa,2020,Hinduism,0,0,22482421,21049429,1.3
+Syria,SYR,Middle East-North Africa,2020,Islam,89.5,94.2,22482421,21049429,1.3
+Syria,SYR,Middle East-North Africa,2020,Judaism,0,0,22482421,21049429,1.3
+Syria,SYR,Middle East-North Africa,2020,Other Religions,0,0,22482421,21049429,1.3
+Syria,SYR,Middle East-North Africa,2020,Unaffiliated,1.9,2,22482421,21049429,1.3
+Taiwan,TWN,Asia-Pacific,2020,Buddhism,20.9,19.2,23224049,23663459,7.46
+Taiwan,TWN,Asia-Pacific,2020,Christianity,4.9,5.5,23224049,23663459,7.46
+Taiwan,TWN,Asia-Pacific,2020,Islam,0.3,0.5,23224049,23663459,7.46
+Taiwan,TWN,Asia-Pacific,2020,Other Religions,51.1,51.7,23224049,23663459,7.46
+Taiwan,TWN,Asia-Pacific,2020,Unaffiliated,22.8,23.1,23224049,23663459,7.46
+Tajikistan,TJK,Asia-Pacific,2020,Buddhism,0,0,7652141,9749311,0.25
+Tajikistan,TJK,Asia-Pacific,2020,Christianity,1,1,7652141,9749311,0.25
+Tajikistan,TJK,Asia-Pacific,2020,Hinduism,0,0,7652141,9749311,0.25
+Tajikistan,TJK,Asia-Pacific,2020,Islam,98.9,98.9,7652141,9749311,0.25
+Tajikistan,TJK,Asia-Pacific,2020,Other Religions,0,0,7652141,9749311,0.25
+Tajikistan,TJK,Asia-Pacific,2020,Unaffiliated,0.1,0.1,7652141,9749311,0.25
+Tanzania,TZA,Sub-Saharan Africa,2020,Buddhism,0,0,44758488,60972798,5.72
+Tanzania,TZA,Sub-Saharan Africa,2020,Christianity,61.7,64.7,44758488,60972798,5.72
+Tanzania,TZA,Sub-Saharan Africa,2020,Hinduism,0,0,44758488,60972798,5.72
+Tanzania,TZA,Sub-Saharan Africa,2020,Islam,35.4,29.9,44758488,60972798,5.72
+Tanzania,TZA,Sub-Saharan Africa,2020,Judaism,0,0,44758488,60972798,5.72
+Tanzania,TZA,Sub-Saharan Africa,2020,Other Religions,0.7,2,44758488,60972798,5.72
+Tanzania,TZA,Sub-Saharan Africa,2020,Unaffiliated,2.2,3.5,44758488,60972798,5.72
+Thailand,THA,Asia-Pacific,2020,Buddhism,93.4,94.4,68579448,71641484,1.25
+Thailand,THA,Asia-Pacific,2020,Christianity,1.2,1,68579448,71641484,1.25
+Thailand,THA,Asia-Pacific,2020,Hinduism,0.1,0,68579448,71641484,1.25
+Thailand,THA,Asia-Pacific,2020,Islam,5,4.5,68579448,71641484,1.25
+Thailand,THA,Asia-Pacific,2020,Judaism,0,0,68579448,71641484,1.25
+Thailand,THA,Asia-Pacific,2020,Other Religions,0.1,0,68579448,71641484,1.25
+Thailand,THA,Asia-Pacific,2020,Unaffiliated,0.1,0,68579448,71641484,1.25
+Timor-Leste,TLS,Asia-Pacific,2020,Buddhism,0,0,1084680,1326054,0.11
+Timor-Leste,TLS,Asia-Pacific,2020,Christianity,99.4,99.5,1084680,1326054,0.11
+Timor-Leste,TLS,Asia-Pacific,2020,Hinduism,0.2,0,1084680,1326054,0.11
+Timor-Leste,TLS,Asia-Pacific,2020,Islam,0.2,0.3,1084680,1326054,0.11
+Timor-Leste,TLS,Asia-Pacific,2020,Other Religions,0,0.1,1084680,1326054,0.11
+Timor-Leste,TLS,Asia-Pacific,2020,Unaffiliated,0.2,0.1,1084680,1326054,0.11
+Togo,TGO,Sub-Saharan Africa,2020,Buddhism,0,0,6732590,8669721,7.09
+Togo,TGO,Sub-Saharan Africa,2020,Christianity,58.4,56.9,6732590,8669721,7.09
+Togo,TGO,Sub-Saharan Africa,2020,Hinduism,0,0,6732590,8669721,7.09
+Togo,TGO,Sub-Saharan Africa,2020,Islam,16.2,16.1,6732590,8669721,7.09
+Togo,TGO,Sub-Saharan Africa,2020,Judaism,0,0,6732590,8669721,7.09
+Togo,TGO,Sub-Saharan Africa,2020,Other Religions,17.8,19,6732590,8669721,7.09
+Togo,TGO,Sub-Saharan Africa,2020,Unaffiliated,7.6,8,6732590,8669721,7.09
+Tonga,TON,Asia-Pacific,2020,Buddhism,0.2,0.1,107400,105704,0.51
+Tonga,TON,Asia-Pacific,2020,Christianity,97.8,97.8,107400,105704,0.51
+Tonga,TON,Asia-Pacific,2020,Hinduism,0.1,0.1,107400,105704,0.51
+Tonga,TON,Asia-Pacific,2020,Islam,0,0.1,107400,105704,0.51
+Tonga,TON,Asia-Pacific,2020,Other Religions,1.6,1.5,107400,105704,0.51
+Tonga,TON,Asia-Pacific,2020,Unaffiliated,0.3,0.6,107400,105704,0.51
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Buddhism,0,0,1386654,1481024,5.41
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Christianity,69.6,70,1386654,1481024,5.41
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Hinduism,20.9,20.6,1386654,1481024,5.41
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Islam,5.5,5.5,1386654,1481024,5.41
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Judaism,0,0,1386654,1481024,5.41
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Other Religions,1.4,1.4,1386654,1481024,5.41
+Trinidad and Tobago,TTO,Latin America-Caribbean,2020,Unaffiliated,2.5,2.4,1386654,1481024,5.41
+Tunisia,TUN,Middle East-North Africa,2020,Christianity,0.2,0.2,10765980,11974057,0.16
+Tunisia,TUN,Middle East-North Africa,2020,Islam,99.4,99.3,10765980,11974057,0.16
+Tunisia,TUN,Middle East-North Africa,2020,Judaism,0,0,10765980,11974057,0.16
+Tunisia,TUN,Middle East-North Africa,2020,Unaffiliated,0.4,0.4,10765980,11974057,0.16
+Turkey,TUR,Asia-Pacific,2020,Buddhism,0,0.1,73346769,86091692,0.66
+Turkey,TUR,Asia-Pacific,2020,Christianity,0.7,0.1,73346769,86091692,0.66
+Turkey,TUR,Asia-Pacific,2020,Hinduism,0,0,73346769,86091692,0.66
+Turkey,TUR,Asia-Pacific,2020,Islam,98.6,97.1,73346769,86091692,0.66
+Turkey,TUR,Asia-Pacific,2020,Judaism,0,0,73346769,86091692,0.66
+Turkey,TUR,Asia-Pacific,2020,Other Religions,0.4,0.1,73346769,86091692,0.66
+Turkey,TUR,Asia-Pacific,2020,Unaffiliated,0.2,2.5,73346769,86091692,0.66
+Turkmenistan,TKM,Asia-Pacific,2020,Buddhism,0,0,5564356,6949912,1.26
+Turkmenistan,TKM,Asia-Pacific,2020,Christianity,6.4,5.6,5564356,6949912,1.26
+Turkmenistan,TKM,Asia-Pacific,2020,Hinduism,0,0,5564356,6949912,1.26
+Turkmenistan,TKM,Asia-Pacific,2020,Islam,93,94.3,5564356,6949912,1.26
+Turkmenistan,TKM,Asia-Pacific,2020,Judaism,0,0,5564356,6949912,1.26
+Turkmenistan,TKM,Asia-Pacific,2020,Other Religions,0.1,0,5564356,6949912,1.26
+Turkmenistan,TKM,Asia-Pacific,2020,Unaffiliated,0.5,0.1,5564356,6949912,1.26
+U.S. Virgin Islands,VIR,Latin America-Caribbean,2020,Christianity,94.8,94.5,106311,87707,1.23
+U.S. Virgin Islands,VIR,Latin America-Caribbean,2020,Hinduism,0.4,0.4,106311,87707,1.23
+U.S. Virgin Islands,VIR,Latin America-Caribbean,2020,Islam,0.1,0.1,106311,87707,1.23
+U.S. Virgin Islands,VIR,Latin America-Caribbean,2020,Judaism,0.3,0.3,106311,87707,1.23
+U.S. Virgin Islands,VIR,Latin America-Caribbean,2020,Other Religions,0.6,0.6,106311,87707,1.23
+U.S. Virgin Islands,VIR,Latin America-Caribbean,2020,Unaffiliated,3.7,4,106311,87707,1.23
+Uganda,UGA,Sub-Saharan Africa,2020,Buddhism,0,0,32390802,44457153,2.53
+Uganda,UGA,Sub-Saharan Africa,2020,Christianity,87.6,87.7,32390802,44457153,2.53
+Uganda,UGA,Sub-Saharan Africa,2020,Hinduism,0,0,32390802,44457153,2.53
+Uganda,UGA,Sub-Saharan Africa,2020,Islam,11.2,11.4,32390802,44457153,2.53
+Uganda,UGA,Sub-Saharan Africa,2020,Judaism,0,0,32390802,44457153,2.53
+Uganda,UGA,Sub-Saharan Africa,2020,Other Religions,1.1,0.7,32390802,44457153,2.53
+Uganda,UGA,Sub-Saharan Africa,2020,Unaffiliated,0,0.1,32390802,44457153,2.53
+Ukraine,UKR,Europe,2020,Buddhism,0.1,0.3,46456003,44680015,3.28
+Ukraine,UKR,Europe,2020,Christianity,85.5,83.4,46456003,44680015,3.28
+Ukraine,UKR,Europe,2020,Hinduism,0,0,46456003,44680015,3.28
+Ukraine,UKR,Europe,2020,Islam,0.9,0.6,46456003,44680015,3.28
+Ukraine,UKR,Europe,2020,Judaism,0.1,0.1,46456003,44680015,3.28
+Ukraine,UKR,Europe,2020,Other Religions,0.2,0.4,46456003,44680015,3.28
+Ukraine,UKR,Europe,2020,Unaffiliated,13.2,15.1,46456003,44680015,3.28
+United Arab Emirates,ARE,Middle East-North Africa,2020,Buddhism,0.2,0.2,6938363,9448524,5.06
+United Arab Emirates,ARE,Middle East-North Africa,2020,Christianity,13.2,14.3,6938363,9448524,5.06
+United Arab Emirates,ARE,Middle East-North Africa,2020,Hinduism,10.8,11.8,6938363,9448524,5.06
+United Arab Emirates,ARE,Middle East-North Africa,2020,Islam,75.1,72.9,6938363,9448524,5.06
+United Arab Emirates,ARE,Middle East-North Africa,2020,Judaism,0,0,6938363,9448524,5.06
+United Arab Emirates,ARE,Middle East-North Africa,2020,Other Religions,0.4,0.5,6938363,9448524,5.06
+United Arab Emirates,ARE,Middle East-North Africa,2020,Unaffiliated,0.3,0.3,6938363,9448524,5.06
+United Kingdom,GBR,Europe,2020,Buddhism,0.4,0.5,63006483,67351862,6.88
+United Kingdom,GBR,Europe,2020,Christianity,62.4,49.4,63006483,67351862,6.88
+United Kingdom,GBR,Europe,2020,Hinduism,1.5,1.7,63006483,67351862,6.88
+United Kingdom,GBR,Europe,2020,Islam,5.3,6.4,63006483,67351862,6.88
+United Kingdom,GBR,Europe,2020,Judaism,0.5,0.4,63006483,67351862,6.88
+United Kingdom,GBR,Europe,2020,Other Religions,1.2,1.4,63006483,67351862,6.88
+United Kingdom,GBR,Europe,2020,Unaffiliated,28.8,40.2,63006483,67351862,6.88
+United States,USA,North America,2020,Buddhism,1.2,1.3,311062790,339436159,5.85
+United States,USA,North America,2020,Christianity,78.3,64,311062790,339436159,5.85
+United States,USA,North America,2020,Hinduism,0.6,0.9,311062790,339436159,5.85
+United States,USA,North America,2020,Islam,0.9,1.2,311062790,339436159,5.85
+United States,USA,North America,2020,Judaism,1.8,1.7,311062790,339436159,5.85
+United States,USA,North America,2020,Other Religions,0.8,1.2,311062790,339436159,5.85
+United States,USA,North America,2020,Unaffiliated,16.5,29.7,311062790,339436159,5.85
+Uruguay,URY,Latin America-Caribbean,2020,Christianity,61,44.5,3318580,3398968,6.14
+Uruguay,URY,Latin America-Caribbean,2020,Islam,0,0.1,3318580,3398968,6.14
+Uruguay,URY,Latin America-Caribbean,2020,Judaism,0.5,0.5,3318580,3398968,6.14
+Uruguay,URY,Latin America-Caribbean,2020,Other Religions,2.2,2.5,3318580,3398968,6.14
+Uruguay,URY,Latin America-Caribbean,2020,Unaffiliated,36.3,52.4,3318580,3398968,6.14
+Uzbekistan,UZB,Asia-Pacific,2020,Buddhism,0.1,0,28385507,33586372,0.99
+Uzbekistan,UZB,Asia-Pacific,2020,Christianity,3.4,2.8,28385507,33586372,0.99
+Uzbekistan,UZB,Asia-Pacific,2020,Hinduism,0.2,0,28385507,33586372,0.99
+Uzbekistan,UZB,Asia-Pacific,2020,Islam,95.8,95.6,28385507,33586372,0.99
+Uzbekistan,UZB,Asia-Pacific,2020,Judaism,0,0,28385507,33586372,0.99
+Uzbekistan,UZB,Asia-Pacific,2020,Other Religions,0,1,28385507,33586372,0.99
+Uzbekistan,UZB,Asia-Pacific,2020,Unaffiliated,0.6,0.6,28385507,33586372,0.99
+Vanuatu,VUT,Asia-Pacific,2020,Buddhism,0,0,238248,298859,3.26
+Vanuatu,VUT,Asia-Pacific,2020,Christianity,82.6,83.5,238248,298859,3.26
+Vanuatu,VUT,Asia-Pacific,2020,Hinduism,0,0,238248,298859,3.26
+Vanuatu,VUT,Asia-Pacific,2020,Islam,0,0,238248,298859,3.26
+Vanuatu,VUT,Asia-Pacific,2020,Judaism,0,0,238248,298859,3.26
+Vanuatu,VUT,Asia-Pacific,2020,Other Religions,16.2,15.1,238248,298859,3.26
+Vanuatu,VUT,Asia-Pacific,2020,Unaffiliated,1.1,1.4,238248,298859,3.26
+Venezuela,VEN,Latin America-Caribbean,2020,Buddhism,0,0,28813101,28444078,2.49
+Venezuela,VEN,Latin America-Caribbean,2020,Christianity,89.4,88.1,28813101,28444078,2.49
+Venezuela,VEN,Latin America-Caribbean,2020,Islam,0,0,28813101,28444078,2.49
+Venezuela,VEN,Latin America-Caribbean,2020,Judaism,0,0,28813101,28444078,2.49
+Venezuela,VEN,Latin America-Caribbean,2020,Other Religions,2.1,2.1,28813101,28444078,2.49
+Venezuela,VEN,Latin America-Caribbean,2020,Unaffiliated,8.4,9.7,28813101,28444078,2.49
+Vietnam,VNM,Asia-Pacific,2020,Buddhism,27.6,23,87455152,98079191,5.62
+Vietnam,VNM,Asia-Pacific,2020,Christianity,8.8,8.3,87455152,98079191,5.62
+Vietnam,VNM,Asia-Pacific,2020,Hinduism,0.1,0,87455152,98079191,5.62
+Vietnam,VNM,Asia-Pacific,2020,Islam,0.1,0.1,87455152,98079191,5.62
+Vietnam,VNM,Asia-Pacific,2020,Judaism,0,0,87455152,98079191,5.62
+Vietnam,VNM,Asia-Pacific,2020,Other Religions,1.3,0.9,87455152,98079191,5.62
+Vietnam,VNM,Asia-Pacific,2020,Unaffiliated,62.1,67.7,87455152,98079191,5.62
+Western Sahara,ESH,Middle East-North Africa,2020,Christianity,0.2,0.2,409716,549365,0.1
+Western Sahara,ESH,Middle East-North Africa,2020,Islam,99.5,99.6,409716,549365,0.1
+Western Sahara,ESH,Middle East-North Africa,2020,Other Religions,0,0,409716,549365,0.1
+Western Sahara,ESH,Middle East-North Africa,2020,Unaffiliated,0.3,0.3,409716,549365,0.1
+Yemen,YEM,Middle East-North Africa,2020,Buddhism,0,0,26754387,36134864,0.03
+Yemen,YEM,Middle East-North Africa,2020,Christianity,0.1,0.1,26754387,36134864,0.03
+Yemen,YEM,Middle East-North Africa,2020,Hinduism,0,0,26754387,36134864,0.03
+Yemen,YEM,Middle East-North Africa,2020,Islam,99.8,99.9,26754387,36134864,0.03
+Yemen,YEM,Middle East-North Africa,2020,Judaism,0,0,26754387,36134864,0.03
+Yemen,YEM,Middle East-North Africa,2020,Other Religions,0,0,26754387,36134864,0.03
+Yemen,YEM,Middle East-North Africa,2020,Unaffiliated,0.1,0.1,26754387,36134864,0.03
+Zambia,ZMB,Sub-Saharan Africa,2020,Buddhism,0,0,13965594,19059395,0.4
+Zambia,ZMB,Sub-Saharan Africa,2020,Christianity,97.7,98.3,13965594,19059395,0.4
+Zambia,ZMB,Sub-Saharan Africa,2020,Hinduism,0,0,13965594,19059395,0.4
+Zambia,ZMB,Sub-Saharan Africa,2020,Islam,0.5,0.5,13965594,19059395,0.4
+Zambia,ZMB,Sub-Saharan Africa,2020,Judaism,0,0,13965594,19059395,0.4
+Zambia,ZMB,Sub-Saharan Africa,2020,Other Religions,1.7,1.1,13965594,19059395,0.4
+Zambia,ZMB,Sub-Saharan Africa,2020,Unaffiliated,0.1,0.1,13965594,19059395,0.4
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Buddhism,0,0,13356548,15526889,2.66
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Christianity,84.4,87.2,13356548,15526889,2.66
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Hinduism,0,0,13356548,15526889,2.66
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Islam,0.5,0.5,13356548,15526889,2.66
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Judaism,0,0,13356548,15526889,2.66
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Other Religions,2.5,1.7,13356548,15526889,2.66
+Zimbabwe,ZWE,Sub-Saharan Africa,2020,Unaffiliated,12.5,10.5,13356548,15526889,2.66
