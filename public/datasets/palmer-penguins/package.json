@@ -1,0 +1,14 @@
+{
+  "name": "palmer-penguins",
+  "version": "1.0.0",
+  "description": "Palmer Archipelago (Antarctica) Penguin Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "type": "commonjs",
+  "dependencies": {}
+}
