@@ -4,12 +4,13 @@ A collection of public datasets curated for the Constructing Visualizations cour
 Each dataset is stored as a clean CSV file alongside a script that documents how
 it was generated.
 
-Total: **19 datasets**, **23 CSV files** (~42 MB combined).
+Total: **20 datasets**, **24 CSV files** (~42 MB combined).
 
 ## Dataset Index
 
 | Dataset | CSV File(s) | Size | Rows | Source |
 |---|---|---|---|---|
+| `palmer-penguins` | `penguins.csv` | 15K | 344 | GitHub (palmerpenguins R pkg) |
 | `npm-top-packages` | `npm-top-10000.csv` | 8.0K | 12 | npm Registry API (partial) |
 | `yrbss-2023` | `yrbss_2023.csv` | 12K | 151 | Published CDC rates |
 | `fred-macro` | `fred_macro.csv` | 16K | 313 | FRED CSV download |
