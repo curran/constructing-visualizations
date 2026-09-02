@@ -1,0 +1,1 @@
+Change the data parsing logic so that we parse out all of the numeric values properly in the data array, except year. We keep year a string for now. Later we can deal with the date parsing. But let's use unary plus to parse all the numeric values from strings into numbers at the data loading phase before we set the state.

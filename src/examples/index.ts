@@ -4,6 +4,7 @@ import { PseudoBarChart } from './002-pseudo-bar-chart/PseudoBarChart';
 import { PseudoLineChart } from './003-pseudo-line-chart/PseudoLineChart';
 import { RespondingToResize } from './004-responding-to-resize/RespondingToResize';
 import { ResponsivePseudoScatterPlot } from './005-responsive-pseudo-scatter-plot/ResponsivePseudoScatterPlot';
+import { LoadingAndSummarizingData } from './006-loading-and-summarizing-data/LoadingAndSummarizingData';
 
 export interface Example {
   id: string;
@@ -36,6 +37,11 @@ export const examples: Example[] = [
     id: '5',
     name: 'Responsive Pseudo Scatter Plot',
     component: ResponsivePseudoScatterPlot,
+  },
+  {
+    id: '6',
+    name: 'Loading and Summarizing Data',
+    component: LoadingAndSummarizingData,
   },
 ];
 
