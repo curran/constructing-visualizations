@@ -5,6 +5,7 @@ import { PseudoLineChart } from './003-pseudo-line-chart/PseudoLineChart';
 import { RespondingToResize } from './004-responding-to-resize/RespondingToResize';
 import { ResponsivePseudoScatterPlot } from './005-responsive-pseudo-scatter-plot/ResponsivePseudoScatterPlot';
 import { LoadingAndSummarizingData } from './006-loading-and-summarizing-data/LoadingAndSummarizingData';
+import { ScatterplotBasic } from './007-scatterplot-basic/ScatterplotBasic';
 
 export interface Example {
   id: string;
@@ -42,6 +43,11 @@ export const examples: Example[] = [
     id: '6',
     name: 'Loading and Summarizing Data',
     component: LoadingAndSummarizingData,
+  },
+  {
+    id: '7',
+    name: 'Scatterplot Basic',
+    component: ScatterplotBasic,
   },
 ];
 
