@@ -22,7 +22,7 @@ export function renderCircles(
     .selectAll('circle')
     .data(data)
     .join('circle')
-    .attr('cx', (row) => xScale(xValue(row)))
-    .attr('cy', (row) => yScale(yValue(row)))
+    .attr('cx', (d) => xScale(xValue(d)))
+    .attr('cy', (d) => yScale(yValue(d)))
     .attr('r', RADIUS);
 }
