@@ -1,0 +1,7 @@
+In the examples directory, we have a sequence of numbered examples. Please create the next one in the sequence, following the established naming convention and index, and make it as follows:
+
+This builds on the progression from the pseudo scatter plot, up to the responsive pseudo scatter plot, and then the loading and summarizing data example. The next example in the series is called Scatterplot Basic, and it should be a basic version of a scatter plot, created by copying example six, the loading and summarizing data example, which is already well organized in terms of hooks.
+
+Keep the hooks for `useDimensions` and `usePenguinsDataset`. Remove the `useRowsAndColumnsSummary` hook and instead replace it with a new custom hook called `useScales`. The `useScales` hook is a great way to organize the setup for the D3 scales. It should return an object that we can de-structure into two variables called `xScale` and `yScale`. Those should be linear scales, and it should also provide accessor functions `xValue` and `yValue`.
+
+The useEffect that currently renders the text summary should instead call `renderCircles`, passing in everything required to render the circles of a scatter plot. Each of the rows from the penguins dataset should correspond to one circle on the screen, just a simple black circle, with no margins for now, no axes, and no labels. We just want to show the simple core essence of using D3 scales to map data rows to circles on the screen. Make the circles pretty small, maybe a radius of three.
