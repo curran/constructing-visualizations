@@ -4,7 +4,7 @@ import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguins
 
 const RADIUS = 3;
 
-export interface RenderCirclesOptions {
+export interface RenderMarksOptions {
   data: PenguinRow[];
   xScale: ScaleLinear<number, number>;
   yScale: ScaleLinear<number, number>;
@@ -12,9 +12,9 @@ export interface RenderCirclesOptions {
   yValue: (row: PenguinRow) => number;
 }
 
-export function renderCircles(
+export function renderMarks(
   marks: Selection<SVGGElement, unknown, null, undefined>,
-  options: RenderCirclesOptions,
+  options: RenderMarksOptions,
 ) {
   const { data, xScale, yScale, xValue, yValue } = options;
 

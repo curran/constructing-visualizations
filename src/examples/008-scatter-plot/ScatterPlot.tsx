@@ -5,7 +5,7 @@ import { usePenguinsDataset } from '../006-loading-and-summarizing-data/usePengu
 import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
 import type { Margin } from './margin';
 import { useScales } from './useScales';
-import { renderCircles } from './renderCircles';
+import { renderMarks } from './renderMarks';
 import { renderAxes } from './renderAxes';
 
 // Accessors extract the x and y values from each row of the dataset.
@@ -33,9 +33,7 @@ export function ScatterPlot() {
   // origin. Drop those rows so every remaining row maps to a valid circle.
   const rows = useMemo(
     () =>
-      data?.filter(
-        (row) => Number.isFinite(row.bill_length_mm) && Number.isFinite(row.bill_depth_mm),
-      ) ?? null,
+      data?.filter((row) => Number.isFinite(xValue(row)) && Number.isFinite(yValue(row))) ?? null,
     [data],
   );
 
@@ -47,7 +45,7 @@ export function ScatterPlot() {
 
     // D3 renders the data-driven marks and axes into the expected groups;
     // the static labels are plain React text elements.
-    renderCircles(select(svg).select<SVGGElement>('g.marks'), {
+    renderMarks(select(svg).select<SVGGElement>('g.marks'), {
       data: rows,
       xScale: scales.xScale,
       yScale: scales.yScale,
@@ -55,7 +53,7 @@ export function ScatterPlot() {
       yValue,
     });
 
-    renderAxes(select(svg).select<SVGGElement>('g.guides'), {
+    renderAxes(select(svg).select<SVGGElement>('g.axes'), {
       xScale: scales.xScale,
       yScale: scales.yScale,
     });
@@ -74,7 +72,7 @@ export function ScatterPlot() {
         aria-label="Scatter plot of Palmer Penguins bill length and bill depth"
       >
         <g className="marks" />
-        <g className="guides">
+        <g className="axes">
           <g className="x-axis" transform={`translate(0, ${dimensions.height - margin.bottom})`} />
           <g className="y-axis" transform={`translate(${margin.left}, 0)`} />
         </g>
