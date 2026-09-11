@@ -5,7 +5,8 @@ import { usePenguinsDataset } from '../006-loading-and-summarizing-data/usePengu
 import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
 import type { Margin } from './margin';
 import { useScales } from './useScales';
-import { renderViz } from './renderViz';
+import { renderCircles } from './renderCircles';
+import { renderAxes } from './renderAxes';
 
 // Accessors extract the x and y values from each row of the dataset.
 const xValue = (row: PenguinRow) => row.bill_length_mm;
@@ -44,24 +45,25 @@ export function ScatterPlot() {
     const svg = svgRef.current;
     if (!svg || dimensions.width === 0 || dimensions.height === 0 || !rows || !scales) return;
 
-    renderViz(select(svg), {
+    // D3 renders the data-driven marks and axes into the expected groups;
+    // the static labels are plain React text elements.
+    renderCircles(select(svg).select<SVGGElement>('g.marks'), {
       data: rows,
-      width: dimensions.width,
-      height: dimensions.height,
       xScale: scales.xScale,
       yScale: scales.yScale,
       xValue,
       yValue,
-      margin,
-      title,
-      titleFontSize,
-      xAxisLabel,
-      yAxisLabel,
-      axisLabelFontSize,
-      xAxisLabelOffset,
-      yAxisLabelOffset,
+    });
+
+    renderAxes(select(svg).select<SVGGElement>('g.guides'), {
+      xScale: scales.xScale,
+      yScale: scales.yScale,
     });
   }, [dimensions, rows, scales]);
+
+  // The centers of the plot area define where axis labels are centered.
+  const plotCenterX = margin.left + (dimensions.width - margin.left - margin.right) / 2;
+  const plotCenterY = margin.top + (dimensions.height - margin.top - margin.bottom) / 2;
 
   return (
     <div ref={divRef} className="relative w-full h-full">
@@ -70,7 +72,41 @@ export function ScatterPlot() {
         className="absolute inset-0 w-full h-full"
         role="img"
         aria-label="Scatter plot of Palmer Penguins bill length and bill depth"
-      ></svg>
+      >
+        <g className="marks" />
+        <g className="guides">
+          <g className="x-axis" transform={`translate(0, ${dimensions.height - margin.bottom})`} />
+          <g className="y-axis" transform={`translate(${margin.left}, 0)`} />
+        </g>
+        <g className="labels">
+          <text
+            className="title"
+            x={dimensions.width / 2}
+            y={margin.top / 2}
+            textAnchor="middle"
+            fontSize={titleFontSize}
+          >
+            {title}
+          </text>
+          <text
+            className="x-axis-label"
+            x={plotCenterX}
+            y={dimensions.height - margin.bottom + xAxisLabelOffset}
+            textAnchor="middle"
+            fontSize={axisLabelFontSize}
+          >
+            {xAxisLabel}
+          </text>
+          <text
+            className="y-axis-label"
+            transform={`translate(${margin.left - yAxisLabelOffset}, ${plotCenterY}) rotate(-90)`}
+            textAnchor="middle"
+            fontSize={axisLabelFontSize}
+          >
+            {yAxisLabel}
+          </text>
+        </g>
+      </svg>
     </div>
   );
 }

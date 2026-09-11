@@ -13,12 +13,12 @@ export interface RenderCirclesOptions {
 }
 
 export function renderCircles(
-  selection: Selection<SVGSVGElement, unknown, null, undefined>,
+  marks: Selection<SVGGElement, unknown, null, undefined>,
   options: RenderCirclesOptions,
 ) {
   const { data, xScale, yScale, xValue, yValue } = options;
 
-  selection
+  marks
     .selectAll('circle')
     .data(data)
     .join('circle')
