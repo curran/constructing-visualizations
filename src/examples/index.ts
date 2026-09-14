@@ -7,6 +7,7 @@ import { ResponsivePseudoScatterPlot } from './005-responsive-pseudo-scatter-plo
 import { LoadingAndSummarizingData } from './006-loading-and-summarizing-data/LoadingAndSummarizingData';
 import { ScatterplotBasic } from './007-scatterplot-basic/ScatterplotBasic';
 import { ScatterPlot } from './008-scatter-plot/ScatterPlot';
+import { ClickableCircles } from './009-clickable-circles/ClickableCircles';
 
 export interface Example {
   id: string;
@@ -54,6 +55,11 @@ export const examples: Example[] = [
     id: '8',
     name: 'Scatter Plot',
     component: ScatterPlot,
+  },
+  {
+    id: '9',
+    name: 'Clickable Circles',
+    component: ClickableCircles,
   },
 ];
 
