@@ -1,0 +1,3 @@
+In `src/examples/009-clickable-circles/ClickableCircles.tsx`, Make the following modifications: memoize the scales so that we're not recomputing the scales on every run of this useEffect, and refactor the D3 logic into a separate module called RenderCircles, just so that it's not all in one big file. And that should be a function whose first argument is the D3 selection of the SVG, and the second argument is an options object with everything it needs, including selectedCircleId and setSelectedCircleId and the scales. Also simplify it to just pass a constant 5 for stroke width.
+
+camel case module names please
