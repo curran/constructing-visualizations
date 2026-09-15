@@ -8,6 +8,7 @@ import { LoadingAndSummarizingData } from './006-loading-and-summarizing-data/Lo
 import { ScatterplotBasic } from './007-scatterplot-basic/ScatterplotBasic';
 import { ScatterPlot } from './008-scatter-plot/ScatterPlot';
 import { ClickableCircles } from './009-clickable-circles/ClickableCircles';
+import { Hovering } from './010-hovering/Hovering';
 
 export interface Example {
   id: string;
@@ -60,6 +61,11 @@ export const examples: Example[] = [
     id: '9',
     name: 'Clickable Circles',
     component: ClickableCircles,
+  },
+  {
+    id: '10',
+    name: 'Hovering',
+    component: Hovering,
   },
 ];
 

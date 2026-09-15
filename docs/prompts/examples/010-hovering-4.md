@@ -1,0 +1,3 @@
+Remove the `.style('cursor', 'pointer')` on the voronoi cells.
+
+Let's change the way that we style the highlighted circle. So instead of changing the fill to white and setting a black stroke, let's actually make all the other circles faded out. So we just see or focus on the one that we're hovering. So let's make the opacity of the other ones 0.2, for example. And let's also make the circles a bit bigger. Actually, let's set the radius to 4 instead of 2. And also add an Easter egg, which is a global key event listener, so that when I hit the letter V, it actually renders the borders of the Voronoi overlay just so we can see it.
