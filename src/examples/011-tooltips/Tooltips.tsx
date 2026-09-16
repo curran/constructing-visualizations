@@ -9,6 +9,8 @@ import { VoronoiOverlay } from './VoronoiOverlay';
 import { Tooltip } from './Tooltip';
 import { margin, xValue, yValue } from './config';
 
+const numberFormat = new Intl.NumberFormat('en-US');
+
 export function Tooltips() {
   const { ref: divRef, dimensions } = useDimensions();
   const data = usePenguinsDataset();
@@ -93,7 +95,7 @@ export function Tooltips() {
           <div>Bill length: {hoveredRow.bill_length_mm} mm</div>
           <div>Bill depth: {hoveredRow.bill_depth_mm} mm</div>
           {Number.isFinite(hoveredRow.body_mass_g) && (
-            <div>Body mass: {hoveredRow.body_mass_g} g</div>
+            <div>Body mass: {numberFormat.format(hoveredRow.body_mass_g)} g</div>
           )}
         </Tooltip>
       )}
