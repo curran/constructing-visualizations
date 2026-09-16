@@ -18,7 +18,7 @@ export interface RenderVoronoiOverlayOptions {
 // therefore easy to hit) target for the small circle at its center. The cell
 // borders are hidden unless showVoronoi is set (the "V" easter egg).
 export function renderVoronoiOverlay(
-  svg: Selection<SVGSVGElement, unknown, null, undefined>,
+  group: Selection<SVGGElement, unknown, null, undefined>,
   options: RenderVoronoiOverlayOptions,
 ) {
   const { data, xScale, yScale, width, height, setHoveredCircleId, showVoronoi } = options;
@@ -30,11 +30,7 @@ export function renderVoronoiOverlay(
   );
   const voronoi = delaunay.voronoi([0, 0, width, height]);
 
-  svg
-    .selectAll<SVGGElement, null>('g.voronoi-overlay')
-    .data([null])
-    .join('g')
-    .attr('class', 'voronoi-overlay')
+  group
     .selectAll<SVGPathElement, CircleDataPoint>('path')
     .data(data)
     .join('path')
