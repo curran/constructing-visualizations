@@ -18,12 +18,12 @@ const RADIUS = 4;
 const FADED_OPACITY = 0.2;
 
 export function renderCircles(
-  svg: Selection<SVGSVGElement, unknown, null, undefined>,
+  group: Selection<SVGGElement, unknown, null, undefined>,
   options: RenderCirclesOptions,
 ) {
   const { data, xScale, yScale, hoveredCircleId } = options;
 
-  svg
+  group
     .selectAll('circle')
     .data(data)
     .join('circle')

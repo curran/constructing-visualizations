@@ -1,0 +1,1 @@
+That works, but isn't there a library that handles the edge cases? Like we could do this, but then we'd have to figure out if the div should go to the left or to the right depending on the available screen space.

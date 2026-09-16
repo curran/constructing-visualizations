@@ -1,9 +1,8 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { select } from 'd3-selection';
+import { useEffect, useMemo, useState } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { useDimensions } from './useDimensions';
-import { renderCircles } from './renderCircles';
-import { renderVoronoiOverlay } from './renderVoronoiOverlay';
+import { Circles } from './Circles';
+import { VoronoiOverlay } from './VoronoiOverlay';
 import type { CircleDataPoint } from './renderCircles';
 
 const data: CircleDataPoint[] = [
@@ -23,7 +22,6 @@ const ORIGINAL_WIDTH = 960;
 const ORIGINAL_HEIGHT = 500;
 
 export function Hovering() {
-  const svgRef = useRef<SVGSVGElement>(null);
   const { ref: divRef, dimensions } = useDimensions();
   const [hoveredCircleId, setHoveredCircleId] = useState<number | null>(null);
   const [showVoronoi, setShowVoronoi] = useState(false);
@@ -50,36 +48,33 @@ export function Hovering() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  useEffect(() => {
-    const svg = svgRef.current;
-    if (!svg || !scales) return;
-
-    renderCircles(select(svg), {
-      data,
-      xScale: scales.xScale,
-      yScale: scales.yScale,
-      hoveredCircleId,
-    });
-
-    renderVoronoiOverlay(select(svg), {
-      data,
-      xScale: scales.xScale,
-      yScale: scales.yScale,
-      width: dimensions.width,
-      height: dimensions.height,
-      setHoveredCircleId,
-      showVoronoi,
-    });
-  }, [scales, dimensions.width, dimensions.height, hoveredCircleId, showVoronoi]);
-
   return (
     <div ref={divRef} className="relative w-full h-full">
       <svg
-        ref={svgRef}
         className="absolute inset-0 w-full h-full"
         role="img"
         aria-label="Responsive scatter plot showing 10 hoverable data points"
-      ></svg>
+      >
+        {scales && (
+          <>
+            <Circles
+              data={data}
+              xScale={scales.xScale}
+              yScale={scales.yScale}
+              hoveredCircleId={hoveredCircleId}
+            />
+            <VoronoiOverlay
+              data={data}
+              xScale={scales.xScale}
+              yScale={scales.yScale}
+              width={dimensions.width}
+              height={dimensions.height}
+              setHoveredCircleId={setHoveredCircleId}
+              showVoronoi={showVoronoi}
+            />
+          </>
+        )}
+      </svg>
     </div>
   );
 }
