@@ -22,18 +22,18 @@ Continue directly from the current Palmer Penguins scatter plot.
 
 Add:
 
-* species encoded by color
-* categorical color scale
-* legend
-* hover/highlight through the legend
-* optionally click the legend to filter or toggle species
+- species encoded by color
+- categorical color scale
+- legend
+- hover/highlight through the legend
+- optionally click the legend to filter or toggle species
 
 Concepts:
 
-* categorical encoding
-* legends as visualization components
-* interaction through a legend
-* coordinated highlighting
+- categorical encoding
+- legends as visualization components
+- interaction through a legend
+- coordinated highlighting
 
 This completes the visual-encoding side of the initial scatter-plot sequence.
 
@@ -45,10 +45,10 @@ Add controls that let students choose the quantitative attributes mapped to X an
 
 Candidate attributes:
 
-* bill length
-* bill depth
-* flipper length
-* body mass
+- bill length
+- bill depth
+- flipper length
+- body mass
 
 The visualization becomes parameterized:
 
@@ -56,11 +56,11 @@ The visualization becomes parameterized:
 
 Concepts:
 
-* UI controls
-* controlled React state
-* dynamic scales
-* reusable visualization components
-* treating a visualization as an analytical instrument rather than a fixed picture
+- UI controls
+- controlled React state
+- dynamic scales
+- reusable visualization components
+- treating a visualization as an analytical instrument rather than a fixed picture
 
 ---
 
@@ -80,22 +80,22 @@ Then construct the first basic bar chart.
 
 Concepts:
 
-* grouping
-* counting
-* aggregation
-* derived data
-* band scales
-* quantitative scales
-* axes
+- grouping
+- counting
+- aggregation
+- derived data
+- band scales
+- quantitative scales
+- axes
 
 ### Extension
 
 Allow the measure to change:
 
-* count
-* mean body mass
-* mean flipper length
-* mean bill length
+- count
+- mean body mass
+- mean flipper length
+- mean bill length
 
 That makes the transformation pipeline explicit:
 
@@ -115,10 +115,10 @@ This establishes:
 
 Introduce:
 
-* shared data
-* view-specific transformations
-* multi-view composition
-* common React state
+- shared data
+- view-specific transformations
+- multi-view composition
+- common React state
 
 ---
 
@@ -160,13 +160,13 @@ Start with one quantitative Penguins attribute, such as body mass.
 
 Introduce:
 
-* continuous distributions
-* bins
-* thresholds
-* counts
-* bin boundaries
-* `d3.bin`
-* the effect of changing bin count
+- continuous distributions
+- bins
+- thresholds
+- counts
+- bin boundaries
+- `d3.bin`
+- the effect of changing bin count
 
 A useful conceptual contrast is:
 
@@ -186,19 +186,19 @@ versus
 
 Build histograms for several Penguins fields:
 
-* body mass
-* flipper length
-* bill length
-* bill depth
+- body mass
+- flipper length
+- bill length
+- bill depth
 
 Use the same histogram component repeatedly.
 
 Concepts:
 
-* small multiples
-* repeated components
-* multiple projections of one dataset
-* reusable visualization architecture
+- small multiples
+- repeated components
+- multiple projections of one dataset
+- reusable visualization architecture
 
 The system now starts resembling a lightweight exploratory-data-analysis interface.
 
@@ -238,9 +238,9 @@ Make every histogram brushable.
 
 A body-mass filter alters the visible distributions of:
 
-* bill length
-* bill depth
-* flipper length
+- bill length
+- bill depth
+- flipper length
 
 Then allow several filters simultaneously.
 
@@ -288,29 +288,29 @@ Rather than adding another chart, add a very common companion to cross-filtered 
 
 Columns might include:
 
-* species
-* island
-* bill length
-* bill depth
-* flipper length
-* body mass
-* sex
+- species
+- island
+- bill length
+- bill depth
+- flipper length
+- body mass
+- sex
 
 As students brush histograms, the table updates.
 
 Concepts:
 
-* overview + details
-* connecting aggregates back to individual records
-* rendering ordinary HTML from visualization selection state
-* limiting displayed records without changing the actual filtered set
+- overview + details
+- connecting aggregates back to individual records
+- rendering ordinary HTML from visualization selection state
+- limiting displayed records without changing the actual filtered set
 
 Potential additions:
 
-* `"Showing 20 of 47 matching penguins"`
-* sortable columns
-* highlight records on hover
-* clear-all-filters control
+- `"Showing 20 of 47 matching penguins"`
+- sortable columns
+- highlight records on hover
+- clear-all-filters control
 
 This is a highly reusable dashboard pattern:
 
@@ -342,11 +342,11 @@ Compare religious groups across countries, or countries within a selected religi
 
 Introduce:
 
-* two categorical dimensions
-* nested band scales
-* grouped aggregation
-* categorical color
-* legends
+- two categorical dimensions
+- nested band scales
+- grouped aggregation
+- categorical color
+- legends
 
 A valuable experiment is to reverse the grouping:
 
@@ -368,12 +368,12 @@ Use essentially the same transformed table and switch representations.
 
 Introduce:
 
-* `d3.stack`
-* series
-* stack order
-* stack offsets
-* cumulative positions
-* part-to-whole comparison
+- `d3.stack`
+- series
+- stack order
+- stack offsets
+- cumulative positions
+- part-to-whole comparison
 
 This reinforces:
 
@@ -387,16 +387,16 @@ Normalize each country's total to 100%.
 
 Compare:
 
-* absolute number of people
-* percentage composition
+- absolute number of people
+- percentage composition
 
 Potential interactions:
 
-* grouped ↔ stacked toggle
-* absolute ↔ normalized toggle
-* reorder countries
-* choose subset of religions
-* sort by one selected category
+- grouped ↔ stacked toggle
+- absolute ↔ normalized toggle
+- reorder countries
+- choose subset of religions
+- sort by one selected category
 
 **Primary dataset:** Pew religion / country dataset.
 
@@ -410,21 +410,21 @@ Introduce temporal data with a clean long-running series.
 
 Potential datasets:
 
-* Mauna Loa atmospheric CO₂
-* global temperature anomalies
-* population
-* electricity generation
-* energy usage
+- Mauna Loa atmospheric CO₂
+- global temperature anomalies
+- population
+- electricity generation
+- energy usage
 
 Concepts:
 
-* parsing dates
-* time scales
-* chronological ordering
-* line generators
-* axes
-* missing values
-* temporal granularity
+- parsing dates
+- time scales
+- chronological ordering
+- line generators
+- axes
+- missing values
+- temporal granularity
 
 ---
 
@@ -434,10 +434,10 @@ Move to repeated series over time.
 
 Potential datasets:
 
-* energy generation by source
-* population by country
-* CO₂ emissions by region
-* temperatures by city
+- energy generation by source
+- population by country
+- CO₂ emissions by region
+- temperatures by city
 
 Transform:
 
@@ -449,11 +449,11 @@ Transform:
 
 Introduce:
 
-* series grouping
-* categorical color
-* legends
-* clutter management
-* highlighting one line among many
+- series grouping
+- categorical color
+- legends
+- clutter management
+- highlighting one line among many
 
 ---
 
@@ -487,10 +487,10 @@ Conceptually:
 
 Potential visual additions:
 
-* vertical guide rule
-* marker on selected line
-* values from all series at that date
-* click to persist a selected line
+- vertical guide rule
+- marker on selected line
+- values from all series at that date
+- click to persist a selected line
 
 This reuses and deepens the Voronoi-overlay ideas students encountered earlier.
 
@@ -506,13 +506,13 @@ Aggregate time spent on activity categories over a temporal axis appropriate to 
 
 Potential activity categories:
 
-* sleeping
-* work
-* eating
-* household activities
-* leisure
-* caregiving
-* travel
+- sleeping
+- work
+- eating
+- household activities
+- leisure
+- caregiving
+- travel
 
 Then construct a stacked-area visualization.
 
@@ -522,12 +522,12 @@ Then switch to a streamgraph offset.
 
 Concepts:
 
-* temporal stacking
-* `d3.stack`
-* stack offsets
-* stacked area
-* streamgraph geometry
-* shape versus precise quantitative comparison
+- temporal stacking
+- `d3.stack`
+- stack offsets
+- stacked area
+- streamgraph geometry
+- shape versus precise quantitative comparison
 
 Possible comparison:
 
@@ -543,11 +543,11 @@ Discuss what visual patterns become easier to see and what precise comparisons b
 
 Potential interactions:
 
-* hover individual activity bands
-* tooltip at quantized time
-* highlight one activity
-* switch between stacked area and streamgraph
-* filter by demographic group if the available ATUS data supports it
+- hover individual activity bands
+- tooltip at quantized time
+- highlight one activity
+- switch between stacked area and streamgraph
+- filter by demographic group if the available ATUS data supports it
 
 **Primary dataset:** American Time Use Survey.
 
@@ -563,19 +563,19 @@ Render a simple world or regional map from GeoJSON/TopoJSON.
 
 Introduce:
 
-* longitude / latitude
-* geographic coordinates
-* projections
-* `geoPath`
-* polygons
-* projected coordinates
-* GeoJSON versus TopoJSON
+- longitude / latitude
+- geographic coordinates
+- projections
+- `geoPath`
+- polygons
+- projected coordinates
+- GeoJSON versus TopoJSON
 
 Possible base maps:
 
-* world
-* United States
-* Mediterranean / Europe
+- world
+- United States
+- Mediterranean / Europe
 
 ---
 
@@ -585,20 +585,20 @@ Join a tabular measure to geographic regions.
 
 Possible measures:
 
-* population
-* income
-* GDP
-* life expectancy
-* energy use
-* demographic composition
+- population
+- income
+- GDP
+- life expectancy
+- energy use
+- demographic composition
 
 Introduce:
 
-* geographic keys
-* tabular/geographic joins
-* sequential color scales
-* missing data
-* normalization
+- geographic keys
+- tabular/geographic joins
+- sequential color scales
+- missing data
+- normalization
 
 Keep this version relatively simple because a more sophisticated drill-down choropleth comes later.
 
@@ -614,29 +614,29 @@ Plot incidents at their geographic coordinates.
 
 Potential encodings:
 
-* coordinates → position
-* number dead/missing → radius
-* route → color
-* incident class → symbol or color
+- coordinates → position
+- number dead/missing → radius
+- route → color
+- incident class → symbol or color
 
 Add tooltips.
 
 Potential tooltip contents:
 
-* date
-* location
-* deaths
-* missing
-* migration route
-* description
+- date
+- location
+- deaths
+- missing
+- migration route
+- description
 
 Concepts:
 
-* point geography
-* projections
-* spatial overplotting
-* point size
-* incident-level maps
+- point geography
+- projections
+- spatial overplotting
+- point size
+- incident-level maps
 
 ---
 
@@ -646,9 +646,9 @@ Add a temporal histogram below the geographic view.
 
 Possible unit:
 
-* incidents per month
-* deaths per month
-* incidents per year
+- incidents per month
+- deaths per month
+- incidents per year
 
 This gives two complementary projections:
 
@@ -680,10 +680,10 @@ Architecture:
 
 Potential secondary outputs:
 
-* selected incident count
-* selected deaths
-* current date range
-* migration-route breakdown
+- selected incident count
+- selected deaths
+- current date range
+- migration-route breakdown
 
 This should remain one of the central examples of the course.
 
@@ -703,23 +703,23 @@ Use the existing **Star Wars social network dataset**.
 
 Represent:
 
-* characters → nodes
-* interactions/co-occurrences → links
+- characters → nodes
+- interactions/co-occurrences → links
 
 Potential encodings:
 
-* degree → node radius
-* faction or movie → color
-* interaction count → link width
+- degree → node radius
+- faction or movie → color
+- interaction count → link width
 
 Introduce:
 
-* graphs
-* nodes and links
-* degree
-* connectivity
-* force simulation
-* iterative layouts
+- graphs
+- nodes and links
+- degree
+- connectivity
+- force simulation
+- iterative layouts
 
 ---
 
@@ -727,12 +727,12 @@ Introduce:
 
 Add:
 
-* hover a character → emphasize immediate neighbors
-* dim unrelated nodes
-* click → persistent selection
-* tooltips
-* minimum-edge-weight filter
-* optionally drag nodes
+- hover a character → emphasize immediate neighbors
+- dim unrelated nodes
+- click → persistent selection
+- tooltips
+- minimum-edge-weight filter
+- optionally drag nodes
 
 A threshold control is particularly useful because students can watch graph topology simplify as weak links disappear.
 
@@ -742,7 +742,7 @@ A threshold control is particularly useful because students can watch graph topo
 
 Render the same network as an adjacency matrix.
 
-Use **Reorder.js** to explore matrix-ordering algorithms, including approaches connected to Jacques Bertin's ideas from *Semiology of Graphics*.
+Use **Reorder.js** to explore matrix-ordering algorithms, including approaches connected to Jacques Bertin's ideas from _Semiology of Graphics_.
 
 This is important because an unordered adjacency matrix often looks meaningless. The lesson becomes:
 
@@ -750,21 +750,21 @@ This is important because an unordered adjacency matrix often looks meaningless.
 
 Explore several ordering strategies, such as those supported by the library:
 
-* original ordering
-* alphabetical
-* degree-based
-* spectral / graph-derived ordering
-* optimal leaf ordering or related seriation approaches where appropriate
+- original ordering
+- alphabetical
+- degree-based
+- spectral / graph-derived ordering
+- optimal leaf ordering or related seriation approaches where appropriate
 
 Then allow students to switch among ordering strategies interactively.
 
 Concepts:
 
-* adjacency matrix
-* graph seriation
-* reordering
-* exposing structure through permutation
-* Bertin's concept of rearrangeable matrices
+- adjacency matrix
+- graph seriation
+- reordering
+- exposing structure through permutation
+- Bertin's concept of rearrangeable matrices
 
 This makes the matrix more than just an alternative rendering—it becomes a lesson in **computationally assisted visual organization**.
 
@@ -796,21 +796,21 @@ Draw geographic arcs between the selected county and connected counties.
 
 Potential distinction:
 
-* outgoing migration
-* incoming migration
+- outgoing migration
+- incoming migration
 
 Possible encodings:
 
-* line width → migration count
-* opacity → migration count
-* color → incoming versus outgoing
-* radius/marker → destination magnitude
+- line width → migration count
+- opacity → migration count
+- color → incoming versus outgoing
+- radius/marker → destination magnitude
 
 Interaction might offer:
 
-* `From this county`
-* `To this county`
-* `Both`
+- `From this county`
+- `To this county`
+- `Both`
 
 The architecture:
 
@@ -828,12 +828,12 @@ This teaches that geographic data can encode **relationships between locations**
 
 ### Potential additions
 
-* only show top 20 flows
-* hover arc → origin, destination, number of migrants
-* county tooltip
-* incoming/outgoing totals
-* bar chart of top connected counties
-* click destination to move the focus there
+- only show top 20 flows
+- hover arc → origin, destination, number of migrants
+- county tooltip
+- incoming/outgoing totals
+- bar chart of top connected counties
+- click destination to move the focus there
 
 This can turn into a highly exploratory visualization without overwhelming the screen.
 
@@ -849,18 +849,18 @@ This makes an excellent immediate follow-up because students can reuse the same 
 
 Render:
 
-* world map
-* airport points
-* selected airport
-* route arcs
+- world map
+- airport points
+- selected airport
+- route arcs
 
 Click an airport and display routes emanating from or arriving at it.
 
 Potential encodings:
 
-* route frequency or importance → width
-* airport traffic → radius
-* country/region → color
+- route frequency or importance → width
+- airport traffic → radius
+- country/region → color
 
 This reinforces a major abstraction:
 
@@ -888,13 +888,13 @@ Create a national choropleth showing one variable by state.
 
 Possible nonpolitical measures:
 
-* population
-* income
-* housing cost
-* climate
-* employment
-* demographic indicators
-* Census measures
+- population
+- income
+- housing cost
+- climate
+- employment
+- demographic indicators
+- Census measures
 
 Add tooltip and selection state.
 
@@ -922,10 +922,10 @@ The system should:
 
 Add:
 
-* smooth transition
-* state title
-* back button
-* perhaps breadcrumb navigation
+- smooth transition
+- state title
+- back button
+- perhaps breadcrumb navigation
 
 Architecture:
 
@@ -947,26 +947,26 @@ Use one hierarchical dataset repeatedly so students can compare visual encodings
 
 Potential datasets:
 
-* Flare
-* NPM hierarchy
-* file-system hierarchy
-* dependency hierarchy
+- Flare
+- NPM hierarchy
+- file-system hierarchy
+- dependency hierarchy
 
 ## Example 9.9 — Tidy node-link tree
 
 Use:
 
-* `d3.hierarchy`
-* `d3.tree`
+- `d3.hierarchy`
+- `d3.tree`
 
 Concepts:
 
-* root
-* parent
-* child
-* leaf
-* depth
-* subtree
+- root
+- parent
+- child
+- leaf
+- depth
+- subtree
 
 ---
 
@@ -974,7 +974,7 @@ Concepts:
 
 Use:
 
-* `d3.cluster`
+- `d3.cluster`
 
 Compare leaf alignment and spacing with the tidy tree.
 
@@ -986,16 +986,16 @@ Optionally introduce radial cluster layout.
 
 Use:
 
-* `d3.treemap`
+- `d3.treemap`
 
 Encode quantities as nested rectangular areas.
 
 Discuss:
 
-* containment
-* space efficiency
-* magnitude
-* difficulty of topology tracing
+- containment
+- space efficiency
+- magnitude
+- difficulty of topology tracing
 
 ---
 
@@ -1003,14 +1003,14 @@ Discuss:
 
 Use:
 
-* `d3.pack`
+- `d3.pack`
 
 Render the same hierarchy as nested circles.
 
 Compare the tradeoff:
 
-* visually expressive containment
-* less efficient area usage than treemap
+- visually expressive containment
+- less efficient area usage than treemap
 
 ---
 
@@ -1018,7 +1018,7 @@ Compare the tradeoff:
 
 Use:
 
-* `d3.partition`
+- `d3.partition`
 
 Render hierarchy depth as rectangular bands.
 
@@ -1040,19 +1040,19 @@ This makes a powerful implementation point:
 
 By the end of this sequence students should have encountered:
 
-* **tree**
-* **cluster / dendrogram**
-* **radial tree**
-* **radial cluster**
-* **treemap**
-* **circle packing**
-* **partition / icicle**
-* **partition / sunburst**
+- **tree**
+- **cluster / dendrogram**
+- **radial tree**
+- **radial cluster**
+- **treemap**
+- **circle packing**
+- **partition / icicle**
+- **partition / sunburst**
 
 Alongside the data-building APIs:
 
-* `d3.hierarchy`
-* `d3.stratify`
+- `d3.hierarchy`
+- `d3.stratify`
 
 The pedagogical framing is:
 
@@ -1068,13 +1068,13 @@ This chapter can deliberately reuse previous examples.
 
 Compare:
 
-* categorical
-* sequential
-* diverging
-* continuous
-* quantized
-* quantile
-* threshold
+- categorical
+- sequential
+- diverging
+- continuous
+- quantized
+- quantile
+- threshold
 
 Focus on when each mathematical mapping matches the semantics of the underlying data.
 
@@ -1086,20 +1086,20 @@ Return to a geographic dataset.
 
 Compare:
 
-* continuous sequential scale
-* quantized scale
-* quantile scale
-* threshold scale
-* diverging scale
+- continuous sequential scale
+- quantized scale
+- quantile scale
+- threshold scale
+- diverging scale
 
 Discuss:
 
-* skew
-* outliers
-* domain selection
-* meaningful midpoint
-* normalization
-* missing values
+- skew
+- outliers
+- domain selection
+- meaningful midpoint
+- normalization
+- missing values
 
 ---
 
@@ -1107,17 +1107,17 @@ Discuss:
 
 Represent identical values using:
 
-* position
-* length
-* area
-* radius
-* angle
-* color luminance
-* saturation
+- position
+- length
+- area
+- radius
+- angle
+- color luminance
+- saturation
 
 Students can directly compare perceptual effectiveness.
 
-This is a good chapter to emphasize *Visualization Analysis and Design* principles rather than introducing additional software architecture.
+This is a good chapter to emphasize _Visualization Analysis and Design_ principles rather than introducing additional software architecture.
 
 ---
 
@@ -1137,17 +1137,17 @@ Take a cross-filtered multi-view system and progressively increase row count.
 
 Good dataset choices:
 
-* flights
-* large synthetic tabular data
-* taxi trips
-* ACS migration records
+- flights
+- large synthetic tabular data
+- taxi trips
+- ACS migration records
 
 Measure:
 
-* filter computation
-* binning/aggregation
-* rendering
-* frame responsiveness
+- filter computation
+- binning/aggregation
+- rendering
+- frame responsiveness
 
 Introduce browser performance tooling.
 
@@ -1167,14 +1167,14 @@ Improve the baseline before changing architecture.
 
 Possible techniques:
 
-* memoization
-* precomputation
-* indexing
-* maintaining lookup structures
-* avoiding repeated filtering
-* minimizing unchanged aggregations
-* typed arrays where appropriate
-* Crossfilter-style indexing / bitsets conceptually
+- memoization
+- precomputation
+- indexing
+- maintaining lookup structures
+- avoiding repeated filtering
+- minimizing unchanged aggregations
+- typed arrays where appropriate
+- Crossfilter-style indexing / bitsets conceptually
 
 The lesson is:
 
@@ -1214,12 +1214,12 @@ render
 
 Introduce:
 
-* workers
-* messaging
-* asynchronous computation
-* serialization
-* transferable data where appropriate
-* keeping pointer interaction responsive
+- workers
+- messaging
+- asynchronous computation
+- serialization
+- transferable data where appropriate
+- keeping pointer interaction responsive
 
 ---
 
@@ -1235,10 +1235,10 @@ For example:
 
 becomes a query whose response contains only:
 
-* bins
-* counts
-* aggregates
-* perhaps limited matching rows
+- bins
+- counts
+- aggregates
+- perhaps limited matching rows
 
 Architecture:
 
@@ -1254,9 +1254,9 @@ Architecture:
 
 Possible technologies to discuss or prototype:
 
-* PostgreSQL
-* DuckDB
-* ClickHouse
+- PostgreSQL
+- DuckDB
+- ClickHouse
 
 The important conceptual distinction:
 
@@ -1284,20 +1284,20 @@ Expand the Chapter 8 application.
 
 Possible views:
 
-* geographic map
-* temporal histogram
-* route breakdown
-* cause/category bars
-* selected-record table
-* summary metrics
+- geographic map
+- temporal histogram
+- route breakdown
+- cause/category bars
+- selected-record table
+- summary metrics
 
 Interactions:
 
-* brush date
-* select route
-* select category
-* hover incident
-* clear filters
+- brush date
+- select route
+- select category
+- hover incident
+- clear filters
 
 Architecture:
 
@@ -1319,11 +1319,11 @@ Return to the ACS migration-flow map and extend it beyond the single selected-co
 
 Views might include:
 
-* county map
-* outgoing/incoming migration arcs
-* top destination/origin bar chart
-* migration magnitude distribution
-* county detail panel
+- county map
+- outgoing/incoming migration arcs
+- top destination/origin bar chart
+- migration magnitude distribution
+- county detail panel
 
 Interaction:
 
@@ -1343,11 +1343,11 @@ Use the same architectural pattern for global airports.
 
 Potential views:
 
-* world route map
-* selected-airport routes
-* busiest destination bars
-* distance distribution
-* country/region summaries
+- world route map
+- selected-airport routes
+- busiest destination bars
+- distance distribution
+- country/region summaries
 
 This allows students to see that one coordinated system architecture can generalize across very different domains.
 
@@ -1359,11 +1359,11 @@ A conventional flights dashboard is still useful if you want a pure tabular cros
 
 Possible views:
 
-* delay histogram
-* departure-time histogram
-* carrier bars
-* distance histogram
-* delay scatter plot
+- delay histogram
+- departure-time histogram
+- carrier bars
+- distance histogram
+- delay scatter plot
 
 It would be particularly appropriate as the **performance testbed for Chapter 11**, whereas County Migration and Airports provide richer spatial/network applications in Chapter 12.
 
@@ -1373,14 +1373,14 @@ It would be particularly appropriate as the **performance testbed for Chapter 11
 
 At this point, make the interaction vocabulary explicit:
 
-* **hover** → transient focus
-* **click** → persistent selection
-* **brush** → interval/region selection
-* **filter** → restrict records
-* **cross-filter** → selection propagates among views
-* **drill-down** → change level of abstraction
-* **zoom/pan** → navigate geometric space
-* **semantic zoom** → alter what information is displayed based on scale
+- **hover** → transient focus
+- **click** → persistent selection
+- **brush** → interval/region selection
+- **filter** → restrict records
+- **cross-filter** → selection propagates among views
+- **drill-down** → change level of abstraction
+- **zoom/pan** → navigate geometric space
+- **semantic zoom** → alter what information is displayed based on scale
 
 ---
 
@@ -1418,11 +1418,11 @@ Render one point per incident.
 
 Potential color attributes:
 
-* migration route
-* cause
-* year
-* region
-* cluster
+- migration route
+- cause
+- year
+- region
+- cluster
 
 This gives two different spaces for the same records:
 
@@ -1444,15 +1444,15 @@ Make the embedding scatter plot zoomable and pannable.
 
 At the global level:
 
-* show point clouds / clusters
+- show point clouds / clusters
 
 When zoomed:
 
-* individual points become more distinguishable
+- individual points become more distinguishable
 
 At detailed scale:
 
-* expose labels or richer hover behavior
+- expose labels or richer hover behavior
 
 This becomes a good case for canvas rendering if point counts justify it.
 
@@ -1462,12 +1462,12 @@ This becomes a good case for canvas rendering if point counts justify it.
 
 Hover individual points and show:
 
-* description
-* date
-* location
-* route
-* deaths / missing
-* any known category
+- description
+- date
+- location
+- route
+- deaths / missing
+- any known category
 
 Students can continually connect the abstract embedding position back to the source record.
 
@@ -1479,18 +1479,18 @@ Cluster the embedding.
 
 Potential algorithms:
 
-* DBSCAN
-* HDBSCAN
-* k-means
+- DBSCAN
+- HDBSCAN
+- k-means
 
 Then color by cluster.
 
 Compare cluster assignments against known metadata:
 
-* route
-* cause
-* region
-* time period
+- route
+- cause
+- region
+- time period
 
 Important distinction:
 
@@ -1518,15 +1518,15 @@ Pipeline:
 
 Potential natural groupings might include:
 
-* React ecosystem
-* visualization
-* databases
-* build tooling
-* testing
-* CLI
-* networking
-* TypeScript
-* utilities
+- React ecosystem
+- visualization
+- databases
+- build tooling
+- testing
+- CLI
+- networking
+- TypeScript
+- utilities
 
 ---
 
@@ -1534,25 +1534,25 @@ Potential natural groupings might include:
 
 Encode:
 
-* UMAP coordinates → position
-* weekly downloads → radius
-* cluster → color
+- UMAP coordinates → position
+- weekly downloads → radius
+- cluster → color
 
 Add:
 
-* zoom
-* pan
-* tooltip
-* package search
-* click selection
+- zoom
+- pan
+- tooltip
+- package search
+- click selection
 
 Tooltip:
 
-* package name
-* description
-* downloads
-* version
-* repository information if available
+- package name
+- description
+- downloads
+- version
+- repository information if available
 
 ---
 
@@ -1564,9 +1564,9 @@ Determine its closest neighbors in the original embedding space or projected spa
 
 Show:
 
-* nearest package names
-* descriptions
-* distances
+- nearest package names
+- descriptions
+- distances
 
 This makes vector similarity concrete.
 
@@ -1582,11 +1582,11 @@ For Migrant Deaths:
 
 → show:
 
-* routes
-* years
-* causes
-* geographic distribution
-* matching records
+- routes
+- years
+- causes
+- geographic distribution
+- matching records
 
 For NPM:
 
@@ -1594,10 +1594,10 @@ For NPM:
 
 → show:
 
-* package list
-* keyword frequencies
-* download distribution
-* clusters/categories
+- package list
+- keyword frequencies
+- download distribution
+- clusters/categories
 
 Again the familiar architecture holds:
 
@@ -1613,10 +1613,10 @@ Use a long temporal dataset.
 
 Possible datasets:
 
-* atmospheric CO₂
-* temperature
-* energy
-* population
+- atmospheric CO₂
+- temperature
+- energy
+- population
 
 Render:
 
@@ -1640,9 +1640,9 @@ This interaction resembles cross-filtering technically, but the analytical purpo
 
 Return to:
 
-* treemap
-* icicle
-* sunburst
+- treemap
+- icicle
+- sunburst
 
 Make it navigable.
 
@@ -1650,10 +1650,10 @@ Click a node to make that subtree the focus.
 
 Add:
 
-* animated transitions
-* breadcrumbs
-* back navigation
-* current-node label
+- animated transitions
+- breadcrumbs
+- back navigation
+- current-node label
 
 This connects directly to the geographic state → county drill-down.
 
@@ -1669,16 +1669,16 @@ For example:
 
 ### Far out
 
-* cluster boundaries
-* cluster labels
+- cluster boundaries
+- cluster labels
 
 ### Medium zoom
 
-* individual points
+- individual points
 
 ### Close
 
-* package names / incident snippets
+- package names / incident snippets
 
 This distinguishes:
 
@@ -1732,23 +1732,23 @@ to:
 
 Choose one mature system:
 
-* Migrant Deaths Explorer
-* County Migration Explorer
-* NPM semantic explorer
+- Migrant Deaths Explorer
+- County Migration Explorer
+- NPM semantic explorer
 
 Break it into clear modules:
 
-* loading
-* parsing
-* transformations
-* filtering
-* indexes
-* shared state
-* scales
-* marks
-* interaction
-* layout
-* coordinated views
+- loading
+- parsing
+- transformations
+- filtering
+- indexes
+- shared state
+- scales
+- marks
+- interaction
+- layout
+- coordinated views
 
 Students can see what a maintainable visualization application looks like after weeks of incremental construction.
 
@@ -1823,99 +1823,99 @@ coordinated views
 
 The course would now deliberately reuse roughly these dataset families.
 
-* **Palmer Penguins**
+- **Palmer Penguins**
 
-  * scatter plot
-  * color + legend
-  * configurable X/Y
-  * bar chart
-  * histograms
-  * brushing
-  * cross-filtering
-  * filtered HTML table
+  - scatter plot
+  - color + legend
+  - configurable X/Y
+  - bar chart
+  - histograms
+  - brushing
+  - cross-filtering
+  - filtered HTML table
 
-* **Pew Religion**
+- **Pew Religion**
 
-  * grouped bars
-  * stacked bars
-  * normalized stacked bars
-  * categorical composition
+  - grouped bars
+  - stacked bars
+  - normalized stacked bars
+  - categorical composition
 
-* **Climate / energy / OWID-style time series**
+- **Climate / energy / OWID-style time series**
 
-  * line chart
-  * multiple lines
-  * quantized Voronoi tooltip
-  * overview + detail
+  - line chart
+  - multiple lines
+  - quantized Voronoi tooltip
+  - overview + detail
 
-* **American Time Use Survey**
+- **American Time Use Survey**
 
-  * stacked area
-  * streamgraph
-  * temporal composition
+  - stacked area
+  - streamgraph
+  - temporal composition
 
-* **Migrant Deaths**
+- **Migrant Deaths**
 
-  * point map
-  * time histogram
-  * brush → map
-  * complete explorer
-  * descriptions → embeddings
-  * UMAP
-  * clustering
-  * semantic zoom
+  - point map
+  - time histogram
+  - brush → map
+  - complete explorer
+  - descriptions → embeddings
+  - UMAP
+  - clustering
+  - semantic zoom
 
-* **Star Wars social network**
+- **Star Wars social network**
 
-  * force-directed network
-  * neighborhood interaction
-  * adjacency matrix
-  * Reorder.js / Bertin-inspired reordering
+  - force-directed network
+  - neighborhood interaction
+  - adjacency matrix
+  - Reorder.js / Bertin-inspired reordering
 
-* **ACS County-to-County Migration**
+- **ACS County-to-County Migration**
 
-  * county map
-  * origin/destination flows
-  * geographic arcs
-  * selected-county explorer
+  - county map
+  - origin/destination flows
+  - geographic arcs
+  - selected-county explorer
 
-* **Global Airport Network**
+- **Global Airport Network**
 
-  * geographic network
-  * route arcs
-  * selected-airport exploration
-  * reuse of geographic-flow architecture
+  - geographic network
+  - route arcs
+  - selected-airport exploration
+  - reuse of geographic-flow architecture
 
-* **U.S. state/county data**
+- **U.S. state/county data**
 
-  * state choropleth
-  * click state → county drill-down
+  - state choropleth
+  - click state → county drill-down
 
-* **Flare / NPM / other hierarchy**
+- **Flare / NPM / other hierarchy**
 
-  * tree
-  * cluster
-  * radial tree
-  * treemap
-  * circle pack
-  * icicle
-  * sunburst
+  - tree
+  - cluster
+  - radial tree
+  - treemap
+  - circle pack
+  - icicle
+  - sunburst
 
-* **Flights or another large tabular dataset**
+- **Flights or another large tabular dataset**
 
-  * performance benchmarking
-  * main-thread optimization
-  * Web Workers
-  * server-side querying
+  - performance benchmarking
+  - main-thread optimization
+  - Web Workers
+  - server-side querying
 
-* **Top NPM packages**
+- **Top NPM packages**
 
-  * description embeddings
-  * UMAP
-  * clustering
-  * zoomable scatter plot
-  * semantic neighbors
-  * cross-filtering semantic selections
+  - description embeddings
+  - UMAP
+  - clustering
+  - zoomable scatter plot
+  - semantic neighbors
+  - cross-filtering semantic selections
 
 ---
 
@@ -1979,4 +1979,4 @@ naive browser filtering
 → Web Worker
 → server-side queries
 
-So by the end of *Constructing Visualizations*, students have moved well beyond implementing a set of canonical D3 charts. They've encountered most of the major **data abstractions, spatial representations, interaction patterns, and application architectures** involved in constructing modern interactive visualization systems.
+So by the end of _Constructing Visualizations_, students have moved well beyond implementing a set of canonical D3 charts. They've encountered most of the major **data abstractions, spatial representations, interaction patterns, and application architectures** involved in constructing modern interactive visualization systems.

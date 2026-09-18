@@ -10,6 +10,7 @@ import { ScatterPlot } from './008-scatter-plot/ScatterPlot';
 import { ClickableCircles } from './009-clickable-circles/ClickableCircles';
 import { Hovering } from './010-hovering/Hovering';
 import { Tooltips } from './011-tooltips/Tooltips';
+import { VanillaTooltips } from './012-vanilla-tooltips/VanillaTooltips';
 
 export interface Example {
   id: string;
@@ -72,6 +73,11 @@ export const examples: Example[] = [
     id: '11',
     name: 'Tooltips',
     component: Tooltips,
+  },
+  {
+    id: '12',
+    name: 'Vanilla Tooltips',
+    component: VanillaTooltips,
   },
 ];
 
