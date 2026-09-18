@@ -17,10 +17,7 @@ Don’t add mouse coordinates to the hover state unless you actually want the to
 The hovered circle already gives you the logical anchor:
 
 ```ts
-const hoveredCircle =
-  hoveredCircleId === null
-    ? null
-    : data.find((d) => d.id === hoveredCircleId);
+const hoveredCircle = hoveredCircleId === null ? null : data.find((d) => d.id === hoveredCircleId);
 ```
 
 Then the existing scales give you the anchor in visualization-local coordinates:
@@ -62,11 +59,7 @@ Internally it uses:
 useFloating({
   strategy: 'fixed',
   placement: 'top',
-  middleware: [
-    offset(8),
-    flip(),
-    shift({ padding: 8 }),
-  ],
+  middleware: [offset(8), flip(), shift({ padding: 8 })],
 });
 ```
 
@@ -121,11 +114,7 @@ The structure becomes:
 
 ```tsx
 createPortal(
-  <div
-    ref={refs.setFloating}
-    style={floatingStyles}
-    role="tooltip"
-  >
+  <div ref={refs.setFloating} style={floatingStyles} role="tooltip">
     {children}
   </div>,
   document.body,
@@ -183,15 +172,9 @@ For example:
 
 ```tsx
 <Tooltip x={tooltipX} y={tooltipY}>
-  <div className="font-medium">
-    Circle {hoveredCircle.id}
-  </div>
-  <div>
-    x: {hoveredCircle.x}
-  </div>
-  <div>
-    y: {hoveredCircle.y}
-  </div>
+  <div className="font-medium">Circle {hoveredCircle.id}</div>
+  <div>x: {hoveredCircle.x}</div>
+  <div>y: {hoveredCircle.y}</div>
 </Tooltip>
 ```
 
@@ -255,10 +238,7 @@ Hovering
 The important addition would be approximately:
 
 ```tsx
-const hoveredCircle =
-  hoveredCircleId === null
-    ? null
-    : data.find((d) => d.id === hoveredCircleId);
+const hoveredCircle = hoveredCircleId === null ? null : data.find((d) => d.id === hoveredCircleId);
 
 let tooltipPosition = null;
 
@@ -275,14 +255,13 @@ if (hoveredCircle && scales && divRef.current) {
 then after the SVG:
 
 ```tsx
-{hoveredCircle && tooltipPosition && (
-  <Tooltip
-    x={tooltipPosition.x}
-    y={tooltipPosition.y}
-  >
-    <div>Circle {hoveredCircle.id}</div>
-  </Tooltip>
-)}
+{
+  hoveredCircle && tooltipPosition && (
+    <Tooltip x={tooltipPosition.x} y={tooltipPosition.y}>
+      <div>Circle {hoveredCircle.id}</div>
+    </Tooltip>
+  );
+}
 ```
 
 There is one React detail I would change from that exact pseudocode: I would avoid treating `getBoundingClientRect()` as ordinary render-state because scrolling can change the rectangle without causing a React render. The clean implementation is either to have `Tooltip` receive the visualization container and local `(x, y)`, or maintain the viewport point with an effect that updates on resize/scroll.
@@ -311,6 +290,6 @@ where `x/y` are simply coordinates within the visualization.
 
 That would be my target API for your course example: **Voronoi determines the datum, scales determine the point, and `<Tooltip>` handles everything from that point outward.**
 
-[1]: https://floating-ui.com/docs/react?utm_source=chatgpt.com "React | Floating UI"
-[2]: https://floating-ui.com/docs/usefloating?utm_source=chatgpt.com "useFloating | Floating UI"
-[3]: https://floating-ui.com/docs/misc?utm_source=chatgpt.com "Misc | Floating UI"
+[1]: https://floating-ui.com/docs/react?utm_source=chatgpt.com 'React | Floating UI'
+[2]: https://floating-ui.com/docs/usefloating?utm_source=chatgpt.com 'useFloating | Floating UI'
+[3]: https://floating-ui.com/docs/misc?utm_source=chatgpt.com 'Misc | Floating UI'
