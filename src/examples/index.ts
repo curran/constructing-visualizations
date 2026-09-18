@@ -11,6 +11,7 @@ import { ClickableCircles } from './009-clickable-circles/ClickableCircles';
 import { Hovering } from './010-hovering/Hovering';
 import { Tooltips } from './011-tooltips/Tooltips';
 import { VanillaTooltips } from './012-vanilla-tooltips/VanillaTooltips';
+import { InteractiveColorLegend } from './013-interactive-color-legend/InteractiveColorLegend';
 
 export interface Example {
   id: string;
@@ -78,6 +79,11 @@ export const examples: Example[] = [
     id: '12',
     name: 'Vanilla Tooltips',
     component: VanillaTooltips,
+  },
+  {
+    id: '13',
+    name: 'Interactive Color Legend',
+    component: InteractiveColorLegend,
   },
 ];
 
