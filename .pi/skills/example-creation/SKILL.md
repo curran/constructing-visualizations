@@ -126,7 +126,7 @@ read those files before writing a new example.
 ### Other conventions
 
 - Keep all tweakable values (margins, titles, axis labels, font sizes,
-  accessors) in a `tweakables.ts` file so they can be adjusted in one place, including the margins.
+  accessors) in a `config.ts` file so they can be adjusted in one place, including the margins.
 - Use `useMemo` to derive filtered/processed data rather than recomputing it
   inline every render (e.g. dropping `NA` rows in `011-tooltips`).
 - Keep a single piece of interaction state (e.g. `hoveredIndex`) in the parent;
@@ -148,4 +148,4 @@ read those files before writing a new example.
 6. Register the example in `src/examples/index.ts` (import + `examples` entry).
 7. Verify: `npm run lint` and `npm run build` (and `npm run prettier` to format).
 8. Confirm it renders via the dev server (`npm run dev`) using the
-   `?example=NN` deep link. When you're done creating the example, test it using Playwright, using headed mode so we can see it being tested.   
+   `?example=NN` deep link. When you're done creating the example, test it using Playwright, using headed mode so we can see it being tested (use the `--headed` flag).

@@ -3,10 +3,7 @@ import type { ScaleLinear, ScaleOrdinal } from 'd3-scale';
 // Importing d3-transition augments selections with the `.transition()` method.
 import 'd3-transition';
 import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
-
-const RADIUS = 3;
-const FADED_OPACITY = 0.2;
-const TRANSITION_DURATION = 300;
+import { fadedOpacity, markRadius, transitionDuration } from './config';
 
 export interface RenderMarksOptions {
   data: PenguinRow[];
@@ -31,13 +28,13 @@ export function renderMarks(
     .join('circle')
     .attr('cx', (d) => xScale(xValue(d)))
     .attr('cy', (d) => yScale(yValue(d)))
-    .attr('r', RADIUS)
+    .attr('r', markRadius)
     .attr('fill', (d) => colorScale(colorValue(d)))
     // Fade the marks that do not match the hovered species. A D3 transition
     // animates the opacity so the highlight change feels smooth.
     .transition()
-    .duration(TRANSITION_DURATION)
+    .duration(transitionDuration)
     .style('opacity', (d) =>
-      hoveredSpecies === null || colorValue(d) === hoveredSpecies ? 1 : FADED_OPACITY,
+      hoveredSpecies === null || colorValue(d) === hoveredSpecies ? 1 : fadedOpacity,
     );
 }

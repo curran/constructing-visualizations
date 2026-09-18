@@ -21,6 +21,13 @@ export const axisLabelFontSize = 14;
 export const xAxisLabelOffset = 40;
 export const yAxisLabelOffset = 40;
 
+// Marks configuration.
+export const markRadius = 3;
+
+// Interaction configuration shared by the marks and the color legend.
+export const fadedOpacity = 0.2;
+export const transitionDuration = 300;
+
 // Color legend configuration.
 export const colorLegendLabel = 'Species';
 export const colorLegendTickSpacing = 30;

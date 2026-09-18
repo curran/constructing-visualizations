@@ -2,9 +2,7 @@ import type { Selection } from 'd3-selection';
 import type { ScaleOrdinal } from 'd3-scale';
 // Importing d3-transition augments selections with the `.transition()` method.
 import 'd3-transition';
-
-const FADED_OPACITY = 0.2;
-const TRANSITION_DURATION = 300;
+import { fadedOpacity, transitionDuration } from './config';
 
 export interface RenderColorLegendOptions {
   colorScale: ScaleOrdinal<string, string>;
@@ -85,6 +83,6 @@ export function renderColorLegend(
   // animates the opacity so the highlight change feels smooth.
   ticks
     .transition()
-    .duration(TRANSITION_DURATION)
-    .style('opacity', (d) => (hoveredSpecies === null || d === hoveredSpecies ? 1 : FADED_OPACITY));
+    .duration(transitionDuration)
+    .style('opacity', (d) => (hoveredSpecies === null || d === hoveredSpecies ? 1 : fadedOpacity));
 }
