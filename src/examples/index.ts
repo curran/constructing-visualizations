@@ -12,6 +12,7 @@ import { Hovering } from './010-hovering/Hovering';
 import { Tooltips } from './011-tooltips/Tooltips';
 import { VanillaTooltips } from './012-vanilla-tooltips/VanillaTooltips';
 import { InteractiveColorLegend } from './013-interactive-color-legend/InteractiveColorLegend';
+import { ScatterPlotWithMenus } from './014-scatter-plot-with-menus/ScatterPlotWithMenus';
 
 export interface Example {
   id: string;
@@ -84,6 +85,11 @@ export const examples: Example[] = [
     id: '13',
     name: 'Interactive Color Legend',
     component: InteractiveColorLegend,
+  },
+  {
+    id: '14',
+    name: 'Scatter Plot with Menus',
+    component: ScatterPlotWithMenus,
   },
 ];
 
