@@ -15,8 +15,10 @@ export function ScatterPlotWithMenus() {
   // The two menus drive which columns are mapped to the x and y axes.
   const [xKey, setXKey] = useState(defaultXKey);
   const [yKey, setYKey] = useState(defaultYKey);
-  const xColumn = getColumn(xKey);
-  const yColumn = getColumn(yKey);
+  const { xColumn, yColumn } = useMemo(
+    () => ({ xColumn: getColumn(xKey), yColumn: getColumn(yKey) }),
+    [xKey, yKey],
+  );
 
   // Some rows in the dataset have missing measurements (NA), which would
   // map to undefined circle positions and render as stray dots at the
