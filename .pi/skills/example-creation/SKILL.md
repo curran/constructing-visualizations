@@ -16,9 +16,18 @@ or refactor an existing one.
   a kebab-case title: `NNN-kebab-case-title/` (e.g. `010-hovering`,
   `011-tooltips`).
 - Each directory contains the example's components, render functions,
-  hooks, and config. Examples are self-contained; shared dataset loaders may be
-  imported from earlier examples (e.g. `011-tooltips` imports
-  `usePenguinsDataset` from `006-loading-and-summarizing-data`).
+  hooks, config, and a `datasets.json` manifest. Examples are intentionally
+  self-contained: never import source code from another numbered example. If a
+  new example builds on an earlier helper such as `useDimensions` or
+  `usePenguinsDataset`, copy that helper into the new example.
+
+## Dataset manifest
+
+- Every example has a `datasets.json` file, even when it uses no external data.
+- Use `[]` when there is no external data.
+- List every data file fetched by the visualization.
+- Dataset paths are relative to `public/`, with no leading `/` or `public/`
+  (e.g. `datasets/palmer-penguins/penguins.csv`).
 
 ## Numbering
 
@@ -138,14 +147,19 @@ read those files before writing a new example.
 
 ## Checklist for a new example
 
-1. Determine the next number (`highest + 1`, 3-digit padded).
-2. Create `src/examples/NNN-kebab-title/`.
-3. Copy `useDimensions.ts` (and `margin.ts`/`useScales.ts` if needed) into the
-   new directory.
-4. Add `config.ts` for tweakable values and accessors.
-5. Build the example as an entry component plus per-layer components, each with
-   a `render*.ts` for dynamic marks and JSX for static text.
-6. Register the example in `src/examples/index.ts` (import + `examples` entry).
-7. Verify: `npm run lint` and `npm run build` (and `npm run prettier` to format).
-8. Confirm it renders via the dev server (`npm run dev`) using the
-   `?example=NN` deep link. When you're done creating the example, test it using Playwright, using headed mode so we can see it being tested (use the `--headed` flag).
+1. Create the example directory using the next number (`highest + 1`, 3-digit
+   padded).
+2. Copy required reusable helpers locally.
+3. Do not import another numbered example.
+4. Create `datasets.json`.
+5. Register the example in `src/examples/index.ts`.
+6. Run `npm run validate:examples`.
+7. Run lint, build, and Prettier.
+8. Verify the example visually.
+9. Add `config.ts` for tweakable values and accessors.
+10. Build the example as an entry component plus per-layer components, each with
+    a `render*.ts` for dynamic marks and JSX for static text.
+11. Confirm it renders via the dev server (`npm run dev`) using the
+    `?example=NN` deep link. When you're done creating the example, test it using
+    Playwright, using headed mode so we can see it being tested (use the
+    `--headed` flag).
