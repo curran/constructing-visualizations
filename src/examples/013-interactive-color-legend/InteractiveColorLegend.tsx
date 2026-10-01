@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useDimensions } from './useDimensions';
-import { usePenguinsDataset } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import { usePenguinsDataset } from './usePenguinsDataset';
 import { useScales } from './useScales';
 import { useColorScale } from './useColorScale';
 import { Marks } from './Marks';

@@ -1,4 +1,4 @@
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 import type { Margin } from './margin';
 
 // Chart configuration. All tweakable values live here in one place so they
