@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { select } from 'd3-selection';
 import type { ScaleLinear } from 'd3-scale';
 import { renderMarks } from './renderMarks';
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 
 export interface MarksProps {
   data: PenguinRow[];

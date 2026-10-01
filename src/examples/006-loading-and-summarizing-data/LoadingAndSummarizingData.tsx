@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { select } from 'd3-selection';
-import { useDimensions } from '../005-responsive-pseudo-scatter-plot/useDimensions';
+import { useDimensions } from './useDimensions';
 import { usePenguinsDataset } from './usePenguinsDataset';
 import { useRowsAndColumnsSummary } from './useRowsAndColumnsSummary';
 import { renderTextSummary } from './renderTextSummary';

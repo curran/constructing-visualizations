@@ -1,4 +1,4 @@
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 import type { Margin } from './margin';
 
 // Accessors extract the x, y, and color values from each row of the dataset.

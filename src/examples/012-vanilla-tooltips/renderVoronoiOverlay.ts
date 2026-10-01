@@ -1,7 +1,7 @@
 import { Delaunay } from 'd3-delaunay';
 import type { Selection } from 'd3-selection';
 import type { ScaleLinear } from 'd3-scale';
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 import type { Margin } from './margin';
 
 // The tooltip's anchor point in viewport coordinates, plus the index of the

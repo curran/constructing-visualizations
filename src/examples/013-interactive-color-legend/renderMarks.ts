@@ -2,7 +2,7 @@ import type { Selection } from 'd3-selection';
 import type { ScaleLinear, ScaleOrdinal } from 'd3-scale';
 // Importing d3-transition augments selections with the `.transition()` method.
 import 'd3-transition';
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 import { fadedOpacity, markRadius, transitionDuration } from './config';
 
 export interface RenderMarksOptions {

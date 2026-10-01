@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef } from 'react';
 import { select } from 'd3-selection';
-import { useDimensions } from '../005-responsive-pseudo-scatter-plot/useDimensions';
-import { usePenguinsDataset } from '../006-loading-and-summarizing-data/usePenguinsDataset';
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import { useDimensions } from './useDimensions';
+import { usePenguinsDataset } from './usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 import type { Margin } from './margin';
 import { useScales } from './useScales';
 import { renderMarks } from './renderMarks';

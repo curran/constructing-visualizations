@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,js,jsx,css}\" \"docs/**/*.{md,html}\" *.js index.html README.md *.json *.config.ts",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate:examples": "node scripts/validate-examples.mjs"
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.9",

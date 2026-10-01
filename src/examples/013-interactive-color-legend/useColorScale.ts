@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { scaleOrdinal } from 'd3-scale';
 import type { ScaleOrdinal } from 'd3-scale';
-import type { PenguinRow } from '../006-loading-and-summarizing-data/usePenguinsDataset';
+import type { PenguinRow } from './usePenguinsDataset';
 import { colorRange, colorValue } from './config';
 
 export function useColorScale(data: PenguinRow[] | null): ScaleOrdinal<string, string> | null {
