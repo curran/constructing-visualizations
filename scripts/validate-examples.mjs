@@ -120,7 +120,9 @@ for (const exampleName of exampleDirectories) {
   const datasetPaths = new Set();
   for (const datasetPath of manifest) {
     if (datasetPaths.has(datasetPath)) {
-      errors.push(`ERROR: ${path.relative(repositoryRoot, manifestPath)} contains duplicate path "${datasetPath}"`);
+      errors.push(
+        `ERROR: ${path.relative(repositoryRoot, manifestPath)} contains duplicate path "${datasetPath}"`,
+      );
     }
     datasetPaths.add(datasetPath);
 
@@ -133,17 +135,23 @@ for (const exampleName of exampleDirectories) {
       datasetPath.startsWith('public\\') ||
       datasetPath.includes('\\')
     ) {
-      errors.push(`ERROR: ${path.relative(repositoryRoot, manifestPath)} contains invalid dataset path "${datasetPath}"`);
+      errors.push(
+        `ERROR: ${path.relative(repositoryRoot, manifestPath)} contains invalid dataset path "${datasetPath}"`,
+      );
       continue;
     }
 
     const datasetFile = path.resolve(publicRoot, datasetPath);
     try {
       if (!isInsideDirectory(publicRoot, datasetFile) || !(await stat(datasetFile)).isFile()) {
-        errors.push(`ERROR: dataset "${datasetPath}" in ${path.relative(repositoryRoot, manifestPath)} is not a file under public/`);
+        errors.push(
+          `ERROR: dataset "${datasetPath}" in ${path.relative(repositoryRoot, manifestPath)} is not a file under public/`,
+        );
       }
     } catch {
-      errors.push(`ERROR: dataset "${datasetPath}" in ${path.relative(repositoryRoot, manifestPath)} does not exist as a file under public/`);
+      errors.push(
+        `ERROR: dataset "${datasetPath}" in ${path.relative(repositoryRoot, manifestPath)} does not exist as a file under public/`,
+      );
     }
   }
 

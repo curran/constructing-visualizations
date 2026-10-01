@@ -156,10 +156,3 @@ read those files before writing a new example.
 6. Run `npm run validate:examples`.
 7. Run lint, build, and Prettier.
 8. Verify the example visually.
-9. Add `config.ts` for tweakable values and accessors.
-10. Build the example as an entry component plus per-layer components, each with
-    a `render*.ts` for dynamic marks and JSX for static text.
-11. Confirm it renders via the dev server (`npm run dev`) using the
-    `?example=NN` deep link. When you're done creating the example, test it using
-    Playwright, using headed mode so we can see it being tested (use the
-    `--headed` flag).
