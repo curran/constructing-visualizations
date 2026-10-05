@@ -13,6 +13,7 @@ import { Tooltips } from './011-tooltips/Tooltips';
 import { VanillaTooltips } from './012-vanilla-tooltips/VanillaTooltips';
 import { InteractiveColorLegend } from './013-interactive-color-legend/InteractiveColorLegend';
 import { ScatterPlotWithMenus } from './014-scatter-plot-with-menus/ScatterPlotWithMenus';
+import { ScatterPlotExplorer } from './015-scatter-plot-explorer/ScatterPlotExplorer';
 
 export interface Example {
   id: string;
@@ -90,6 +91,11 @@ export const examples: Example[] = [
     id: '14',
     name: 'Scatter Plot with Menus',
     component: ScatterPlotWithMenus,
+  },
+  {
+    id: '15',
+    name: 'Scatter Plot Explorer',
+    component: ScatterPlotExplorer,
   },
 ];
 
