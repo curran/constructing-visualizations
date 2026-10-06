@@ -8,10 +8,10 @@ import { Explorer } from './Explorer';
 // from here.
 export function ScatterPlotExplorer() {
   return (
-    <DataProvider>
-      <InteractionProvider>
+    <InteractionProvider>
+      <DataProvider>
         <Explorer />
-      </InteractionProvider>
-    </DataProvider>
+      </DataProvider>
+    </InteractionProvider>
   );
 }
