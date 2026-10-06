@@ -34,7 +34,17 @@ export function Marks({ data, xScale, yScale }: MarksProps) {
       hoveredCategory,
       hoveredIndex,
     });
-  }, [data, xScale, yScale, colorScale, xColumn, yColumn, colorColumn, hoveredCategory, hoveredIndex]);
+  }, [
+    data,
+    xScale,
+    yScale,
+    colorScale,
+    xColumn,
+    yColumn,
+    colorColumn,
+    hoveredCategory,
+    hoveredIndex,
+  ]);
 
   return <g ref={groupRef} className="marks" />;
 }

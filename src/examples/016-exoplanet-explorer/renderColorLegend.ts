@@ -68,5 +68,7 @@ export function renderColorLegend(
   ticks
     .transition()
     .duration(transitionDuration)
-    .style('opacity', (d) => (hoveredCategory === null || d === hoveredCategory ? 1 : fadedOpacity));
+    .style('opacity', (d) =>
+      hoveredCategory === null || d === hoveredCategory ? 1 : fadedOpacity,
+    );
 }

@@ -36,7 +36,8 @@ export function useExoplanetsDataset() {
     csv<ExoplanetRow>(DATA_URL, (rawRow) => {
       const row = rawRow as unknown as ExoplanetRow;
       for (const column of numericColumns) {
-        row[column] = row[column] === '' ? Number.NaN : Number(row[column]);
+        const value = (rawRow as Record<string, string>)[column]?.trim();
+        row[column] = value ? Number(value) : Number.NaN;
       }
       if (!row.planet_type) row.planet_type = 'Unknown';
       if (!row.discoverymethod) row.discoverymethod = 'Unknown';

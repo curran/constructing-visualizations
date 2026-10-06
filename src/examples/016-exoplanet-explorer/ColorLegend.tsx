@@ -68,7 +68,11 @@ export function ColorLegend() {
       >
         {colorColumn.label}
       </text>
-      <g ref={groupRef} className="color-legend" transform={`translate(${colorLegendLabelWidth}, 12)`} />
+      <g
+        ref={groupRef}
+        className="color-legend"
+        transform={`translate(${colorLegendLabelWidth}, 12)`}
+      />
     </svg>
   );
 }
@@ -95,25 +99,14 @@ function QuantitativeColorLegend({
       role="img"
       aria-label={`Continuous color legend for ${colorColumnLabel}, from ${formatValue(min)} to ${formatValue(max)}`}
     >
-      <text
-        x={0}
-        y={10}
-        fontSize={colorLegendFontSize}
-        className="fill-gray-700"
-      >
+      <text x={0} y={10} fontSize={colorLegendFontSize} className="fill-gray-700">
         {colorColumnLabel}
       </text>
       <defs>
         <linearGradient id="exoplanet-blues-gradient">
           {Array.from({ length: 11 }, (_, index) => {
             const t = index / 10;
-            return (
-              <stop
-                key={t}
-                offset={`${t * 100}%`}
-                stopColor={interpolateBlues(t)}
-              />
-            );
+            return <stop key={t} offset={`${t * 100}%`} stopColor={interpolateBlues(t)} />;
           })}
         </linearGradient>
       </defs>
@@ -121,7 +114,13 @@ function QuantitativeColorLegend({
       <text x={barX} y={labelY} fontSize={10} className="fill-gray-700">
         {formatValue(min)}
       </text>
-      <text x={barX + barWidth / 2} y={labelY} textAnchor="middle" fontSize={10} className="fill-gray-700">
+      <text
+        x={barX + barWidth / 2}
+        y={labelY}
+        textAnchor="middle"
+        fontSize={10}
+        className="fill-gray-700"
+      >
         {formatValue(midpoint)}
       </text>
       <text x={barX + barWidth} y={labelY} textAnchor="end" fontSize={10} className="fill-gray-700">
