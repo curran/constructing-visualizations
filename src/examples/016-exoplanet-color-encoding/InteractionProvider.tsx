@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { InteractionContext, type InteractionContextValue } from './InteractionContext';
 import { defaultColorKey, defaultXKey, defaultYKey, getColorColumn, getColumn } from './config';
 import type { TooltipState } from './renderVoronoiOverlay';
@@ -7,7 +7,7 @@ export function InteractionProvider({ children }: { children: ReactNode }) {
   // The two menus drive which columns are mapped to the x and y axes.
   const [xKey, setXKey] = useState(defaultXKey);
   const [yKey, setYKey] = useState(defaultYKey);
-  const [colorKey, setColorKey] = useState(defaultColorKey);
+  const [colorKey, setColorKeyState] = useState(defaultColorKey);
 
   // Hover state: a category highlighted in the legend, and the mark under the
   // cursor (which also carries the tooltip's anchor point).
@@ -15,6 +15,10 @@ export function InteractionProvider({ children }: { children: ReactNode }) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
 
   const [showVoronoi, setShowVoronoi] = useState(false);
+  const setColorKey = useCallback((key: string) => {
+    setColorKeyState(key);
+    setHoveredCategory(null);
+  }, []);
 
   // Easter egg: pressing "V" toggles the Voronoi cell borders on and off.
   useEffect(() => {
@@ -46,7 +50,7 @@ export function InteractionProvider({ children }: { children: ReactNode }) {
       hoveredIndex: tooltip?.index ?? null,
       showVoronoi,
     }),
-    [xKey, yKey, colorKey, hoveredCategory, tooltip, showVoronoi],
+    [xKey, yKey, colorKey, setColorKey, hoveredCategory, tooltip, showVoronoi],
   );
 
   return <InteractionContext.Provider value={value}>{children}</InteractionContext.Provider>;
