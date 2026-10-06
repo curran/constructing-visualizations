@@ -1,14 +1,12 @@
 import { useCallback } from 'react';
-import type { NumericColumn } from './config';
-
 export interface EncodingMenuProps {
   label: string;
   value: string;
   onChange: (key: string) => void;
-  options: NumericColumn[];
+  options: { key: string; label: string }[];
 }
 
-// A labelled select that chooses which numeric column feeds one axis.
+// A labelled select that chooses which data column feeds an encoding.
 export function EncodingMenu({ label, value, onChange, options }: EncodingMenuProps) {
   const handleChange = useCallback(
     (event: React.ChangeEvent<HTMLSelectElement>) => onChange(event.target.value),

@@ -1,7 +1,7 @@
 import { Delaunay } from 'd3-delaunay';
 import type { Selection } from 'd3-selection';
 import type { ScaleLinear } from 'd3-scale';
-import type { PenguinRow } from './usePenguinsDataset';
+import type { ExoplanetRow } from './useExoplanetsDataset';
 import type { Margin } from './margin';
 
 // The tooltip's anchor point in viewport coordinates, plus the index of the
@@ -13,11 +13,11 @@ export interface TooltipState {
 }
 
 export interface RenderVoronoiOverlayOptions {
-  data: PenguinRow[];
+  data: ExoplanetRow[];
   xScale: ScaleLinear<number, number>;
   yScale: ScaleLinear<number, number>;
-  xValue: (row: PenguinRow) => number;
-  yValue: (row: PenguinRow) => number;
+  xValue: (row: ExoplanetRow) => number;
+  yValue: (row: ExoplanetRow) => number;
   width: number;
   height: number;
   margin: Margin;
@@ -52,7 +52,7 @@ export function renderVoronoiOverlay(
   ]);
 
   group
-    .selectAll<SVGPathElement, PenguinRow>('path')
+    .selectAll<SVGPathElement, ExoplanetRow>('path')
     .data(data)
     .join('path')
     .attr('d', (_d, i) => voronoi.renderCell(i))

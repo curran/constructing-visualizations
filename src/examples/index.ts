@@ -14,6 +14,7 @@ import { VanillaTooltips } from './012-vanilla-tooltips/VanillaTooltips';
 import { InteractiveColorLegend } from './013-interactive-color-legend/InteractiveColorLegend';
 import { ScatterPlotWithMenus } from './014-scatter-plot-with-menus/ScatterPlotWithMenus';
 import { ScatterPlotExplorer } from './015-scatter-plot-explorer/ScatterPlotExplorer';
+import { ExoplanetExplorer } from './016-exoplanet-explorer/ExoplanetExplorer';
 
 export interface Example {
   id: string;
@@ -96,6 +97,11 @@ export const examples: Example[] = [
     id: '15',
     name: 'Scatter Plot Explorer',
     component: ScatterPlotExplorer,
+  },
+  {
+    id: '16',
+    name: 'Exoplanet Explorer',
+    component: ExoplanetExplorer,
   },
 ];
 

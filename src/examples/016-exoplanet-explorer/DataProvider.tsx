@@ -4,9 +4,8 @@ import { useExoplanetsDataset } from './useExoplanetsDataset';
 import { useColorScale } from './useColorScale';
 import { useInteraction } from './InteractionContext';
 
-// Loads and parses the dataset once for the whole explorer. The derived color
-// scale lives here too, so every layer that needs the species colors reads the
-// same scale instance from the context rather than rebuilding it.
+// Loads the dataset and derives the currently selected color scale for every
+// layer from a single shared context value.
 export function DataProvider({ children }: { children: ReactNode }) {
   const data = useExoplanetsDataset();
   const { colorColumn } = useInteraction();

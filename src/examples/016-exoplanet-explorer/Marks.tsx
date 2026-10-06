@@ -4,11 +4,10 @@ import type { ScaleLinear } from 'd3-scale';
 import { renderMarks } from './renderMarks';
 import { useData } from './DataContext';
 import { useInteraction } from './InteractionContext';
-import { colorValue } from './config';
-import type { PenguinRow } from './usePenguinsDataset';
+import type { ExoplanetRow } from './useExoplanetsDataset';
 
 export interface MarksProps {
-  data: PenguinRow[];
+  data: ExoplanetRow[];
   xScale: ScaleLinear<number, number>;
   yScale: ScaleLinear<number, number>;
 }
@@ -17,7 +16,7 @@ export interface MarksProps {
 // the only props they need are the rows and the scales that position them.
 export function Marks({ data, xScale, yScale }: MarksProps) {
   const { colorScale } = useData();
-  const { xColumn, yColumn, hoveredSpecies, hoveredIndex } = useInteraction();
+  const { xColumn, yColumn, colorColumn, hoveredCategory, hoveredIndex } = useInteraction();
   const groupRef = useRef<SVGGElement>(null);
 
   useEffect(() => {
@@ -31,11 +30,11 @@ export function Marks({ data, xScale, yScale }: MarksProps) {
       colorScale,
       xValue: xColumn.accessor,
       yValue: yColumn.accessor,
-      colorValue,
-      hoveredSpecies,
+      colorColumn,
+      hoveredCategory,
       hoveredIndex,
     });
-  }, [data, xScale, yScale, colorScale, xColumn, yColumn, hoveredSpecies, hoveredIndex]);
+  }, [data, xScale, yScale, colorScale, xColumn, yColumn, colorColumn, hoveredCategory, hoveredIndex]);
 
   return <g ref={groupRef} className="marks" />;
 }

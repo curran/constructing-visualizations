@@ -6,29 +6,30 @@ import { fadedOpacity, transitionDuration } from './config';
 
 export interface RenderColorLegendOptions {
   colorScale: ScaleOrdinal<string, string>;
-  hoveredSpecies: string | null;
-  setHoveredSpecies: (species: string | null) => void;
+  hoveredCategory: string | null;
+  setHoveredCategory: (category: string | null) => void;
   tickSpacing: number;
   tickPadding: number;
   dotRadius: number;
   fontSize: number;
+  columns: number;
 }
 
-// A horizontal color legend. Each tick is a color swatch plus its species name,
-// laid out left to right. Hovering a tick sets the hovered species, which every
-// other layer derives its appearance from.
+// A horizontal categorical color legend. Hovering a tick highlights that
+// category in the plot.
 export function renderColorLegend(
   group: Selection<SVGGElement, unknown, null, undefined>,
   options: RenderColorLegendOptions,
 ) {
   const {
     colorScale,
-    hoveredSpecies,
-    setHoveredSpecies,
+    hoveredCategory,
+    setHoveredCategory,
     tickSpacing,
     tickPadding,
     dotRadius,
     fontSize,
+    columns,
   } = options;
 
   const ticks = group
@@ -40,11 +41,14 @@ export function renderColorLegend(
       tick.append('text');
       return tick;
     })
-    .attr('transform', (_d, i) => `translate(${i * tickSpacing}, 0)`)
+    .attr(
+      'transform',
+      (_d, i) => `translate(${(i % columns) * tickSpacing}, ${Math.floor(i / columns) * 22})`,
+    )
     .style('cursor', 'pointer')
     .style('user-select', 'none')
-    .on('mouseover', (_event, d) => setHoveredSpecies(d))
-    .on('mouseout', () => setHoveredSpecies(null));
+    .on('mouseover', (_event, d) => setHoveredCategory(d))
+    .on('mouseout', () => setHoveredCategory(null));
 
   ticks
     .select('circle')
@@ -59,10 +63,10 @@ export function renderColorLegend(
     .attr('font-family', 'sans-serif')
     .text((d) => d);
 
-  // Fade the ticks that do not match the hovered species. A D3 transition
+  // Fade the ticks that do not match the hovered category. A D3 transition
   // animates the opacity so the highlight change feels smooth.
   ticks
     .transition()
     .duration(transitionDuration)
-    .style('opacity', (d) => (hoveredSpecies === null || d === hoveredSpecies ? 1 : fadedOpacity));
+    .style('opacity', (d) => (hoveredCategory === null || d === hoveredCategory ? 1 : fadedOpacity));
 }

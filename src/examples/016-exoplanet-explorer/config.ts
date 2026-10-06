@@ -105,7 +105,7 @@ export function getColorColumn(key: string): ColorColumn {
   return colorColumns.find((column) => column.key === key) ?? colorColumns[0];
 }
 
-export const colorLegendLabelWidth = 64;
+export const colorLegendLabelWidth = 150;
 export const colorLegendHeight = 40;
 export const colorLegendTickSpacing = 120;
 export const colorLegendTickPadding = 14;

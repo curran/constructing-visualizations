@@ -1,8 +1,10 @@
 import type { Selection } from 'd3-selection';
-import type { ScaleLinear, ScaleOrdinal } from 'd3-scale';
+import type { ScaleLinear } from 'd3-scale';
 // Importing d3-transition augments selections with the `.transition()` method.
 import 'd3-transition';
-import type { PenguinRow } from './usePenguinsDataset';
+import type { ColorColumn } from './config';
+import type { ExoplanetRow } from './useExoplanetsDataset';
+import type { ColorScale } from './useColorScale';
 import {
   circleDuration,
   circleStaggerMaxDelay,
@@ -13,14 +15,14 @@ import {
 } from './config';
 
 export interface RenderMarksOptions {
-  data: PenguinRow[];
+  data: ExoplanetRow[];
   xScale: ScaleLinear<number, number>;
   yScale: ScaleLinear<number, number>;
-  colorScale: ScaleOrdinal<string, string>;
-  xValue: (row: PenguinRow) => number;
-  yValue: (row: PenguinRow) => number;
-  colorValue: (row: PenguinRow) => string;
-  hoveredSpecies: string | null;
+  colorScale: ColorScale;
+  xValue: (row: ExoplanetRow) => number;
+  yValue: (row: ExoplanetRow) => number;
+  colorColumn: ColorColumn;
+  hoveredCategory: string | null;
   hoveredIndex: number | null;
 }
 
@@ -35,8 +37,8 @@ export function renderMarks(
     colorScale,
     xValue,
     yValue,
-    colorValue,
-    hoveredSpecies,
+    colorColumn,
+    hoveredCategory,
     hoveredIndex,
   } = options;
 
@@ -48,7 +50,15 @@ export function renderMarks(
     .selectAll('circle')
     .data(data)
     .join('circle')
-    .attr('fill', (d) => colorScale(colorValue(d)));
+    .attr('fill', (d) => {
+      if (colorColumn.type === 'categorical' && colorScale.type === 'categorical') {
+        return colorScale.scale(colorColumn.accessor(d));
+      }
+      if (colorColumn.type === 'quantitative' && colorScale.type === 'quantitative') {
+        return colorScale.scale(colorColumn.accessor(d));
+      }
+      return '#9ca3af';
+    });
 
   // Positions use their own named transition so a slow, staggered move between
   // encodings can coexist with the quick hover response below. Because these
@@ -61,14 +71,20 @@ export function renderMarks(
     .attr('cy', (d) => yScale(yValue(d)));
 
   // Radius and opacity respond immediately to hovering: the hovered mark grows
-  // and everything else fades. A species hovered in the legend fades the marks
-  // of the other species.
+  // and everything else fades. A category hovered in the legend fades marks
+  // from the other categories.
   circles
     .transition('appearance')
     .duration(transitionDuration)
     .attr('r', (_d, i) => (i === hoveredIndex ? hoveredMarkRadius : markRadius))
     .style('opacity', (d, i) => {
-      if (hoveredSpecies !== null && colorValue(d) !== hoveredSpecies) return fadedOpacity;
+      if (
+        hoveredCategory !== null &&
+        colorColumn.type === 'categorical' &&
+        colorColumn.accessor(d) !== hoveredCategory
+      ) {
+        return fadedOpacity;
+      }
       if (hoveredIndex !== null && i !== hoveredIndex) return fadedOpacity;
       return 1;
     });

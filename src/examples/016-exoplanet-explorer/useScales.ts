@@ -2,15 +2,15 @@ import { useMemo } from 'react';
 import { extent } from 'd3-array';
 import { scaleLinear } from 'd3-scale';
 import type { ScaleLinear } from 'd3-scale';
-import type { PenguinRow } from './usePenguinsDataset';
+import type { ExoplanetRow } from './useExoplanetsDataset';
 import type { Margin } from './margin';
 
 export interface Accessor {
-  (row: PenguinRow): number;
+  (row: ExoplanetRow): number;
 }
 
 export interface UseScalesOptions {
-  data: PenguinRow[] | null;
+  data: ExoplanetRow[] | null;
   width: number;
   height: number;
   margin: Margin;
