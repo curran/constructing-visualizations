@@ -1,32 +1,36 @@
 import { useEffect, useState } from 'react';
 import { csv } from 'd3-fetch';
 
-export interface PenguinRow {
-  species: string;
-  island: string;
-  bill_length_mm: number;
-  bill_depth_mm: number;
-  flipper_length_mm: number;
-  body_mass_g: number;
-  sex: string;
-  year: string;
+export interface ExoplanetRow {
+  pl_name: string;
+  hostname: string;
+  discoverymethod: string;
+  disc_year: number;
+  pl_rade: number;
+  pl_bmasse: number;
+  pl_orbper: number;
+  st_teff: number;
+  ra: number;
+  dec: number;
+  planet_type: string;
 }
 
-const DATA_URL = `${import.meta.env.BASE_URL}datasets/palmer-penguins/penguins.csv`;
+const DATA_URL = `${import.meta.env.BASE_URL}datasets/nasa-exoplanets/nasa_exoplanets.csv`;
+const numericColumns = ['disc_year', 'pl_rade', 'pl_bmasse', 'pl_orbper', 'st_teff', 'ra', 'dec'];
 
-export function usePenguinsDataset() {
-  const [data, setData] = useState<PenguinRow[] | null>(null);
+export function useExoplanetsDataset() {
+  const [data, setData] = useState<ExoplanetRow[] | null>(null);
 
   useEffect(() => {
     let cancelled = false;
 
-    csv<PenguinRow>(DATA_URL, (rawRow) => {
-      // Mutate the row in place and return it, rather than minting new objects.
-      const row = rawRow as unknown as PenguinRow;
-      row.bill_length_mm = +row.bill_length_mm;
-      row.bill_depth_mm = +row.bill_depth_mm;
-      row.flipper_length_mm = +row.flipper_length_mm;
-      row.body_mass_g = +row.body_mass_g;
+    csv<ExoplanetRow>(DATA_URL, (rawRow) => {
+      const row = rawRow as unknown as ExoplanetRow;
+      for (const column of numericColumns) {
+        const value = row[column as keyof ExoplanetRow];
+        (row as unknown as Record<string, number>)[column] =
+          value === '' ? Number.NaN : Number(value);
+      }
       return row;
     })
       .then((rows) => {

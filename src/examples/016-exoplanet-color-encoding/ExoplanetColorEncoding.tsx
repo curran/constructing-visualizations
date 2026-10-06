@@ -6,12 +6,12 @@ import { Explorer } from './Explorer';
 // and parsing) on the outside, and interaction state inside it. Every layer
 // below reads from these contexts rather than receiving props threaded down
 // from here.
-export function ScatterPlotExplorer() {
+export function ExoplanetColorEncoding() {
   return (
-    <DataProvider>
-      <InteractionProvider>
+    <InteractionProvider>
+      <DataProvider>
         <Explorer />
-      </InteractionProvider>
-    </DataProvider>
+      </DataProvider>
+    </InteractionProvider>
   );
 }

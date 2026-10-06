@@ -1,11 +1,11 @@
 import { Tooltip } from './Tooltip';
 import { useInteraction } from './InteractionContext';
-import type { PenguinRow } from './usePenguinsDataset';
+import type { ExoplanetRow } from './useExoplanetsDataset';
 
 const numberFormat = new Intl.NumberFormat('en-US');
 
 export interface TooltipLayerProps {
-  data: PenguinRow[];
+  data: ExoplanetRow[];
 }
 
 // Derives the hovered row from the tooltip state (which stores its index) and
@@ -19,15 +19,21 @@ export function TooltipLayer({ data }: TooltipLayerProps) {
 
   return (
     <Tooltip x={tooltip.x} y={tooltip.y}>
-      <div className="font-medium">{row.species}</div>
-      <div>Bill length: {row.bill_length_mm} mm</div>
-      <div>Bill depth: {row.bill_depth_mm} mm</div>
-      {Number.isFinite(row.flipper_length_mm) && (
-        <div>Flipper length: {row.flipper_length_mm} mm</div>
+      <div className="font-medium">{row.pl_name}</div>
+      <div>Host star: {row.hostname}</div>
+      <div>Discovery method: {row.discoverymethod}</div>
+      <div>Planet type: {row.planet_type}</div>
+      <div>Planet radius: {numberFormat.format(row.pl_rade)} Earth radii</div>
+      {Number.isFinite(row.pl_bmasse) && (
+        <div>Planet mass: {numberFormat.format(row.pl_bmasse)} Earth masses</div>
       )}
-      {Number.isFinite(row.body_mass_g) && (
-        <div>Body mass: {numberFormat.format(row.body_mass_g)} g</div>
+      {Number.isFinite(row.pl_orbper) && (
+        <div>Orbital period: {numberFormat.format(row.pl_orbper)} days</div>
       )}
+      {Number.isFinite(row.st_teff) && (
+        <div>Stellar temperature: {numberFormat.format(row.st_teff)} K</div>
+      )}
+      {Number.isFinite(row.disc_year) && <div>Discovery year: {row.disc_year}</div>}
     </Tooltip>
   );
 }

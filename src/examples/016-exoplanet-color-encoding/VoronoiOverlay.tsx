@@ -4,10 +4,10 @@ import type { ScaleLinear } from 'd3-scale';
 import { renderVoronoiOverlay } from './renderVoronoiOverlay';
 import { useInteraction } from './InteractionContext';
 import { margin } from './config';
-import type { PenguinRow } from './usePenguinsDataset';
+import type { ExoplanetRow } from './useExoplanetsDataset';
 
 export interface VoronoiOverlayProps {
-  data: PenguinRow[];
+  data: ExoplanetRow[];
   xScale: ScaleLinear<number, number>;
   yScale: ScaleLinear<number, number>;
   width: number;

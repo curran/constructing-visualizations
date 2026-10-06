@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { select } from 'd3-selection';
+import type { ScaleOrdinal, ScaleSequential } from 'd3-scale';
 import { renderColorLegend } from './renderColorLegend';
 import { useData } from './DataContext';
 import { useInteraction } from './InteractionContext';
@@ -7,38 +8,81 @@ import {
   colorLegendDotRadius,
   colorLegendFontSize,
   colorLegendHeight,
-  colorLegendLabel,
   colorLegendLabelWidth,
   colorLegendTickPadding,
   colorLegendTickSpacing,
 } from './config';
 
-// The legend is its own small SVG so it can live in the header next to the
-// encoding menus, outside the main chart SVG. It reads the color scale and the
-// hover state from context and owns a local ref for the D3-rendered ticks.
 export function ColorLegend() {
   const { colorScale } = useData();
-  const { hoveredSpecies, setHoveredSpecies } = useInteraction();
+  const { colorColumn, hoveredCategory, setHoveredCategory } = useInteraction();
   const groupRef = useRef<SVGGElement>(null);
 
   useEffect(() => {
     const group = groupRef.current;
-    if (!group || !colorScale) return;
+    if (!group || !colorScale || colorColumn.type !== 'categorical') return;
 
     renderColorLegend(select(group), {
-      colorScale,
-      hoveredSpecies,
-      setHoveredSpecies,
+      colorScale: colorScale as ScaleOrdinal<string, string>,
+      hoveredCategory,
+      setHoveredCategory,
       tickSpacing: colorLegendTickSpacing,
       tickPadding: colorLegendTickPadding,
       dotRadius: colorLegendDotRadius,
       fontSize: colorLegendFontSize,
     });
-  }, [colorScale, hoveredSpecies, setHoveredSpecies]);
+  }, [colorScale, colorColumn, hoveredCategory, setHoveredCategory]);
 
   if (!colorScale) return null;
 
-  const width = colorLegendLabelWidth + colorScale.domain().length * colorLegendTickSpacing;
+  if (colorColumn.type === 'quantitative') {
+    const scale = colorScale as ScaleSequential<string>;
+    const [minimum, maximum] = scale.domain();
+    const format = new Intl.NumberFormat('en-US', { maximumSignificantDigits: 4 });
+
+    return (
+      <svg
+        width={280}
+        height={colorLegendHeight}
+        role="img"
+        aria-label={`Continuous color legend for ${colorColumn.label}`}
+      >
+        <defs>
+          <linearGradient id="exoplanet-color-gradient">
+            {Array.from({ length: 11 }, (_unused, index) => {
+              const t = index / 10;
+              return (
+                <stop
+                  key={t}
+                  offset={`${t * 100}%`}
+                  stopColor={scale(minimum + (maximum - minimum) * t)}
+                />
+              );
+            })}
+          </linearGradient>
+        </defs>
+        <text x={0} y={12} fontSize={colorLegendFontSize} className="fill-gray-700">
+          {colorColumn.label}
+        </text>
+        <rect x={0} y={18} width={220} height={10} fill="url(#exoplanet-color-gradient)" />
+        <text x={0} y={colorLegendHeight - 1} fontSize={11} className="fill-gray-600">
+          {format.format(minimum)}
+        </text>
+        <text
+          x={220}
+          y={colorLegendHeight - 1}
+          textAnchor="end"
+          fontSize={11}
+          className="fill-gray-600"
+        >
+          {format.format(maximum)}
+        </text>
+      </svg>
+    );
+  }
+
+  const scale = colorScale as ScaleOrdinal<string, string>;
+  const width = colorLegendLabelWidth + scale.domain().length * colorLegendTickSpacing;
 
   return (
     <svg
@@ -46,7 +90,7 @@ export function ColorLegend() {
       width={width}
       height={colorLegendHeight}
       role="img"
-      aria-label="Color legend showing the penguin species"
+      aria-label={`Color legend showing ${colorColumn.label}`}
     >
       <text
         x={0}
@@ -55,7 +99,7 @@ export function ColorLegend() {
         fontSize={colorLegendFontSize}
         className="fill-gray-700"
       >
-        {colorLegendLabel}
+        {colorColumn.label}
       </text>
       <g
         ref={groupRef}

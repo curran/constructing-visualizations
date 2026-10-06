@@ -10,7 +10,7 @@ import { EncodingMenu } from './EncodingMenu';
 import { ColorLegend } from './ColorLegend';
 import { useData } from './DataContext';
 import { useInteraction } from './InteractionContext';
-import { columns, margin } from './config';
+import { colorColumns, columns, margin } from './config';
 
 // The explorer: a header of encoding menus plus the color legend, over a
 // responsive scatter plot. It computes the filtered rows and the scales that
@@ -18,7 +18,8 @@ import { columns, margin } from './config';
 // All semantic state (data, hover, encodings) travels through context instead.
 export function Explorer() {
   const { data } = useData();
-  const { xKey, setXKey, yKey, setYKey, xColumn, yColumn } = useInteraction();
+  const { xKey, setXKey, yKey, setYKey, colorKey, setColorKey, xColumn, yColumn, colorColumn } =
+    useInteraction();
   const { ref: divRef, dimensions } = useDimensions();
 
   // Some rows in the dataset have missing measurements (NA), which would
@@ -45,6 +46,12 @@ export function Explorer() {
       <header className="flex flex-wrap items-center gap-6 px-4 py-3 border-b border-gray-200">
         <EncodingMenu label="X Axis" value={xKey} onChange={setXKey} options={columns} />
         <EncodingMenu label="Y Axis" value={yKey} onChange={setYKey} options={columns} />
+        <EncodingMenu
+          label="Color"
+          value={colorKey}
+          onChange={setColorKey}
+          options={colorColumns}
+        />
         <div className="ml-auto">
           <ColorLegend />
         </div>
@@ -54,7 +61,7 @@ export function Explorer() {
         <svg
           className="absolute inset-0 w-full h-full"
           role="img"
-          aria-label={`Scatter plot of Palmer Penguins with ${xColumn.label} on the x axis and ${yColumn.label} on the y axis, colored by species`}
+          aria-label={`Scatter plot of confirmed exoplanets with ${xColumn.label} on the x axis and ${yColumn.label} on the y axis, colored by ${colorColumn.label}`}
         >
           {rows && scales && dimensions.width > 0 && dimensions.height > 0 && (
             <>

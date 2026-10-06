@@ -1,18 +1,32 @@
 import { useMemo } from 'react';
-import { scaleOrdinal } from 'd3-scale';
-import type { ScaleOrdinal } from 'd3-scale';
-import type { PenguinRow } from './usePenguinsDataset';
-import { colorRange, colorValue } from './config';
+import { scaleOrdinal, scaleSequential } from 'd3-scale';
+import type { ScaleOrdinal, ScaleSequential } from 'd3-scale';
+import { interpolateBlues } from 'd3-scale-chromatic';
+import { extent } from 'd3-array';
+import type { ColorColumn } from './config';
+import type { ExoplanetRow } from './useExoplanetsDataset';
+import { colorRange } from './config';
 
-export function useColorScale(data: PenguinRow[] | null): ScaleOrdinal<string, string> | null {
+export type ColorScale = ScaleOrdinal<string, string> | ScaleSequential<string>;
+
+export function useColorScale(
+  data: ExoplanetRow[] | null,
+  colorColumn: ColorColumn,
+): ColorScale | null {
   return useMemo(() => {
     if (!data) return null;
 
-    // The domain is the distinct species present in the data, in first-seen
-    // order. Deriving it from the data (rather than hardcoding it) keeps the
-    // legend in sync with whatever the dataset actually contains.
-    const domain = Array.from(new Set(data.map(colorValue)));
+    if (colorColumn.type === 'categorical') {
+      const domain = Array.from(new Set(data.map(colorColumn.accessor)));
+      return scaleOrdinal<string, string>().domain(domain).range(colorRange);
+    }
 
-    return scaleOrdinal<string, string>().domain(domain).range(colorRange);
-  }, [data]);
+    const values = data.map(colorColumn.accessor).filter(Number.isFinite);
+    if (values.length === 0) return null;
+
+    const [minimum, maximum] = extent(values) as [number, number];
+    const domain: [number, number] =
+      minimum === maximum ? [minimum - 1, maximum + 1] : [minimum, maximum];
+    return scaleSequential<string>(interpolateBlues).domain(domain);
+  }, [data, colorColumn]);
 }
