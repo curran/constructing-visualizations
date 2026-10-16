@@ -35,20 +35,20 @@ export function renderBars(
     .join((enter) =>
       enter
         .append('rect')
-        .attr('x', (datum) => xScale(xValue(datum)) ?? 0)
+        .attr('x', (d) => xScale(xValue(d)) ?? 0)
         .attr('y', baseline)
         .attr('height', 0)
         .attr('width', xScale.bandwidth())
-        .attr('fill', (datum) => colorScale(colorValue(datum))),
+        .attr('fill', (d) => colorScale(colorValue(d))),
     );
 
   rects
     .transition('bars')
-    .delay((_datum, index) => index * delayPerItem)
+    .delay((_d, i) => i * delayPerItem)
     .duration(barDuration)
-    .attr('x', (datum) => xScale(xValue(datum)) ?? 0)
-    .attr('y', (datum) => yScale(yValue(datum)))
+    .attr('x', (d) => xScale(xValue(d)) ?? 0)
+    .attr('y', (d) => yScale(yValue(d)))
     .attr('width', xScale.bandwidth())
-    .attr('height', (datum) => baseline - yScale(yValue(datum)))
-    .attr('fill', (datum) => colorScale(colorValue(datum)));
+    .attr('height', (d) => baseline - yScale(yValue(d)))
+    .attr('fill', (d) => colorScale(colorValue(d)));
 }
