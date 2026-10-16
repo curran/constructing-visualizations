@@ -1,13 +1,7 @@
 import { useMemo } from 'react';
 import { rollup } from 'd3-array';
 import type { PenguinRow } from './usePenguinsDataset';
-import type { Measure } from './config';
-
-// One bar: a species and the aggregated value for the selected measure.
-export interface SpeciesDatum {
-  species: string;
-  value: number;
-}
+import type { Measure, SpeciesDatum } from './config';
 
 // Aggregate the raw penguin rows into one value per species. This is the
 // `rows → group → aggregate` half of the visualization; the encoding half

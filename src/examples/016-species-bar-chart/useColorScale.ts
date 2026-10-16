@@ -1,17 +1,20 @@
 import { useMemo } from 'react';
 import { scaleOrdinal } from 'd3-scale';
 import type { ScaleOrdinal } from 'd3-scale';
-import type { SpeciesDatum } from './useAggregatedData';
-import { barColorRange } from './config';
+import { barColorRange, type SpeciesDatum } from './config';
 
-// An ordinal color scale keyed by species. The domain is derived from the data
-// so the colors stay in sync with whatever species the dataset contains.
-export function useColorScale(data: SpeciesDatum[] | null): ScaleOrdinal<string, string> | null {
+// An ordinal color scale keyed by the color accessor. The domain is derived
+// from the data so the colors stay in sync with whatever species the dataset
+// contains.
+export function useColorScale(
+  data: SpeciesDatum[] | null,
+  value: (datum: SpeciesDatum) => string,
+): ScaleOrdinal<string, string> | null {
   return useMemo(() => {
     if (!data) return null;
 
-    const domain = data.map((datum) => datum.species);
+    const domain = Array.from(new Set(data.map(value)));
 
     return scaleOrdinal<string, string>().domain(domain).range(barColorRange);
-  }, [data]);
+  }, [data, value]);
 }

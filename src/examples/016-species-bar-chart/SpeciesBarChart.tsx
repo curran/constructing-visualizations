@@ -8,7 +8,16 @@ import { Bars } from './Bars';
 import { Axes } from './Axes';
 import { Labels } from './Labels';
 import { MeasureMenu } from './MeasureMenu';
-import { defaultMeasureKey, getMeasure, margin, measures, title } from './config';
+import {
+  colorValue,
+  defaultMeasureKey,
+  getMeasure,
+  margin,
+  measures,
+  title,
+  xValue,
+  yValue,
+} from './config';
 
 // The species bar chart: a measure menu over a responsive bar chart. It turns
 // the penguin rows into one bar per species, then lets the reader choose which
@@ -19,13 +28,15 @@ export function SpeciesBarChart() {
   const measure = useMemo(() => getMeasure(measureKey), [measureKey]);
   const aggregated = useAggregatedData(data, measure);
   const { ref: divRef, dimensions } = useDimensions();
-  const colorScale = useColorScale(aggregated);
+  const colorScale = useColorScale(aggregated, colorValue);
 
   const scales = useScales({
     data: aggregated,
     width: dimensions.width,
     height: dimensions.height,
     margin,
+    xValue,
+    yValue,
   });
 
   return (
@@ -47,6 +58,9 @@ export function SpeciesBarChart() {
                 xScale={scales.xScale}
                 yScale={scales.yScale}
                 colorScale={colorScale}
+                xValue={xValue}
+                yValue={yValue}
+                colorValue={colorValue}
               />
               <Axes
                 xScale={scales.xScale}

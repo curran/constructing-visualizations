@@ -25,6 +25,18 @@ export const axisTransitionDelay = 100;
 export const axisTransitionDuration = 600;
 export const barPadding = 0.2;
 
+// One aggregated bar: a species and the value for the selected measure. The
+// accessors below describe how each datum maps onto the visual channels, so
+// the scales, the bars, and the colors all agree on the same mapping.
+export interface SpeciesDatum {
+  species: string;
+  value: number;
+}
+
+export const xValue = (datum: SpeciesDatum) => datum.species;
+export const yValue = (datum: SpeciesDatum) => datum.value;
+export const colorValue = (datum: SpeciesDatum) => datum.species;
+
 const integerFormat = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
 const oneDecimalFormat = new Intl.NumberFormat('en-US', { maximumFractionDigits: 1 });
 
