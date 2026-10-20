@@ -21,24 +21,13 @@ export interface RenderMarksOptions {
   yValue: (row: PenguinRow) => number;
   colorValue: (row: PenguinRow) => string;
   hoveredSpecies: string | null;
-  onHoverSpecies: (species: string | null) => void;
 }
 
 export function renderMarks(
   marks: Selection<SVGGElement, unknown, null, undefined>,
   options: RenderMarksOptions,
 ) {
-  const {
-    data,
-    xScale,
-    yScale,
-    colorScale,
-    xValue,
-    yValue,
-    colorValue,
-    hoveredSpecies,
-    onHoverSpecies,
-  } = options;
+  const { data, xScale, yScale, colorScale, xValue, yValue, colorValue, hoveredSpecies } = options;
 
   // Spread a fixed maximum delay across the marks so they cascade into their
   // new positions instead of all moving at once.
@@ -48,11 +37,7 @@ export function renderMarks(
     .selectAll<SVGCircleElement, PenguinRow>('circle')
     .data(data)
     .join('circle')
-    .attr('fill', (d) => colorScale(colorValue(d)))
-    // Hovering a single record reports its species, which highlights that
-    // species everywhere else on the screen.
-    .on('mouseenter', (_event, d) => onHoverSpecies(colorValue(d)))
-    .on('mouseleave', () => onHoverSpecies(null));
+    .attr('fill', (d) => colorScale(colorValue(d)));
 
   // Positions use their own named transition so the slow, staggered move
   // between encodings can coexist with the quick hover response below.
@@ -63,7 +48,7 @@ export function renderMarks(
     .attr('cx', (d) => xScale(xValue(d)))
     .attr('cy', (d) => yScale(yValue(d)));
 
-  // Radius and opacity respond immediately to hovering: the marks of the
+  // Radius and opacity respond immediately to hovering a bar: the marks of the
   // hovered species stay fully opaque and the rest fade.
   circles
     .transition('appearance')

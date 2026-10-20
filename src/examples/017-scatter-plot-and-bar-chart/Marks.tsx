@@ -13,7 +13,6 @@ export interface MarksProps {
   xValue: (row: PenguinRow) => number;
   yValue: (row: PenguinRow) => number;
   hoveredSpecies: string | null;
-  onHoverSpecies: (species: string | null) => void;
 }
 
 // React owns this container group; D3 fills it with the circles. The component
@@ -26,7 +25,6 @@ export function Marks({
   xValue,
   yValue,
   hoveredSpecies,
-  onHoverSpecies,
 }: MarksProps) {
   const groupRef = useRef<SVGGElement>(null);
 
@@ -43,9 +41,8 @@ export function Marks({
       yValue,
       colorValue,
       hoveredSpecies,
-      onHoverSpecies,
     });
-  }, [data, xScale, yScale, colorScale, xValue, yValue, hoveredSpecies, onHoverSpecies]);
+  }, [data, xScale, yScale, colorScale, xValue, yValue, hoveredSpecies]);
 
   return <g ref={groupRef} className="marks" />;
 }

@@ -34,8 +34,8 @@ export function ScatterPlotAndBarChart() {
   const [measureKey, setMeasureKey] = useState(defaultMeasureKey);
   const measure = useMemo(() => getMeasure(measureKey), [measureKey]);
 
-  // The one piece of shared interaction state. Either view can set it, and
-  // both views read it to decide which marks to fade.
+  // The one piece of shared state: the bar chart sets it on hover, and the
+  // scatter plot reads it to decide which marks to fade.
   const [hoveredSpecies, setHoveredSpecies] = useState<string | null>(null);
 
   return (
@@ -53,7 +53,6 @@ export function ScatterPlotAndBarChart() {
           xColumn={xColumn}
           yColumn={yColumn}
           hoveredSpecies={hoveredSpecies}
-          onHoverSpecies={setHoveredSpecies}
         />
         <SpeciesBarChart
           data={data}

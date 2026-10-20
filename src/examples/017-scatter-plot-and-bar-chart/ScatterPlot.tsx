@@ -14,7 +14,6 @@ export interface ScatterPlotProps {
   xColumn: NumericColumn;
   yColumn: NumericColumn;
   hoveredSpecies: string | null;
-  onHoverSpecies: (species: string | null) => void;
 }
 
 // One of the two coordinated views. It consumes the full dataset, drops any
@@ -27,7 +26,6 @@ export function ScatterPlot({
   xColumn,
   yColumn,
   hoveredSpecies,
-  onHoverSpecies,
 }: ScatterPlotProps) {
   const { ref: divRef, dimensions } = useDimensions();
 
@@ -68,7 +66,6 @@ export function ScatterPlot({
               xValue={xColumn.accessor}
               yValue={yColumn.accessor}
               hoveredSpecies={hoveredSpecies}
-              onHoverSpecies={onHoverSpecies}
             />
             <ScatterAxes xScale={scales.xScale} yScale={scales.yScale} height={dimensions.height} />
             <ScatterLabels
