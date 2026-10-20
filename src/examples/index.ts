@@ -15,6 +15,7 @@ import { InteractiveColorLegend } from './013-interactive-color-legend/Interacti
 import { ScatterPlotWithMenus } from './014-scatter-plot-with-menus/ScatterPlotWithMenus';
 import { ScatterPlotExplorer } from './015-scatter-plot-explorer/ScatterPlotExplorer';
 import { SpeciesBarChart } from './016-species-bar-chart/SpeciesBarChart';
+import { ScatterPlotAndBarChart } from './017-scatter-plot-and-bar-chart/ScatterPlotAndBarChart';
 
 export interface Example {
   id: string;
@@ -102,6 +103,11 @@ export const examples: Example[] = [
     id: '16',
     name: 'Species Bar Chart',
     component: SpeciesBarChart,
+  },
+  {
+    id: '17',
+    name: 'Scatter Plot and Bar Chart',
+    component: ScatterPlotAndBarChart,
   },
 ];
 
