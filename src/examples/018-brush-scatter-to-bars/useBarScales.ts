@@ -33,6 +33,11 @@ export function useBarScales({
 
     // A band scale places one equally wide slot per species, with padding
     // between the slots. `bandwidth()` later gives the width of each bar.
+    //
+    // The caller passes the aggregation over *all* rows, so the domain is the
+    // full set of species in a fixed order. Both bar layers share this scale,
+    // which is what keeps a species in the same place — and keeps its slot
+    // reserved — even when the selection leaves it out.
     const xScale = scaleBand<string>()
       .domain(data.map(xValue))
       .range([margin.left, width - margin.right])

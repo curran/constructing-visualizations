@@ -10,9 +10,8 @@ import { barColorValue, barXValue, barYValue, margin, type Measure } from './con
 import type { PenguinRow } from './usePenguinsDataset';
 
 export interface SpeciesBarChartProps {
-  allRows: PenguinRow[] | null;
-  selectedRows: PenguinRow[] | null;
-  species: string[] | null;
+  data: PenguinRow[] | null;
+  filteredData: PenguinRow[] | null;
   measure: Measure;
   colorScale: ScaleOrdinal<string, string> | null;
   hoveredSpecies: string | null;
@@ -25,13 +24,13 @@ export interface SpeciesBarChartProps {
 // differ from the whole?", which is the question a coordinated selection is
 // usually asked.
 //
-// Both layers are measured against the same global domain, so the axis holds
-// still while the brush moves. `species` fixes the bar order and keeps a zero
-// bar for any species the selection excludes, so the bars never swap places.
+// Both layers are measured against scales built from the *full* aggregation, so
+// the axis and every bar position hold still while the brush moves. A species
+// the selection excludes simply loses its solid bar; its band slot is still
+// there, because the slot comes from the whole dataset.
 export function SpeciesBarChart({
-  allRows,
-  selectedRows,
-  species,
+  data,
+  filteredData,
   measure,
   colorScale,
   hoveredSpecies,
@@ -39,8 +38,8 @@ export function SpeciesBarChart({
 }: SpeciesBarChartProps) {
   const { ref: divRef, dimensions } = useDimensions();
 
-  const totalAggregated = useAggregatedData(allRows, measure, species);
-  const selectedAggregated = useAggregatedData(selectedRows, measure, species);
+  const totalAggregated = useAggregatedData(data, measure);
+  const filteredAggregated = useAggregatedData(filteredData, measure);
 
   const scales = useBarScales({
     data: totalAggregated,
@@ -59,7 +58,7 @@ export function SpeciesBarChart({
         aria-label={`Bar chart of Palmer Penguins showing ${measure.label} by species, with all penguins faded in the background and the brushed selection solid in the foreground`}
       >
         {totalAggregated &&
-          selectedAggregated &&
+          filteredAggregated &&
           scales &&
           colorScale &&
           dimensions.width > 0 &&
@@ -75,7 +74,7 @@ export function SpeciesBarChart({
                 colorValue={barColorValue}
               />
               <Bars
-                data={selectedAggregated}
+                data={filteredAggregated}
                 xScale={scales.xScale}
                 yScale={scales.yScale}
                 colorScale={colorScale}

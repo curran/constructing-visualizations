@@ -63,14 +63,10 @@ export function BrushScatterToBars() {
   // Turn the brushed interval into the rows that fall inside it. With no brush
   // every row passes, so the solid bars start out matching the faded ones and
   // return to them when the selection is cleared.
-  const selectedRows = useMemo(() => {
+  const filteredData = useMemo(() => {
     if (!data || !brushRange) return data;
     return data.filter(createBrushPredicate(brushRange, xColumn.accessor, yColumn.accessor));
   }, [data, brushRange, xColumn, yColumn]);
-
-  // The color scale's domain is the stable list of species, in first-seen
-  // order. Reusing it keeps the bars in the same order for every selection.
-  const species = useMemo(() => colorScale?.domain() ?? null, [colorScale]);
 
   return (
     <div className="flex flex-col w-full h-full">
@@ -91,9 +87,8 @@ export function BrushScatterToBars() {
           onBrush={handleBrush}
         />
         <SpeciesBarChart
-          allRows={data}
-          selectedRows={selectedRows}
-          species={species}
+          data={data}
+          filteredData={filteredData}
           measure={measure}
           colorScale={colorScale}
           hoveredSpecies={hoveredSpecies}
