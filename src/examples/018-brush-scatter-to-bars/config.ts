@@ -19,14 +19,18 @@ export const barChartTitle = 'Species Summary';
 // a transition rather than a jump, and the two views feel like one system.
 export const scatterStaggerMaxDelay = 500;
 export const scatterDuration = 800;
-export const barDuration = 800;
+// The bars follow the brush, so their transition has to be short enough to keep
+// up with it: a new selection arrives every `brushThrottleInterval`, and a much
+// longer transition would leave the bars permanently chasing the pointer. The
+// marks can afford to be slower — they only move when the encoding changes.
+export const barDuration = 200;
 export const barStaggerMaxDelay = 300;
 export const axisTransitionDelay = 100;
 export const axisTransitionDuration = 600;
 
-// Scatter plot marks.
+// Scatter plot marks. Every mark is the same size: hovering a species carries
+// its emphasis through opacity alone.
 export const markRadius = 3;
-export const hoveredMarkRadius = 5;
 
 // Coordinated highlighting. When a species is hovered in either view, the marks
 // and bars that do not belong to it fade, so the two views reveal that they are

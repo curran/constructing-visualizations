@@ -3,14 +3,7 @@ import type { ScaleLinear, ScaleOrdinal } from 'd3-scale';
 // Importing d3-transition augments selections with the `.transition()` method.
 import 'd3-transition';
 import type { PenguinRow } from './usePenguinsDataset';
-import {
-  fadedOpacity,
-  hoveredMarkRadius,
-  markRadius,
-  scatterDuration,
-  scatterStaggerMaxDelay,
-  transitionDuration,
-} from './config';
+import { fadedOpacity, markRadius, scatterDuration, scatterStaggerMaxDelay } from './config';
 
 export interface RenderMarksOptions {
   data: PenguinRow[];
@@ -48,10 +41,13 @@ export function renderMarks(
     .selectAll<SVGCircleElement, PenguinRow>('circle')
     .data(data)
     .join('circle')
+    // Every mark is the same size. Emphasis is carried by opacity alone, so a
+    // hover never resizes or moves a mark.
+    .attr('r', markRadius)
     .attr('fill', (d) => colorScale(colorValue(d)));
 
-  // Positions use their own named transition so the slow, staggered move
-  // between encodings can coexist with the quick appearance response below.
+  // Position is the only thing on a mark that animates: the slow, staggered
+  // move between encodings.
   circles
     .transition('position')
     .delay((_d, i) => i * delayPerItem)
@@ -59,15 +55,16 @@ export function renderMarks(
     .attr('cx', (d) => xScale(xValue(d)))
     .attr('cy', (d) => yScale(yValue(d)));
 
-  // Opacity is set directly, not transitioned: the fade has to land exactly
-  // when the brush does, and an easing curve would make the plot lag behind the
-  // selection it is reporting.
-  circles.style('opacity', (d) => (isSelected(d) ? 1 : fadedOpacity));
-
-  // Radius responds to hovering a bar with a short transition, so the hovered
-  // species swells rather than jumps.
-  circles
-    .transition('appearance')
-    .duration(transitionDuration)
-    .attr('r', (d) => (colorValue(d) === hoveredSpecies ? hoveredMarkRadius : markRadius));
+  // Opacity is set directly rather than transitioned, so the fade lands exactly
+  // when the brush or the hover changes.
+  //
+  // A mark is drawn at full strength only when it is inside the selection and,
+  // if a species is hovered in the bar chart, belongs to that species.
+  // Everything else takes the same faded opacity the bars use, so the two views
+  // tell the same story about what is currently in focus.
+  circles.style('opacity', (d) =>
+    isSelected(d) && (hoveredSpecies === null || colorValue(d) === hoveredSpecies)
+      ? 1
+      : fadedOpacity,
+  );
 }
