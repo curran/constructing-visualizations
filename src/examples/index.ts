@@ -16,6 +16,7 @@ import { ScatterPlotWithMenus } from './014-scatter-plot-with-menus/ScatterPlotW
 import { ScatterPlotExplorer } from './015-scatter-plot-explorer/ScatterPlotExplorer';
 import { SpeciesBarChart } from './016-species-bar-chart/SpeciesBarChart';
 import { ScatterPlotAndBarChart } from './017-scatter-plot-and-bar-chart/ScatterPlotAndBarChart';
+import { BrushScatterToBars } from './018-brush-scatter-to-bars/BrushScatterToBars';
 
 export interface Example {
   id: string;
@@ -108,6 +109,11 @@ export const examples: Example[] = [
     id: '17',
     name: 'Scatter Plot and Bar Chart',
     component: ScatterPlotAndBarChart,
+  },
+  {
+    id: '18',
+    name: 'Brush Scatter to Bars',
+    component: BrushScatterToBars,
   },
 ];
 

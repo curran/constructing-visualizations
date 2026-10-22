@@ -1,0 +1,103 @@
+import type { ScaleOrdinal } from 'd3-scale';
+import { useDimensions } from './useDimensions';
+import { useAggregatedData } from './useAggregatedData';
+import { useBarScales } from './useBarScales';
+import { BackgroundBars } from './BackgroundBars';
+import { Bars } from './Bars';
+import { BarChartAxes } from './BarChartAxes';
+import { BarChartLabels } from './BarChartLabels';
+import { barColorValue, barXValue, barYValue, margin, type Measure } from './config';
+import type { PenguinRow } from './usePenguinsDataset';
+
+export interface SpeciesBarChartProps {
+  data: PenguinRow[] | null;
+  filteredData: PenguinRow[] | null;
+  measure: Measure;
+  colorScale: ScaleOrdinal<string, string> | null;
+  hoveredSpecies: string | null;
+  onHoverSpecies: (species: string | null) => void;
+}
+
+// The derived view, drawn as two layers over one shared scale. The background
+// aggregates every row; the foreground aggregates the rows the brush selected.
+// Reading the solid bars against the faded ones answers "how does this subset
+// differ from the whole?", which is the question a coordinated selection is
+// usually asked.
+//
+// Both layers are measured against scales built from the *full* aggregation, so
+// the axis and every bar position hold still while the brush moves. A species
+// the selection excludes simply loses its solid bar; its band slot is still
+// there, because the slot comes from the whole dataset.
+export function SpeciesBarChart({
+  data,
+  filteredData,
+  measure,
+  colorScale,
+  hoveredSpecies,
+  onHoverSpecies,
+}: SpeciesBarChartProps) {
+  const { ref: divRef, dimensions } = useDimensions();
+
+  const totalAggregated = useAggregatedData(data, measure);
+  const filteredAggregated = useAggregatedData(filteredData, measure);
+
+  const scales = useBarScales({
+    data: totalAggregated,
+    width: dimensions.width,
+    height: dimensions.height,
+    margin,
+    xValue: barXValue,
+    yValue: barYValue,
+  });
+
+  return (
+    <div ref={divRef} className="relative flex-1 min-w-0 min-h-0">
+      <svg
+        className="absolute inset-0 w-full h-full"
+        role="img"
+        aria-label={`Bar chart of Palmer Penguins showing ${measure.label} by species, with all penguins faded in the background and the brushed selection solid in the foreground`}
+      >
+        {totalAggregated &&
+          filteredAggregated &&
+          scales &&
+          colorScale &&
+          dimensions.width > 0 &&
+          dimensions.height > 0 && (
+            <>
+              <BackgroundBars
+                data={totalAggregated}
+                xScale={scales.xScale}
+                yScale={scales.yScale}
+                colorScale={colorScale}
+                xValue={barXValue}
+                yValue={barYValue}
+                colorValue={barColorValue}
+              />
+              <Bars
+                data={filteredAggregated}
+                xScale={scales.xScale}
+                yScale={scales.yScale}
+                colorScale={colorScale}
+                xValue={barXValue}
+                yValue={barYValue}
+                colorValue={barColorValue}
+                hoveredSpecies={hoveredSpecies}
+                onHoverSpecies={onHoverSpecies}
+              />
+              <BarChartAxes
+                xScale={scales.xScale}
+                yScale={scales.yScale}
+                height={dimensions.height}
+                yTickFormat={measure.format}
+              />
+              <BarChartLabels
+                width={dimensions.width}
+                height={dimensions.height}
+                yLabel={measure.label}
+              />
+            </>
+          )}
+      </svg>
+    </div>
+  );
+}
