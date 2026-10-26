@@ -11,18 +11,18 @@ export const xAxisLabelOffset = 44;
 export const yAxisLabelOffset = 40;
 export const yAxisLabel = 'Count';
 
-// Histogram bars. Every bar encodes a count with length, so a single hue is
-// enough; the hovered bar darkens to show which interval the readout describes.
-export const barFill = '#4E79A7';
-export const barHoverFill = '#264F73';
+// Histogram bars. Every bar encodes a count with length, so one flat color is
+// enough; the hovered bar fades slightly to show which interval the readout
+// describes.
+export const barFill = 'black';
+export const hoveredBarOpacity = 0.65;
 export const binGap = 1;
 
-// Animation. Bars and axes ease into their new geometry when the attribute or
-// the number of bins changes, which makes the redistribution of counts legible.
-export const barDuration = 300;
-export const barStaggerMaxDelay = 150;
-export const axisTransitionDelay = 100;
-export const axisTransitionDuration = 500;
+// Bars and axes share one duration so an old generation shrinks away at the
+// same speed the new generation grows. Linear easing keeps interrupted
+// transitions, such as those produced by dragging the bin slider, from
+// lurching between curves.
+export const transitionDuration = 800;
 
 // The range slider covers the useful part of the curve where too few bins hide
 // the shape and too many bins turn the histogram into noise.
@@ -92,11 +92,20 @@ export function attributeLabel(attribute: NumericAttribute): string {
 // `d3.bin` returns arrays of rows with the interval attached. These accessors
 // name the channels the histogram encodes, so the scales and bars agree on
 // which part of a bin is the position and which part is the count.
-export type HistogramBin = Bin<PenguinRow, number>;
+//
+// The key distinguishes one manufactured set of intervals from the next. Every
+// bar receives a key built from the actual number of bins d3 produced and the
+// bar's index. When the actual count stays the same, old and new keys match and
+// the bars update in place; when it changes, the old bars leave and the new
+// bars enter.
+export interface HistogramBin extends Bin<PenguinRow, number> {
+  key: string;
+}
 
 export const binStart = (bin: HistogramBin) => bin.x0 ?? 0;
 export const binEnd = (bin: HistogramBin) => bin.x1 ?? 0;
 export const binFrequency = (bin: HistogramBin) => bin.length;
+export const binKey = (bin: HistogramBin) => bin.key;
 
 // The readout spells out the interval boundaries, which is the part of a
 // histogram that the bars themselves cannot show precisely.
