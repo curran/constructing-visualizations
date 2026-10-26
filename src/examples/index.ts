@@ -17,6 +17,7 @@ import { ScatterPlotExplorer } from './015-scatter-plot-explorer/ScatterPlotExpl
 import { SpeciesBarChart } from './016-species-bar-chart/SpeciesBarChart';
 import { ScatterPlotAndBarChart } from './017-scatter-plot-and-bar-chart/ScatterPlotAndBarChart';
 import { BrushScatterToBars } from './018-brush-scatter-to-bars/BrushScatterToBars';
+import { SingleHistogram } from './019-single-histogram/SingleHistogram';
 
 export interface Example {
   id: string;
@@ -114,6 +115,11 @@ export const examples: Example[] = [
     id: '18',
     name: 'Brush Scatter to Bars',
     component: BrushScatterToBars,
+  },
+  {
+    id: '19',
+    name: 'Single Histogram',
+    component: SingleHistogram,
   },
 ];
 
